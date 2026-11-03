@@ -1,0 +1,7566 @@
+[
+  {
+    "id": "greet-001",
+    "island": "Greetings & Check-ins",
+    "english": "Good morning.",
+    "albanian": "Mirëmëngjes.",
+    "phonetic": "mee-ruh-muhn-JES",
+    "tip": "One word. Stress the end.",
+    "blocks": [
+      {
+        "text": "Mirëmëngjes",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The first thing you say when you walk in, until late morning. Fine with hosts and older family.",
+      "facts": [
+        "One word. The stress is at the end.",
+        "It is polite on its own. You do not add a name."
+      ],
+      "answers": [
+        {
+          "id": "greet-001-a1",
+          "english": "Good morning.",
+          "albanian": "Mirëmëngjes.",
+          "audio": "greet-001"
+        },
+        {
+          "id": "greet-001-a2",
+          "english": "Good morning. How are you?",
+          "albanian": "Mirëmëngjes. Si jeni?",
+          "audio": "greet-001-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-001-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "id": "greet-002",
+    "island": "Greetings & Check-ins",
+    "english": "How are you?",
+    "albanian": "Si jeni?",
+    "phonetic": "see YEH-nee",
+    "tip": "Jeni is the polite you. Use this with parents-in-law.",
+    "blocks": [
+      {
+        "text": "Si jeni",
+        "type": "power"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Right after hello, with someone older, a host, or more than one person.",
+      "facts": [
+        "Si means how.",
+        "Jeni is you, polite or plural. With one friend your age it is Si je?",
+        "If they are tired, a man says i lodhur. A woman says e lodhur."
+      ],
+      "answers": [
+        {
+          "id": "greet-002-a1",
+          "english": "Fine, thank you. And you?",
+          "albanian": "Mirë, faleminderit. Po ju?",
+          "audio": "greet-002-a1"
+        },
+        {
+          "id": "greet-002-a2",
+          "english": "I am well.",
+          "albanian": "Jam mirë.",
+          "audio": "greet-002-a2"
+        },
+        {
+          "id": "greet-002-a3",
+          "english": "A bit tired.",
+          "albanian": "Pak i lodhur.",
+          "audio": "greet-002-a3"
+        }
+      ],
+      "reply": {
+        "id": "greet-002-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "id": "greet-003",
+    "island": "Greetings & Check-ins",
+    "english": "I'm well, thank you.",
+    "albanian": "Jam mirë, faleminderit.",
+    "phonetic": "yahm MEE-ruh, fah-leh-min-DEH-reet",
+    "tip": "Faleminderit is the full thank-you. People often shorten the sound in real talk.",
+    "blocks": [
+      {
+        "text": "Jam mirë",
+        "type": "other"
+      },
+      {
+        "text": "faleminderit",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Your usual answer when someone asks how you are.",
+      "facts": [
+        "Jam means I am. Mirë is well.",
+        "Faleminderit is thank you. In fast talk the middle gets shorter."
+      ],
+      "answers": [
+        {
+          "id": "greet-003-a1",
+          "english": "And you?",
+          "albanian": "Po ju?",
+          "audio": "greet-011"
+        },
+        {
+          "id": "greet-003-a2",
+          "english": "Good.",
+          "albanian": "Mirë.",
+          "audio": "greet-003-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-003-r",
+        "english": "And you?",
+        "albanian": "Po ju?",
+        "audio": "greet-011"
+      }
+    }
+  },
+  {
+    "id": "repair-001",
+    "island": "Conversation Repair",
+    "english": "Please speak slowly.",
+    "albanian": "Ju lutem, flisni ngadalë.",
+    "phonetic": "yoo LOO-tem, FLEES-nee ngah-DAH-luh",
+    "tip": "Ju lutem is please. Flisni is the polite speak.",
+    "blocks": [
+      {
+        "text": "Ju lutem",
+        "type": "power"
+      },
+      {
+        "text": "flisni",
+        "type": "verb"
+      },
+      {
+        "text": "ngadalë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When they talk too fast. You can say it in the middle of the conversation.",
+      "facts": [
+        "Ju lutem is please.",
+        "Flisni is speak, for polite you or for more than one person.",
+        "Ngadalë is slowly."
+      ],
+      "answers": [
+        {
+          "id": "repair-001-a1",
+          "english": "Yes, I'll speak slowly.",
+          "albanian": "Po, flas ngadalë.",
+          "audio": "repair-m-001"
+        },
+        {
+          "id": "repair-001-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "repair-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-002",
+    "island": "Conversation Repair",
+    "english": "I don't understand.",
+    "albanian": "Nuk kuptoj.",
+    "phonetic": "nook koop-TOY",
+    "tip": "Nuk is the not. Say it plainly.",
+    "blocks": [
+      {
+        "text": "Nuk",
+        "type": "power"
+      },
+      {
+        "text": "kuptoj",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When the words went past you. Say it plainly, then ask them to repeat.",
+      "facts": [
+        "Nuk is not.",
+        "Kuptoj is I understand. Together: I don't understand."
+      ],
+      "answers": [
+        {
+          "id": "repair-002-a1",
+          "english": "Excuse me.",
+          "albanian": "Më falni.",
+          "audio": "repair-005"
+        },
+        {
+          "id": "repair-002-a2",
+          "english": "Yes, I'll speak slowly.",
+          "albanian": "Po, flas ngadalë.",
+          "audio": "repair-m-001"
+        }
+      ],
+      "reply": {
+        "id": "repair-002-r",
+        "english": "Please repeat that.",
+        "albanian": "Ju lutem, përsërisni.",
+        "audio": "repair-003"
+      }
+    }
+  },
+  {
+    "id": "repair-003",
+    "island": "Conversation Repair",
+    "english": "Please repeat that.",
+    "albanian": "Ju lutem, përsërisni.",
+    "phonetic": "yoo LOO-tem, puhr-suh-REES-nee",
+    "tip": "Përsërisni is the polite repeat.",
+    "blocks": [
+      {
+        "text": "Ju lutem",
+        "type": "power"
+      },
+      {
+        "text": "përsërisni",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When you heard the sound but not the words. They will say the same line again.",
+      "facts": [
+        "Përsërisni is repeat, polite you.",
+        "The words they repeat are not a set phrase. They say the line again, more slowly."
+      ],
+      "answers": [
+        {
+          "id": "repair-003-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        },
+        {
+          "id": "repair-003-a2",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "repair-003-r",
+        "english": "I understand.",
+        "albanian": "Kuptoj.",
+        "audio": "repair-009"
+      }
+    }
+  },
+  {
+    "id": "repair-004",
+    "island": "Conversation Repair",
+    "english": "How do you say this?",
+    "albanian": "Si thuhet kjo?",
+    "phonetic": "see THOO-het kyoh",
+    "tip": "Point at the thing when you say kjo.",
+    "blocks": [
+      {
+        "text": "Si thuhet",
+        "type": "power"
+      },
+      {
+        "text": "kjo",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Point at the thing, then ask. They answer with the word for it.",
+      "facts": [
+        "Si thuhet is how is it said.",
+        "Kjo is this, for a feminine thing. Ky is this for a masculine thing.",
+        "Coffee below is only an example. They name whatever you point at."
+      ],
+      "answers": [
+        {
+          "id": "repair-004-a1",
+          "english": "It is called coffee.",
+          "albanian": "Thuhet kafe.",
+          "audio": "repair-004-a1"
+        },
+        {
+          "id": "repair-004-a2",
+          "english": "Coffee.",
+          "albanian": "Kafe.",
+          "audio": "repair-004-a2"
+        }
+      ],
+      "reply": {
+        "id": "repair-004-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-001",
+    "island": "Coffee & Table",
+    "english": "Do you want coffee?",
+    "albanian": "A doni kafe?",
+    "phonetic": "ah DOH-nee KAH-feh",
+    "tip": "A turns it into a yes-or-no question. Doni is polite you want.",
+    "blocks": [
+      {
+        "text": "A doni",
+        "type": "power"
+      },
+      {
+        "text": "kafe",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are offering coffee, at home or when you are helping the host.",
+      "facts": [
+        "A doni is do you want, polite.",
+        "Kafe is coffee. The q sounds like the ch in cheap."
+      ],
+      "answers": [
+        {
+          "id": "coffee-001-a1",
+          "english": "Yes, thank you.",
+          "albanian": "Po, faleminderit.",
+          "audio": "coffee-001-a1"
+        },
+        {
+          "id": "coffee-001-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "coffee-001-r",
+        "english": "Go ahead.",
+        "albanian": "Urdhëroni.",
+        "audio": "coffee-m-001"
+      }
+    }
+  },
+  {
+    "id": "coffee-002",
+    "island": "Coffee & Table",
+    "english": "Coffee with milk, please.",
+    "albanian": "Kafe me qumësht, ju lutem.",
+    "phonetic": "KAH-feh meh choo-MUSHT, yoo LOO-tem",
+    "tip": "Q sounds like the ch in cheap.",
+    "blocks": [
+      {
+        "text": "Kafe",
+        "type": "object"
+      },
+      {
+        "text": "me qumësht",
+        "type": "other"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The usual order when you want milk in it.",
+      "facts": [
+        "Me is with. Qumësht is milk.",
+        "Ju lutem at the end is please."
+      ],
+      "answers": [
+        {
+          "id": "coffee-002-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "coffee-002-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "coffee-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-003",
+    "island": "Coffee & Table",
+    "english": "Please sit down.",
+    "albanian": "Ju lutem, uluni.",
+    "phonetic": "yoo LOO-tem, oo-LOO-nee",
+    "tip": "Say it as you gesture to a chair.",
+    "blocks": [
+      {
+        "text": "Ju lutem",
+        "type": "power"
+      },
+      {
+        "text": "uluni",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Say it as you gesture to a chair. You are the one offering the seat.",
+      "facts": [
+        "Uluni is sit down, polite.",
+        "A family member talking to one person may say ulu instead. This course stays with ju."
+      ],
+      "answers": [
+        {
+          "id": "coffee-003-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "coffee-003-r",
+        "english": "You're welcome.",
+        "albanian": "Ju lutem.",
+        "audio": "greet-020"
+      }
+    }
+  },
+  {
+    "id": "food-001",
+    "island": "Food & Eating",
+    "english": "Do you want bread?",
+    "albanian": "A doni bukë?",
+    "phonetic": "ah DOH-nee BOO-kuh",
+    "tip": "Same start as the coffee question. Swap the thing.",
+    "blocks": [
+      {
+        "text": "A doni",
+        "type": "power"
+      },
+      {
+        "text": "bukë",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Same question shape as coffee. You are offering bread.",
+      "facts": [
+        "Bukë is bread. Swap the thing, keep A doni."
+      ],
+      "answers": [
+        {
+          "id": "food-001-a1",
+          "english": "Yes, thank you.",
+          "albanian": "Po, faleminderit.",
+          "audio": "coffee-001-a1"
+        },
+        {
+          "id": "food-001-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "food-001-r",
+        "english": "Go ahead.",
+        "albanian": "Urdhëroni.",
+        "audio": "coffee-m-001"
+      }
+    }
+  },
+  {
+    "id": "food-002",
+    "island": "Food & Eating",
+    "english": "This is really good.",
+    "albanian": "Kjo është shumë e mirë.",
+    "phonetic": "kyoh UHSH-tuh SHOO-muh eh MEE-ruh",
+    "tip": "Ë is a soft uh, like the a in sofa.",
+    "blocks": [
+      {
+        "text": "Kjo është",
+        "type": "other"
+      },
+      {
+        "text": "shumë e mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At the table, about the food in front of you. Kjo is this dish.",
+      "facts": [
+        "Ë is a soft uh, like the a in sofa.",
+        "E mirë is good, feminine, matching kjo."
+      ],
+      "answers": [
+        {
+          "id": "food-002-a1",
+          "english": "Enjoy your meal.",
+          "albanian": "Ju bëftë mirë.",
+          "audio": "coffee-013"
+        },
+        {
+          "id": "food-002-a2",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "food-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-003",
+    "island": "Food & Eating",
+    "english": "I'm full, thank you.",
+    "albanian": "Faleminderit, jam ngopur.",
+    "phonetic": "fah-leh-min-DEH-reet, yahm ngoh-POOR",
+    "tip": "Useful when someone keeps offering food. Some speakers add i (men) or e (women) before ngopur.",
+    "blocks": [
+      {
+        "text": "Faleminderit",
+        "type": "other"
+      },
+      {
+        "text": "jam ngopur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When someone keeps offering food. Kind, and clear.",
+      "facts": [
+        "Ngopur is full.",
+        "Some speakers add i before it for a man, or e for a woman. This line has neither. It is still used."
+      ],
+      "answers": [
+        {
+          "id": "food-003-a1",
+          "english": "Eat a little more.",
+          "albanian": "Hani edhe pak.",
+          "audio": "food-m-002"
+        },
+        {
+          "id": "food-003-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "food-003-r",
+        "english": "No, thank you.",
+        "albanian": "Jo, faleminderit.",
+        "audio": "food-003-r"
+      }
+    }
+  },
+  {
+    "id": "family-001",
+    "island": "Family & Warmth",
+    "english": "Thank you for everything.",
+    "albanian": "Faleminderit për gjithçka.",
+    "phonetic": "fah-leh-min-DEH-reet puhr gjeeth-CHKA",
+    "tip": "A warm line at the end of a visit.",
+    "blocks": [
+      {
+        "text": "Faleminderit",
+        "type": "other"
+      },
+      {
+        "text": "për gjithçka",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A warm line at the end of a visit, not for a single cup of coffee.",
+      "facts": [
+        "Për is for. Gjithçka is everything."
+      ],
+      "answers": [
+        {
+          "id": "family-001-a1",
+          "english": "Don't mention it.",
+          "albanian": "S'ka përse.",
+          "audio": "greet-017"
+        },
+        {
+          "id": "family-001-a2",
+          "english": "You're welcome.",
+          "albanian": "Ju lutem.",
+          "audio": "greet-020"
+        }
+      ],
+      "reply": {
+        "id": "family-001-r",
+        "english": "We love you.",
+        "albanian": "Ju duam shumë.",
+        "audio": "family-002"
+      }
+    }
+  },
+  {
+    "id": "family-002",
+    "island": "Family & Warmth",
+    "english": "We love you very much.",
+    "albanian": "Ju duam shumë.",
+    "phonetic": "yoo DOO-ahm SHOO-muh",
+    "tip": "Ju keeps it polite for parents-in-law. Duam is we love.",
+    "blocks": [
+      {
+        "text": "Ju duam",
+        "type": "power"
+      },
+      {
+        "text": "shumë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "For parents-in-law and older family. Ju keeps it polite.",
+      "facts": [
+        "Duam is we love.",
+        "Shumë is a lot.",
+        "To one person your own age, people say të duam. This course stays with ju."
+      ],
+      "answers": [
+        {
+          "id": "family-002-a1",
+          "english": "We love you too.",
+          "albanian": "Edhe ne ju duam.",
+          "audio": "family-m-001"
+        }
+      ],
+      "reply": {
+        "id": "family-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-003",
+    "island": "Family & Warmth",
+    "english": "It is good that I am with you.",
+    "albanian": "Është mirë të jem me ju.",
+    "phonetic": "UHSH-tuh MEE-ruh tuh yem meh yoo",
+    "tip": "Jem is I am. Me ju is with you, polite.",
+    "blocks": [
+      {
+        "text": "Është mirë",
+        "type": "other"
+      },
+      {
+        "text": "të jem",
+        "type": "verb"
+      },
+      {
+        "text": "me ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Sometime in the visit, not only at the door.",
+      "facts": [
+        "Të jem is to be, I.",
+        "Me ju is with you, polite."
+      ],
+      "answers": [
+        {
+          "id": "family-003-a1",
+          "english": "Me too.",
+          "albanian": "Edhe mua.",
+          "audio": "greet-014-a1"
+        },
+        {
+          "id": "family-003-a2",
+          "english": "Us too.",
+          "albanian": "Edhe ne.",
+          "audio": "family-m-002"
+        }
+      ],
+      "reply": {
+        "id": "family-003-r",
+        "english": "We love you.",
+        "albanian": "Ju duam shumë.",
+        "audio": "family-002"
+      }
+    }
+  },
+  {
+    "id": "health-001",
+    "island": "Health & Feelings",
+    "english": "How are you feeling?",
+    "albanian": "Si ndiheni?",
+    "phonetic": "see ndee-HEH-nee",
+    "tip": "Softer than Si jeni. This one is about the body.",
+    "blocks": [
+      {
+        "text": "Si ndiheni",
+        "type": "power"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Softer than Si jeni. This one is about the body.",
+      "facts": [
+        "Ndiheni is you feel, polite.",
+        "Use it when someone looks tired or unwell, not every hello."
+      ],
+      "answers": [
+        {
+          "id": "health-001-a1",
+          "english": "I am well.",
+          "albanian": "Jam mirë.",
+          "audio": "greet-002-a2"
+        },
+        {
+          "id": "health-001-a2",
+          "english": "I'm a little tired.",
+          "albanian": "Jam pak i lodhur.",
+          "audio": "health-002"
+        }
+      ],
+      "reply": {
+        "id": "health-001-r",
+        "english": "Does something hurt?",
+        "albanian": "A ju dhemb diçka?",
+        "audio": "health-003"
+      }
+    }
+  },
+  {
+    "id": "health-002",
+    "island": "Health & Feelings",
+    "english": "I'm a little tired.",
+    "albanian": "Jam pak i lodhur.",
+    "phonetic": "yahm pahk ee LOH-dhoor",
+    "tip": "This is the masculine form. A woman says e lodhur instead of i lodhur.",
+    "blocks": [
+      {
+        "text": "Jam",
+        "type": "verb"
+      },
+      {
+        "text": "pak i lodhur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are a bit tired, not sick.",
+      "facts": [
+        "This is the masculine form. A woman says e lodhur instead of i lodhur.",
+        "Pak keeps it small. Without pak it sounds stronger."
+      ],
+      "answers": [
+        {
+          "id": "health-002-a1",
+          "english": "Rest.",
+          "albanian": "Pushoni.",
+          "audio": "health-002-a1"
+        },
+        {
+          "id": "health-002-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "health-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-003",
+    "island": "Health & Feelings",
+    "english": "Does something hurt?",
+    "albanian": "A ju dhemb diçka?",
+    "phonetic": "ah yoo dhemp DEECH-kah",
+    "tip": "Dh is one sound, like the th in this.",
+    "blocks": [
+      {
+        "text": "A ju dhemb",
+        "type": "power"
+      },
+      {
+        "text": "diçka",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are asking them. Dh is one sound, like the th in this.",
+      "facts": [
+        "A ju dhemb is does it hurt you.",
+        "Diçka is something."
+      ],
+      "answers": [
+        {
+          "id": "health-003-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "health-003-a2",
+          "english": "No.",
+          "albanian": "Jo.",
+          "audio": "greet-019"
+        },
+        {
+          "id": "health-003-a3",
+          "english": "My head hurts.",
+          "albanian": "Më dhemb koka.",
+          "audio": "health-004"
+        }
+      ],
+      "reply": {
+        "id": "health-003-r",
+        "english": "I'm sorry.",
+        "albanian": "Më vjen keq.",
+        "audio": "repair-006"
+      }
+    }
+  },
+  {
+    "id": "plans-001",
+    "island": "Plans & Weekend",
+    "english": "What are you doing today?",
+    "albanian": "Çfarë po bëni sot?",
+    "phonetic": "chfahr poh BUH-nee soht",
+    "tip": "Ç sounds like the ch in church.",
+    "blocks": [
+      {
+        "text": "Çfarë po bëni",
+        "type": "power"
+      },
+      {
+        "text": "sot",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A real question for the day, after hello. Polite you.",
+      "facts": [
+        "Çfarë is what. Po bëni is are you doing. Sot is today.",
+        "Ç sounds like the ch in church."
+      ],
+      "answers": [
+        {
+          "id": "plans-001-a1",
+          "english": "Nothing special.",
+          "albanian": "Asgjë e veçantë.",
+          "audio": "plans-001-a1"
+        },
+        {
+          "id": "plans-001-a2",
+          "english": "I don't know.",
+          "albanian": "Nuk e di.",
+          "audio": "repair-011"
+        }
+      ],
+      "reply": {
+        "id": "plans-001-r",
+        "english": "Do you want to take a walk?",
+        "albanian": "A doni të shëtisim?",
+        "audio": "plans-002"
+      }
+    }
+  },
+  {
+    "id": "plans-002",
+    "island": "Plans & Weekend",
+    "english": "Do you want to take a walk?",
+    "albanian": "A doni të shëtisim?",
+    "phonetic": "ah DOH-nee tuh shuh-TEE-seem",
+    "tip": "Shëtisim is we walk, as in shall we stroll.",
+    "blocks": [
+      {
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "shëtisim",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "An invitation to stroll. Shëtisim is we walk.",
+      "facts": [
+        "A doni të is would you like to.",
+        "They can say yes, no, or later."
+      ],
+      "answers": [
+        {
+          "id": "plans-002-a1",
+          "english": "Yes, let's go.",
+          "albanian": "Po, shkojmë.",
+          "audio": "plans-m-003"
+        },
+        {
+          "id": "plans-002-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        },
+        {
+          "id": "plans-002-a3",
+          "english": "Later.",
+          "albanian": "Më vonë.",
+          "audio": "plans-007"
+        }
+      ],
+      "reply": {
+        "id": "plans-002-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "plans-003",
+    "island": "Plans & Weekend",
+    "english": "See you tomorrow.",
+    "albanian": "Shihemi nesër.",
+    "phonetic": "shee-HEH-mee NEH-suhr",
+    "tip": "A simple goodbye when you will see them the next day.",
+    "blocks": [
+      {
+        "text": "Shihemi",
+        "type": "verb"
+      },
+      {
+        "text": "nesër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A simple goodbye when you will see them the next day.",
+      "facts": [
+        "Shihemi is we'll see each other. Nesër is tomorrow."
+      ],
+      "answers": [
+        {
+          "id": "plans-003-a1",
+          "english": "Yes, see you.",
+          "albanian": "Po, shihemi.",
+          "audio": "greet-010-a1"
+        },
+        {
+          "id": "plans-003-a2",
+          "english": "Goodbye.",
+          "albanian": "Mirupafshim.",
+          "audio": "greet-009"
+        }
+      ],
+      "reply": {
+        "id": "plans-003-r",
+        "english": "Good night.",
+        "albanian": "Natën e mirë.",
+        "audio": "greet-006"
+      }
+    }
+  },
+  {
+    "id": "lego-001",
+    "island": "Lego Verb Builder",
+    "english": "I want to eat.",
+    "albanian": "Dua të ha.",
+    "phonetic": "DOO-ah tuh hah",
+    "tip": "Same start, swap the verb: pi (drink), pushoj (rest), shkoj (go).",
+    "blocks": [
+      {
+        "text": "Dua të",
+        "type": "power"
+      },
+      {
+        "text": "ha",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I want to eat. The start stays. You swap the verb.",
+      "facts": [
+        "Dua të is I want to.",
+        "Ha is eat. Pi is drink. Pushoj is rest. Shkoj is go.",
+        "Those swaps are the next lines."
+      ],
+      "answers": [
+        {
+          "id": "lego-001-a1",
+          "english": "Please eat.",
+          "albanian": "Hani, ju lutem.",
+          "audio": "food-m-003"
+        },
+        {
+          "id": "lego-001-a2",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "lego-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "lego-002",
+    "island": "Lego Verb Builder",
+    "english": "Do you want to sit?",
+    "albanian": "A doni të ulni?",
+    "phonetic": "ah DOH-nee tuh OOL-nee",
+    "tip": "Same start, swap the verb: hani (eat), pini (drink). This chunk is not checked.",
+    "blocks": [
+      {
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "ulni",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Do you want to sit. The chunk ulni is the one from the original list. It is not checked.",
+      "facts": [
+        "A safer sit-down line you already have is Ju lutem, uluni.",
+        "Do not treat ulni as the form a native speaker signed off."
+      ],
+      "answers": [
+        {
+          "id": "lego-002-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "lego-002-a2",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "lego-002-r",
+        "english": "Please sit down.",
+        "albanian": "Ju lutem, uluni.",
+        "audio": "coffee-003"
+      }
+    }
+  },
+  {
+    "id": "lego-003",
+    "island": "Lego Verb Builder",
+    "english": "Can I help?",
+    "albanian": "Mund të ndihmoj?",
+    "phonetic": "moond tuh ndeeh-MOY",
+    "tip": "Mund të is can I. Offer this at the table.",
+    "blocks": [
+      {
+        "text": "Mund të",
+        "type": "power"
+      },
+      {
+        "text": "ndihmoj",
+        "type": "verb"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Can I help. Offer this at the table or in the kitchen.",
+      "facts": [
+        "Mund të is can I.",
+        "Ndihmoj is I help."
+      ],
+      "answers": [
+        {
+          "id": "lego-003-a1",
+          "english": "Yes, thank you.",
+          "albanian": "Po, faleminderit.",
+          "audio": "coffee-001-a1"
+        },
+        {
+          "id": "lego-003-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "lego-003-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "greet-004",
+    "island": "Greetings & Check-ins",
+    "english": "Good day.",
+    "albanian": "Mirëdita.",
+    "phonetic": "meer-DEE-tah",
+    "tip": "Safe from late morning through the afternoon.",
+    "blocks": [
+      {
+        "text": "Mirëdita",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "From late morning through the afternoon. Safe with anyone.",
+      "facts": [
+        "One word, same shape as good morning.",
+        "The stress is on di."
+      ],
+      "answers": [
+        {
+          "id": "greet-004-a1",
+          "english": "Good day.",
+          "albanian": "Mirëdita.",
+          "audio": "greet-004"
+        },
+        {
+          "id": "greet-004-a2",
+          "english": "Good day. How are you?",
+          "albanian": "Mirëdita. Si jeni?",
+          "audio": "greet-004-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-004-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "id": "greet-005",
+    "island": "Greetings & Check-ins",
+    "english": "Good evening.",
+    "albanian": "Mirëmbrëma.",
+    "phonetic": "meer-BRUH-mah",
+    "tip": "From early evening.",
+    "blocks": [
+      {
+        "text": "Mirëmbrëma",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "From early evening, when you arrive for dinner.",
+      "facts": [
+        "One word. Same pattern as good morning.",
+        "Not the word you use when you leave."
+      ],
+      "answers": [
+        {
+          "id": "greet-005-a1",
+          "english": "Good evening.",
+          "albanian": "Mirëmbrëma.",
+          "audio": "greet-005"
+        },
+        {
+          "id": "greet-005-a2",
+          "english": "Good evening. How are you?",
+          "albanian": "Mirëmbrëma. Si jeni?",
+          "audio": "greet-005-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-005-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "id": "greet-006",
+    "island": "Greetings & Check-ins",
+    "english": "Good night.",
+    "albanian": "Natën e mirë.",
+    "phonetic": "NAH-tuhn eh MEE-ruh",
+    "tip": "When leaving, not when you arrive.",
+    "blocks": [
+      {
+        "text": "Natën e mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When you are leaving for the night, not when you arrive.",
+      "facts": [
+        "Natën is the night. E mirë is good.",
+        "Say it at the door."
+      ],
+      "answers": [
+        {
+          "id": "greet-006-a1",
+          "english": "Good night.",
+          "albanian": "Natën e mirë.",
+          "audio": "greet-006"
+        },
+        {
+          "id": "greet-006-a2",
+          "english": "Thank you. Good night.",
+          "albanian": "Faleminderit. Natën e mirë.",
+          "audio": "greet-006-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-006-r",
+        "english": "Good night.",
+        "albanian": "Natën e mirë.",
+        "audio": "greet-006"
+      }
+    }
+  },
+  {
+    "id": "greet-007",
+    "island": "Greetings & Check-ins",
+    "english": "Hello.",
+    "albanian": "Përshëndetje.",
+    "phonetic": "pur-shuhn-DET-yeh",
+    "tip": "Neutral, any time of day.",
+    "blocks": [
+      {
+        "text": "Përshëndetje",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Any time of day, when a morning or evening word does not fit.",
+      "facts": [
+        "Neutral and polite.",
+        "A bit more formal than a quick hello."
+      ],
+      "answers": [
+        {
+          "id": "greet-007-a1",
+          "english": "Hello.",
+          "albanian": "Përshëndetje.",
+          "audio": "greet-007"
+        },
+        {
+          "id": "greet-007-a2",
+          "english": "Hello. How are you?",
+          "albanian": "Përshëndetje. Si jeni?",
+          "audio": "greet-007-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-007-r",
+        "english": "How are you?",
+        "albanian": "Si jeni?",
+        "audio": "greet-002"
+      }
+    }
+  },
+  {
+    "id": "greet-008",
+    "island": "Greetings & Check-ins",
+    "english": "Hello. (for older people)",
+    "albanian": "Tungjatjeta.",
+    "phonetic": "toon-jat-YEH-tah",
+    "tip": "A traditional hello. It lands well with elders.",
+    "blocks": [
+      {
+        "text": "Tungjatjeta",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A traditional hello. It lands well with older people.",
+      "facts": [
+        "Longer than a casual hello.",
+        "Use it once, at the start."
+      ],
+      "answers": [
+        {
+          "id": "greet-008-a1",
+          "english": "Hello.",
+          "albanian": "Tungjatjeta.",
+          "audio": "greet-008"
+        },
+        {
+          "id": "greet-008-a2",
+          "english": "Hello. How are you?",
+          "albanian": "Tungjatjeta. Si jeni?",
+          "audio": "greet-008-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-008-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "id": "greet-009",
+    "island": "Greetings & Check-ins",
+    "english": "Goodbye.",
+    "albanian": "Mirupafshim.",
+    "phonetic": "mee-roo-paf-SHEEM",
+    "tip": "The standard goodbye.",
+    "blocks": [
+      {
+        "text": "Mirupafshim",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The full goodbye, when you are actually leaving.",
+      "facts": [
+        "One word.",
+        "Clear and polite. Use the shorter one if you will see them again soon."
+      ],
+      "answers": [
+        {
+          "id": "greet-009-a1",
+          "english": "Goodbye.",
+          "albanian": "Mirupafshim.",
+          "audio": "greet-009"
+        },
+        {
+          "id": "greet-009-a2",
+          "english": "See you.",
+          "albanian": "Shihemi.",
+          "audio": "greet-009-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-009-r",
+        "english": "Goodbye.",
+        "albanian": "Mirupafshim.",
+        "audio": "greet-009"
+      }
+    }
+  },
+  {
+    "id": "greet-010",
+    "island": "Greetings & Check-ins",
+    "english": "See you later.",
+    "albanian": "Shihemi më vonë.",
+    "phonetic": "SHEE-heh-mee muh VOH-nuh",
+    "tip": "Lighter than a full goodbye.",
+    "blocks": [
+      {
+        "text": "Shihemi më vonë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Lighter than a full goodbye. You expect to see them again soon.",
+      "facts": [
+        "Shihemi means we will see each other.",
+        "Më vonë means later."
+      ],
+      "answers": [
+        {
+          "id": "greet-010-a1",
+          "english": "Yes, see you.",
+          "albanian": "Po, shihemi.",
+          "audio": "greet-010-a1"
+        },
+        {
+          "id": "greet-010-a2",
+          "english": "Goodbye.",
+          "albanian": "Mirupafshim.",
+          "audio": "greet-009"
+        }
+      ],
+      "reply": {
+        "id": "greet-010-r",
+        "english": "Goodbye.",
+        "albanian": "Mirupafshim.",
+        "audio": "greet-009"
+      }
+    }
+  },
+  {
+    "id": "greet-011",
+    "island": "Greetings & Check-ins",
+    "english": "And you?",
+    "albanian": "Po ju?",
+    "phonetic": "poh yoo",
+    "tip": "After you say you are well. Polite you.",
+    "blocks": [
+      {
+        "text": "Po ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "After you have said you are well. It turns the question back, politely.",
+      "facts": [
+        "Po here means and. Ju is polite you.",
+        "With one friend your age it is Po ti?"
+      ],
+      "answers": [
+        {
+          "id": "greet-011-a1",
+          "english": "I am well too.",
+          "albanian": "Edhe unë jam mirë.",
+          "audio": "greet-011-a1"
+        },
+        {
+          "id": "greet-011-a2",
+          "english": "Fine, thank you.",
+          "albanian": "Mirë, faleminderit.",
+          "audio": "greet-011-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-011-r",
+        "english": "Pleased to hear it.",
+        "albanian": "Më vjen mirë.",
+        "audio": "greet-014"
+      }
+    }
+  },
+  {
+    "id": "greet-012",
+    "island": "Greetings & Check-ins",
+    "english": "What is your name?",
+    "albanian": "Si quheni?",
+    "phonetic": "see CHOO-heh-nee",
+    "tip": "Polite. With a friend people say Si quhesh?",
+    "blocks": [
+      {
+        "text": "Si quheni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When you are introduced and you do not know their name yet. Polite.",
+      "facts": [
+        "Quheni is polite you are called. With one friend it is Si quhesh?",
+        "Ana is only an example. The name goes right after quhem."
+      ],
+      "answers": [
+        {
+          "id": "greet-012-a1",
+          "english": "My name is Ana.",
+          "albanian": "Unë quhem Ana.",
+          "audio": "greet-012-a1"
+        },
+        {
+          "id": "greet-012-a2",
+          "english": "I am Ana.",
+          "albanian": "Unë jam Ana.",
+          "audio": "greet-012-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-012-r",
+        "english": "Pleased to meet you.",
+        "albanian": "Më vjen mirë.",
+        "audio": "greet-014"
+      }
+    }
+  },
+  {
+    "id": "greet-013",
+    "island": "Greetings & Check-ins",
+    "english": "My name is…",
+    "albanian": "Unë quhem.",
+    "phonetic": "OO-nuh CHOO-hem",
+    "tip": "Say your name right after it.",
+    "blocks": [
+      {
+        "text": "Unë quhem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Right after they ask your name. Say your own name immediately after this.",
+      "facts": [
+        "Unë is I. Quhem is I am called.",
+        "Nothing goes between quhem and your name."
+      ],
+      "answers": [
+        {
+          "id": "greet-013-a1",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        },
+        {
+          "id": "greet-013-a2",
+          "english": "My name is Ana.",
+          "albanian": "Unë quhem Ana.",
+          "audio": "greet-012-a1"
+        }
+      ],
+      "reply": {
+        "id": "greet-013-r",
+        "english": "Pleased to meet you.",
+        "albanian": "Më vjen mirë.",
+        "audio": "greet-014"
+      }
+    }
+  },
+  {
+    "id": "greet-014",
+    "island": "Greetings & Check-ins",
+    "english": "I'm glad.",
+    "albanian": "Më vjen mirë.",
+    "phonetic": "muh vyen MEE-ruh",
+    "tip": "Short. Smile and use it once.",
+    "blocks": [
+      {
+        "text": "Më vjen mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Once, after the names. Then move on. Do not repeat it all evening.",
+      "facts": [
+        "Short. It also means I am glad.",
+        "If they say it first, Edhe mua means me too."
+      ],
+      "answers": [
+        {
+          "id": "greet-014-a1",
+          "english": "Me too.",
+          "albanian": "Edhe mua.",
+          "audio": "greet-014-a1"
+        },
+        {
+          "id": "greet-014-a2",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        }
+      ],
+      "reply": {
+        "id": "greet-014-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "greet-015",
+    "island": "Greetings & Check-ins",
+    "english": "Thank you.",
+    "albanian": "Faleminderit.",
+    "phonetic": "fah-leh-meen-DEH-reet",
+    "tip": "The one word to use constantly.",
+    "blocks": [
+      {
+        "text": "Faleminderit",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The word you will use most. After food, help, a seat, a kindness.",
+      "facts": [
+        "One word. Start with the full word.",
+        "In fast speech the middle gets shorter."
+      ],
+      "answers": [
+        {
+          "id": "greet-015-a1",
+          "english": "You're welcome.",
+          "albanian": "S'ka përse.",
+          "audio": "greet-017"
+        },
+        {
+          "id": "greet-015-a2",
+          "english": "Please. / You're welcome.",
+          "albanian": "Ju lutem.",
+          "audio": "greet-020"
+        }
+      ],
+      "reply": {
+        "id": "greet-015-r",
+        "english": "Good.",
+        "albanian": "Mirë.",
+        "audio": "greet-003-a2"
+      }
+    }
+  },
+  {
+    "id": "greet-016",
+    "island": "Greetings & Check-ins",
+    "english": "Thank you very much.",
+    "albanian": "Faleminderit shumë.",
+    "phonetic": "fah-leh-meen-DEH-reet SHOO-muh",
+    "tip": "When the kindness was bigger.",
+    "blocks": [
+      {
+        "text": "Faleminderit shumë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When the kindness was bigger than a small favor.",
+      "facts": [
+        "Shumë means very, or a lot.",
+        "It comes after faleminderit."
+      ],
+      "answers": [
+        {
+          "id": "greet-016-a1",
+          "english": "You're welcome.",
+          "albanian": "S'ka përse.",
+          "audio": "greet-017"
+        },
+        {
+          "id": "greet-016-a2",
+          "english": "Please. / You're welcome.",
+          "albanian": "Ju lutem.",
+          "audio": "greet-020"
+        }
+      ],
+      "reply": {
+        "id": "greet-016-r",
+        "english": "Good.",
+        "albanian": "Mirë.",
+        "audio": "greet-003-a2"
+      }
+    }
+  },
+  {
+    "id": "greet-017",
+    "island": "Greetings & Check-ins",
+    "english": "You're welcome.",
+    "albanian": "S'ka përse.",
+    "phonetic": "skah pur-SEH",
+    "tip": "The usual answer to thank you.",
+    "blocks": [
+      {
+        "text": "S'ka përse",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When someone thanks you. This is the usual answer.",
+      "facts": [
+        "It means there is no reason to thank me.",
+        "Ju lutem also works as you're welcome."
+      ],
+      "answers": [
+        {
+          "id": "greet-017-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        },
+        {
+          "id": "greet-017-a2",
+          "english": "Thank you very much.",
+          "albanian": "Faleminderit shumë.",
+          "audio": "greet-016"
+        }
+      ],
+      "reply": {
+        "id": "greet-017-r",
+        "english": "Please.",
+        "albanian": "Ju lutem.",
+        "audio": "greet-020"
+      }
+    }
+  },
+  {
+    "id": "greet-018",
+    "island": "Greetings & Check-ins",
+    "english": "Yes.",
+    "albanian": "Po.",
+    "phonetic": "poh",
+    "tip": "Say it. A nod is easy to miss.",
+    "blocks": [
+      {
+        "text": "Po",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A clear yes. A nod is easy to miss across a table.",
+      "facts": [
+        "Po is yes.",
+        "The same word means and in Po ju? The tone is different."
+      ],
+      "answers": [
+        {
+          "id": "greet-018-a1",
+          "english": "Good.",
+          "albanian": "Mirë.",
+          "audio": "greet-003-a2"
+        },
+        {
+          "id": "greet-018-a2",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "greet-018-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "greet-019",
+    "island": "Greetings & Check-ins",
+    "english": "No.",
+    "albanian": "Jo.",
+    "phonetic": "yoh",
+    "tip": "Sounds like yo, not joe.",
+    "blocks": [
+      {
+        "text": "Jo",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A clear no. If you are refusing food or a favor, add please.",
+      "facts": [
+        "Jo sounds like yo, not joe.",
+        "A softer no is Jo, ju lutem."
+      ],
+      "answers": [
+        {
+          "id": "greet-019-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        },
+        {
+          "id": "greet-019-a2",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-019-r",
+        "english": "Thank you. Please.",
+        "albanian": "Faleminderit. Ju lutem.",
+        "audio": "greet-019-r"
+      }
+    }
+  },
+  {
+    "id": "greet-020",
+    "island": "Greetings & Check-ins",
+    "english": "Please.",
+    "albanian": "Ju lutem.",
+    "phonetic": "yoo LOO-tem",
+    "tip": "Also works as you're welcome.",
+    "blocks": [
+      {
+        "text": "Ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Before a request, and also as a soft you're welcome.",
+      "facts": [
+        "Ju is polite you. Lutem is please.",
+        "With one friend it is Të lutem."
+      ],
+      "answers": [
+        {
+          "id": "greet-020-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "greet-020-a2",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-020-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-005",
+    "island": "Conversation Repair",
+    "english": "Excuse me.",
+    "albanian": "Më falni.",
+    "phonetic": "muh FAHL-nee",
+    "tip": "To get attention, or to say sorry.",
+    "blocks": [
+      {
+        "text": "Më falni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "To get someone's attention, or as a small sorry. Then say what you need.",
+      "facts": [
+        "Më falni is excuse me, polite.",
+        "You can use it before a question, not only after a mistake."
+      ],
+      "answers": [
+        {
+          "id": "repair-005-a1",
+          "english": "Yes?",
+          "albanian": "Po?",
+          "audio": "repair-005-a1"
+        },
+        {
+          "id": "repair-005-a2",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        }
+      ],
+      "reply": {
+        "id": "repair-005-r",
+        "english": "Please speak slowly.",
+        "albanian": "Ju lutem, flisni ngadalë.",
+        "audio": "repair-001"
+      }
+    }
+  },
+  {
+    "id": "repair-006",
+    "island": "Conversation Repair",
+    "english": "I'm sorry.",
+    "albanian": "Më vjen keq.",
+    "phonetic": "muh vyen kech",
+    "tip": "When something actually went wrong.",
+    "blocks": [
+      {
+        "text": "Më vjen keq",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When something actually went wrong. Heavier than excuse me.",
+      "facts": [
+        "Më vjen keq is I'm sorry, literally it comes badly to me.",
+        "Save më falni for a bump or a small interruption."
+      ],
+      "answers": [
+        {
+          "id": "repair-006-a1",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        },
+        {
+          "id": "repair-006-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "repair-006-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-007",
+    "island": "Conversation Repair",
+    "english": "Do you speak English?",
+    "albanian": "A flisni anglisht?",
+    "phonetic": "ah FLEES-nee ahn-GLEESHT",
+    "tip": "Polite you. Ask this before you give up.",
+    "blocks": [
+      {
+        "text": "A flisni anglisht",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Ask this before you switch languages. Many people will meet you halfway.",
+      "facts": [
+        "A turns it into a yes-or-no question.",
+        "Flisni is speak, polite you. Anglisht is English."
+      ],
+      "answers": [
+        {
+          "id": "repair-007-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "repair-007-a2",
+          "english": "A little.",
+          "albanian": "Pak.",
+          "audio": "repair-m-003"
+        },
+        {
+          "id": "repair-007-a3",
+          "english": "No.",
+          "albanian": "Jo.",
+          "audio": "greet-019"
+        }
+      ],
+      "reply": {
+        "id": "repair-007-r",
+        "english": "I speak a little Albanian.",
+        "albanian": "Flas pak shqip.",
+        "audio": "repair-008"
+      }
+    }
+  },
+  {
+    "id": "repair-008",
+    "island": "Conversation Repair",
+    "english": "I speak a little Albanian.",
+    "albanian": "Flas pak shqip.",
+    "phonetic": "flahs pahk shcheep",
+    "tip": "People warm up when they hear this.",
+    "blocks": [
+      {
+        "text": "Flas pak shqip",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Say this early. People usually slow down and smile.",
+      "facts": [
+        "Flas is I speak.",
+        "Pak is a little. Shqip is Albanian."
+      ],
+      "answers": [
+        {
+          "id": "repair-008-a1",
+          "english": "Very good.",
+          "albanian": "Shumë mirë.",
+          "audio": "repair-m-002"
+        },
+        {
+          "id": "repair-008-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "repair-008-r",
+        "english": "Please speak slowly.",
+        "albanian": "Ju lutem, flisni ngadalë.",
+        "audio": "repair-001"
+      }
+    }
+  },
+  {
+    "id": "repair-009",
+    "island": "Conversation Repair",
+    "english": "I understand.",
+    "albanian": "Kuptoj.",
+    "phonetic": "koop-TOY",
+    "tip": "So they know they can keep going.",
+    "blocks": [
+      {
+        "text": "Kuptoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "So they know they can keep going. One word is enough.",
+      "facts": [
+        "Kuptoj is I understand. Nuk kuptoj is I don't."
+      ],
+      "answers": [
+        {
+          "id": "repair-009-a1",
+          "english": "Good.",
+          "albanian": "Mirë.",
+          "audio": "greet-003-a2"
+        }
+      ],
+      "reply": {
+        "id": "repair-009-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-010",
+    "island": "Conversation Repair",
+    "english": "Do you understand me?",
+    "albanian": "A më kuptoni?",
+    "phonetic": "ah muh koop-TOH-nee",
+    "tip": "Polite. Use it when you are not sure.",
+    "blocks": [
+      {
+        "text": "A më kuptoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When you are not sure the sentence landed. Polite you.",
+      "facts": [
+        "A më kuptoni is do you understand me.",
+        "Më is me. Kuptoni is understand, polite."
+      ],
+      "answers": [
+        {
+          "id": "repair-010-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "repair-010-a2",
+          "english": "I don't understand.",
+          "albanian": "Nuk kuptoj.",
+          "audio": "repair-002"
+        }
+      ],
+      "reply": {
+        "id": "repair-010-r",
+        "english": "Please speak slowly.",
+        "albanian": "Ju lutem, flisni ngadalë.",
+        "audio": "repair-001"
+      }
+    }
+  },
+  {
+    "id": "repair-011",
+    "island": "Conversation Repair",
+    "english": "I don't know.",
+    "albanian": "Nuk e di.",
+    "phonetic": "nook eh dee",
+    "tip": "Honest and short.",
+    "blocks": [
+      {
+        "text": "Nuk e di",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "An honest short answer. Better than guessing.",
+      "facts": [
+        "Nuk e di is I don't know.",
+        "E di would be I know it. Nuk flips it."
+      ],
+      "answers": [
+        {
+          "id": "repair-011-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        },
+        {
+          "id": "repair-011-a2",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        }
+      ],
+      "reply": {
+        "id": "repair-011-r",
+        "english": "Excuse me.",
+        "albanian": "Më falni.",
+        "audio": "repair-005"
+      }
+    }
+  },
+  {
+    "id": "repair-012",
+    "island": "Conversation Repair",
+    "english": "Can you write it?",
+    "albanian": "A mund ta shkruani?",
+    "phonetic": "ah moond tah shkroo-AH-nee",
+    "tip": "When the sound will not stick.",
+    "blocks": [
+      {
+        "text": "A mund ta shkruani",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When the sound will not stick. A phone note is enough.",
+      "facts": [
+        "A mund is can you, polite.",
+        "Ta shkruani is write it."
+      ],
+      "answers": [
+        {
+          "id": "repair-012-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "repair-012-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "repair-012-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-004",
+    "island": "Coffee & Table",
+    "english": "A coffee, please.",
+    "albanian": "Një kafe, ju lutem.",
+    "phonetic": "nyuh KAH-feh, yoo LOO-tem",
+    "tip": "The everyday order.",
+    "blocks": [
+      {
+        "text": "Një kafe, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The everyday order. Një is one.",
+      "facts": [
+        "They may ask if you want milk before they make it."
+      ],
+      "answers": [
+        {
+          "id": "coffee-004-a1",
+          "english": "With milk?",
+          "albanian": "Me qumësht?",
+          "audio": "coffee-m-003"
+        },
+        {
+          "id": "coffee-004-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "coffee-004-r",
+        "english": "Yes, with milk.",
+        "albanian": "Po, me qumësht.",
+        "audio": "coffee-004-r"
+      }
+    }
+  },
+  {
+    "id": "coffee-005",
+    "island": "Coffee & Table",
+    "english": "Water, please.",
+    "albanian": "Ujë, ju lutem.",
+    "phonetic": "OO-yuh, yoo LOO-tem",
+    "tip": "Works at a table or in a kitchen.",
+    "blocks": [
+      {
+        "text": "Ujë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Works at a table or in a kitchen. They often ask still or sparkling next.",
+      "facts": [
+        "Ujë is water.",
+        "Pa gaz is still. Me gaz is sparkling."
+      ],
+      "answers": [
+        {
+          "id": "coffee-005-a1",
+          "english": "Without bubbles?",
+          "albanian": "Pa gaz?",
+          "audio": "coffee-m-004"
+        },
+        {
+          "id": "coffee-005-a2",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        }
+      ],
+      "reply": {
+        "id": "coffee-005-r",
+        "english": "Still water, please.",
+        "albanian": "Ujë pa gaz, ju lutem.",
+        "audio": "coffee-006"
+      }
+    }
+  },
+  {
+    "id": "coffee-006",
+    "island": "Coffee & Table",
+    "english": "Still water, please.",
+    "albanian": "Ujë pa gaz, ju lutem.",
+    "phonetic": "OO-yuh pah gahz, yoo LOO-tem",
+    "tip": "Pa gaz means without bubbles.",
+    "blocks": [
+      {
+        "text": "Ujë pa gaz, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Still water. Pa gaz means without bubbles.",
+      "facts": [
+        "Say the whole line. Pa gaz is the part that matters."
+      ],
+      "answers": [
+        {
+          "id": "coffee-006-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "coffee-006-a2",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        }
+      ],
+      "reply": {
+        "id": "coffee-006-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-007",
+    "island": "Coffee & Table",
+    "english": "Sparkling water, please.",
+    "albanian": "Ujë me gaz, ju lutem.",
+    "phonetic": "OO-yuh meh gahz, yoo LOO-tem",
+    "tip": "Me gaz means with bubbles.",
+    "blocks": [
+      {
+        "text": "Ujë me gaz, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Sparkling water. Me gaz means with bubbles.",
+      "facts": [
+        "Gaz here is bubbles, not petrol."
+      ],
+      "answers": [
+        {
+          "id": "coffee-007-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "coffee-007-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "coffee-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-008",
+    "island": "Coffee & Table",
+    "english": "A tea, please.",
+    "albanian": "Një çaj, ju lutem.",
+    "phonetic": "nyuh chai, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Një çaj, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A tea order. They may offer the local herbal tea.",
+      "facts": [
+        "Çaj is tea. Ç is the ch in church."
+      ],
+      "answers": [
+        {
+          "id": "coffee-008-a1",
+          "english": "Mountain tea?",
+          "albanian": "Çaj mali?",
+          "audio": "coffee-008-a1"
+        },
+        {
+          "id": "coffee-008-a2",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "coffee-008-r",
+        "english": "Mountain tea, please.",
+        "albanian": "Çaj mali, ju lutem.",
+        "audio": "coffee-009"
+      }
+    }
+  },
+  {
+    "id": "coffee-009",
+    "island": "Coffee & Table",
+    "english": "Mountain tea, please.",
+    "albanian": "Çaj mali, ju lutem.",
+    "phonetic": "chai MAH-lee, yoo LOO-tem",
+    "tip": "The local herbal tea.",
+    "blocks": [
+      {
+        "text": "Çaj mali, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Mountain tea, the local herbal tea. Often served in a house.",
+      "facts": [
+        "Mali is of the mountain. Çaj mali is the name of the tea."
+      ],
+      "answers": [
+        {
+          "id": "coffee-009-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "coffee-009-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "coffee-009-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-010",
+    "island": "Coffee & Table",
+    "english": "A macchiato, please.",
+    "albanian": "Një makiato, ju lutem.",
+    "phonetic": "nyuh mah-kee-AH-toh, yoo LOO-tem",
+    "tip": "The usual café coffee.",
+    "blocks": [
+      {
+        "text": "Një makiato, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The usual café coffee. A small strong coffee with a drop of milk.",
+      "facts": [
+        "Makiato is the loanword. You do not need a longer description."
+      ],
+      "answers": [
+        {
+          "id": "coffee-010-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "coffee-010-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "coffee-010-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-011",
+    "island": "Coffee & Table",
+    "english": "The bill, please.",
+    "albanian": "Llogarinë, ju lutem.",
+    "phonetic": "loh-gah-REE-nuh, yoo LOO-tem",
+    "tip": "At the end. Some places also say faturën.",
+    "blocks": [
+      {
+        "text": "Llogarinë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At the end, in a café. At home you do not ask for a bill.",
+      "facts": [
+        "Llogarinë is the bill. Some places say faturën.",
+        "The number they say changes. The price below is only an example."
+      ],
+      "answers": [
+        {
+          "id": "coffee-011-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        },
+        {
+          "id": "coffee-011-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "coffee-011-r",
+        "english": "Do you take cards?",
+        "albanian": "A pranoni kartë?",
+        "audio": "shop-002"
+      }
+    }
+  },
+  {
+    "id": "coffee-012",
+    "island": "Coffee & Table",
+    "english": "Cheers.",
+    "albanian": "Gëzuar!",
+    "phonetic": "guh-ZOO-ar",
+    "tip": "Glasses up.",
+    "blocks": [
+      {
+        "text": "Gëzuar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Glasses up, with family or at the table. They usually say it back.",
+      "facts": [
+        "Gëzuar is cheers, literally may it be enjoyed."
+      ],
+      "answers": [
+        {
+          "id": "coffee-012-a1",
+          "english": "Cheers.",
+          "albanian": "Gëzuar!",
+          "audio": "coffee-012"
+        }
+      ],
+      "reply": {
+        "id": "coffee-012-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-013",
+    "island": "Coffee & Table",
+    "english": "Enjoy your meal.",
+    "albanian": "Ju bëftë mirë.",
+    "phonetic": "yoo BUHF-tuh MEE-ruh",
+    "tip": "Say it to them, polite you.",
+    "blocks": [
+      {
+        "text": "Ju bëftë mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You say this to them as the food arrives. Polite you.",
+      "facts": [
+        "Ju bëftë mirë is enjoy your meal, said to the people eating.",
+        "You will also hear it said to you. That version is in Food, medium."
+      ],
+      "answers": [
+        {
+          "id": "coffee-013-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "coffee-013-r",
+        "english": "You're welcome.",
+        "albanian": "Ju lutem.",
+        "audio": "greet-020"
+      }
+    }
+  },
+  {
+    "id": "food-004",
+    "island": "Food & Eating",
+    "english": "The menu, please.",
+    "albanian": "Menunë, ju lutem.",
+    "phonetic": "meh-NOO-nuh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Menunë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At a café, before you choose. At home there is often no menu.",
+      "facts": [
+        "Menunë is the menu.",
+        "Point if you are not sure they heard."
+      ],
+      "answers": [
+        {
+          "id": "food-004-a1",
+          "english": "Here you go.",
+          "albanian": "Ja.",
+          "audio": "shop-m-003"
+        },
+        {
+          "id": "food-004-a2",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        }
+      ],
+      "reply": {
+        "id": "food-004-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-005",
+    "island": "Food & Eating",
+    "english": "This one, please.",
+    "albanian": "Këtë, ju lutem.",
+    "phonetic": "KUH-tuh, yoo LOO-tem",
+    "tip": "Point as you say it.",
+    "blocks": [
+      {
+        "text": "Këtë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Point at the dish as you say it.",
+      "facts": [
+        "Këtë is this one, the thing you want.",
+        "Kjo is this when you are talking about it. Këtë is this when you are asking for it."
+      ],
+      "answers": [
+        {
+          "id": "food-005-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "food-005-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-006",
+    "island": "Food & Eating",
+    "english": "Without meat, please.",
+    "albanian": "Pa mish, ju lutem.",
+    "phonetic": "pah meesh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Pa mish, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When you do not want meat. Say it with the order, not after the plate arrives.",
+      "facts": [
+        "Pa is without. Mish is meat.",
+        "It does not name a diet. Add the food if you need to."
+      ],
+      "answers": [
+        {
+          "id": "food-006-a1",
+          "english": "Yes, without meat.",
+          "albanian": "Po, pa mish.",
+          "audio": "food-006-a1"
+        },
+        {
+          "id": "food-006-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "food-006-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-007",
+    "island": "Food & Eating",
+    "english": "I'm hungry.",
+    "albanian": "Jam i uritur.",
+    "phonetic": "yahm ee oo-REE-toor",
+    "tip": "A woman says Jam e uritur.",
+    "blocks": [
+      {
+        "text": "Jam i uritur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are telling them you want to eat. They may offer food.",
+      "facts": [
+        "Jam i uritur is I'm hungry, said by a man.",
+        "A woman says Jam e uritur."
+      ],
+      "answers": [
+        {
+          "id": "food-007-a1",
+          "english": "Please eat.",
+          "albanian": "Hani, ju lutem.",
+          "audio": "food-m-003"
+        },
+        {
+          "id": "food-007-a2",
+          "english": "Would you like to eat?",
+          "albanian": "A doni të hani?",
+          "audio": "plans-009"
+        }
+      ],
+      "reply": {
+        "id": "food-007-r",
+        "english": "Yes, please.",
+        "albanian": "Po, ju lutem.",
+        "audio": "food-007-r"
+      }
+    }
+  },
+  {
+    "id": "food-008",
+    "island": "Food & Eating",
+    "english": "I'm thirsty.",
+    "albanian": "Jam i etur.",
+    "phonetic": "yahm ee EH-toor",
+    "tip": "A woman says Jam e etur.",
+    "blocks": [
+      {
+        "text": "Jam i etur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You want a drink. They often offer water.",
+      "facts": [
+        "Jam i etur is I'm thirsty, said by a man.",
+        "A woman says Jam e etur."
+      ],
+      "answers": [
+        {
+          "id": "food-008-a1",
+          "english": "Do you want water?",
+          "albanian": "A doni ujë?",
+          "audio": "food-008-a1"
+        }
+      ],
+      "reply": {
+        "id": "food-008-r",
+        "english": "Water, please.",
+        "albanian": "Ujë, ju lutem.",
+        "audio": "coffee-005"
+      }
+    }
+  },
+  {
+    "id": "food-009",
+    "island": "Food & Eating",
+    "english": "A beer, please.",
+    "albanian": "Një birrë, ju lutem.",
+    "phonetic": "nyuh BEE-ruh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Një birrë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A beer order. After it arrives, Gëzuar is the toast.",
+      "facts": [
+        "Birrë is beer."
+      ],
+      "answers": [
+        {
+          "id": "food-009-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "food-009-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "food-009-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-010",
+    "island": "Food & Eating",
+    "english": "Cheese, please.",
+    "albanian": "Djathë, ju lutem.",
+    "phonetic": "DYAH-thuh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Djathë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Cheese. White cheese is common. This line does not name the kind.",
+      "facts": [
+        "Djathë is cheese.",
+        "Point, or add the kind, if they have more than one."
+      ],
+      "answers": [
+        {
+          "id": "food-010-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "food-010-a2",
+          "english": "Here you go.",
+          "albanian": "Ja.",
+          "audio": "shop-m-003"
+        }
+      ],
+      "reply": {
+        "id": "food-010-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-011",
+    "island": "Food & Eating",
+    "english": "A salad, please.",
+    "albanian": "Sallatë, ju lutem.",
+    "phonetic": "sah-LAH-tuh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Sallatë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A salad. Point at the menu line if there are several.",
+      "facts": [
+        "Sallatë is salad."
+      ],
+      "answers": [
+        {
+          "id": "food-011-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "food-011-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-012",
+    "island": "Food & Eating",
+    "english": "Fish, please.",
+    "albanian": "Peshk, ju lutem.",
+    "phonetic": "peshk, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Peshk, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Fish. If they name a fish, you can just say Po.",
+      "facts": [
+        "Peshk is fish.",
+        "This line does not name which fish."
+      ],
+      "answers": [
+        {
+          "id": "food-012-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "food-012-a2",
+          "english": "One moment.",
+          "albanian": "Një moment.",
+          "audio": "coffee-m-002"
+        }
+      ],
+      "reply": {
+        "id": "food-012-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-013",
+    "island": "Food & Eating",
+    "english": "Chicken, please.",
+    "albanian": "Mish pule, ju lutem.",
+    "phonetic": "meesh POO-leh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Mish pule, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Chicken. Mish pule is chicken meat.",
+      "facts": [
+        "Pule is hen. Mish is meat."
+      ],
+      "answers": [
+        {
+          "id": "food-013-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "food-013-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-014",
+    "island": "Food & Eating",
+    "english": "It was delicious.",
+    "albanian": "Ishte shumë e mirë.",
+    "phonetic": "EESH-teh SHOO-muh eh MEE-ruh",
+    "tip": "After you finish.",
+    "blocks": [
+      {
+        "text": "Ishte shumë e mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "After you finish, at home or in a café.",
+      "facts": [
+        "Ishte is it was. Shumë e mirë is very good.",
+        "At a café, the next line can be the bill. At home, stop at thank you."
+      ],
+      "answers": [
+        {
+          "id": "food-014-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        },
+        {
+          "id": "food-014-a2",
+          "english": "Enjoy your meal.",
+          "albanian": "Ju bëftë mirë.",
+          "audio": "coffee-013"
+        }
+      ],
+      "reply": {
+        "id": "food-014-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-004",
+    "island": "Family & Warmth",
+    "english": "Welcome.",
+    "albanian": "Mirë se erdhët.",
+    "phonetic": "MEE-ruh seh er-DHUHT",
+    "tip": "When they arrive, or when you arrive to them as a group.",
+    "blocks": [
+      {
+        "text": "Mirë se erdhët",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When they arrive, or when you arrive and you are speaking for your group.",
+      "facts": [
+        "Mirë se erdhët is welcome, you have come, polite or plural.",
+        "One host talking to one guest may say mirë se erdhe. This line is the ju form."
+      ],
+      "answers": [
+        {
+          "id": "family-004-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "family-004-r",
+        "english": "Come in, please.",
+        "albanian": "Hyni, ju lutem.",
+        "audio": "house-001"
+      }
+    }
+  },
+  {
+    "id": "family-005",
+    "island": "Family & Warmth",
+    "english": "This is my son.",
+    "albanian": "Ky është djali im.",
+    "phonetic": "kuh UHSH-tuh DYAH-lee eem",
+    "tip": "Point as you say it.",
+    "blocks": [
+      {
+        "text": "Ky është djali im",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Introduce your son. Point as you say it.",
+      "facts": [
+        "Ky is this, masculine. Djali is the son. Im is my, with a masculine word.",
+        "They may ask his name. Say the name after quhet. Ana on other cards is only an example."
+      ],
+      "answers": [
+        {
+          "id": "family-005-a1",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        },
+        {
+          "id": "family-005-a2",
+          "english": "What is his name?",
+          "albanian": "Si quhet?",
+          "audio": "family-005-a2"
+        }
+      ],
+      "reply": {
+        "id": "family-005-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-006",
+    "island": "Family & Warmth",
+    "english": "This is my daughter.",
+    "albanian": "Kjo është vajza ime.",
+    "phonetic": "kyoh UHSH-tuh VAI-zah EE-meh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Kjo është vajza ime",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Introduce your daughter.",
+      "facts": [
+        "Kjo is this, feminine. Vajza is the daughter. Ime is my, with a feminine word."
+      ],
+      "answers": [
+        {
+          "id": "family-006-a1",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        },
+        {
+          "id": "family-006-a2",
+          "english": "What is her name?",
+          "albanian": "Si quhet?",
+          "audio": "family-005-a2"
+        }
+      ],
+      "reply": {
+        "id": "family-006-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-007",
+    "island": "Family & Warmth",
+    "english": "This is my wife.",
+    "albanian": "Kjo është gruaja ime.",
+    "phonetic": "kyoh UHSH-tuh GROO-ai-ah EE-meh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Kjo është gruaja ime",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Introduce your wife.",
+      "facts": [
+        "Gruaja is the wife. Ime is my, because gruaja is feminine.",
+        "Kjo, not ky."
+      ],
+      "answers": [
+        {
+          "id": "family-007-a1",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        }
+      ],
+      "reply": {
+        "id": "family-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-008",
+    "island": "Family & Warmth",
+    "english": "This is my husband.",
+    "albanian": "Ky është burri im.",
+    "phonetic": "kuh UHSH-tuh BOOR-ree eem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ky është burri im",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Introduce your husband.",
+      "facts": [
+        "Burri is the husband. Im is my, because burri is masculine.",
+        "Ky, not kjo."
+      ],
+      "answers": [
+        {
+          "id": "family-008-a1",
+          "english": "Pleased to meet you.",
+          "albanian": "Më vjen mirë.",
+          "audio": "greet-014"
+        }
+      ],
+      "reply": {
+        "id": "family-008-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-009",
+    "island": "Family & Warmth",
+    "english": "Have a good trip.",
+    "albanian": "Rrugë të mbarë.",
+    "phonetic": "RROO-guh tuh MBAH-ruh",
+    "tip": "When someone is leaving.",
+    "blocks": [
+      {
+        "text": "Rrugë të mbarë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "When someone is leaving on a trip, not a walk around the block.",
+      "facts": [
+        "Rrugë is road. Të mbarë is may it go well."
+      ],
+      "answers": [
+        {
+          "id": "family-009-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "family-009-r",
+        "english": "Goodbye.",
+        "albanian": "Mirupafshim.",
+        "audio": "greet-009"
+      }
+    }
+  },
+  {
+    "id": "family-010",
+    "island": "Family & Warmth",
+    "english": "Thank you for the hospitality.",
+    "albanian": "Faleminderit për mikpritjen.",
+    "phonetic": "fah-leh-meen-DEH-reet pur meek-PREET-yen",
+    "tip": "The line for the end of a stay.",
+    "blocks": [
+      {
+        "text": "Faleminderit për mikpritjen",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The line for the end of a stay, after they hosted you.",
+      "facts": [
+        "Mikpritjen is the hospitality.",
+        "It is warmer than a plain faleminderit."
+      ],
+      "answers": [
+        {
+          "id": "family-010-a1",
+          "english": "Don't mention it.",
+          "albanian": "S'ka përse.",
+          "audio": "greet-017"
+        },
+        {
+          "id": "family-010-a2",
+          "english": "You're welcome.",
+          "albanian": "Ju lutem.",
+          "audio": "greet-020"
+        }
+      ],
+      "reply": {
+        "id": "family-010-r",
+        "english": "We love you.",
+        "albanian": "Ju duam shumë.",
+        "audio": "family-002"
+      }
+    }
+  },
+  {
+    "id": "family-011",
+    "island": "Family & Warmth",
+    "english": "I missed you.",
+    "albanian": "Më ka marrë malli për ju.",
+    "phonetic": "muh kah MAHR-ruh MAHL-lee pur yoo",
+    "tip": "Polite you. For one close person people say për ty.",
+    "blocks": [
+      {
+        "text": "Më ka marrë malli për ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You missed them. Polite you.",
+      "facts": [
+        "Malli is longing. Më ka marrë malli is I have been missing someone.",
+        "For one close person, people say për ty. This line uses për ju."
+      ],
+      "answers": [
+        {
+          "id": "family-011-a1",
+          "english": "Me too.",
+          "albanian": "Edhe mua.",
+          "audio": "greet-014-a1"
+        },
+        {
+          "id": "family-011-a2",
+          "english": "Us too.",
+          "albanian": "Edhe ne.",
+          "audio": "family-m-002"
+        }
+      ],
+      "reply": {
+        "id": "family-011-r",
+        "english": "It is good to be with you.",
+        "albanian": "Është mirë të jem me ju.",
+        "audio": "family-003"
+      }
+    }
+  },
+  {
+    "id": "family-012",
+    "island": "Family & Warmth",
+    "english": "Rest well.",
+    "albanian": "Pushoni mirë.",
+    "phonetic": "poo-SHOH-nee MEE-ruh",
+    "tip": "Polite you, at bedtime.",
+    "blocks": [
+      {
+        "text": "Pushoni mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At bedtime, to them. Polite you.",
+      "facts": [
+        "Pushoni is rest. Mirë is well.",
+        "Natën e mirë is the good-night you already have. This one is the rest."
+      ],
+      "answers": [
+        {
+          "id": "family-012-a1",
+          "english": "Thank you. Good night.",
+          "albanian": "Faleminderit. Natën e mirë.",
+          "audio": "greet-006-a2"
+        }
+      ],
+      "reply": {
+        "id": "family-012-r",
+        "english": "Good night.",
+        "albanian": "Natën e mirë.",
+        "audio": "greet-006"
+      }
+    }
+  },
+  {
+    "id": "health-004",
+    "island": "Health & Feelings",
+    "english": "My head hurts.",
+    "albanian": "Më dhemb koka.",
+    "phonetic": "muh themb KOH-kah",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Më dhemb koka",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Your head hurts. Say it to family. Add the doctor line only if you need one.",
+      "facts": [
+        "Më dhemb is it hurts me.",
+        "Koka is the head."
+      ],
+      "answers": [
+        {
+          "id": "health-004-a1",
+          "english": "I'm sorry.",
+          "albanian": "Më vjen keq.",
+          "audio": "repair-006"
+        },
+        {
+          "id": "health-004-a2",
+          "english": "Do you want us to go to a doctor?",
+          "albanian": "A doni të shkojmë te mjeku?",
+          "audio": "health-m-001"
+        }
+      ],
+      "reply": {
+        "id": "health-004-r",
+        "english": "Where is the pharmacy?",
+        "albanian": "Ku është farmacia?",
+        "audio": "health-008"
+      }
+    }
+  },
+  {
+    "id": "health-005",
+    "island": "Health & Feelings",
+    "english": "My stomach hurts.",
+    "albanian": "Më dhemb barku.",
+    "phonetic": "muh themb BAR-koo",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Më dhemb barku",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Your stomach hurts. Same shape as the head line. Swap the body part.",
+      "facts": [
+        "Barku is the stomach.",
+        "Më dhemb stays the same."
+      ],
+      "answers": [
+        {
+          "id": "health-005-a1",
+          "english": "I'm sorry.",
+          "albanian": "Më vjen keq.",
+          "audio": "repair-006"
+        }
+      ],
+      "reply": {
+        "id": "health-005-r",
+        "english": "I need a doctor.",
+        "albanian": "Më duhet një mjek.",
+        "audio": "health-007"
+      }
+    }
+  },
+  {
+    "id": "health-006",
+    "island": "Health & Feelings",
+    "english": "I'm sick.",
+    "albanian": "Jam i sëmurë.",
+    "phonetic": "yahm ee suh-MOO-ruh",
+    "tip": "A woman says Jam e sëmurë.",
+    "blocks": [
+      {
+        "text": "Jam i sëmurë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are sick, more than tired.",
+      "facts": [
+        "Jam i sëmurë is I'm sick, said by a man.",
+        "A woman says Jam e sëmurë."
+      ],
+      "answers": [
+        {
+          "id": "health-006-a1",
+          "english": "I'm sorry.",
+          "albanian": "Më vjen keq.",
+          "audio": "repair-006"
+        },
+        {
+          "id": "health-006-a2",
+          "english": "Do you want us to go to a doctor?",
+          "albanian": "A doni të shkojmë te mjeku?",
+          "audio": "health-m-001"
+        }
+      ],
+      "reply": {
+        "id": "health-006-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-007",
+    "island": "Health & Feelings",
+    "english": "I need a doctor.",
+    "albanian": "Më duhet një mjek.",
+    "phonetic": "muh DOO-het nyuh myek",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Më duhet një mjek",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You need a doctor. Say where it hurts if you can.",
+      "facts": [
+        "Më duhet is I need.",
+        "Mjek is a doctor."
+      ],
+      "answers": [
+        {
+          "id": "health-007-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "health-007-a2",
+          "english": "Where?",
+          "albanian": "Ku?",
+          "audio": "health-m-003"
+        }
+      ],
+      "reply": {
+        "id": "health-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-008",
+    "island": "Health & Feelings",
+    "english": "Where is the pharmacy?",
+    "albanian": "Ku është farmacia?",
+    "phonetic": "koo UHSH-tuh far-mah-TSEE-ah",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ku është farmacia",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Asking for the pharmacy. They answer with a direction, not a set sentence.",
+      "facts": [
+        "Ku është is where is.",
+        "Farmacia is the pharmacy.",
+        "Left, right, and straight are their own lines in Getting Around."
+      ],
+      "answers": [
+        {
+          "id": "health-008-a1",
+          "english": "Here.",
+          "albanian": "Këtu.",
+          "audio": "go-m-002"
+        },
+        {
+          "id": "health-008-a2",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        },
+        {
+          "id": "health-008-a3",
+          "english": "It's close.",
+          "albanian": "Është afër.",
+          "audio": "go-m-003"
+        }
+      ],
+      "reply": {
+        "id": "health-008-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-009",
+    "island": "Health & Feelings",
+    "english": "Help!",
+    "albanian": "Ndihmë!",
+    "phonetic": "NDEEH-muh",
+    "tip": "Loud and short.",
+    "blocks": [
+      {
+        "text": "Ndihmë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Loud and short, only in an emergency.",
+      "facts": [
+        "Ndihmë is help.",
+        "Then say what you need. The ambulance line is the next one if you need it."
+      ],
+      "answers": [
+        {
+          "id": "health-009-a1",
+          "english": "What's wrong?",
+          "albanian": "Çfarë ka?",
+          "audio": "health-009-a1"
+        },
+        {
+          "id": "health-009-a2",
+          "english": "Yes?",
+          "albanian": "Po?",
+          "audio": "repair-005-a1"
+        }
+      ],
+      "reply": {
+        "id": "health-009-r",
+        "english": "Call an ambulance.",
+        "albanian": "Thirrni një ambulancë.",
+        "audio": "health-010"
+      }
+    }
+  },
+  {
+    "id": "health-010",
+    "island": "Health & Feelings",
+    "english": "Call an ambulance.",
+    "albanian": "Thirrni një ambulancë.",
+    "phonetic": "THEER-nee nyuh ahm-boo-LAHN-tsuh",
+    "tip": "Emergency number 127.",
+    "blocks": [
+      {
+        "text": "Thirrni një ambulancë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Emergency. Say it clearly.",
+      "facts": [
+        "Thirrni is call, polite.",
+        "The card tip says 127. Confirm the number where you are. It is not rechecked here."
+      ],
+      "answers": [
+        {
+          "id": "health-010-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "health-010-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-011",
+    "island": "Health & Feelings",
+    "english": "I have an allergy.",
+    "albanian": "Kam alergji.",
+    "phonetic": "kahm ah-ler-JEE",
+    "tip": "Then point or name the food.",
+    "blocks": [
+      {
+        "text": "Kam alergji",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Say you have an allergy, then name the food or point at it.",
+      "facts": [
+        "Kam is I have. Alergji is an allergy.",
+        "This line alone does not say which one."
+      ],
+      "answers": [
+        {
+          "id": "health-011-a1",
+          "english": "What?",
+          "albanian": "Çfarë?",
+          "audio": "health-011-a1"
+        },
+        {
+          "id": "health-011-a2",
+          "english": "What allergy?",
+          "albanian": "Çfarë alergjie?",
+          "audio": "health-011-a2"
+        }
+      ],
+      "reply": {
+        "id": "health-011-r",
+        "english": "Without meat, please.",
+        "albanian": "Pa mish, ju lutem.",
+        "audio": "food-006"
+      }
+    }
+  },
+  {
+    "id": "plans-004",
+    "island": "Plans & Weekend",
+    "english": "Today.",
+    "albanian": "Sot.",
+    "phonetic": "sot",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Sot",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The word for today. You hear it inside longer lines.",
+      "facts": [
+        "Sot stands on its own.",
+        "It does not change for polite you."
+      ],
+      "answers": [
+        {
+          "id": "plans-004-a1",
+          "english": "What are you doing today?",
+          "albanian": "Çfarë po bëni sot?",
+          "audio": "plans-001"
+        }
+      ],
+      "reply": {
+        "id": "plans-004-r",
+        "english": "We're here today.",
+        "albanian": "Sot jemi këtu.",
+        "audio": "plans-004-r"
+      }
+    }
+  },
+  {
+    "id": "plans-005",
+    "island": "Plans & Weekend",
+    "english": "Tomorrow.",
+    "albanian": "Nesër.",
+    "phonetic": "NEH-sur",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Nesër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The word for tomorrow.",
+      "facts": [
+        "Nesër is tomorrow. Stress the start."
+      ],
+      "answers": [
+        {
+          "id": "plans-005-a1",
+          "english": "See you tomorrow.",
+          "albanian": "Shihemi nesër.",
+          "audio": "plans-003"
+        }
+      ],
+      "reply": {
+        "id": "plans-005-r",
+        "english": "Yes, tomorrow.",
+        "albanian": "Po, nesër.",
+        "audio": "plans-005-r"
+      }
+    }
+  },
+  {
+    "id": "plans-006",
+    "island": "Plans & Weekend",
+    "english": "Now.",
+    "albanian": "Tani.",
+    "phonetic": "tah-NEE",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Tani",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The word for now.",
+      "facts": [
+        "Tani is now. Use it when they offer later and you want this moment."
+      ],
+      "answers": [
+        {
+          "id": "plans-006-a1",
+          "english": "Now?",
+          "albanian": "Tani?",
+          "audio": "plans-006-a1"
+        }
+      ],
+      "reply": {
+        "id": "plans-006-r",
+        "english": "Yes, now.",
+        "albanian": "Po, tani.",
+        "audio": "plans-006-r"
+      }
+    }
+  },
+  {
+    "id": "plans-007",
+    "island": "Plans & Weekend",
+    "english": "Later.",
+    "albanian": "Më vonë.",
+    "phonetic": "muh VOH-nuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Më vonë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Later, when now does not work.",
+      "facts": [
+        "Më vonë is later. Vonë alone is late."
+      ],
+      "answers": [
+        {
+          "id": "plans-007-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "plans-007-r",
+        "english": "See you later.",
+        "albanian": "Shihemi më vonë.",
+        "audio": "greet-010"
+      }
+    }
+  },
+  {
+    "id": "plans-008",
+    "island": "Plans & Weekend",
+    "english": "What time?",
+    "albanian": "Në çfarë ore?",
+    "phonetic": "nuh chfahr OH-reh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Në çfarë ore",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "What time. They answer with an hour or a part of the day.",
+      "facts": [
+        "Në çfarë ore is at what hour.",
+        "Eight below is only an example. The number changes."
+      ],
+      "answers": [
+        {
+          "id": "plans-008-a1",
+          "english": "At eight.",
+          "albanian": "Në orën tetë.",
+          "audio": "plans-m-001"
+        },
+        {
+          "id": "plans-008-a2",
+          "english": "In the morning.",
+          "albanian": "Në mëngjes.",
+          "audio": "plans-010"
+        }
+      ],
+      "reply": {
+        "id": "plans-008-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "plans-009",
+    "island": "Plans & Weekend",
+    "english": "Would you like to eat?",
+    "albanian": "A doni të hani?",
+    "phonetic": "ah DOH-nee tuh HAH-nee",
+    "tip": "Same start as the sit-down line. Swap the verb.",
+    "blocks": [
+      {
+        "text": "A doni të hani",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are offering a meal. Same start as the walk line. The verb is eat.",
+      "facts": [
+        "Hani is eat, polite.",
+        "A woman who is hungry says jam e uritur. A man says jam i uritur."
+      ],
+      "answers": [
+        {
+          "id": "plans-009-a1",
+          "english": "Yes, please.",
+          "albanian": "Po, ju lutem.",
+          "audio": "food-007-r"
+        },
+        {
+          "id": "plans-009-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "plans-009-r",
+        "english": "Go ahead.",
+        "albanian": "Urdhëroni.",
+        "audio": "coffee-m-001"
+      }
+    }
+  },
+  {
+    "id": "plans-010",
+    "island": "Plans & Weekend",
+    "english": "In the morning.",
+    "albanian": "Në mëngjes.",
+    "phonetic": "nuh muhn-JES",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Në mëngjes",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "In the morning. A time of day, not a greeting.",
+      "facts": [
+        "Mëngjes is morning. Mirëmëngjes is the greeting, one word."
+      ],
+      "answers": [
+        {
+          "id": "plans-010-a1",
+          "english": "What time?",
+          "albanian": "Në çfarë ore?",
+          "audio": "plans-008"
+        }
+      ],
+      "reply": {
+        "id": "plans-010-r",
+        "english": "See you in the morning.",
+        "albanian": "Shihemi në mëngjes.",
+        "audio": "plans-010-r"
+      }
+    }
+  },
+  {
+    "id": "plans-011",
+    "island": "Plans & Weekend",
+    "english": "In the evening.",
+    "albanian": "Në mbrëmje.",
+    "phonetic": "nuh mbruhm-YEH",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Në mbrëmje",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "In the evening.",
+      "facts": [
+        "Mbrëmje is evening. Mirëmbrëma is the greeting."
+      ],
+      "answers": [
+        {
+          "id": "plans-011-a1",
+          "english": "What time?",
+          "albanian": "Në çfarë ore?",
+          "audio": "plans-008"
+        }
+      ],
+      "reply": {
+        "id": "plans-011-r",
+        "english": "See you in the evening.",
+        "albanian": "Shihemi në mbrëmje.",
+        "audio": "plans-011-r"
+      }
+    }
+  },
+  {
+    "id": "lego-004",
+    "island": "Lego Verb Builder",
+    "english": "I want to drink.",
+    "albanian": "Dua të pi.",
+    "phonetic": "DOO-ah tuh pee",
+    "tip": "Same start as Dua të ha. Swap the verb.",
+    "blocks": [
+      {
+        "text": "Dua të pi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I want to drink. Same start as Dua të ha. The verb is pi.",
+      "facts": [
+        "Pi is drink. They may ask what."
+      ],
+      "answers": [
+        {
+          "id": "lego-004-a1",
+          "english": "What do you want to drink?",
+          "albanian": "Çfarë doni të pini?",
+          "audio": "lego-m-001"
+        }
+      ],
+      "reply": {
+        "id": "lego-004-r",
+        "english": "Water, please.",
+        "albanian": "Ujë, ju lutem.",
+        "audio": "coffee-005"
+      }
+    }
+  },
+  {
+    "id": "lego-005",
+    "island": "Lego Verb Builder",
+    "english": "I want to rest.",
+    "albanian": "Dua të pushoj.",
+    "phonetic": "DOO-ah tuh poo-SHOY",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Dua të pushoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I want to rest. Same start. The verb is pushoj.",
+      "facts": [
+        "Pushoj is I rest. Pushoni is rest, said to them."
+      ],
+      "answers": [
+        {
+          "id": "lego-005-a1",
+          "english": "Yes, rest.",
+          "albanian": "Po, pushoni.",
+          "audio": "lego-m-003"
+        }
+      ],
+      "reply": {
+        "id": "lego-005-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "lego-006",
+    "island": "Lego Verb Builder",
+    "english": "I want to go.",
+    "albanian": "Dua të shkoj.",
+    "phonetic": "DOO-ah tuh shkoy",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Dua të shkoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I want to go. Same start. The verb is shkoj.",
+      "facts": [
+        "Shkoj is I go.",
+        "They may ask where."
+      ],
+      "answers": [
+        {
+          "id": "lego-006-a1",
+          "english": "Where?",
+          "albanian": "Ku?",
+          "audio": "health-m-003"
+        }
+      ],
+      "reply": {
+        "id": "lego-006-r",
+        "english": "Goodbye.",
+        "albanian": "Mirupafshim.",
+        "audio": "greet-009"
+      }
+    }
+  },
+  {
+    "id": "lego-007",
+    "island": "Lego Verb Builder",
+    "english": "Would you like to drink?",
+    "albanian": "A doni të pini?",
+    "phonetic": "ah DOH-nee tuh PEE-nee",
+    "tip": "Polite you.",
+    "blocks": [
+      {
+        "text": "A doni të pini",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Would you like to drink. Polite you. Same start as the sit line. The verb is pini.",
+      "facts": [
+        "Pini is drink, polite.",
+        "The ulni chunk on the sit line is a different story. This drink line is the ordinary polite verb."
+      ],
+      "answers": [
+        {
+          "id": "lego-007-a1",
+          "english": "Yes, water.",
+          "albanian": "Po, ujë.",
+          "audio": "lego-007-a1"
+        },
+        {
+          "id": "lego-007-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "lego-007-r",
+        "english": "Go ahead.",
+        "albanian": "Urdhëroni.",
+        "audio": "coffee-m-001"
+      }
+    }
+  },
+  {
+    "id": "lego-008",
+    "island": "Lego Verb Builder",
+    "english": "Can you help me?",
+    "albanian": "A mund të më ndihmoni?",
+    "phonetic": "ah moond tuh muh ndeeh-MOH-nee",
+    "tip": "Polite you. Mund të ndihmoj is the one you say about yourself.",
+    "blocks": [
+      {
+        "text": "A mund të më ndihmoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Can you help me. Polite you. Mund të ndihmoj is the one about yourself.",
+      "facts": [
+        "Më is me. Ndihmoni is help, polite."
+      ],
+      "answers": [
+        {
+          "id": "lego-008-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "lego-008-a2",
+          "english": "Of course.",
+          "albanian": "Sigurisht.",
+          "audio": "lego-m-002"
+        }
+      ],
+      "reply": {
+        "id": "lego-008-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "num-001",
+    "island": "Numbers & Money",
+    "english": "One.",
+    "albanian": "Një.",
+    "phonetic": "nyuh",
+    "tip": "In the north you may hear nji.",
+    "blocks": [
+      {
+        "text": "Një",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "One. You use it in orders and prices.",
+      "facts": [
+        "In the north you may hear nji. Një is the line to learn.",
+        "Një does not change for polite you."
+      ],
+      "answers": [
+        {
+          "id": "num-001-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "reply": {
+        "id": "num-001-r",
+        "english": "A coffee, please.",
+        "albanian": "Një kafe, ju lutem.",
+        "audio": "coffee-004"
+      },
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-002",
+    "island": "Numbers & Money",
+    "english": "Two.",
+    "albanian": "Dy.",
+    "phonetic": "dew",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Dy",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Two.",
+      "facts": [
+        "Dy is two. It stays the same in front of a thing: dy kafe, two coffees."
+      ],
+      "answers": [
+        {
+          "id": "num-002-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-003",
+    "island": "Numbers & Money",
+    "english": "Three.",
+    "albanian": "Tre.",
+    "phonetic": "treh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Tre",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Three.",
+      "facts": [
+        "Tre is three."
+      ],
+      "answers": [
+        {
+          "id": "num-003-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-004",
+    "island": "Numbers & Money",
+    "english": "Four.",
+    "albanian": "Katër.",
+    "phonetic": "KAH-tur",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Katër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Four.",
+      "facts": [
+        "Katër is four. The ë is a soft uh."
+      ],
+      "answers": [
+        {
+          "id": "num-004-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-005",
+    "island": "Numbers & Money",
+    "english": "Five.",
+    "albanian": "Pesë.",
+    "phonetic": "PEH-suh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Pesë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Five.",
+      "facts": [
+        "Pesë is five."
+      ],
+      "answers": [
+        {
+          "id": "num-005-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-count-15",
+    "island": "Numbers & Money",
+    "english": "One through five.",
+    "albanian": "Një. Dy. Tre. Katër. Pesë.",
+    "phonetic": "nyuh dew treh KAH-tur PEH-suh",
+    "tip": "This only plays the count. Each number still has its own box.",
+    "blocks": [
+      {
+        "text": "Një",
+        "type": "other"
+      },
+      {
+        "text": "Dy",
+        "type": "other"
+      },
+      {
+        "text": "Tre",
+        "type": "other"
+      },
+      {
+        "text": "Katër",
+        "type": "other"
+      },
+      {
+        "text": "Pesë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "review": false,
+    "playlist": [
+      "num-001",
+      "num-002",
+      "num-003",
+      "num-004",
+      "num-005"
+    ],
+    "lesson": {
+      "kind": "count",
+      "background": "Hear them in order. You already met each one alone."
+    }
+  },
+  {
+    "id": "num-talk-15",
+    "island": "Numbers & Money",
+    "english": "Two.",
+    "albanian": "Dy.",
+    "phonetic": "dew",
+    "tip": "The hundred in the conversation is an example, not a real price.",
+    "blocks": [
+      {
+        "text": "Dy",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "audio": "num-002",
+    "lesson": {
+      "kind": "talk",
+      "background": "They ask how many. You say two. The price is an example.",
+      "facts": [
+        "The hundred below is an example. A real price uses whatever number they mean."
+      ],
+      "turns": [
+        {
+          "who": "they",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        },
+        {
+          "who": "you",
+          "english": "Two.",
+          "albanian": "Dy.",
+          "audio": "num-002"
+        },
+        {
+          "who": "they",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        },
+        {
+          "who": "you",
+          "english": "I'll take it.",
+          "albanian": "Do ta marr.",
+          "audio": "shop-003"
+        }
+      ]
+    }
+  },
+  {
+    "id": "num-006",
+    "island": "Numbers & Money",
+    "english": "Six.",
+    "albanian": "Gjashtë.",
+    "phonetic": "JAHSH-tuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Gjashtë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Six.",
+      "facts": [
+        "Gjashtë is six."
+      ],
+      "answers": [
+        {
+          "id": "num-006-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-007",
+    "island": "Numbers & Money",
+    "english": "Seven.",
+    "albanian": "Shtatë.",
+    "phonetic": "SHTAH-tuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Shtatë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Seven.",
+      "facts": [
+        "Shtatë is seven."
+      ],
+      "answers": [
+        {
+          "id": "num-007-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-008",
+    "island": "Numbers & Money",
+    "english": "Eight.",
+    "albanian": "Tetë.",
+    "phonetic": "TEH-tuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Tetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Eight. You also hear it in times.",
+      "facts": [
+        "Tetë is eight. Në orën tetë is at eight. That hour is only an example."
+      ],
+      "answers": [
+        {
+          "id": "num-008-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        },
+        {
+          "id": "num-008-a2",
+          "english": "At eight.",
+          "albanian": "Në orën tetë.",
+          "audio": "plans-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-009",
+    "island": "Numbers & Money",
+    "english": "Nine.",
+    "albanian": "Nëntë.",
+    "phonetic": "NUHN-tuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Nëntë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Nine.",
+      "facts": [
+        "Nëntë is nine."
+      ],
+      "answers": [
+        {
+          "id": "num-009-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-010",
+    "island": "Numbers & Money",
+    "english": "Ten.",
+    "albanian": "Dhjetë.",
+    "phonetic": "DHYEH-tuh",
+    "tip": "Dh is the th in this.",
+    "blocks": [
+      {
+        "text": "Dhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Ten.",
+      "facts": [
+        "Dhjetë is ten. Dh is the th in this."
+      ],
+      "answers": [
+        {
+          "id": "num-010-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-011",
+    "island": "Numbers & Money",
+    "english": "Twenty.",
+    "albanian": "Njëzet.",
+    "phonetic": "nyuh-ZET",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Njëzet",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Twenty. Useful in prices.",
+      "facts": [
+        "Njëzet is twenty. It is one word."
+      ],
+      "answers": [
+        {
+          "id": "num-011-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-012",
+    "island": "Numbers & Money",
+    "english": "Fifty.",
+    "albanian": "Pesëdhjetë.",
+    "phonetic": "peh-suh-DHYEH-tuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Pesëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Fifty.",
+      "facts": [
+        "Pesëdhjetë is fifty, five and ten stuck together."
+      ],
+      "answers": [
+        {
+          "id": "num-012-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        },
+        {
+          "id": "num-012-a2",
+          "english": "Fifty lek.",
+          "albanian": "Pesëdhjetë lekë.",
+          "audio": "num-m-003"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-013",
+    "island": "Numbers & Money",
+    "english": "One hundred.",
+    "albanian": "Njëqind.",
+    "phonetic": "nyuh-CHEEND",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Njëqind",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "One hundred. Common in small prices.",
+      "facts": [
+        "Njëqind is one hundred, one word.",
+        "A price like njëqind lekë is an example. The number changes."
+      ],
+      "answers": [
+        {
+          "id": "num-013-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-014",
+    "island": "Numbers & Money",
+    "english": "One thousand.",
+    "albanian": "Një mijë.",
+    "phonetic": "nyuh MEE-uh",
+    "tip": "Old prices in lek can sound bigger than they are. Ask if you are unsure.",
+    "blocks": [
+      {
+        "text": "Një mijë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "One thousand.",
+      "facts": [
+        "Një mijë is one thousand, two words.",
+        "Old prices in lek can sound bigger than they are. Ask if you are unsure."
+      ],
+      "answers": [
+        {
+          "id": "num-014-a1",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "kind": "word"
+    }
+  },
+  {
+    "id": "num-015",
+    "island": "Numbers & Money",
+    "english": "How many lek?",
+    "albanian": "Sa lekë?",
+    "phonetic": "sah LEH-kuh",
+    "tip": "The money question after the price.",
+    "blocks": [
+      {
+        "text": "Sa lekë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The money question after you hear a price, or when you want it in lek.",
+      "facts": [
+        "Sa is how many. Lekë is lek, the money.",
+        "The answers below are examples. A real price uses whatever number they mean."
+      ],
+      "answers": [
+        {
+          "id": "num-015-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        },
+        {
+          "id": "num-015-a2",
+          "english": "Fifty lek.",
+          "albanian": "Pesëdhjetë lekë.",
+          "audio": "num-m-003"
+        }
+      ],
+      "reply": {
+        "id": "num-015-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "num-016",
+    "island": "Numbers & Money",
+    "english": "It is very expensive.",
+    "albanian": "Është shumë e shtrenjtë.",
+    "phonetic": "UHSH-tuh SHOO-muh eh SHTRENY-tuh",
+    "tip": "At a market stall.",
+    "blocks": [
+      {
+        "text": "Është shumë e shtrenjtë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At a market stall, when the price is too high. You can walk away.",
+      "facts": [
+        "E shtrenjtë is expensive, feminine, matching the thing or the price.",
+        "Shumë makes it too, or very."
+      ],
+      "answers": [
+        {
+          "id": "num-016-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "num-016-r",
+        "english": "No, thank you.",
+        "albanian": "Jo, faleminderit.",
+        "audio": "food-003-r"
+      }
+    }
+  },
+  {
+    "id": "go-001",
+    "island": "Getting Around",
+    "english": "Where is the toilet?",
+    "albanian": "Ku është tualeti?",
+    "phonetic": "koo UHSH-tuh twah-LEH-tee",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ku është tualeti",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Where is the toilet. They answer with a direction.",
+      "facts": [
+        "Ku është is where is. Tualeti is the toilet.",
+        "Here, over there, left, and right are the words you will hear. They are not one fixed sentence."
+      ],
+      "answers": [
+        {
+          "id": "go-001-a1",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        },
+        {
+          "id": "go-001-a2",
+          "english": "Left.",
+          "albanian": "Majtas.",
+          "audio": "go-005"
+        },
+        {
+          "id": "go-001-a3",
+          "english": "Over there, on the left.",
+          "albanian": "Atje, majtas.",
+          "audio": "go-a-001-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-002",
+    "island": "Getting Around",
+    "english": "Where is the bus station?",
+    "albanian": "Ku është stacioni i autobusit?",
+    "phonetic": "koo UHSH-tuh stah-tsee-OH-nee ee ow-toh-BOO-seet",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ku është stacioni i autobusit",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Where is the bus station.",
+      "facts": [
+        "Stacioni i autobusit is the bus station.",
+        "After they point, you can ask if it is far."
+      ],
+      "answers": [
+        {
+          "id": "go-002-a1",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        },
+        {
+          "id": "go-002-a2",
+          "english": "Straight ahead.",
+          "albanian": "Drejt përpara.",
+          "audio": "go-007"
+        }
+      ],
+      "reply": {
+        "id": "go-002-r",
+        "english": "Is it far?",
+        "albanian": "A është larg?",
+        "audio": "go-003"
+      }
+    }
+  },
+  {
+    "id": "go-003",
+    "island": "Getting Around",
+    "english": "Is it far?",
+    "albanian": "A është larg?",
+    "phonetic": "ah UHSH-tuh larg",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "A është larg",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Is it far. Ask after they point.",
+      "facts": [
+        "Larg is far. Afër is close."
+      ],
+      "answers": [
+        {
+          "id": "go-003-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "go-003-a2",
+          "english": "No, it's close.",
+          "albanian": "Jo, është afër.",
+          "audio": "go-003-a2"
+        },
+        {
+          "id": "go-003-a3",
+          "english": "It's far.",
+          "albanian": "Është larg.",
+          "audio": "go-003-a3"
+        }
+      ],
+      "reply": {
+        "id": "go-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-004",
+    "island": "Getting Around",
+    "english": "Is it close?",
+    "albanian": "A është afër?",
+    "phonetic": "ah UHSH-tuh ah-FUR",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "A është afër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Is it close.",
+      "facts": [
+        "Afër is close. The opposite of larg."
+      ],
+      "answers": [
+        {
+          "id": "go-004-a1",
+          "english": "Yes, it's close.",
+          "albanian": "Po, është afër.",
+          "audio": "go-004-a1"
+        },
+        {
+          "id": "go-004-a2",
+          "english": "No.",
+          "albanian": "Jo.",
+          "audio": "greet-019"
+        }
+      ],
+      "reply": {
+        "id": "go-004-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-005",
+    "island": "Getting Around",
+    "english": "Left.",
+    "albanian": "Majtas.",
+    "phonetic": "MAI-tahs",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Majtas",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Left. You say it to a driver, or you hear it when you ask the way.",
+      "facts": [
+        "Majtas is left.",
+        "It can stand alone."
+      ],
+      "answers": [
+        {
+          "id": "go-005-a1",
+          "english": "Here?",
+          "albanian": "Këtu?",
+          "audio": "go-005-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-005-r",
+        "english": "Stop here, please.",
+        "albanian": "Ndaloni këtu, ju lutem.",
+        "audio": "go-008"
+      }
+    }
+  },
+  {
+    "id": "go-006",
+    "island": "Getting Around",
+    "english": "Right.",
+    "albanian": "Djathtas.",
+    "phonetic": "DYAHT-tahs",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Djathtas",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Right.",
+      "facts": [
+        "Djathtas is right."
+      ],
+      "answers": [
+        {
+          "id": "go-006-a1",
+          "english": "Here?",
+          "albanian": "Këtu?",
+          "audio": "go-005-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-006-r",
+        "english": "Stop here, please.",
+        "albanian": "Ndaloni këtu, ju lutem.",
+        "audio": "go-008"
+      }
+    }
+  },
+  {
+    "id": "go-007",
+    "island": "Getting Around",
+    "english": "Straight ahead.",
+    "albanian": "Drejt përpara.",
+    "phonetic": "dreyt pur-PAH-rah",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Drejt përpara",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Straight ahead.",
+      "facts": [
+        "Drejt is straight. Përpara is ahead."
+      ],
+      "answers": [
+        {
+          "id": "go-007-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "go-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-008",
+    "island": "Getting Around",
+    "english": "Stop here, please.",
+    "albanian": "Ndaloni këtu, ju lutem.",
+    "phonetic": "ndah-LOH-nee kuh-TOO, yoo LOO-tem",
+    "tip": "Taxi or minibus.",
+    "blocks": [
+      {
+        "text": "Ndaloni këtu, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Stop here. Taxi or minibus.",
+      "facts": [
+        "Ndaloni is stop, polite.",
+        "Këtu is here."
+      ],
+      "answers": [
+        {
+          "id": "go-008-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-008-r",
+        "english": "How many lek?",
+        "albanian": "Sa lekë?",
+        "audio": "num-015"
+      }
+    }
+  },
+  {
+    "id": "go-009",
+    "island": "Getting Around",
+    "english": "A ticket, please.",
+    "albanian": "Një biletë, ju lutem.",
+    "phonetic": "nyuh bee-LEH-tuh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Një biletë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A ticket. Say where if they ask.",
+      "facts": [
+        "Biletë is a ticket.",
+        "They may ask where, or how many."
+      ],
+      "answers": [
+        {
+          "id": "go-009-a1",
+          "english": "Where?",
+          "albanian": "Ku?",
+          "audio": "health-m-003"
+        },
+        {
+          "id": "go-009-a2",
+          "english": "How many?",
+          "albanian": "Sa?",
+          "audio": "num-m-001"
+        }
+      ],
+      "reply": {
+        "id": "go-009-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-010",
+    "island": "Getting Around",
+    "english": "A taxi, please.",
+    "albanian": "Një taksi, ju lutem.",
+    "phonetic": "nyuh TAHK-see, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Një taksi, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You want a taxi. Say the place name after, if you know it.",
+      "facts": [
+        "Taksi is taxi.",
+        "This line does not name the place."
+      ],
+      "answers": [
+        {
+          "id": "go-010-a1",
+          "english": "Where do you want to go?",
+          "albanian": "Ku doni të shkoni?",
+          "audio": "go-m-004"
+        },
+        {
+          "id": "go-010-a2",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "go-010-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-011",
+    "island": "Getting Around",
+    "english": "I'm lost.",
+    "albanian": "Kam humbur.",
+    "phonetic": "kahm HOOM-boor",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Kam humbur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You are lost. Then ask for the place.",
+      "facts": [
+        "Kam humbur is I am lost, I have gotten lost."
+      ],
+      "answers": [
+        {
+          "id": "go-011-a1",
+          "english": "Where do you want to go?",
+          "albanian": "Ku doni të shkoni?",
+          "audio": "go-m-004"
+        }
+      ],
+      "reply": {
+        "id": "go-011-r",
+        "english": "Where is the bus station?",
+        "albanian": "Ku është stacioni i autobusit?",
+        "audio": "go-002"
+      }
+    }
+  },
+  {
+    "id": "go-012",
+    "island": "Getting Around",
+    "english": "The minibus.",
+    "albanian": "Furgoni.",
+    "phonetic": "foor-GOH-nee",
+    "tip": "The shared van between towns.",
+    "blocks": [
+      {
+        "text": "Furgoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The shared van between towns. You can say the word to ask for it.",
+      "facts": [
+        "Furgon is the van. Furgoni is the van, as the subject.",
+        "It is not the city bus."
+      ],
+      "answers": [
+        {
+          "id": "go-012-a1",
+          "english": "The minibus is over there.",
+          "albanian": "Furgoni është atje.",
+          "audio": "go-012-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-012-r",
+        "english": "A ticket, please.",
+        "albanian": "Një biletë, ju lutem.",
+        "audio": "go-009"
+      }
+    }
+  },
+  {
+    "id": "shop-001",
+    "island": "Shopping",
+    "english": "How much is this?",
+    "albanian": "Sa kushton kjo?",
+    "phonetic": "sah koosh-TOHN kyoh",
+    "tip": "Point at the thing.",
+    "blocks": [
+      {
+        "text": "Sa kushton kjo",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "How much is this. Point at the thing.",
+      "facts": [
+        "Sa kushton is how much does it cost.",
+        "Kjo is this.",
+        "The prices below are examples. The number changes."
+      ],
+      "answers": [
+        {
+          "id": "shop-001-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        },
+        {
+          "id": "shop-001-a2",
+          "english": "Fifty lek.",
+          "albanian": "Pesëdhjetë lekë.",
+          "audio": "num-m-003"
+        }
+      ],
+      "reply": {
+        "id": "shop-001-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "shop-002",
+    "island": "Shopping",
+    "english": "Do you take cards?",
+    "albanian": "A pranoni kartë?",
+    "phonetic": "ah prah-NOH-nee KAR-tuh",
+    "tip": "Outside towns, often no.",
+    "blocks": [
+      {
+        "text": "A pranoni kartë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Do you take cards. Outside towns, often no.",
+      "facts": [
+        "Pranoni is you accept, polite.",
+        "Kartë is card."
+      ],
+      "answers": [
+        {
+          "id": "shop-002-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "shop-002-a2",
+          "english": "No, cash only.",
+          "albanian": "Jo, vetëm lekë.",
+          "audio": "shop-m-001"
+        }
+      ],
+      "reply": {
+        "id": "shop-002-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "shop-003",
+    "island": "Shopping",
+    "english": "I'll take it.",
+    "albanian": "Do ta marr.",
+    "phonetic": "doh tah mahr",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Do ta marr",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I'll take it. After you hear the price and you want it.",
+      "facts": [
+        "Do ta marr is I will take it."
+      ],
+      "answers": [
+        {
+          "id": "shop-003-a1",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        },
+        {
+          "id": "shop-003-a2",
+          "english": "Here you go.",
+          "albanian": "Ja.",
+          "audio": "shop-m-003"
+        }
+      ],
+      "reply": {
+        "id": "shop-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-004",
+    "island": "Shopping",
+    "english": "I'm just looking.",
+    "albanian": "Vetëm po shoh.",
+    "phonetic": "VEH-tum poh shoh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Vetëm po shoh",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "I'm just looking. When they ask if they can help.",
+      "facts": [
+        "Vetëm is only. Po shoh is I am looking."
+      ],
+      "answers": [
+        {
+          "id": "shop-004-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        },
+        {
+          "id": "shop-004-a2",
+          "english": "Go ahead.",
+          "albanian": "Urdhëroni.",
+          "audio": "coffee-m-001"
+        }
+      ],
+      "reply": {
+        "id": "shop-004-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-005",
+    "island": "Shopping",
+    "english": "I don't want it.",
+    "albanian": "Nuk e dua.",
+    "phonetic": "nook eh DOO-ah",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Nuk e dua",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "You don't want it. Short, and enough.",
+      "facts": [
+        "Nuk e dua is I don't want it."
+      ],
+      "answers": [
+        {
+          "id": "shop-005-a1",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        },
+        {
+          "id": "shop-005-a2",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        }
+      ],
+      "reply": {
+        "id": "shop-005-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-006",
+    "island": "Shopping",
+    "english": "Do you have this?",
+    "albanian": "A keni këtë?",
+    "phonetic": "ah KEH-nee KUH-tuh",
+    "tip": "Point.",
+    "blocks": [
+      {
+        "text": "A keni këtë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Do you have this. Point.",
+      "facts": [
+        "A keni is do you have, polite.",
+        "Këtë is this one."
+      ],
+      "answers": [
+        {
+          "id": "shop-006-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "shop-006-a2",
+          "english": "We don't have it.",
+          "albanian": "S'kemi.",
+          "audio": "shop-m-002"
+        }
+      ],
+      "reply": {
+        "id": "shop-006-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "shop-007",
+    "island": "Shopping",
+    "english": "A bag, please.",
+    "albanian": "Një qese, ju lutem.",
+    "phonetic": "nyuh CHEH-seh, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Një qese, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "A bag, if they do not hand you one.",
+      "facts": [
+        "Qese is a bag."
+      ],
+      "answers": [
+        {
+          "id": "shop-007-a1",
+          "english": "Here you go.",
+          "albanian": "Ja.",
+          "audio": "shop-m-003"
+        },
+        {
+          "id": "shop-007-a2",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ],
+      "reply": {
+        "id": "shop-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-008",
+    "island": "Shopping",
+    "english": "Smaller, please.",
+    "albanian": "Më të vogël, ju lutem.",
+    "phonetic": "muh tuh VOH-gul, yoo LOO-tem",
+    "tip": "Size. Not checked against every shop habit.",
+    "blocks": [
+      {
+        "text": "Më të vogël, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Smaller, please. Size. The wording is not checked against every shop habit.",
+      "facts": [
+        "Më të vogël is smaller.",
+        "If they do not have a size, you will hear that they don't have it."
+      ],
+      "answers": [
+        {
+          "id": "shop-008-a1",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "shop-008-a2",
+          "english": "We don't have it.",
+          "albanian": "S'kemi.",
+          "audio": "shop-m-002"
+        }
+      ],
+      "reply": {
+        "id": "shop-008-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-001",
+    "island": "House & Hosts",
+    "english": "Come in, please.",
+    "albanian": "Hyni, ju lutem.",
+    "phonetic": "HOO-nee, yoo LOO-tem",
+    "tip": "At the door.",
+    "blocks": [
+      {
+        "text": "Hyni, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "At the door. You are letting them in.",
+      "facts": [
+        "Hyni is come in, polite.",
+        "Then they usually thank you."
+      ],
+      "answers": [
+        {
+          "id": "house-001-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "house-001-r",
+        "english": "You're welcome.",
+        "albanian": "Ju lutem.",
+        "audio": "greet-020"
+      }
+    }
+  },
+  {
+    "id": "house-002",
+    "island": "House & Hosts",
+    "english": "Where can we sleep?",
+    "albanian": "Ku mund të flejmë?",
+    "phonetic": "koo moond tuh FLEY-muh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ku mund të flejmë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Where can we sleep. Ask the host, not a stranger.",
+      "facts": [
+        "Ku mund të flejmë is where can we sleep.",
+        "Flejmë is we sleep."
+      ],
+      "answers": [
+        {
+          "id": "house-002-a1",
+          "english": "Here.",
+          "albanian": "Këtu.",
+          "audio": "go-m-002"
+        },
+        {
+          "id": "house-002-a2",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        }
+      ],
+      "reply": {
+        "id": "house-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-003",
+    "island": "House & Hosts",
+    "english": "Sorry we are late.",
+    "albanian": "Na falni që u vonuam.",
+    "phonetic": "nah FAHL-nee chuh oo voh-NOO-ahm",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Na falni që u vonuam",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Sorry we are late, when you arrive after you said.",
+      "facts": [
+        "Na falni is excuse us.",
+        "U vonuam is we were late."
+      ],
+      "answers": [
+        {
+          "id": "house-003-a1",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        },
+        {
+          "id": "house-003-a2",
+          "english": "All right.",
+          "albanian": "Në rregull.",
+          "audio": "greet-019-a1"
+        }
+      ],
+      "reply": {
+        "id": "house-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-004",
+    "island": "House & Hosts",
+    "english": "The keys, please.",
+    "albanian": "Çelësat, ju lutem.",
+    "phonetic": "cheh-LUH-saht, yoo LOO-tem",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Çelësat, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The keys. When you are leaving the house, or picking them up.",
+      "facts": [
+        "Çelësat is the keys."
+      ],
+      "answers": [
+        {
+          "id": "house-004-a1",
+          "english": "Here you go.",
+          "albanian": "Ja.",
+          "audio": "shop-m-003"
+        }
+      ],
+      "reply": {
+        "id": "house-004-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-005",
+    "island": "House & Hosts",
+    "english": "Where is the kitchen?",
+    "albanian": "Ku është kuzhina?",
+    "phonetic": "koo UHSH-tuh koo-ZHEE-nah",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "Ku është kuzhina",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Where is the kitchen. In a house you are staying in.",
+      "facts": [
+        "Kuzhina is the kitchen.",
+        "Ku është is where is."
+      ],
+      "answers": [
+        {
+          "id": "house-005-a1",
+          "english": "Here.",
+          "albanian": "Këtu.",
+          "audio": "go-m-002"
+        },
+        {
+          "id": "house-005-a2",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        }
+      ],
+      "reply": {
+        "id": "house-005-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-006",
+    "island": "House & Hosts",
+    "english": "Can I help in the kitchen?",
+    "albanian": "A mund të ndihmoj në kuzhinë?",
+    "phonetic": "ah moond tuh ndeeh-MOY nuh koo-ZHEE-nuh",
+    "tip": "",
+    "blocks": [
+      {
+        "text": "A mund të ndihmoj në kuzhinë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Can I help in the kitchen. A good offer after a meal.",
+      "facts": [
+        "Në kuzhinë is in the kitchen.",
+        "Mund të ndihmoj is can I help."
+      ],
+      "answers": [
+        {
+          "id": "house-006-a1",
+          "english": "Yes, thank you.",
+          "albanian": "Po, faleminderit.",
+          "audio": "coffee-001-a1"
+        },
+        {
+          "id": "house-006-a2",
+          "english": "No, thank you.",
+          "albanian": "Jo, faleminderit.",
+          "audio": "food-003-r"
+        }
+      ],
+      "reply": {
+        "id": "house-006-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "house-007",
+    "island": "House & Hosts",
+    "english": "It is very beautiful.",
+    "albanian": "Është shumë bukur.",
+    "phonetic": "UHSH-tuh SHOO-muh BOO-koor",
+    "tip": "The house, the view, the food.",
+    "blocks": [
+      {
+        "text": "Është shumë bukur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "The house, the view, the food. A warm comment, not a question.",
+      "facts": [
+        "Bukur is beautiful. Shumë makes it very.",
+        "Është is it is."
+      ],
+      "answers": [
+        {
+          "id": "house-007-a1",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "house-007-r",
+        "english": "Thank you for the hospitality.",
+        "albanian": "Faleminderit për mikpritjen.",
+        "audio": "family-010"
+      }
+    }
+  },
+  {
+    "id": "house-008",
+    "island": "House & Hosts",
+    "english": "Good night, rest well.",
+    "albanian": "Natën e mirë, pushoni mirë.",
+    "phonetic": "NAH-tuhn eh MEE-ruh, poo-SHOH-nee MEE-ruh",
+    "tip": "Two lines you already know, said together.",
+    "blocks": [
+      {
+        "text": "Natën e mirë, pushoni mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Two lines you already know, said together at bedtime.",
+      "facts": [
+        "Natën e mirë is good night.",
+        "Pushoni mirë is rest well."
+      ],
+      "answers": [
+        {
+          "id": "house-008-a1",
+          "english": "Good night.",
+          "albanian": "Natën e mirë.",
+          "audio": "greet-006"
+        },
+        {
+          "id": "house-008-a2",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ],
+      "reply": {
+        "id": "house-008-r",
+        "english": "Rest well.",
+        "albanian": "Pushoni mirë.",
+        "audio": "family-012"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "What you may hear after you ask how they are.",
+    "id": "greet-m-001",
+    "audio": "greet-002-a1",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "Fine, thank you. And you?",
+    "albanian": "Mirë, faleminderit. Po ju?",
+    "phonetic": "MEE-ruh, fah-leh-min-DEH-reet, poh yoo",
+    "lesson": {
+      "background": "This is their answer. You asked how they are.",
+      "facts": [
+        "Po ju? sends the question back to you, politely."
+      ],
+      "reply": {
+        "id": "greet-m-001-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "A short answer to how are you.",
+    "id": "greet-m-002",
+    "audio": "greet-002-a2",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "I am well.",
+    "albanian": "Jam mirë.",
+    "phonetic": "yahm MEE-ruh",
+    "lesson": {
+      "background": "They may say only this, with no question back.",
+      "facts": [
+        "Jam is I am. Mirë is well."
+      ],
+      "reply": {
+        "id": "greet-m-002-r",
+        "english": "And you?",
+        "albanian": "Po ju?",
+        "audio": "greet-011"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "A man says i lodhur. A woman says e lodhur.",
+    "id": "greet-m-003",
+    "audio": "greet-002-a3",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "A bit tired.",
+    "albanian": "Pak i lodhur.",
+    "phonetic": "pahk ee LOH-thoor",
+    "lesson": {
+      "background": "An honest answer when the day was long.",
+      "facts": [
+        "A woman says Pak e lodhur."
+      ],
+      "reply": {
+        "id": "greet-m-003-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "Shorter than a full goodbye.",
+    "id": "greet-m-004",
+    "audio": "greet-009-a2",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "See you.",
+    "albanian": "Shihemi.",
+    "phonetic": "shee-HEH-mee",
+    "lesson": {
+      "background": "They expect to see you again. Not a final goodbye.",
+      "facts": [
+        "Shihemi means we will see each other."
+      ],
+      "reply": {
+        "id": "greet-m-004-r",
+        "english": "See you later.",
+        "albanian": "Shihemi më vonë.",
+        "audio": "greet-010"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "After you asked and you.",
+    "id": "greet-m-005",
+    "audio": "greet-011-a1",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "I am well too.",
+    "albanian": "Edhe unë jam mirë.",
+    "phonetic": "EH-theh OO-nuh yahm MEE-ruh",
+    "lesson": {
+      "background": "They answer your Po ju?",
+      "facts": [
+        "Edhe means also. Unë is I."
+      ],
+      "reply": {
+        "id": "greet-m-005-r",
+        "english": "Pleased to hear it.",
+        "albanian": "Më vjen mirë.",
+        "audio": "greet-014"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "Ana is only an example.",
+    "id": "greet-m-006",
+    "audio": "greet-012-a1",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "My name is Ana.",
+    "albanian": "Unë quhem Ana.",
+    "phonetic": "OO-nuh CHOO-hem AH-nah",
+    "lesson": {
+      "background": "You asked their name. The real name replaces Ana.",
+      "facts": [
+        "The name sits right after quhem."
+      ],
+      "reply": {
+        "id": "greet-m-006-r",
+        "english": "Pleased to meet you.",
+        "albanian": "Më vjen mirë.",
+        "audio": "greet-014"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "When they say they are pleased to meet you.",
+    "id": "greet-m-007",
+    "audio": "greet-014-a1",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "Me too.",
+    "albanian": "Edhe mua.",
+    "phonetic": "EH-theh MOO-ah",
+    "lesson": {
+      "background": "Their answer to Më vjen mirë.",
+      "facts": [
+        "Edhe mua means me too."
+      ],
+      "reply": {
+        "id": "greet-m-007-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "They accepted a yes or a no.",
+    "id": "greet-m-008",
+    "audio": "greet-019-a1",
+    "level": "medium",
+    "island": "Greetings & Check-ins",
+    "english": "All right.",
+    "albanian": "Në rregull.",
+    "phonetic": "nuh RREH-gooll",
+    "lesson": {
+      "background": "You will hear this when something is settled.",
+      "facts": [
+        "It means all right, or that's fine."
+      ],
+      "reply": {
+        "id": "greet-m-008-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "The whole hello, not one word on its own.",
+    "id": "greet-a-001",
+    "audio": "greet-001",
+    "level": "advanced",
+    "island": "Greetings & Check-ins",
+    "english": "Good morning.",
+    "albanian": "Mirëmëngjes.",
+    "phonetic": "mee-ruh-muhn-JES",
+    "lesson": {
+      "background": "Morning at the door. You walk in. You greet, they ask how you are, you answer, you ask back.",
+      "facts": [
+        "Start with Mirëmëngjes. Wait. Then answer."
+      ],
+      "answers": [
+        {
+          "id": "greet-a-001-a1",
+          "english": "Good morning. How are you?",
+          "albanian": "Mirëmëngjes. Si jeni?",
+          "audio": "greet-001-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-a-001-r",
+        "english": "I'm well, thank you.",
+        "albanian": "Jam mirë, faleminderit.",
+        "audio": "greet-003"
+      }
+    }
+  },
+  {
+    "blocks": [],
+    "verified": false,
+    "tip": "Thank them, then say goodbye.",
+    "id": "greet-a-002",
+    "audio": "greet-009",
+    "level": "advanced",
+    "island": "Greetings & Check-ins",
+    "english": "Goodbye.",
+    "albanian": "Mirupafshim.",
+    "phonetic": "mee-roo-paf-SHEEM",
+    "lesson": {
+      "background": "Leaving the house. You are at the door. Thank them, then leave the door open for another meeting.",
+      "facts": [
+        "Mirupafshim is the full goodbye. Shihemi means you will see them again."
+      ],
+      "answers": [
+        {
+          "id": "greet-a-002-a1",
+          "english": "See you.",
+          "albanian": "Shihemi.",
+          "audio": "greet-009-a2"
+        }
+      ],
+      "reply": {
+        "id": "greet-a-002-r",
+        "english": "Thank you. Good night.",
+        "albanian": "Faleminderit. Natën e mirë.",
+        "audio": "greet-006-a2"
+      }
+    }
+  },
+  {
+    "id": "repair-m-001",
+    "island": "Conversation Repair",
+    "english": "Yes, I'll speak slowly.",
+    "albanian": "Po, flas ngadalë.",
+    "phonetic": "poh flahs ngah-DAH-luh",
+    "tip": "You hear this after you ask them to slow down.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "repair-m-001",
+    "lesson": {
+      "background": "They agreed to slow down.",
+      "facts": [
+        "Po is yes.",
+        "Flas is I speak. Ngadalë is slowly."
+      ],
+      "reply": {
+        "id": "repair-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-m-002",
+    "island": "Conversation Repair",
+    "english": "Very good.",
+    "albanian": "Shumë mirë.",
+    "phonetic": "SHOO-muh MEE-ruh",
+    "tip": "A warm reaction when you try a line.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "repair-m-002",
+    "lesson": {
+      "background": "You will hear this when a sentence lands.",
+      "facts": [
+        "Shumë is very. Mirë is good."
+      ],
+      "reply": {
+        "id": "repair-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "repair-m-003",
+    "island": "Conversation Repair",
+    "english": "A little.",
+    "albanian": "Pak.",
+    "phonetic": "pahk",
+    "tip": "Their answer when they speak some English, or you speak some Albanian.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "repair-m-003",
+    "lesson": {
+      "background": "Short for a little. The rest of the sentence is understood.",
+      "facts": [
+        "Pak is a little."
+      ],
+      "reply": {
+        "id": "repair-m-003-r",
+        "english": "I speak a little Albanian.",
+        "albanian": "Flas pak shqip.",
+        "audio": "repair-008"
+      }
+    }
+  },
+  {
+    "id": "repair-a-001",
+    "island": "Conversation Repair",
+    "english": "Please speak slowly.",
+    "albanian": "Ju lutem, flisni ngadalë.",
+    "phonetic": "yoo LOO-tem, FLEES-nee ngah-DAH-luh",
+    "tip": "You stop them, they slow down, you thank them.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "repair-001",
+    "lesson": {
+      "background": "Too fast. They were fast. You ask, they agree, you close it.",
+      "facts": [
+        "The first line is the one you say.",
+        "Wait for them to answer before thank you."
+      ],
+      "answers": [
+        {
+          "id": "repair-a-001-a1",
+          "english": "Yes, I'll speak slowly.",
+          "albanian": "Po, flas ngadalë.",
+          "audio": "repair-m-001"
+        }
+      ],
+      "reply": {
+        "id": "repair-a-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-m-001",
+    "island": "Coffee & Table",
+    "english": "Go ahead.",
+    "albanian": "Urdhëroni.",
+    "phonetic": "oor-DHUH-roh-nee",
+    "tip": "At a table, a shop, or a door. Here you are, or please go on.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-m-001",
+    "lesson": {
+      "background": "You hear this when they hand you something, or invite you to speak.",
+      "facts": [
+        "Urdhëroni is polite you. One person your age may hear urdhëro."
+      ],
+      "reply": {
+        "id": "coffee-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "coffee-m-002",
+    "island": "Coffee & Table",
+    "english": "One moment.",
+    "albanian": "Një moment.",
+    "phonetic": "nyuh moh-MENT",
+    "tip": "They need a minute. Wait.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-m-002",
+    "lesson": {
+      "background": "After you order. Not a no.",
+      "facts": [
+        "Një is one. Moment is a moment."
+      ],
+      "reply": {
+        "id": "coffee-m-002-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "coffee-m-003",
+    "island": "Coffee & Table",
+    "english": "With milk?",
+    "albanian": "Me qumësht?",
+    "phonetic": "meh choo-MUSHT",
+    "tip": "They are checking the coffee.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-m-003",
+    "lesson": {
+      "background": "A question. Answer yes or say the order again.",
+      "facts": [
+        "Me is with. Qumësht is milk."
+      ],
+      "reply": {
+        "id": "coffee-m-003-r",
+        "english": "Yes, with milk.",
+        "albanian": "Po, me qumësht.",
+        "audio": "coffee-004-r"
+      }
+    }
+  },
+  {
+    "id": "coffee-m-004",
+    "island": "Coffee & Table",
+    "english": "Without bubbles?",
+    "albanian": "Pa gaz?",
+    "phonetic": "pah gahz",
+    "tip": "They are checking the water.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-m-004",
+    "lesson": {
+      "background": "Pa gaz is still water. Me gaz is sparkling.",
+      "facts": [
+        "Answer with the water line you want."
+      ],
+      "reply": {
+        "id": "coffee-m-004-r",
+        "english": "Still water, please.",
+        "albanian": "Ujë pa gaz, ju lutem.",
+        "audio": "coffee-006"
+      }
+    }
+  },
+  {
+    "id": "coffee-a-001",
+    "island": "Coffee & Table",
+    "english": "A coffee, please.",
+    "albanian": "Një kafe, ju lutem.",
+    "phonetic": "nyuh KAH-feh, yoo LOO-tem",
+    "tip": "You order, they ask about milk, you answer.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "coffee-004",
+    "lesson": {
+      "background": "Ordering a coffee. The whole order, not the first word only.",
+      "facts": [
+        "Wait for the milk question.",
+        "Then answer with milk, or say the still-water shape if you changed your mind."
+      ],
+      "answers": [
+        {
+          "id": "coffee-a-001-a1",
+          "english": "With milk?",
+          "albanian": "Me qumësht?",
+          "audio": "coffee-m-003"
+        }
+      ],
+      "reply": {
+        "id": "coffee-a-001-r",
+        "english": "Coffee with milk, please.",
+        "albanian": "Kafe me qumësht, ju lutem.",
+        "audio": "coffee-002"
+      }
+    }
+  },
+  {
+    "id": "food-m-001",
+    "island": "Food & Eating",
+    "english": "Enjoy your meal.",
+    "albanian": "Ju bëftë mirë.",
+    "phonetic": "yoo BUF-tuh MEE-ruh",
+    "tip": "You hear this as the plate arrives. The beginner line is you saying it to them.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-013",
+    "lesson": {
+      "background": "Said to you, polite.",
+      "facts": [
+        "Ju is you. Bëftë mirë is may it do you good."
+      ],
+      "reply": {
+        "id": "food-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-m-002",
+    "island": "Food & Eating",
+    "english": "Eat a little more.",
+    "albanian": "Hani edhe pak.",
+    "phonetic": "HAH-nee EH-dheh pahk",
+    "tip": "They are still offering. You can say no.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "food-m-002",
+    "lesson": {
+      "background": "Polite you. At home, one person may say ha edhe pak instead.",
+      "facts": [
+        "Hani is eat. Edhe pak is a little more."
+      ],
+      "reply": {
+        "id": "food-m-002-r",
+        "english": "No, thank you.",
+        "albanian": "Jo, faleminderit.",
+        "audio": "food-003-r"
+      }
+    }
+  },
+  {
+    "id": "food-m-003",
+    "island": "Food & Eating",
+    "english": "Please eat.",
+    "albanian": "Hani, ju lutem.",
+    "phonetic": "HAH-nee, yoo LOO-tem",
+    "tip": "An invitation to start.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "food-m-003",
+    "lesson": {
+      "background": "You hear this when the food is ready.",
+      "facts": [
+        "Hani is eat, polite."
+      ],
+      "reply": {
+        "id": "food-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "food-a-001",
+    "island": "Food & Eating",
+    "english": "I'm full, thank you.",
+    "albanian": "Faleminderit, jam ngopur.",
+    "phonetic": "fah-leh-min-DEH-reet, yahm ngoh-POOR",
+    "tip": "You are full. They offer more. You say no.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "food-003",
+    "lesson": {
+      "background": "They keep offering. A full plate and a second offer.",
+      "facts": [
+        "Ngopur is full. Some speakers add i or e before it."
+      ],
+      "answers": [
+        {
+          "id": "food-a-001-a1",
+          "english": "Eat a little more.",
+          "albanian": "Hani edhe pak.",
+          "audio": "food-m-002"
+        }
+      ],
+      "reply": {
+        "id": "food-a-001-r",
+        "english": "No, thank you.",
+        "albanian": "Jo, faleminderit.",
+        "audio": "food-003-r"
+      }
+    }
+  },
+  {
+    "id": "family-m-001",
+    "island": "Family & Warmth",
+    "english": "We love you too.",
+    "albanian": "Edhe ne ju duam.",
+    "phonetic": "EH-dheh neh yoo DOO-ahm",
+    "tip": "Their answer to we love you.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "family-m-001",
+    "lesson": {
+      "background": "Edhe ne is us too. Ju duam is we love you, polite.",
+      "facts": [
+        "You do not need a long answer."
+      ],
+      "reply": {
+        "id": "family-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-m-002",
+    "island": "Family & Warmth",
+    "english": "Us too.",
+    "albanian": "Edhe ne.",
+    "phonetic": "EH-dheh neh",
+    "tip": "Short for us too, after you say you missed them or you are glad.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "family-m-002",
+    "lesson": {
+      "background": "Edhe is also. Ne is we.",
+      "facts": [
+        "Edhe mua is me too, from one person."
+      ],
+      "reply": {
+        "id": "family-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-m-003",
+    "island": "Family & Warmth",
+    "english": "Welcome.",
+    "albanian": "Mirë se erdhët.",
+    "phonetic": "MEE-ruh seh ehr-DHUT",
+    "tip": "You hear this when you walk in. The beginner card is you saying it.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "family-004",
+    "lesson": {
+      "background": "Said to you, or to your group.",
+      "facts": [
+        "Mirë se erdhët is you have come well."
+      ],
+      "reply": {
+        "id": "family-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "family-a-001",
+    "island": "Family & Warmth",
+    "english": "Thank you for everything.",
+    "albanian": "Faleminderit për gjithçka.",
+    "phonetic": "fah-leh-min-DEH-reet puhr gyith-CHKA",
+    "tip": "You thank them for everything. They brush it off. You say you love them.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "family-001",
+    "lesson": {
+      "background": "End of the visit. At the door, when the stay is over.",
+      "facts": [
+        "Për gjithçka is for everything."
+      ],
+      "answers": [
+        {
+          "id": "family-a-001-a1",
+          "english": "Don't mention it.",
+          "albanian": "S'ka përse.",
+          "audio": "greet-017"
+        }
+      ],
+      "reply": {
+        "id": "family-a-001-r",
+        "english": "We love you.",
+        "albanian": "Ju duam shumë.",
+        "audio": "family-002"
+      }
+    }
+  },
+  {
+    "id": "health-m-001",
+    "island": "Health & Feelings",
+    "english": "Do you want us to go to a doctor?",
+    "albanian": "A doni të shkojmë te mjeku?",
+    "phonetic": "ah DOH-nee tuh SHOH-yuhm teh MYEH-koo",
+    "tip": "They are offering to take you.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "health-m-001",
+    "lesson": {
+      "background": "A yes-or-no question. A is the question mark in the words.",
+      "facts": [
+        "Te mjeku is at the doctor."
+      ],
+      "reply": {
+        "id": "health-m-001-r",
+        "english": "Yes, please.",
+        "albanian": "Po, ju lutem.",
+        "audio": "food-007-r"
+      }
+    }
+  },
+  {
+    "id": "health-m-002",
+    "island": "Health & Feelings",
+    "english": "I'm sorry.",
+    "albanian": "Më vjen keq.",
+    "phonetic": "muh vyen kyech",
+    "tip": "You hear this when you say something hurts.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "repair-006",
+    "lesson": {
+      "background": "The same sorry you already learned to say. Here someone says it to you.",
+      "facts": [
+        "You can thank them, or say what you need."
+      ],
+      "reply": {
+        "id": "health-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "health-m-003",
+    "island": "Health & Feelings",
+    "english": "Where?",
+    "albanian": "Ku?",
+    "phonetic": "koo",
+    "tip": "A short question. They want a place or a body part.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "health-m-003",
+    "lesson": {
+      "background": "Ku is where. One word.",
+      "facts": [
+        "Answer with the place, or point."
+      ],
+      "reply": {
+        "id": "health-m-003-r",
+        "english": "Here.",
+        "albanian": "Këtu.",
+        "audio": "go-m-002"
+      }
+    }
+  },
+  {
+    "id": "health-a-001",
+    "island": "Health & Feelings",
+    "english": "My head hurts.",
+    "albanian": "Më dhemb koka.",
+    "phonetic": "muh dhemb KOH-kah",
+    "tip": "You say it, they are sorry, you ask for a pharmacy.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "health-004",
+    "lesson": {
+      "background": "Not an ambulance. A head, then a pharmacy.",
+      "facts": [
+        "If it is an emergency, use the help line instead."
+      ],
+      "answers": [
+        {
+          "id": "health-a-001-a1",
+          "english": "I'm sorry.",
+          "albanian": "Më vjen keq.",
+          "audio": "repair-006"
+        }
+      ],
+      "reply": {
+        "id": "health-a-001-r",
+        "english": "Where is the pharmacy?",
+        "albanian": "Ku është farmacia?",
+        "audio": "health-008"
+      }
+    }
+  },
+  {
+    "id": "plans-m-001",
+    "island": "Plans & Weekend",
+    "english": "At eight.",
+    "albanian": "Në orën tetë.",
+    "phonetic": "nuh OH-ruhn TEH-tuh",
+    "tip": "An example hour. The number changes.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "plans-m-001",
+    "lesson": {
+      "background": "You hear this after what time.",
+      "facts": [
+        "Në orën is at the hour. Tetë is eight.",
+        "Swap the number. This eight is only an example."
+      ],
+      "reply": {
+        "id": "plans-m-001-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "plans-m-002",
+    "island": "Plans & Weekend",
+    "english": "Not today.",
+    "albanian": "Sot jo.",
+    "phonetic": "soht yoh",
+    "tip": "They are saying today does not work.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "plans-m-002",
+    "lesson": {
+      "background": "Sot is today. Jo is no. Today, no.",
+      "facts": [
+        "You can move it to tomorrow."
+      ],
+      "reply": {
+        "id": "plans-m-002-r",
+        "english": "See you tomorrow.",
+        "albanian": "Shihemi nesër.",
+        "audio": "plans-003"
+      }
+    }
+  },
+  {
+    "id": "plans-m-003",
+    "island": "Plans & Weekend",
+    "english": "Yes, let's go.",
+    "albanian": "Po, shkojmë.",
+    "phonetic": "poh SHOH-yuhm",
+    "tip": "They accepted the walk or the outing.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "plans-m-003",
+    "lesson": {
+      "background": "Po is yes. Shkojmë is let's go, we go.",
+      "facts": [
+        "Then you can set the time."
+      ],
+      "reply": {
+        "id": "plans-m-003-r",
+        "english": "See you in the morning.",
+        "albanian": "Shihemi në mëngjes.",
+        "audio": "plans-010-r"
+      }
+    }
+  },
+  {
+    "id": "plans-a-001",
+    "island": "Plans & Weekend",
+    "english": "Do you want to take a walk?",
+    "albanian": "A doni të shëtisim?",
+    "phonetic": "ah DOH-nee tuh shuh-TEE-seem",
+    "tip": "You invite them. They say yes. You set the morning.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "plans-002",
+    "lesson": {
+      "background": "A walk. One invitation, carried through.",
+      "facts": [
+        "Shëtisim is we stroll."
+      ],
+      "answers": [
+        {
+          "id": "plans-a-001-a1",
+          "english": "Yes, let's go.",
+          "albanian": "Po, shkojmë.",
+          "audio": "plans-m-003"
+        }
+      ],
+      "reply": {
+        "id": "plans-a-001-r",
+        "english": "See you in the morning.",
+        "albanian": "Shihemi në mëngjes.",
+        "audio": "plans-010-r"
+      }
+    }
+  },
+  {
+    "id": "lego-m-001",
+    "island": "Lego Verb Builder",
+    "english": "What do you want to drink?",
+    "albanian": "Çfarë doni të pini?",
+    "phonetic": "CHAR-uh DOH-nee tuh PEE-nee",
+    "tip": "They ask this after you say you want to drink.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "lego-m-001",
+    "lesson": {
+      "background": "Çfarë is what. Doni is you want, polite. Të pini is to drink.",
+      "facts": [
+        "Answer with the drink."
+      ],
+      "reply": {
+        "id": "lego-m-001-r",
+        "english": "Water, please.",
+        "albanian": "Ujë, ju lutem.",
+        "audio": "coffee-005"
+      }
+    }
+  },
+  {
+    "id": "lego-m-002",
+    "island": "Lego Verb Builder",
+    "english": "Of course.",
+    "albanian": "Sigurisht.",
+    "phonetic": "see-goo-REESHT",
+    "tip": "A strong yes, when you asked for help.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "lego-m-002",
+    "lesson": {
+      "background": "Sigurisht is of course, surely.",
+      "facts": [
+        "You can thank them."
+      ],
+      "reply": {
+        "id": "lego-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "lego-m-003",
+    "island": "Lego Verb Builder",
+    "english": "Yes, rest.",
+    "albanian": "Po, pushoni.",
+    "phonetic": "poh poo-SHOH-nee",
+    "tip": "They are telling you to rest.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "lego-m-003",
+    "lesson": {
+      "background": "Pushoni is rest, polite you.",
+      "facts": [
+        "Po agrees with what you said."
+      ],
+      "reply": {
+        "id": "lego-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "lego-a-001",
+    "island": "Lego Verb Builder",
+    "english": "Can I help?",
+    "albanian": "Mund të ndihmoj?",
+    "phonetic": "moond tuh ndee-MOY",
+    "tip": "You offer. They accept. You close it.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "lego-003",
+    "lesson": {
+      "background": "Offering help. Help, accepted.",
+      "facts": [
+        "Mund të ndihmoj is can I help."
+      ],
+      "answers": [
+        {
+          "id": "lego-a-001-a1",
+          "english": "Yes, thank you.",
+          "albanian": "Po, faleminderit.",
+          "audio": "coffee-001-a1"
+        }
+      ],
+      "reply": {
+        "id": "lego-a-001-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "num-m-001",
+    "island": "Numbers & Money",
+    "english": "How many?",
+    "albanian": "Sa?",
+    "phonetic": "sah",
+    "tip": "The short question behind prices and counts.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "num-m-001",
+    "lesson": {
+      "background": "Sa is how much or how many. One word.",
+      "facts": [
+        "Answer with a number."
+      ],
+      "reply": {
+        "id": "num-m-001-r",
+        "english": "One.",
+        "albanian": "Një.",
+        "audio": "num-001"
+      }
+    }
+  },
+  {
+    "id": "num-m-002",
+    "island": "Numbers & Money",
+    "english": "One hundred lek.",
+    "albanian": "Njëqind lekë.",
+    "phonetic": "nyuh-CHEEND LEH-kuh",
+    "tip": "An example price. The number changes.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "num-m-002",
+    "lesson": {
+      "background": "You hear a number, then lekë.",
+      "facts": [
+        "Njëqind is one hundred.",
+        "This hundred is an example, not a real price."
+      ],
+      "reply": {
+        "id": "num-m-002-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "num-m-003",
+    "island": "Numbers & Money",
+    "english": "Fifty lek.",
+    "albanian": "Pesëdhjetë lekë.",
+    "phonetic": "peh-suh-DHJEH-tuh LEH-kuh",
+    "tip": "Another example price.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "num-m-003",
+    "lesson": {
+      "background": "Pesëdhjetë is fifty.",
+      "facts": [
+        "Example only."
+      ],
+      "reply": {
+        "id": "num-m-003-r",
+        "english": "That is too expensive.",
+        "albanian": "Është shumë e shtrenjtë.",
+        "audio": "num-016"
+      }
+    }
+  },
+  {
+    "id": "num-a-001",
+    "island": "Numbers & Money",
+    "english": "How many lek?",
+    "albanian": "Sa lekë?",
+    "phonetic": "sah LEH-kuh",
+    "tip": "You ask. They say a number. You take it or you don't.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "num-015",
+    "lesson": {
+      "background": "Asking the price in lek. One price, then your answer.",
+      "facts": [
+        "The hundred is an example."
+      ],
+      "answers": [
+        {
+          "id": "num-a-001-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        }
+      ],
+      "reply": {
+        "id": "num-a-001-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "go-m-001",
+    "island": "Getting Around",
+    "english": "Over there.",
+    "albanian": "Atje.",
+    "phonetic": "AHT-yeh",
+    "tip": "A direction. Look where they point.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "go-m-001",
+    "lesson": {
+      "background": "Atje is over there, not in your hand.",
+      "facts": [
+        "Këtu is here."
+      ],
+      "reply": {
+        "id": "go-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-m-002",
+    "island": "Getting Around",
+    "english": "Here.",
+    "albanian": "Këtu.",
+    "phonetic": "kuh-TOO",
+    "tip": "Close by. They may point at a door.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "go-m-002",
+    "lesson": {
+      "background": "Këtu is here.",
+      "facts": [
+        "It can be a room, a chair, or a stop."
+      ],
+      "reply": {
+        "id": "go-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-m-003",
+    "island": "Getting Around",
+    "english": "It's close.",
+    "albanian": "Është afër.",
+    "phonetic": "UH-shtuh ah-FUHR",
+    "tip": "The answer to is it far, when it is not.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "go-m-003",
+    "lesson": {
+      "background": "Afër is close.",
+      "facts": [
+        "Larg is far."
+      ],
+      "reply": {
+        "id": "go-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "go-m-004",
+    "island": "Getting Around",
+    "english": "Where do you want to go?",
+    "albanian": "Ku doni të shkoni?",
+    "phonetic": "koo DOH-nee tuh SHOH-nee",
+    "tip": "A driver, or someone helping you when you are lost.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "go-m-004",
+    "lesson": {
+      "background": "Doni is you want, polite. Të shkoni is to go.",
+      "facts": [
+        "Say the place if you know it. This course does not name one."
+      ],
+      "reply": {
+        "id": "go-m-004-r",
+        "english": "Where is the bus station?",
+        "albanian": "Ku është stacioni i autobusit?",
+        "audio": "go-002"
+      }
+    }
+  },
+  {
+    "id": "go-a-001",
+    "island": "Getting Around",
+    "english": "Where is the toilet?",
+    "albanian": "Ku është tualeti?",
+    "phonetic": "koo UH-shtuh too-ah-LEH-tee",
+    "tip": "You ask. They point left. You thank them.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "go-001",
+    "lesson": {
+      "background": "Asking the way. A place, a direction, a thank you.",
+      "facts": [
+        "Atje, majtas is over there, on the left. Other places get other directions."
+      ],
+      "answers": [
+        {
+          "id": "go-a-001-a1",
+          "english": "Over there, on the left.",
+          "albanian": "Atje, majtas.",
+          "audio": "go-a-001-a1"
+        }
+      ],
+      "reply": {
+        "id": "go-a-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-m-001",
+    "island": "Shopping",
+    "english": "No, only lek.",
+    "albanian": "Jo, vetëm lekë.",
+    "phonetic": "yoh VEH-tuhm LEH-kuh",
+    "tip": "They do not take a card.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "shop-m-001",
+    "lesson": {
+      "background": "Jo is no. Vetëm lekë is only lek.",
+      "facts": [
+        "Some people say cash. This line says lek."
+      ],
+      "reply": {
+        "id": "shop-m-001-r",
+        "english": "All right.",
+        "albanian": "Në rregull.",
+        "audio": "greet-019-a1"
+      }
+    }
+  },
+  {
+    "id": "shop-m-002",
+    "island": "Shopping",
+    "english": "We don't have it.",
+    "albanian": "S'kemi.",
+    "phonetic": "SKEM-ee",
+    "tip": "The short no. They are out of it.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "shop-m-002",
+    "lesson": {
+      "background": "S'kemi is we don't have. The full form is nuk kemi.",
+      "facts": [
+        "You can thank them and look elsewhere."
+      ],
+      "reply": {
+        "id": "shop-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-m-003",
+    "island": "Shopping",
+    "english": "Here you go.",
+    "albanian": "Ja.",
+    "phonetic": "yah",
+    "tip": "They are handing you the thing.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "shop-m-003",
+    "lesson": {
+      "background": "Ja is here, as they pass it to you.",
+      "facts": [
+        "One syllable."
+      ],
+      "reply": {
+        "id": "shop-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "shop-m-004",
+    "island": "Shopping",
+    "english": "Go ahead.",
+    "albanian": "Urdhëroni.",
+    "phonetic": "oor-DHUH-roh-nee",
+    "tip": "A shopkeeper inviting you in, or to say what you want.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "coffee-m-001",
+    "lesson": {
+      "background": "Same word as at the café.",
+      "facts": [
+        "Then you can ask the price."
+      ],
+      "reply": {
+        "id": "shop-m-004-r",
+        "english": "How much is this?",
+        "albanian": "Sa kushton kjo?",
+        "audio": "shop-001"
+      }
+    }
+  },
+  {
+    "id": "shop-a-001",
+    "island": "Shopping",
+    "english": "How much is this?",
+    "albanian": "Sa kushton kjo?",
+    "phonetic": "sah koosh-TOHN kyoh",
+    "tip": "You ask the price. They say a number. You take it.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "shop-001",
+    "lesson": {
+      "background": "At the stall. Point, ask, hear a price, decide.",
+      "facts": [
+        "One hundred lek is an example, not a quote."
+      ],
+      "answers": [
+        {
+          "id": "shop-a-001-a1",
+          "english": "One hundred lek.",
+          "albanian": "Njëqind lekë.",
+          "audio": "num-m-002"
+        }
+      ],
+      "reply": {
+        "id": "shop-a-001-r",
+        "english": "I'll take it.",
+        "albanian": "Do ta marr.",
+        "audio": "shop-003"
+      }
+    }
+  },
+  {
+    "id": "house-m-001",
+    "island": "House & Hosts",
+    "english": "Here you go.",
+    "albanian": "Ja.",
+    "phonetic": "yah",
+    "tip": "Keys, or a towel, put in your hand.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "shop-m-003",
+    "lesson": {
+      "background": "Same short word as in a shop.",
+      "facts": [
+        "You thank them."
+      ],
+      "reply": {
+        "id": "house-m-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-m-002",
+    "island": "House & Hosts",
+    "english": "No problem.",
+    "albanian": "S'ka problem.",
+    "phonetic": "skah pro-BLEM",
+    "tip": "You hear this after sorry we are late.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "greet-019-a2",
+    "lesson": {
+      "background": "S'ka problem is there's no problem.",
+      "facts": [
+        "You can thank them and go in."
+      ],
+      "reply": {
+        "id": "house-m-002-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-m-003",
+    "island": "House & Hosts",
+    "english": "Here.",
+    "albanian": "Këtu.",
+    "phonetic": "kuh-TOO",
+    "tip": "The room, the kitchen, the bed. They point.",
+    "blocks": [],
+    "verified": false,
+    "level": "medium",
+    "audio": "go-m-002",
+    "lesson": {
+      "background": "Këtu is here, inside the house as well as on the street.",
+      "facts": [
+        "Look where they point."
+      ],
+      "reply": {
+        "id": "house-m-003-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  },
+  {
+    "id": "house-a-001",
+    "island": "House & Hosts",
+    "english": "Sorry we are late.",
+    "albanian": "Na falni që u vonuam.",
+    "phonetic": "nah FAHL-nee chuh oo voh-NOO-ahm",
+    "tip": "You apologize. They say it is fine. You thank them.",
+    "blocks": [],
+    "verified": false,
+    "level": "advanced",
+    "audio": "house-003",
+    "lesson": {
+      "background": "Arriving late. Late to the door.",
+      "facts": [
+        "Na falni is excuse us. U vonuam is we were late."
+      ],
+      "answers": [
+        {
+          "id": "house-a-001-a1",
+          "english": "No problem.",
+          "albanian": "S'ka problem.",
+          "audio": "greet-019-a2"
+        }
+      ],
+      "reply": {
+        "id": "house-a-001-r",
+        "english": "Thank you.",
+        "albanian": "Faleminderit.",
+        "audio": "greet-015"
+      }
+    }
+  }
+]

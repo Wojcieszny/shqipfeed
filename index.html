@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#C4654A">
+  <title>ShqipFeed</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="shqip-root" data-screen="home">
+    <p id="storage-warning" class="banner" hidden>Progress can't be saved in this browser</p>
+    <div id="load-error" class="banner" hidden>
+      <p>Couldn't load cards</p>
+      <button type="button" id="retry-btn">Retry</button>
+    </div>
+
+    <header class="top-bar">
+      <button type="button" id="back-btn" class="back-btn" hidden>Back</button>
+      <div class="top-title">
+        <h1 class="app-title">Shqip<span>Feed</span></h1>
+        <h2 id="feed-title" class="feed-title" hidden></h2>
+      </div>
+      <button type="button" id="home-btn" class="back-btn home-btn" hidden>Home</button>
+    </header>
+    <div id="lesson-progress" class="lesson-progress" hidden></div>
+
+    <main>
+      <input type="checkbox" id="show-rules" class="show-rules">
+      <section id="home-screen">
+        <p id="home-where" class="home-where">The app picks the next lines.</p>
+        <button type="button" id="start-btn" class="primary-btn start-btn">Start</button>
+        <button type="button" id="day-btn" class="quiet-btn">A day with Anila and Ilir</button>
+        <p class="home-note">Again and Got it save on this phone. Save a copy if you want the file.</p>
+        <p class="home-note" id="offline-note" hidden></p>
+        <button type="button" id="save-copy-btn" class="quiet-btn">Save a copy</button>
+        <label for="show-rules" class="quiet-btn" id="rules-btn">Rules of Albanian</label>
+        <button type="button" id="settings-toggle" class="quiet-btn">Settings</button>
+        <section class="settings" id="settings" hidden>
+          <h2>Progress</h2>
+          <ul id="box-list" class="box-list"></ul>
+          <p id="level-line" class="level-line"></p>
+          <div class="cap-row">
+            <button type="button" id="cap-auto" class="quiet-btn">Let the app decide</button>
+            <button type="button" id="cap-beginner" class="quiet-btn">Stay on Beginner</button>
+          </div>
+          <h2>Topics</h2>
+          <ul id="island-progress" class="island-list"></ul>
+          <button type="button" id="add-island-btn" class="quiet-btn">Add Island</button>
+          <button type="button" id="reset-btn" class="quiet-btn">Reset progress</button>
+          <p id="reset-confirm" class="confirm" hidden>
+            Clear the boxes and start from the beginning?
+            <span class="confirm-actions">
+              <button type="button" id="reset-yes" class="quiet-btn">Yes, reset</button>
+              <button type="button" id="reset-no" class="quiet-btn">Cancel</button>
+            </span>
+          </p>
+          <button type="button" id="export-btn" class="quiet-btn">Export backup</button>
+          <label class="file-btn">
+            Import backup
+            <input type="file" id="import-file" accept="application/json,.json">
+          </label>
+          <p id="settings-message" class="hint" role="status"></p>
+        </section>
+      </section>
+
+      <section id="rules-screen">
+        <style>
+          .show-rules {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: 0;
+            opacity: 0;
+          }
+          #rules-screen { display: none; }
+          #show-rules:checked ~ #home-screen { display: none !important; }
+          #show-rules:checked ~ #rules-screen { display: block !important; }
+          .rules-back { margin-top: 0; }
+        </style>
+        <label for="show-rules" class="quiet-btn rules-back">Back</label>
+        <h2 class="screen-title">Rules of Albanian</h2>
+        <p class="rules-intro">A short reference. Standard spelling. Hear a person when you can.</p>
+        <div id="rules-list" class="rules-stack"></div>
+      </section>
+
+      <section id="day-screen" hidden>
+        <h2 class="screen-title" id="day-title">A day with Anila and Ilir</h2>
+        <p class="day-note" id="day-note"></p>
+        <div id="day-list" class="day-list"></div>
+      </section>
+
+      <section id="feed-screen" hidden>
+        <div id="card-feed" class="card-feed"></div>
+      </section>
+
+      <section id="add-screen" hidden>
+        <h2 class="screen-title">Add Island</h2>
+        <p class="lede">Paste one card, or a list of cards, in the same JSON shape.</p>
+        <textarea id="paste-box" rows="12" placeholder="Paste JSON here"></textarea>
+        <button type="button" id="save-paste-btn" class="primary-btn">Save cards</button>
+        <ul id="paste-errors" class="errors" role="alert"></ul>
+
+        <h3>Example</h3>
+        <pre id="example-json">[
+  {
+    "id": "market-001",
+    "island": "Market",
+    "english": "How much is this?",
+    "albanian": "Sa kushton kjo?",
+    "phonetic": "sah koos-TOHN kyoh",
+    "tip": "Point at the thing.",
+    "blocks": [
+      { "text": "Sa kushton", "type": "power" },
+      { "text": "kjo", "type": "object" }
+    ],
+    "verified": false
+  }
+]</pre>
+        <button type="button" id="copy-example-btn" class="quiet-btn">Copy example</button>
+
+        <h3>Prompt for any AI</h3>
+        <pre id="ai-prompt">You are writing phrase cards for ShqipFeed, a beginner Albanian app for speaking with family. Return ONLY a JSON array. No markdown.
+
+Each object must have:
+- id: unique string, like "market-001"
+- island: the same island name on every card in this list
+- english: short everyday English
+- albanian: the Albanian phrase, polite "ju" forms
+- phonetic: simple English spelling of how it sounds
+- tip: a short note, or ""
+- blocks: a list of { "text": "...", "type": "power" | "verb" | "object" | "other" }
+- verified: false
+
+Island to write: PASTE THE TOPIC HERE
+Write 6 short cards a beginner would actually say at home. Do not claim the Albanian is verified.</pre>
+        <button type="button" id="copy-prompt-btn" class="quiet-btn">Copy prompt</button>
+      </section>
+    </main>
+    <noscript><p class="banner">ShqipFeed needs JavaScript.</p></noscript>
+  </div>
+  <script src="rules.js"></script>
+  <script src="data.js"></script>
+  <script src="day.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShqipFeed checks</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1.25rem;
+      background: #f4efe6;
+      color: #3e2c24;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    main { max-width: 40rem; margin: 0 auto; }
+    h1 { font-family: Georgia, serif; font-weight: 650; }
+    ul { padding: 0; list-style: none; }
+    li { margin: 0.45rem 0; padding: 0.7rem 0.8rem; border-radius: 0.7rem; background: #fffaf3; }
+    .pass { box-shadow: inset 4px 0 0 #1f6f6a; }
+    .fail { box-shadow: inset 4px 0 0 #c4654a; }
+    .note { color: #6e5648; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>ShqipFeed checks</h1>
+    <p class="note">These checks do not verify Albanian accuracy or phone-specific audio.</p>
+    <ul id="results"></ul>
+  </main>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    var results = document.getElementById("results");
+
+    function add(ok, name, detail) {
+      var li = document.createElement("li");
+      li.className = ok ? "pass" : "fail";
+      li.textContent = (ok ? "PASS" : "FAIL") + " — " + name + (detail ? " — " + detail : "");
+      results.appendChild(li);
+    }
+
+    function stable(value) {
+      if (Array.isArray(value)) return value.map(stable);
+      if (value && typeof value === "object") {
+        var out = {};
+        Object.keys(value).sort().forEach(function (key) {
+          out[key] = stable(value[key]);
+        });
+        return out;
+      }
+      return value;
+    }
+
+    function same(a, b) {
+      return JSON.stringify(stable(a)) === JSON.stringify(stable(b));
+    }
+
+    function run() {
+      var before = null;
+      try {
+        before = ShqipData.buildBackup();
+      } catch (err) {
+        before = null;
+      }
+
+      ShqipData.loadStarterCards().then(function (cards) {
+        var required = ["id", "island", "english", "albanian", "phonetic", "verified"];
+        var missing = [];
+        cards.forEach(function (card, index) {
+          required.forEach(function (field) {
+            if (card[field] === undefined || card[field] === null || card[field] === "") {
+              missing.push("card " + (index + 1) + " missing " + field);
+            }
+          });
+          if (typeof card.verified !== "boolean") {
+            missing.push("card " + (index + 1) + " verified is not true or false");
+          }
+        });
+        add(cards.length > 0 && missing.length === 0, "cards.json loads and every card has id, island, english, albanian, phonetic, verified", missing.join("; "));
+
+        var ids = {};
+        var dup = "";
+        cards.forEach(function (card) {
+          if (ids[card.id]) dup = card.id;
+          ids[card.id] = true;
+        });
+        add(!dup, "all ids are unique", dup ? "duplicate " + dup : "");
+
+        var missingField = ShqipData.validatePaste(JSON.stringify({
+          id: "test-missing",
+          island: "Brand New Island",
+          english: "",
+          albanian: "A",
+          phonetic: "ah"
+        }), [], []);
+        var namesField = missingField.errors.join(" ");
+        add(
+          !missingField.ok && namesField.indexOf("test-missing") !== -1 && namesField.indexOf("english") !== -1,
+          "pasted island validation rejects a missing field",
+          namesField
+        );
+
+        var duplicate = ShqipData.validatePaste(JSON.stringify([
+          { id: "greet-001", island: "Another Island", english: "Hi", albanian: "A", phonetic: "ah" }
+        ]), ["greet-001"], ["Greetings & Check-ins"]);
+        var dupText = duplicate.errors.join(" ");
+        add(
+          !duplicate.ok && dupText.indexOf("already used") !== -1,
+          "pasted island validation rejects a duplicate id",
+          dupText
+        );
+
+        ShqipApp.setCardStatus("progress-test", "known");
+        var reloaded = ShqipApp.getProgress();
+        add(reloaded["progress-test"] === "known", "progress saves and reloads", JSON.stringify(reloaded["progress-test"] || null));
+
+        ShqipApp.setCardStatus("greet-001", "skipped");
+        ShqipData.setVerified("greet-001", true);
+        ShqipData.addOwnerCards([{
+          id: "export-test-001",
+          island: "Export Test Island",
+          english: "Hello",
+          albanian: "Përshëndetje",
+          phonetic: "puhr-shuhn-DET-yeh",
+          tip: "",
+          blocks: [],
+          verified: false
+        }]);
+        var exported = JSON.parse(JSON.stringify(ShqipData.buildBackup()));
+        ShqipData.applyBackup(before);
+        ShqipApp.setCardStatus("greet-001", "known");
+        var imported = ShqipData.applyBackup(exported);
+        var after = ShqipData.buildBackup();
+        add(imported.ok && same(exported, after), "export then import gives the same data", imported.ok ? "" : imported.errors.join(" "));
+      }).catch(function (err) {
+        add(false, "cards.json loads", String(err && err.message ? err.message : err));
+      }).then(function () {
+        if (before) ShqipData.applyBackup(before);
+      });
+    }
+
+    run();
+  </script>
+</body>
+</html>
