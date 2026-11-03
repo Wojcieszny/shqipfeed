@@ -11584,10 +11584,10 @@
     "id": "pc-183",
     "island": "Peace Corps 2005",
     "english": "Please, speak more loudly.",
-    "albanian": "Flisni me zë më të lartë,ju lutem.",
+    "albanian": "Flisni me zë më të lartë, ju lutem.",
     "blocks": [
       {
-        "text": "Flisni me zë më të lartë,ju lutem",
+        "text": "Flisni me zë më të lartë, ju lutem",
         "type": "other"
       }
     ],

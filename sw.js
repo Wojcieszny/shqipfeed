@@ -763,7 +763,7 @@ const ASSETS = [
   "./audio/words/këtu.mp3",
   "./audio/words/këtë.mp3",
   "./audio/words/larg.mp3",
-  "./audio/words/lartë,ju.mp3",
+  "./audio/words/lartë.mp3",
   "./audio/words/lekë.mp3",
   "./audio/words/letër.mp3",
   "./audio/words/lezha.mp3",
