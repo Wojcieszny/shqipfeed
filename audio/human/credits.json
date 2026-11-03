@@ -124,5 +124,59 @@
     "license": "CC BY 4.0",
     "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_(sqi)-Arianit-%C3%ABsht%C3%AB.wav",
     "word": "është"
+  },
+  "baba": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-baba.wav",
+    "word": "baba"
+  },
+  "banjë": {
+    "speaker": "Arianit",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-Banj%C3%AB.wav",
+    "word": "Banjë"
+  },
+  "besoj": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-besoj.wav",
+    "word": "besoj"
+  },
+  "natën e mirë": {
+    "speaker": "Klodina12",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Klodina12-Nat%C3%ABn_e_mir%C3%AB.wav",
+    "word": "Natën e mirë"
+  },
+  "nga": {
+    "speaker": "Arianit",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-nga.wav",
+    "word": "nga"
+  },
+  "prill": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-prill.wav",
+    "word": "prill"
+  },
+  "shtëpi": {
+    "speaker": "GrafiXal",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-GrafiXal-sht%C3%ABpi.wav",
+    "word": "shtëpi"
+  },
+  "së": {
+    "speaker": "Arianit",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-s%C3%AB.wav",
+    "word": "së"
+  },
+  "verë": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-ver%C3%AB.wav",
+    "word": "verë"
   }
 }
