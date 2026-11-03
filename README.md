@@ -2,9 +2,7 @@
 
 Everyday Albanian for speaking with family. No account. The phrases are still drafts until a person from Albania checks them.
 
-The chat preview is not the phone app. The phone app is:
-
-https://wojcieszny.github.io/shqipfeed/
+The code lives at https://github.com/Wojcieszny/shqipfeed. The phone address is https://wojcieszny.github.io/shqipfeed/ once GitHub Pages is switched on for the `main` branch, folder `/ (root)`. The connection used to upload the code is not allowed to flip that switch.
 
 ## Open it on a phone, with no signal
 
