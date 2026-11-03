@@ -1309,7 +1309,8 @@
         "albanian": "Natën e mirë.",
         "audio": "greet-006"
       }
-    }
+    },
+    "voice": "Klodina12, Lingua Libre, CC0"
   },
   {
     "id": "greet-007",
@@ -1438,7 +1439,8 @@
         "albanian": "Mirupafshim.",
         "audio": "greet-009"
       }
-    }
+    },
+    "voice": "Klodina12, Lingua Libre, CC0"
   },
   {
     "id": "greet-010",
@@ -4480,7 +4482,8 @@
         "audio": "coffee-004"
       },
       "kind": "word"
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC BY 4.0"
   },
   {
     "id": "num-002",
@@ -4729,7 +4732,8 @@
         }
       ],
       "kind": "word"
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "num-007",
@@ -4760,7 +4764,8 @@
         }
       ],
       "kind": "word"
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "num-008",
@@ -4859,7 +4864,8 @@
         }
       ],
       "kind": "word"
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "num-011",
@@ -6562,7 +6568,8 @@
         "albanian": "Faleminderit. Natën e mirë.",
         "audio": "greet-006-a2"
       }
-    }
+    },
+    "voice": "Klodina12, Lingua Libre, CC0"
   },
   {
     "id": "repair-m-001",
@@ -8826,7 +8833,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "pc-046",
@@ -9446,7 +9454,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "GrafiXal, Lingua Libre, CC BY 4.0"
   },
   {
     "id": "pc-077",
@@ -9526,7 +9535,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC BY 4.0"
   },
   {
     "id": "pc-081",
@@ -10386,7 +10396,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "pc-124",
@@ -11086,7 +11097,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Lingua Libre, CC0"
   },
   {
     "id": "pc-159",

@@ -1189,6 +1189,16 @@
       return;
     }
     var base = ShqipData.scriptBase();
+    var note = document.querySelector(".audio-note");
+    if (note) {
+      if (card.voice) {
+        note.hidden = false;
+        note.dataset.keep = "1";
+        note.textContent = card.voice;
+      } else {
+        delete note.dataset.keep;
+      }
+    }
     playFile(base + "audio/" + (card.audio || card.id) + ".mp3", rate, card.albanian, followPhrase);
   }
 
