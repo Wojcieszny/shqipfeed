@@ -7927,5 +7927,4025 @@
         "audio": "greet-015"
       }
     }
+  },
+  {
+    "id": "pc-001",
+    "island": "Peace Corps 2005",
+    "english": "Welcome!",
+    "albanian": "Mirë se vini!",
+    "blocks": [
+      {
+        "text": "Mirë se vini",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-002",
+    "island": "Peace Corps 2005",
+    "english": "Where are you from?",
+    "albanian": "Nga jeni ju?",
+    "blocks": [
+      {
+        "text": "Nga jeni ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-003",
+    "island": "Peace Corps 2005",
+    "english": "I am from the United States.",
+    "albanian": "Unë jam nga Amerika.",
+    "blocks": [
+      {
+        "text": "Unë jam nga Amerika",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-004",
+    "island": "Peace Corps 2005",
+    "english": "I am American.",
+    "albanian": "Unë jam amerikan.",
+    "blocks": [
+      {
+        "text": "Unë jam amerikan",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-005",
+    "island": "Peace Corps 2005",
+    "english": "Where do you live?",
+    "albanian": "Ku banoni ju?",
+    "blocks": [
+      {
+        "text": "Ku banoni ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-006",
+    "island": "Peace Corps 2005",
+    "english": "How are you?",
+    "albanian": "Si jeni ju?",
+    "blocks": [
+      {
+        "text": "Si jeni ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-007",
+    "island": "Peace Corps 2005",
+    "english": "Fine, thanks!",
+    "albanian": "Mirë, faleminderit!",
+    "blocks": [
+      {
+        "text": "Mirë, faleminderit",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-008",
+    "island": "Peace Corps 2005",
+    "english": "What do you do?",
+    "albanian": "Cfarë pune bëni ju?",
+    "blocks": [
+      {
+        "text": "Cfarë pune bëni ju",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-009",
+    "island": "Peace Corps 2005",
+    "english": "I am a volunteer.",
+    "albanian": "Unë jam vullnetar.",
+    "blocks": [
+      {
+        "text": "Unë jam vullnetar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-010",
+    "island": "Peace Corps 2005",
+    "english": "I speak only English.",
+    "albanian": "Unë flas vetëm anglisht.",
+    "blocks": [
+      {
+        "text": "Unë flas vetëm anglisht",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-011",
+    "island": "Peace Corps 2005",
+    "english": "I don't speak Albanian.",
+    "albanian": "Unë nuk flas shqip.",
+    "blocks": [
+      {
+        "text": "Unë nuk flas shqip",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-012",
+    "island": "Peace Corps 2005",
+    "english": "What time is it?",
+    "albanian": "Sa është ora?",
+    "blocks": [
+      {
+        "text": "Sa është ora",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-013",
+    "island": "Peace Corps 2005",
+    "english": "Please, speak more slowly.",
+    "albanian": "Flisni më ngadalë, ju lutem",
+    "blocks": [
+      {
+        "text": "Flisni më ngadalë, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-014",
+    "island": "Peace Corps 2005",
+    "english": "Repeat it, please.",
+    "albanian": "Përsëriteni, ju lutem.",
+    "blocks": [
+      {
+        "text": "Përsëriteni, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-015",
+    "island": "Peace Corps 2005",
+    "english": "Write it down, please.",
+    "albanian": "Shkruajeni, ju lutem.",
+    "blocks": [
+      {
+        "text": "Shkruajeni, ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-016",
+    "island": "Peace Corps 2005",
+    "english": "I need help.",
+    "albanian": "Dua ndihmë.",
+    "blocks": [
+      {
+        "text": "Dua ndihmë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-017",
+    "island": "Peace Corps 2005",
+    "english": "Look out!",
+    "albanian": "Kujdes!",
+    "blocks": [
+      {
+        "text": "Kujdes",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-018",
+    "island": "Peace Corps 2005",
+    "english": "Listen!",
+    "albanian": "Dëgjoni!",
+    "blocks": [
+      {
+        "text": "Dëgjoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-019",
+    "island": "Peace Corps 2005",
+    "english": "Can you help me?",
+    "albanian": "Mund të më ndihmoni?",
+    "blocks": [
+      {
+        "text": "Mund të më ndihmoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-020",
+    "island": "Peace Corps 2005",
+    "english": "Can you tell me?",
+    "albanian": "Mund të më tregoni?",
+    "blocks": [
+      {
+        "text": "Mund të më tregoni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-021",
+    "island": "Peace Corps 2005",
+    "english": "I am looking for...",
+    "albanian": "Po kërkoj",
+    "blocks": [
+      {
+        "text": "Po kërkoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-022",
+    "island": "Peace Corps 2005",
+    "english": "I know.",
+    "albanian": "E di.",
+    "blocks": [
+      {
+        "text": "E di",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-023",
+    "island": "Peace Corps 2005",
+    "english": "I think so.",
+    "albanian": "Mendoj kështu.",
+    "blocks": [
+      {
+        "text": "Mendoj kështu",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-024",
+    "island": "Peace Corps 2005",
+    "english": "I don't think so.",
+    "albanian": "Nuk mendoj kështu.",
+    "blocks": [
+      {
+        "text": "Nuk mendoj kështu",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-025",
+    "island": "Peace Corps 2005",
+    "english": "I believe, yes.",
+    "albanian": "Besoj se po.",
+    "blocks": [
+      {
+        "text": "Besoj se po",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-026",
+    "island": "Peace Corps 2005",
+    "english": "I don't believe.",
+    "albanian": "Nuk besoj.",
+    "blocks": [
+      {
+        "text": "Nuk besoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-027",
+    "island": "Peace Corps 2005",
+    "english": "I want a coffee.",
+    "albanian": "Dua një kafe.",
+    "blocks": [
+      {
+        "text": "Dua një kafe",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-028",
+    "island": "Peace Corps 2005",
+    "english": "I don't want.",
+    "albanian": "Nuk dua",
+    "blocks": [
+      {
+        "text": "Nuk dua",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-029",
+    "island": "Peace Corps 2005",
+    "english": "I like it.",
+    "albanian": "Më pëlqen.",
+    "blocks": [
+      {
+        "text": "Më pëlqen",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-030",
+    "island": "Peace Corps 2005",
+    "english": "I don't like it.",
+    "albanian": "Nuk më pëlqen.",
+    "blocks": [
+      {
+        "text": "Nuk më pëlqen",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-031",
+    "island": "Peace Corps 2005",
+    "english": "On the left.",
+    "albanian": "Në të majtë",
+    "blocks": [
+      {
+        "text": "Në të majtë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-032",
+    "island": "Peace Corps 2005",
+    "english": "On the right.",
+    "albanian": "Në të djathë",
+    "blocks": [
+      {
+        "text": "Në të djathë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-033",
+    "island": "Peace Corps 2005",
+    "english": "Straight ahead.",
+    "albanian": "Drejt",
+    "blocks": [
+      {
+        "text": "Drejt",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-034",
+    "island": "Peace Corps 2005",
+    "english": "Nearby.",
+    "albanian": "Këtu afër",
+    "blocks": [
+      {
+        "text": "Këtu afër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-035",
+    "island": "Peace Corps 2005",
+    "english": "Not far from here.",
+    "albanian": "Jo larg nga këtu",
+    "blocks": [
+      {
+        "text": "Jo larg nga këtu",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-036",
+    "island": "Peace Corps 2005",
+    "english": "Above.",
+    "albanian": "Sipër",
+    "blocks": [
+      {
+        "text": "Sipër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-037",
+    "island": "Peace Corps 2005",
+    "english": "Down the village.",
+    "albanian": "Poshtë fshatit",
+    "blocks": [
+      {
+        "text": "Poshtë fshatit",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-038",
+    "island": "Peace Corps 2005",
+    "english": "Behind.",
+    "albanian": "Prapa",
+    "blocks": [
+      {
+        "text": "Prapa",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-039",
+    "island": "Peace Corps 2005",
+    "english": "water",
+    "albanian": "ujë",
+    "blocks": [
+      {
+        "text": "ujë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-040",
+    "island": "Peace Corps 2005",
+    "english": "coffee",
+    "albanian": "kafe",
+    "blocks": [
+      {
+        "text": "kafe",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-041",
+    "island": "Peace Corps 2005",
+    "english": "tea",
+    "albanian": "çaj",
+    "blocks": [
+      {
+        "text": "çaj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-042",
+    "island": "Peace Corps 2005",
+    "english": "milk",
+    "albanian": "qumësht",
+    "blocks": [
+      {
+        "text": "qumësht",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-043",
+    "island": "Peace Corps 2005",
+    "english": "juice, lemonade",
+    "albanian": "limonatë",
+    "blocks": [
+      {
+        "text": "limonatë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-044",
+    "island": "Peace Corps 2005",
+    "english": "mineral water",
+    "albanian": "ujë mineral",
+    "blocks": [
+      {
+        "text": "ujë mineral",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-045",
+    "island": "Peace Corps 2005",
+    "english": "wine",
+    "albanian": "verë",
+    "blocks": [
+      {
+        "text": "verë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-046",
+    "island": "Peace Corps 2005",
+    "english": "beer",
+    "albanian": "birrë",
+    "blocks": [
+      {
+        "text": "birrë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-047",
+    "island": "Peace Corps 2005",
+    "english": "raki",
+    "albanian": "raki",
+    "blocks": [
+      {
+        "text": "raki",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-048",
+    "island": "Peace Corps 2005",
+    "english": "sugar",
+    "albanian": "sheqer",
+    "blocks": [
+      {
+        "text": "sheqer",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-049",
+    "island": "Peace Corps 2005",
+    "english": "salt",
+    "albanian": "kripë",
+    "blocks": [
+      {
+        "text": "kripë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-050",
+    "island": "Peace Corps 2005",
+    "english": "bread",
+    "albanian": "bukë",
+    "blocks": [
+      {
+        "text": "bukë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-051",
+    "island": "Peace Corps 2005",
+    "english": "salad",
+    "albanian": "sallatë",
+    "blocks": [
+      {
+        "text": "sallatë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-052",
+    "island": "Peace Corps 2005",
+    "english": "meat",
+    "albanian": "mish",
+    "blocks": [
+      {
+        "text": "mish",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-053",
+    "island": "Peace Corps 2005",
+    "english": "cheese",
+    "albanian": "djathë",
+    "blocks": [
+      {
+        "text": "djathë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-054",
+    "island": "Peace Corps 2005",
+    "english": "butter",
+    "albanian": "gjalpë",
+    "blocks": [
+      {
+        "text": "gjalpë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-055",
+    "island": "Peace Corps 2005",
+    "english": "egg",
+    "albanian": "vezë",
+    "blocks": [
+      {
+        "text": "vezë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-056",
+    "island": "Peace Corps 2005",
+    "english": "grape",
+    "albanian": "rrush",
+    "blocks": [
+      {
+        "text": "rrush",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-057",
+    "island": "Peace Corps 2005",
+    "english": "fig",
+    "albanian": "fik",
+    "blocks": [
+      {
+        "text": "fik",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-058",
+    "island": "Peace Corps 2005",
+    "english": "watermelon",
+    "albanian": "shalqi",
+    "blocks": [
+      {
+        "text": "shalqi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-059",
+    "island": "Peace Corps 2005",
+    "english": "melon",
+    "albanian": "pjepër",
+    "blocks": [
+      {
+        "text": "pjepër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-060",
+    "island": "Peace Corps 2005",
+    "english": "peach",
+    "albanian": "pjeshkë",
+    "blocks": [
+      {
+        "text": "pjeshkë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-061",
+    "island": "Peace Corps 2005",
+    "english": "pear",
+    "albanian": "dardhë",
+    "blocks": [
+      {
+        "text": "dardhë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-062",
+    "island": "Peace Corps 2005",
+    "english": "glass",
+    "albanian": "gotë",
+    "blocks": [
+      {
+        "text": "gotë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-063",
+    "island": "Peace Corps 2005",
+    "english": "cup",
+    "albanian": "filxhan",
+    "blocks": [
+      {
+        "text": "filxhan",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-064",
+    "island": "Peace Corps 2005",
+    "english": "spoon",
+    "albanian": "lugë",
+    "blocks": [
+      {
+        "text": "lugë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-065",
+    "island": "Peace Corps 2005",
+    "english": "fork",
+    "albanian": "pirun",
+    "blocks": [
+      {
+        "text": "pirun",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-066",
+    "island": "Peace Corps 2005",
+    "english": "knife",
+    "albanian": "thikë",
+    "blocks": [
+      {
+        "text": "thikë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-067",
+    "island": "Peace Corps 2005",
+    "english": "plate",
+    "albanian": "pjatë",
+    "blocks": [
+      {
+        "text": "pjatë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-068",
+    "island": "Peace Corps 2005",
+    "english": "table",
+    "albanian": "tavolinë",
+    "blocks": [
+      {
+        "text": "tavolinë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-069",
+    "island": "Peace Corps 2005",
+    "english": "chair",
+    "albanian": "karrige",
+    "blocks": [
+      {
+        "text": "karrige",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-070",
+    "island": "Peace Corps 2005",
+    "english": "door",
+    "albanian": "derë",
+    "blocks": [
+      {
+        "text": "derë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-071",
+    "island": "Peace Corps 2005",
+    "english": "window",
+    "albanian": "dritare",
+    "blocks": [
+      {
+        "text": "dritare",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-072",
+    "island": "Peace Corps 2005",
+    "english": "bed",
+    "albanian": "krevat",
+    "blocks": [
+      {
+        "text": "krevat",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-073",
+    "island": "Peace Corps 2005",
+    "english": "bed sheet",
+    "albanian": "çarçaf",
+    "blocks": [
+      {
+        "text": "çarçaf",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-074",
+    "island": "Peace Corps 2005",
+    "english": "blanket",
+    "albanian": "batanije",
+    "blocks": [
+      {
+        "text": "batanije",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-075",
+    "island": "Peace Corps 2005",
+    "english": "pillow",
+    "albanian": "jastëk",
+    "blocks": [
+      {
+        "text": "jastëk",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-076",
+    "island": "Peace Corps 2005",
+    "english": "home",
+    "albanian": "shtëpi",
+    "blocks": [
+      {
+        "text": "shtëpi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-077",
+    "island": "Peace Corps 2005",
+    "english": "hotel",
+    "albanian": "hotel",
+    "blocks": [
+      {
+        "text": "hotel",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-078",
+    "island": "Peace Corps 2005",
+    "english": "floor",
+    "albanian": "kat",
+    "blocks": [
+      {
+        "text": "kat",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-079",
+    "island": "Peace Corps 2005",
+    "english": "room",
+    "albanian": "dhomë",
+    "blocks": [
+      {
+        "text": "dhomë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-080",
+    "island": "Peace Corps 2005",
+    "english": "bathroom",
+    "albanian": "banjë",
+    "blocks": [
+      {
+        "text": "banjë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-081",
+    "island": "Peace Corps 2005",
+    "english": "toilet paper",
+    "albanian": "letër higjenike",
+    "blocks": [
+      {
+        "text": "letër higjenike",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-082",
+    "island": "Peace Corps 2005",
+    "english": "soap",
+    "albanian": "sapun",
+    "blocks": [
+      {
+        "text": "sapun",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-083",
+    "island": "Peace Corps 2005",
+    "english": "towel",
+    "albanian": "peshqir",
+    "blocks": [
+      {
+        "text": "peshqir",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-084",
+    "island": "Peace Corps 2005",
+    "english": "shampoo",
+    "albanian": "shampo",
+    "blocks": [
+      {
+        "text": "shampo",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-085",
+    "island": "Peace Corps 2005",
+    "english": "kitchen",
+    "albanian": "guzhinë",
+    "blocks": [
+      {
+        "text": "guzhinë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-086",
+    "island": "Peace Corps 2005",
+    "english": "bedroom",
+    "albanian": "dhomë gjumi",
+    "blocks": [
+      {
+        "text": "dhomë gjumi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-087",
+    "island": "Peace Corps 2005",
+    "english": "dining room",
+    "albanian": "dhomë ngrënje",
+    "blocks": [
+      {
+        "text": "dhomë ngrënje",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-088",
+    "island": "Peace Corps 2005",
+    "english": "sitting room",
+    "albanian": "dhomë ndenje",
+    "blocks": [
+      {
+        "text": "dhomë ndenje",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-089",
+    "island": "Peace Corps 2005",
+    "english": "pants",
+    "albanian": "pantallona",
+    "blocks": [
+      {
+        "text": "pantallona",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-090",
+    "island": "Peace Corps 2005",
+    "english": "blouse",
+    "albanian": "bluzë",
+    "blocks": [
+      {
+        "text": "bluzë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-091",
+    "island": "Peace Corps 2005",
+    "english": "shirt",
+    "albanian": "këmishë",
+    "blocks": [
+      {
+        "text": "këmishë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-092",
+    "island": "Peace Corps 2005",
+    "english": "dress",
+    "albanian": "fustan",
+    "blocks": [
+      {
+        "text": "fustan",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-093",
+    "island": "Peace Corps 2005",
+    "english": "skirt",
+    "albanian": "fund",
+    "blocks": [
+      {
+        "text": "fund",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-094",
+    "island": "Peace Corps 2005",
+    "english": "shoes",
+    "albanian": "këpucë",
+    "blocks": [
+      {
+        "text": "këpucë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-095",
+    "island": "Peace Corps 2005",
+    "english": "sandals",
+    "albanian": "sandale",
+    "blocks": [
+      {
+        "text": "sandale",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-096",
+    "island": "Peace Corps 2005",
+    "english": "slippers",
+    "albanian": "shapka",
+    "blocks": [
+      {
+        "text": "shapka",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-097",
+    "island": "Peace Corps 2005",
+    "english": "boots",
+    "albanian": "çizme",
+    "blocks": [
+      {
+        "text": "çizme",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-098",
+    "island": "Peace Corps 2005",
+    "english": "jacket",
+    "albanian": "xhaketë",
+    "blocks": [
+      {
+        "text": "xhaketë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-099",
+    "island": "Peace Corps 2005",
+    "english": "coat",
+    "albanian": "pallto",
+    "blocks": [
+      {
+        "text": "pallto",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-100",
+    "island": "Peace Corps 2005",
+    "english": "red",
+    "albanian": "i/e kuqe",
+    "blocks": [
+      {
+        "text": "i/e kuqe",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-101",
+    "island": "Peace Corps 2005",
+    "english": "white",
+    "albanian": "i/e bardhë",
+    "blocks": [
+      {
+        "text": "i/e bardhë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-102",
+    "island": "Peace Corps 2005",
+    "english": "black",
+    "albanian": "i/e zezë",
+    "blocks": [
+      {
+        "text": "i/e zezë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-103",
+    "island": "Peace Corps 2005",
+    "english": "yellow",
+    "albanian": "i/e verdhë",
+    "blocks": [
+      {
+        "text": "i/e verdhë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-104",
+    "island": "Peace Corps 2005",
+    "english": "green",
+    "albanian": "i/e gjelbër",
+    "blocks": [
+      {
+        "text": "i/e gjelbër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-105",
+    "island": "Peace Corps 2005",
+    "english": "dark blue",
+    "albanian": "blu",
+    "blocks": [
+      {
+        "text": "blu",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-106",
+    "island": "Peace Corps 2005",
+    "english": "sky blue",
+    "albanian": "i/e kaltër",
+    "blocks": [
+      {
+        "text": "i/e kaltër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-107",
+    "island": "Peace Corps 2005",
+    "english": "grey",
+    "albanian": "gri",
+    "blocks": [
+      {
+        "text": "gri",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-108",
+    "island": "Peace Corps 2005",
+    "english": "village",
+    "albanian": "fshat",
+    "blocks": [
+      {
+        "text": "fshat",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-109",
+    "island": "Peace Corps 2005",
+    "english": "town",
+    "albanian": "qytet",
+    "blocks": [
+      {
+        "text": "qytet",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-110",
+    "island": "Peace Corps 2005",
+    "english": "shop",
+    "albanian": "dyqan",
+    "blocks": [
+      {
+        "text": "dyqan",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-111",
+    "island": "Peace Corps 2005",
+    "english": "street",
+    "albanian": "rrugë",
+    "blocks": [
+      {
+        "text": "rrugë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-112",
+    "island": "Peace Corps 2005",
+    "english": "building",
+    "albanian": "ndërtesë",
+    "blocks": [
+      {
+        "text": "ndërtesë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-113",
+    "island": "Peace Corps 2005",
+    "english": "flat",
+    "albanian": "pallat",
+    "blocks": [
+      {
+        "text": "pallat",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-114",
+    "island": "Peace Corps 2005",
+    "english": "library",
+    "albanian": "biblotekë",
+    "blocks": [
+      {
+        "text": "biblotekë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-115",
+    "island": "Peace Corps 2005",
+    "english": "restaurant",
+    "albanian": "restorant",
+    "blocks": [
+      {
+        "text": "restorant",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-116",
+    "island": "Peace Corps 2005",
+    "english": "school",
+    "albanian": "shkollë",
+    "blocks": [
+      {
+        "text": "shkollë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-117",
+    "island": "Peace Corps 2005",
+    "english": "student",
+    "albanian": "nxënës",
+    "blocks": [
+      {
+        "text": "nxënës",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-118",
+    "island": "Peace Corps 2005",
+    "english": "cultural palace",
+    "albanian": "pallati i kulturës",
+    "blocks": [
+      {
+        "text": "pallati i kulturës",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-119",
+    "island": "Peace Corps 2005",
+    "english": "municipality",
+    "albanian": "bashki",
+    "blocks": [
+      {
+        "text": "bashki",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-120",
+    "island": "Peace Corps 2005",
+    "english": "commune",
+    "albanian": "komunë",
+    "blocks": [
+      {
+        "text": "komunë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-121",
+    "island": "Peace Corps 2005",
+    "english": "office",
+    "albanian": "zyrë",
+    "blocks": [
+      {
+        "text": "zyrë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-122",
+    "island": "Peace Corps 2005",
+    "english": "mother",
+    "albanian": "nënë",
+    "blocks": [
+      {
+        "text": "nënë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-123",
+    "island": "Peace Corps 2005",
+    "english": "father",
+    "albanian": "baba",
+    "blocks": [
+      {
+        "text": "baba",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-124",
+    "island": "Peace Corps 2005",
+    "english": "sister",
+    "albanian": "motër",
+    "blocks": [
+      {
+        "text": "motër",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-125",
+    "island": "Peace Corps 2005",
+    "english": "brother",
+    "albanian": "vëlla",
+    "blocks": [
+      {
+        "text": "vëlla",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-126",
+    "island": "Peace Corps 2005",
+    "english": "daughter",
+    "albanian": "e bija",
+    "blocks": [
+      {
+        "text": "e bija",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-127",
+    "island": "Peace Corps 2005",
+    "english": "son",
+    "albanian": "i biri",
+    "blocks": [
+      {
+        "text": "i biri",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-128",
+    "island": "Peace Corps 2005",
+    "english": "grandmother",
+    "albanian": "gjyshja",
+    "blocks": [
+      {
+        "text": "gjyshja",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-129",
+    "island": "Peace Corps 2005",
+    "english": "grandfather",
+    "albanian": "gjyshi",
+    "blocks": [
+      {
+        "text": "gjyshi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-130",
+    "island": "Peace Corps 2005",
+    "english": "niece",
+    "albanian": "mbesa",
+    "blocks": [
+      {
+        "text": "mbesa",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-131",
+    "island": "Peace Corps 2005",
+    "english": "nephew",
+    "albanian": "nipi",
+    "blocks": [
+      {
+        "text": "nipi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-132",
+    "island": "Peace Corps 2005",
+    "english": "mother-in-law",
+    "albanian": "vjehrra",
+    "blocks": [
+      {
+        "text": "vjehrra",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-133",
+    "island": "Peace Corps 2005",
+    "english": "father-in-law",
+    "albanian": "vjehrri",
+    "blocks": [
+      {
+        "text": "vjehrri",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-134",
+    "island": "Peace Corps 2005",
+    "english": "sister-in-law",
+    "albanian": "kunata",
+    "blocks": [
+      {
+        "text": "kunata",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-135",
+    "island": "Peace Corps 2005",
+    "english": "brother-in-law",
+    "albanian": "kunati",
+    "blocks": [
+      {
+        "text": "kunati",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-136",
+    "island": "Peace Corps 2005",
+    "english": "zero",
+    "albanian": "zero",
+    "blocks": [
+      {
+        "text": "zero",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-137",
+    "island": "Peace Corps 2005",
+    "english": "eleven",
+    "albanian": "njëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "njëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-138",
+    "island": "Peace Corps 2005",
+    "english": "twelve",
+    "albanian": "dymbëdhjetë",
+    "blocks": [
+      {
+        "text": "dymbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-139",
+    "island": "Peace Corps 2005",
+    "english": "thirteen",
+    "albanian": "trembëdhjetë",
+    "blocks": [
+      {
+        "text": "trembëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-140",
+    "island": "Peace Corps 2005",
+    "english": "fourteen",
+    "albanian": "katërmbëdhjetë",
+    "blocks": [
+      {
+        "text": "katërmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-141",
+    "island": "Peace Corps 2005",
+    "english": "fifteen",
+    "albanian": "pesëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "pesëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-142",
+    "island": "Peace Corps 2005",
+    "english": "sixteen",
+    "albanian": "gjashtëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "gjashtëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-143",
+    "island": "Peace Corps 2005",
+    "english": "seventeen",
+    "albanian": "shtatëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "shtatëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-144",
+    "island": "Peace Corps 2005",
+    "english": "eighteen",
+    "albanian": "tetëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "tetëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-145",
+    "island": "Peace Corps 2005",
+    "english": "nineteen",
+    "albanian": "nëntëmbëdhjetë",
+    "blocks": [
+      {
+        "text": "nëntëmbëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-146",
+    "island": "Peace Corps 2005",
+    "english": "twenty, as printed in the book",
+    "albanian": "njëzetë",
+    "blocks": [
+      {
+        "text": "njëzetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-147",
+    "island": "Peace Corps 2005",
+    "english": "thirty",
+    "albanian": "tridhjetë",
+    "blocks": [
+      {
+        "text": "tridhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-148",
+    "island": "Peace Corps 2005",
+    "english": "forty, as printed in the book",
+    "albanian": "dyzetë",
+    "blocks": [
+      {
+        "text": "dyzetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-149",
+    "island": "Peace Corps 2005",
+    "english": "sixty, as printed in the book",
+    "albanian": "gjashtdhjetë",
+    "blocks": [
+      {
+        "text": "gjashtdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-150",
+    "island": "Peace Corps 2005",
+    "english": "seventy",
+    "albanian": "shtatëdhjetë",
+    "blocks": [
+      {
+        "text": "shtatëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-151",
+    "island": "Peace Corps 2005",
+    "english": "eighty, as printed in the book",
+    "albanian": "tetëdjetë",
+    "blocks": [
+      {
+        "text": "tetëdjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-152",
+    "island": "Peace Corps 2005",
+    "english": "ninety",
+    "albanian": "nëntëdhjetë",
+    "blocks": [
+      {
+        "text": "nëntëdhjetë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-153",
+    "island": "Peace Corps 2005",
+    "english": "one hundred, as printed in the book",
+    "albanian": "një qind",
+    "blocks": [
+      {
+        "text": "një qind",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-154",
+    "island": "Peace Corps 2005",
+    "english": "one million",
+    "albanian": "milion",
+    "blocks": [
+      {
+        "text": "milion",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-155",
+    "island": "Peace Corps 2005",
+    "english": "January",
+    "albanian": "Janar",
+    "blocks": [
+      {
+        "text": "Janar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-156",
+    "island": "Peace Corps 2005",
+    "english": "February",
+    "albanian": "Shkurt",
+    "blocks": [
+      {
+        "text": "Shkurt",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-157",
+    "island": "Peace Corps 2005",
+    "english": "March",
+    "albanian": "Mars",
+    "blocks": [
+      {
+        "text": "Mars",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-158",
+    "island": "Peace Corps 2005",
+    "english": "April",
+    "albanian": "Prill",
+    "blocks": [
+      {
+        "text": "Prill",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-159",
+    "island": "Peace Corps 2005",
+    "english": "May",
+    "albanian": "Maj",
+    "blocks": [
+      {
+        "text": "Maj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-160",
+    "island": "Peace Corps 2005",
+    "english": "June",
+    "albanian": "Qershor",
+    "blocks": [
+      {
+        "text": "Qershor",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-161",
+    "island": "Peace Corps 2005",
+    "english": "July",
+    "albanian": "Korrik",
+    "blocks": [
+      {
+        "text": "Korrik",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-162",
+    "island": "Peace Corps 2005",
+    "english": "August",
+    "albanian": "Gusht",
+    "blocks": [
+      {
+        "text": "Gusht",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-163",
+    "island": "Peace Corps 2005",
+    "english": "September",
+    "albanian": "Shtator",
+    "blocks": [
+      {
+        "text": "Shtator",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-164",
+    "island": "Peace Corps 2005",
+    "english": "October",
+    "albanian": "Tetor",
+    "blocks": [
+      {
+        "text": "Tetor",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-165",
+    "island": "Peace Corps 2005",
+    "english": "November",
+    "albanian": "Nëntor",
+    "blocks": [
+      {
+        "text": "Nëntor",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-166",
+    "island": "Peace Corps 2005",
+    "english": "December",
+    "albanian": "Dhjetor",
+    "blocks": [
+      {
+        "text": "Dhjetor",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-167",
+    "island": "Peace Corps 2005",
+    "english": "Monday",
+    "albanian": "E hënë",
+    "blocks": [
+      {
+        "text": "E hënë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-168",
+    "island": "Peace Corps 2005",
+    "english": "Tuesday",
+    "albanian": "E martë",
+    "blocks": [
+      {
+        "text": "E martë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-169",
+    "island": "Peace Corps 2005",
+    "english": "Wednesday",
+    "albanian": "E mërkurë",
+    "blocks": [
+      {
+        "text": "E mërkurë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-170",
+    "island": "Peace Corps 2005",
+    "english": "Thursday",
+    "albanian": "E enjte",
+    "blocks": [
+      {
+        "text": "E enjte",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-171",
+    "island": "Peace Corps 2005",
+    "english": "Friday",
+    "albanian": "E premte",
+    "blocks": [
+      {
+        "text": "E premte",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-172",
+    "island": "Peace Corps 2005",
+    "english": "Saturday",
+    "albanian": "E shtunë",
+    "blocks": [
+      {
+        "text": "E shtunë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-173",
+    "island": "Peace Corps 2005",
+    "english": "Sunday",
+    "albanian": "E diel",
+    "blocks": [
+      {
+        "text": "E diel",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-174",
+    "island": "Peace Corps 2005",
+    "english": "Welcome, the reply.",
+    "albanian": "Mirë se ju gjeta!",
+    "blocks": [
+      {
+        "text": "Mirë se ju gjeta",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-175",
+    "island": "Peace Corps 2005",
+    "english": "Do you want a cigarette?",
+    "albanian": "Doni një cigare?",
+    "blocks": [
+      {
+        "text": "Doni një cigare",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-176",
+    "island": "Peace Corps 2005",
+    "english": "Do you want a coffee?",
+    "albanian": "Doni një kafe?",
+    "blocks": [
+      {
+        "text": "Doni një kafe",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-177",
+    "island": "Peace Corps 2005",
+    "english": "And you, what is your name?",
+    "albanian": "Po ju si quheni?",
+    "blocks": [
+      {
+        "text": "Po ju si quheni",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-178",
+    "island": "Peace Corps 2005",
+    "english": "I am from Lezha.",
+    "albanian": "Unë jam nga Lezha.",
+    "blocks": [
+      {
+        "text": "Unë jam nga Lezha",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-179",
+    "island": "Peace Corps 2005",
+    "english": "Thank you for coming.",
+    "albanian": "Faleminderit që erdhët.",
+    "blocks": [
+      {
+        "text": "Faleminderit që erdhët",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-180",
+    "island": "Peace Corps 2005",
+    "english": "I hope we see each other soon.",
+    "albanian": "Shpresoj të shihemi së shpejti.",
+    "blocks": [
+      {
+        "text": "Shpresoj të shihemi së shpejti",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-181",
+    "island": "Peace Corps 2005",
+    "english": "Enjoy, to one person.",
+    "albanian": "Të bëftë mirë!",
+    "blocks": [
+      {
+        "text": "Të bëftë mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-182",
+    "island": "Peace Corps 2005",
+    "english": "I live in ...",
+    "albanian": "Unë banoj në…",
+    "blocks": [
+      {
+        "text": "Unë banoj në",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-183",
+    "island": "Peace Corps 2005",
+    "english": "Please, speak more loudly.",
+    "albanian": "Flisni me zë më të lartë,ju lutem.",
+    "blocks": [
+      {
+        "text": "Flisni me zë më të lartë,ju lutem",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-184",
+    "island": "Peace Corps 2005",
+    "english": "I understand.",
+    "albanian": "Unë kuptoj…",
+    "blocks": [
+      {
+        "text": "Unë kuptoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-185",
+    "island": "Peace Corps 2005",
+    "english": "I don't understand.",
+    "albanian": "Unë nuk kuptoj…",
+    "blocks": [
+      {
+        "text": "Unë nuk kuptoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-186",
+    "island": "Peace Corps 2005",
+    "english": "hungry",
+    "albanian": "i/e uritur",
+    "blocks": [
+      {
+        "text": "i/e uritur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-187",
+    "island": "Peace Corps 2005",
+    "english": "full",
+    "albanian": "i/e ngopur",
+    "blocks": [
+      {
+        "text": "i/e ngopur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-188",
+    "island": "Peace Corps 2005",
+    "english": "thirsty",
+    "albanian": "i/e etur",
+    "blocks": [
+      {
+        "text": "i/e etur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-189",
+    "island": "Peace Corps 2005",
+    "english": "busy",
+    "albanian": "i/e zënë",
+    "blocks": [
+      {
+        "text": "i/e zënë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-190",
+    "island": "Peace Corps 2005",
+    "english": "free",
+    "albanian": "i/e lirë",
+    "blocks": [
+      {
+        "text": "i/e lirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-191",
+    "island": "Peace Corps 2005",
+    "english": "tired",
+    "albanian": "i/e lodhur",
+    "blocks": [
+      {
+        "text": "i/e lodhur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-192",
+    "island": "Peace Corps 2005",
+    "english": "sick",
+    "albanian": "i/e sëmurë",
+    "blocks": [
+      {
+        "text": "i/e sëmurë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-193",
+    "island": "Peace Corps 2005",
+    "english": "happy",
+    "albanian": "i/e lumtur",
+    "blocks": [
+      {
+        "text": "i/e lumtur",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-194",
+    "island": "Peace Corps 2005",
+    "english": "sad",
+    "albanian": "i/e trishtuar",
+    "blocks": [
+      {
+        "text": "i/e trishtuar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-195",
+    "island": "Peace Corps 2005",
+    "english": "glad",
+    "albanian": "i/e gëzuar",
+    "blocks": [
+      {
+        "text": "i/e gëzuar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-196",
+    "island": "Peace Corps 2005",
+    "english": "angry",
+    "albanian": "i/e zemëruar",
+    "blocks": [
+      {
+        "text": "i/e zemëruar",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-197",
+    "island": "Peace Corps 2005",
+    "english": "I want to go.",
+    "albanian": "Unë dua të shkoj…",
+    "blocks": [
+      {
+        "text": "Unë dua të shkoj",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-198",
+    "island": "Peace Corps 2005",
+    "english": "I don't want to eat or drink.",
+    "albanian": "Nuk dua të ha/pi",
+    "blocks": [
+      {
+        "text": "Nuk dua të ha/pi",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-199",
+    "island": "Peace Corps 2005",
+    "english": "This is good.",
+    "albanian": "Ky/kjo është e mirë",
+    "blocks": [
+      {
+        "text": "Ky/kjo është e mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-200",
+    "island": "Peace Corps 2005",
+    "english": "This is not good.",
+    "albanian": "Ky/kjo nuk është e mirë",
+    "blocks": [
+      {
+        "text": "Ky/kjo nuk është e mirë",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "pc-201",
+    "island": "Peace Corps 2005",
+    "english": "Where is the...?",
+    "albanian": "Ku është…",
+    "blocks": [
+      {
+        "text": "Ku është",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "lesson": {
+      "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
+      "facts": [
+        "The wording is the book's, including its spelling."
+      ]
+    }
   }
 ]
