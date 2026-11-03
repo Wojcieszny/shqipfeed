@@ -4,7 +4,7 @@
     "island": "Greetings & Check-ins",
     "english": "Good morning.",
     "albanian": "Mirëmëngjes.",
-    "phonetic": "mee-ruh-muhn-JES",
+    "phonetic": "meer-muhn-GJES",
     "tip": "One word. Stress the end.",
     "blocks": [
       {
@@ -97,7 +97,7 @@
     "island": "Greetings & Check-ins",
     "english": "I'm well, thank you.",
     "albanian": "Jam mirë, faleminderit.",
-    "phonetic": "yahm MEE-ruh, fah-leh-min-DEH-reet",
+    "phonetic": "yahm MEER, fah-leh-min-DEH-reet",
     "tip": "Faleminderit is the full thank-you. People often shorten the sound in real talk.",
     "blocks": [
       {
@@ -477,7 +477,7 @@
     "island": "Food & Eating",
     "english": "Do you want bread?",
     "albanian": "A doni bukë?",
-    "phonetic": "ah DOH-nee BOO-kuh",
+    "phonetic": "ah DOH-nee BOOK",
     "tip": "Same start as the coffee question. Swap the thing.",
     "blocks": [
       {
@@ -523,7 +523,7 @@
     "island": "Food & Eating",
     "english": "This is really good.",
     "albanian": "Kjo është shumë e mirë.",
-    "phonetic": "kyoh UHSH-tuh SHOO-muh eh MEE-ruh",
+    "phonetic": "kyoh UHSH-tuh SHOOM eh MEER",
     "tip": "Ë is a soft uh, like the a in sofa.",
     "blocks": [
       {
@@ -663,7 +663,7 @@
     "island": "Family & Warmth",
     "english": "We love you very much.",
     "albanian": "Ju duam shumë.",
-    "phonetic": "yoo DOO-ahm SHOO-muh",
+    "phonetic": "yoo DOO-ahm SHOOM",
     "tip": "Ju keeps it polite for parents-in-law. Duam is we love.",
     "blocks": [
       {
@@ -705,7 +705,7 @@
     "island": "Family & Warmth",
     "english": "It is good that I am with you.",
     "albanian": "Është mirë të jem me ju.",
-    "phonetic": "UHSH-tuh MEE-ruh tuh yem meh yoo",
+    "phonetic": "UHSH-tuh MEER tuh yem meh yoo",
     "tip": "Jem is I am. Me ju is with you, polite.",
     "blocks": [
       {
@@ -1273,7 +1273,7 @@
     "island": "Greetings & Check-ins",
     "english": "Good night.",
     "albanian": "Natën e mirë.",
-    "phonetic": "NAH-tuhn eh MEE-ruh",
+    "phonetic": "NAH-tuhn eh MEER",
     "tip": "When leaving, not when you arrive.",
     "blocks": [
       {
@@ -1617,7 +1617,7 @@
     "island": "Greetings & Check-ins",
     "english": "I'm glad.",
     "albanian": "Më vjen mirë.",
-    "phonetic": "muh vyen MEE-ruh",
+    "phonetic": "muh vyen MEER",
     "tip": "Short. Smile and use it once.",
     "blocks": [
       {
@@ -1703,7 +1703,7 @@
     "island": "Greetings & Check-ins",
     "english": "Thank you very much.",
     "albanian": "Faleminderit shumë.",
-    "phonetic": "fah-leh-meen-DEH-reet SHOO-muh",
+    "phonetic": "fah-leh-meen-DEH-reet SHOOM",
     "tip": "When the kindness was bigger.",
     "blocks": [
       {
@@ -2053,7 +2053,7 @@
     "island": "Conversation Repair",
     "english": "I speak a little Albanian.",
     "albanian": "Flas pak shqip.",
-    "phonetic": "flahs pahk shcheep",
+    "phonetic": "flahs pahk shqeep",
     "tip": "People warm up when they hear this.",
     "blocks": [
       {
@@ -2675,7 +2675,7 @@
     "island": "Coffee & Table",
     "english": "Enjoy your meal.",
     "albanian": "Ju bëftë mirë.",
-    "phonetic": "yoo BUHF-tuh MEE-ruh",
+    "phonetic": "yoo BUHF-tuh MEER",
     "tip": "Say it to them, polite you.",
     "blocks": [
       {
@@ -3155,7 +3155,7 @@
     "island": "Food & Eating",
     "english": "It was delicious.",
     "albanian": "Ishte shumë e mirë.",
-    "phonetic": "EESH-teh SHOO-muh eh MEE-ruh",
+    "phonetic": "EESH-teh SHOOM eh MEER",
     "tip": "After you finish.",
     "blocks": [
       {
@@ -3198,7 +3198,7 @@
     "island": "Family & Warmth",
     "english": "Welcome.",
     "albanian": "Mirë se erdhët.",
-    "phonetic": "MEE-ruh seh er-DHUHT",
+    "phonetic": "MEER seh er-DHUHT",
     "tip": "When they arrive, or when you arrive to them as a group.",
     "blocks": [
       {
@@ -3532,7 +3532,7 @@
     "island": "Family & Warmth",
     "english": "Rest well.",
     "albanian": "Pushoni mirë.",
-    "phonetic": "poo-SHOH-nee MEE-ruh",
+    "phonetic": "poo-SHOH-nee MEER",
     "tip": "Polite you, at bedtime.",
     "blocks": [
       {
@@ -3569,7 +3569,7 @@
     "island": "Health & Feelings",
     "english": "My head hurts.",
     "albanian": "Më dhemb koka.",
-    "phonetic": "muh themb KOH-kah",
+    "phonetic": "muh dhem KOH-kah",
     "tip": "",
     "blocks": [
       {
@@ -3616,7 +3616,7 @@
     "island": "Health & Feelings",
     "english": "My stomach hurts.",
     "albanian": "Më dhemb barku.",
-    "phonetic": "muh themb BAR-koo",
+    "phonetic": "muh dhem BAR-koo",
     "tip": "",
     "blocks": [
       {
@@ -4580,7 +4580,7 @@
     "island": "Numbers & Money",
     "english": "Five.",
     "albanian": "Pesë.",
-    "phonetic": "PEH-suh",
+    "phonetic": "PES",
     "tip": "",
     "blocks": [
       {
@@ -4611,7 +4611,7 @@
     "island": "Numbers & Money",
     "english": "One through five.",
     "albanian": "Një. Dy. Tre. Katër. Pesë.",
-    "phonetic": "nyuh dew treh KAH-tur PEH-suh",
+    "phonetic": "nyuh dew treh KAH-tur PES",
     "tip": "This only plays the count. Each number still has its own box.",
     "blocks": [
       {
@@ -4705,7 +4705,7 @@
     "island": "Numbers & Money",
     "english": "Six.",
     "albanian": "Gjashtë.",
-    "phonetic": "JAHSH-tuh",
+    "phonetic": "GJASHT",
     "tip": "",
     "blocks": [
       {
@@ -4736,7 +4736,7 @@
     "island": "Numbers & Money",
     "english": "Seven.",
     "albanian": "Shtatë.",
-    "phonetic": "SHTAH-tuh",
+    "phonetic": "SHTAT",
     "tip": "",
     "blocks": [
       {
@@ -4767,7 +4767,7 @@
     "island": "Numbers & Money",
     "english": "Eight.",
     "albanian": "Tetë.",
-    "phonetic": "TEH-tuh",
+    "phonetic": "TET",
     "tip": "",
     "blocks": [
       {
@@ -4804,7 +4804,7 @@
     "island": "Numbers & Money",
     "english": "Nine.",
     "albanian": "Nëntë.",
-    "phonetic": "NUHN-tuh",
+    "phonetic": "NUHNT",
     "tip": "",
     "blocks": [
       {
@@ -4835,7 +4835,7 @@
     "island": "Numbers & Money",
     "english": "Ten.",
     "albanian": "Dhjetë.",
-    "phonetic": "DHYEH-tuh",
+    "phonetic": "DHYET",
     "tip": "Dh is the th in this.",
     "blocks": [
       {
@@ -4897,7 +4897,7 @@
     "island": "Numbers & Money",
     "english": "Fifty.",
     "albanian": "Pesëdhjetë.",
-    "phonetic": "peh-suh-DHYEH-tuh",
+    "phonetic": "PES-DHYET",
     "tip": "",
     "blocks": [
       {
@@ -5041,7 +5041,7 @@
     "island": "Numbers & Money",
     "english": "It is very expensive.",
     "albanian": "Është shumë e shtrenjtë.",
-    "phonetic": "UHSH-tuh SHOO-muh eh SHTRENY-tuh",
+    "phonetic": "UHSH-tuh SHOOM eh SHTRENY-tuh",
     "tip": "At a market stall.",
     "blocks": [
       {
@@ -6215,7 +6215,7 @@
     "island": "House & Hosts",
     "english": "It is very beautiful.",
     "albanian": "Është shumë bukur.",
-    "phonetic": "UHSH-tuh SHOO-muh BOO-koor",
+    "phonetic": "UHSH-tuh SHOOM BOO-koor",
     "tip": "The house, the view, the food.",
     "blocks": [
       {
@@ -6252,7 +6252,7 @@
     "island": "House & Hosts",
     "english": "Good night, rest well.",
     "albanian": "Natën e mirë, pushoni mirë.",
-    "phonetic": "NAH-tuhn eh MEE-ruh, poo-SHOH-nee MEE-ruh",
+    "phonetic": "NAH-tuhn eh MEER, poo-SHOH-nee MEER",
     "tip": "Two lines you already know, said together.",
     "blocks": [
       {
@@ -6300,7 +6300,7 @@
     "island": "Greetings & Check-ins",
     "english": "Fine, thank you. And you?",
     "albanian": "Mirë, faleminderit. Po ju?",
-    "phonetic": "MEE-ruh, fah-leh-min-DEH-reet, poh yoo",
+    "phonetic": "MEER, fah-leh-min-DEH-reet, poh yoo",
     "lesson": {
       "background": "This is their answer. You asked how they are.",
       "facts": [
@@ -6333,7 +6333,7 @@
     "island": "Greetings & Check-ins",
     "english": "I am well.",
     "albanian": "Jam mirë.",
-    "phonetic": "yahm MEE-ruh",
+    "phonetic": "yahm MEER",
     "lesson": {
       "background": "They may say only this, with no question back.",
       "facts": [
@@ -6405,7 +6405,7 @@
     "island": "Greetings & Check-ins",
     "english": "I am well too.",
     "albanian": "Edhe unë jam mirë.",
-    "phonetic": "EH-theh OO-nuh yahm MEE-ruh",
+    "phonetic": "EH-theh OO-nuh yahm MEER",
     "lesson": {
       "background": "They answer your Po ju?",
       "facts": [
@@ -6510,7 +6510,7 @@
     "island": "Greetings & Check-ins",
     "english": "Good morning.",
     "albanian": "Mirëmëngjes.",
-    "phonetic": "mee-ruh-muhn-JES",
+    "phonetic": "meer-muhn-GJES",
     "lesson": {
       "background": "Morning at the door. You walk in. You greet, they ask how you are, you answer, you ask back.",
       "facts": [
@@ -6607,7 +6607,7 @@
     "island": "Conversation Repair",
     "english": "Very good.",
     "albanian": "Shumë mirë.",
-    "phonetic": "SHOO-muh MEE-ruh",
+    "phonetic": "SHOOM MEER",
     "tip": "A warm reaction when you try a line.",
     "blocks": [],
     "verified": false,
@@ -6835,7 +6835,7 @@
     "island": "Food & Eating",
     "english": "Enjoy your meal.",
     "albanian": "Ju bëftë mirë.",
-    "phonetic": "yoo BUF-tuh MEE-ruh",
+    "phonetic": "yoo BUF-tuh MEER",
     "tip": "You hear this as the plate arrives. The beginner line is you saying it to them.",
     "blocks": [],
     "verified": false,
@@ -6996,7 +6996,7 @@
     "island": "Family & Warmth",
     "english": "Welcome.",
     "albanian": "Mirë se erdhët.",
-    "phonetic": "MEE-ruh seh ehr-DHUT",
+    "phonetic": "MEER seh ehr-DHUT",
     "tip": "You hear this when you walk in. The beginner card is you saying it.",
     "blocks": [],
     "verified": false,
@@ -7178,7 +7178,7 @@
     "island": "Plans & Weekend",
     "english": "At eight.",
     "albanian": "Në orën tetë.",
-    "phonetic": "nuh OH-ruhn TEH-tuh",
+    "phonetic": "nuh OH-ruhn TET",
     "tip": "An example hour. The number changes.",
     "blocks": [
       {
@@ -7490,7 +7490,7 @@
     "island": "Numbers & Money",
     "english": "Fifty lek.",
     "albanian": "Pesëdhjetë lekë.",
-    "phonetic": "peh-suh-DHJEH-tuh LEH-kuh",
+    "phonetic": "PES-DHYET LEH-kuh",
     "tip": "Another example price.",
     "blocks": [],
     "verified": false,

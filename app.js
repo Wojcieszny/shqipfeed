@@ -246,6 +246,8 @@
 
   var cardIndex = 0;
   var activeAudio = null;
+  var activeRecorder = null;
+  var discardRecording = false;
   var session = null;
 
   // Fills Start / Continue and the progress lists under Settings.
@@ -496,10 +498,14 @@
     var slow = makeButton("Slower", "slow", false);
     slow.classList.add("slow-link", "after-listen");
     slow.hidden = true;
+    var compare = makeButton("Compare", "compare", false);
+    compare.classList.add("slow-link", "after-listen");
+    compare.hidden = true;
     var controls = document.createElement("div");
     controls.className = "hear-row";
     controls.appendChild(hear);
     controls.appendChild(slow);
+    controls.appendChild(compare);
     stage.appendChild(controls);
     article.appendChild(stage);
 
@@ -843,6 +849,10 @@
       activeAudio.pause();
       activeAudio = null;
     }
+    if (activeRecorder && activeRecorder.state === "recording") {
+      discardRecording = true;
+      try { activeRecorder.stop(); } catch (err) { /* already stopped */ }
+    }
     if (window.speechSynthesis) {
       try { window.speechSynthesis.cancel(); } catch (err) { /* ignore */ }
     }
@@ -871,12 +881,15 @@
   }
 
   // Plays a saved recording. If the file is missing, falls back to the phone voice.
-  function playFile(url, rate, fallbackText, onTime, onEnded, altUrl) {
+  function playFile(url, rate, fallbackText, onTime, onEnded, altUrl, altUrl2) {
     stopAudio();
     var note = document.querySelector(".audio-note");
     var audio = new Audio(url);
     activeAudio = audio;
     audio.preload = "auto";
+    audio.preservesPitch = true;
+    audio.mozPreservesPitch = true;
+    audio.webkitPreservesPitch = true;
     var handedOff = false;
     function handOffToVoice() {
       if (handedOff) return;
@@ -884,7 +897,7 @@
       if (altUrl) {
         var next = altUrl;
         if (activeAudio === audio) activeAudio = null;
-        playFile(next, rate, fallbackText, onTime, onEnded, "");
+        playFile(next, rate, fallbackText, onTime, onEnded, altUrl2 || "", "");
         return;
       }
       if (activeAudio === audio) activeAudio = null;
@@ -1143,9 +1156,17 @@
     for (var i = 0; i < lit.length; i++) lit[i].classList.remove("is-now");
     if (button) button.classList.add("is-now");
     var base = ShqipData.scriptBase();
-    var other = otherCase(word);
-    var alt = other ? base + "audio/words/" + encodeURIComponent(other) + ".mp3" : "";
-    playFile(base + "audio/words/" + encodeURIComponent(word) + ".mp3", 1, word, null, null, alt);
+    var lower = word.toLocaleLowerCase("sq");
+    var urls = [];
+    function addWordUrl(form) {
+      if (!form) return;
+      var next = base + "audio/words/" + encodeURIComponent(form) + ".mp3";
+      if (urls.indexOf(next) === -1) urls.push(next);
+    }
+    addWordUrl(lower);
+    addWordUrl(word);
+    addWordUrl(otherCase(word));
+    playFile(urls[0], 1, word, null, null, urls[1] || "", urls[2] || "");
     if (button) button.classList.add("is-now");
   }
 
@@ -1165,7 +1186,10 @@
           showMissing();
           return;
         }
-        if (noteEl) noteEl.hidden = true;
+        if (noteEl) {
+          noteEl.hidden = false;
+          noteEl.textContent = "Phone voice. The recording is missing.";
+        }
         revealWords();
         var utterance = new SpeechSynthesisUtterance(text);
         utterance.voice = voice;
@@ -1258,6 +1282,66 @@
   }
 
   // Handles Play, Slow, Got it, and Again on whatever card was tapped.
+  // Records a short try, plays it, then plays the line again.
+  function recordAndCompare(btn) {
+    if (activeRecorder && activeRecorder.state === "recording") {
+      activeRecorder.stop();
+      return;
+    }
+    stopAudio();
+    var note = document.querySelector(".audio-note");
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia || typeof MediaRecorder === "undefined") {
+      if (note) {
+        note.hidden = false;
+        note.textContent = "This browser has no microphone.";
+      }
+      return;
+    }
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+      var chunks = [];
+      var recorder = new MediaRecorder(stream);
+      activeRecorder = recorder;
+      discardRecording = false;
+      btn.textContent = "Listening…";
+      btn.classList.add("is-recording");
+      recorder.ondataavailable = function (event) {
+        if (event.data && event.data.size > 0) chunks.push(event.data);
+      };
+      recorder.onstop = function () {
+        stream.getTracks().forEach(function (track) { track.stop(); });
+        if (activeRecorder === recorder) activeRecorder = null;
+        btn.textContent = "Compare";
+        btn.classList.remove("is-recording");
+        if (discardRecording) {
+          discardRecording = false;
+          return;
+        }
+        if (!chunks.length) return;
+        var blob = new Blob(chunks, { type: recorder.mimeType || "audio/webm" });
+        var userUrl = URL.createObjectURL(blob);
+        var userAudio = new Audio(userUrl);
+        activeAudio = userAudio;
+        userAudio.addEventListener("ended", function () {
+          URL.revokeObjectURL(userUrl);
+          window.setTimeout(function () { playCurrent(1); }, 250);
+        });
+        var started = userAudio.play();
+        if (started && started.catch) started.catch(function () { URL.revokeObjectURL(userUrl); });
+      };
+      recorder.start();
+      window.setTimeout(function () {
+        if (recorder.state === "recording") recorder.stop();
+      }, 2800);
+    }).catch(function () {
+      btn.textContent = "Compare";
+      btn.classList.remove("is-recording");
+      if (note) {
+        note.hidden = false;
+        note.textContent = "The microphone was blocked.";
+      }
+    });
+  }
+
   function onFeedClick(event) {
     var wordBtn = event.target.closest ? event.target.closest(".word") : null;
     if (wordBtn) {
@@ -1285,7 +1369,11 @@
       return;
     }
     if (action === "slow") {
-      playCurrent(0.72);
+      playCurrent(0.82);
+      return;
+    }
+    if (action === "compare") {
+      recordAndCompare(btn);
       return;
     }
     if (action === "got") {
