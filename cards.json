@@ -1550,6 +1550,7 @@
       "background": "When you are introduced and you do not know their name yet. Polite.",
       "facts": [
         "Quheni is polite you are called. With one friend it is Si quhesh?",
+        "Wikivoyage prints the informal Si e ke emrin? This card stays polite.",
         "Ana is only an example. The name goes right after quhem."
       ],
       "answers": [
@@ -1941,7 +1942,7 @@
       "background": "To get someone's attention, or as a small sorry. Then say what you need.",
       "facts": [
         "Më falni is excuse me, polite.",
-        "You can use it before a question, not only after a mistake."
+        "Wikivoyage uses this same line, both to get attention and to beg pardon."
       ],
       "answers": [
         {
@@ -2027,7 +2028,8 @@
       "background": "Ask this before you switch languages. Many people will meet you halfway.",
       "facts": [
         "A turns it into a yes-or-no question.",
-        "Flisni is speak, polite you. Anglisht is English."
+        "Flisni is speak, polite you. Anglisht is English.",
+        "Wikivoyage prints this same question."
       ],
       "answers": [
         {
@@ -2076,7 +2078,8 @@
       "background": "Say this early. People usually slow down and smile.",
       "facts": [
         "Flas is I speak.",
-        "Pak is a little. Shqip is Albanian."
+        "Pak is a little. Shqip is Albanian.",
+        "Wikivoyage prints Nuk flas gjuha Shqipe. The case is wrong, so that line is not used."
       ],
       "answers": [
         {
@@ -5110,6 +5113,7 @@
       "background": "Where is the toilet. They answer with a direction.",
       "facts": [
         "Ku është is where is. Tualeti is the toilet.",
+        "Wikivoyage prints this sentence. The pronunciation in its parentheses does not match these words, so it is not shown.",
         "Here, over there, left, and right are the words you will hear. They are not one fixed sentence."
       ],
       "answers": [
@@ -7821,7 +7825,8 @@
     "lesson": {
       "background": "At the stall. Point, ask, hear a price, decide.",
       "facts": [
-        "One hundred lek is an example, not a quote."
+        "One hundred lek is an example, not a quote.",
+        "This is the price question. A shorter recording, Sa është, is its own card."
       ],
       "answers": [
         {
@@ -11969,6 +11974,165 @@
       "background": "Printed in Albanian for Invitees, Peace Corps/Albania, November 2005.",
       "facts": [
         "The wording is the book's, including its spelling."
+      ]
+    }
+  },
+  {
+    "id": "rec-001",
+    "island": "Conversation Repair",
+    "english": "Speak English.",
+    "albanian": "Flisni anglisht.",
+    "tip": "The recording is the command, not the question.",
+    "blocks": [
+      {
+        "text": "Flisni",
+        "type": "verb"
+      },
+      {
+        "text": "anglisht",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "voice": "Dori, Wikimedia Commons, Public domain",
+    "lesson": {
+      "background": "Same words as the Wikimedia recording.",
+      "facts": [
+        "The question is a different card: A flisni anglisht?",
+        "Wikivoyage prints the question. This file is the command."
+      ],
+      "answers": [
+        {
+          "id": "greet-018",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        },
+        {
+          "id": "greet-019",
+          "english": "No.",
+          "albanian": "Jo.",
+          "audio": "greet-019"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec-002",
+    "island": "Getting Around",
+    "english": "Where is the bathroom?",
+    "albanian": "Ku është banjoja?",
+    "tip": "In a house. A public toilet is tualeti.",
+    "blocks": [
+      {
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "banjoja",
+        "type": "object"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "voice": "Dori, Wikimedia Commons, Public domain",
+    "lesson": {
+      "background": "Same words as the Wikimedia recording.",
+      "facts": [
+        "Wikivoyage prints Ku është tualeti? for a public toilet. That card stays.",
+        "Banjoja is the bathroom."
+      ],
+      "answers": [
+        {
+          "id": "go-m-001",
+          "english": "Over there.",
+          "albanian": "Atje.",
+          "audio": "go-m-001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec-003",
+    "island": "Conversation Repair",
+    "english": "Pardon me.",
+    "albanian": "Më fal.",
+    "tip": "Short, to one person you know.",
+    "blocks": [
+      {
+        "text": "Më fal",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "voice": "Dori, Wikimedia Commons, Public domain",
+    "lesson": {
+      "background": "Same words as the Wikimedia recording.",
+      "facts": [
+        "Wikivoyage uses Më falni when you do not know the person. That card stays."
+      ],
+      "answers": [
+        {
+          "id": "greet-018",
+          "english": "Yes.",
+          "albanian": "Po.",
+          "audio": "greet-018"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec-004",
+    "island": "Shopping",
+    "english": "How much is it?",
+    "albanian": "Sa është?",
+    "tip": "The short price question, as recorded.",
+    "blocks": [
+      {
+        "text": "Sa është",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "voice": "Dori, Wikimedia Commons, Public domain",
+    "lesson": {
+      "background": "Same words as the Wikimedia recording.",
+      "facts": [
+        "The fuller question, Sa kushton kjo?, is its own card."
+      ],
+      "answers": [
+        {
+          "id": "greet-015",
+          "english": "Thank you.",
+          "albanian": "Faleminderit.",
+          "audio": "greet-015"
+        }
+      ]
+    }
+  },
+  {
+    "id": "rec-005",
+    "island": "Coffee & Table",
+    "english": "Happy New Year.",
+    "albanian": "Gëzuar viti i ri.",
+    "tip": "The words on the recording, not a rewritten toast.",
+    "blocks": [
+      {
+        "text": "Gëzuar viti i ri",
+        "type": "other"
+      }
+    ],
+    "verified": false,
+    "level": "beginner",
+    "voice": "Wikimedia Commons, CC BY-SA 3.0",
+    "lesson": {
+      "background": "Same words as the Wikimedia recording.",
+      "facts": [
+        "The file is titled Gëzuar viti i ri. It was not rewritten.",
+        "Cheers, Gëzuar, is its own card."
       ]
     }
   }

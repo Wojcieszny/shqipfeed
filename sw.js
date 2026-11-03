@@ -1,5 +1,5 @@
 /* ShqipFeed offline cache. Generated from the files in this folder. */
-const CACHE_VERSION = "shqipfeed-v27";
+const CACHE_VERSION = "shqipfeed-v28";
 
 const ASSETS = [
   "./README.md",
@@ -250,7 +250,9 @@ const ASSETS = [
   "./audio/human/edhe.mp3",
   "./audio/human/faleminderit.mp3",
   "./audio/human/fik.mp3",
+  "./audio/human/flisni anglisht.mp3",
   "./audio/human/gjashtë.mp3",
+  "./audio/human/gëzuar viti i ri.mp3",
   "./audio/human/gëzuar.mp3",
   "./audio/human/hotel.mp3",
   "./audio/human/i.mp3",
@@ -262,9 +264,11 @@ const ASSETS = [
   "./audio/human/ka.mp3",
   "./audio/human/kam.mp3",
   "./audio/human/keni.mp3",
+  "./audio/human/ku është banjoja.mp3",
   "./audio/human/mars.mp3",
   "./audio/human/mirupafshim.mp3",
   "./audio/human/mjek.mp3",
+  "./audio/human/më fal.mp3",
   "./audio/human/më.mp3",
   "./audio/human/natën e mirë.mp3",
   "./audio/human/nga.mp3",
@@ -278,6 +282,7 @@ const ASSETS = [
   "./audio/human/përshëndetje.mp3",
   "./audio/human/qumësht.mp3",
   "./audio/human/që.mp3",
+  "./audio/human/sa është.mp3",
   "./audio/human/se.mp3",
   "./audio/human/shqip.mp3",
   "./audio/human/shtatë.mp3",
@@ -543,6 +548,11 @@ const ASSETS = [
   "./audio/plans-m-001.mp3",
   "./audio/plans-m-002.mp3",
   "./audio/plans-m-003.mp3",
+  "./audio/rec-001.mp3",
+  "./audio/rec-002.mp3",
+  "./audio/rec-003.mp3",
+  "./audio/rec-004.mp3",
+  "./audio/rec-005.mp3",
   "./audio/repair-001.mp3",
   "./audio/repair-002.mp3",
   "./audio/repair-003.mp3",
