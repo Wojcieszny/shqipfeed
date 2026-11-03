@@ -231,6 +231,15 @@
       }
       html += "</article>";
     });
+    var catalog = window.ShqipChecks && window.ShqipChecks.catalog;
+    if (catalog) {
+      html += '<article class="rule-card"><p class="rule-kicker">Sources</p><h3>What has been checked</h3>';
+      html += '<ul class="sound-rules">';
+      catalog.forEach(function (item) {
+        html += "<li><a class=\"source-link\" href=\"" + escRule(item.url) + "\" target=\"_blank\" rel=\"noopener\">" + escRule(item.name) + "</a>. " + escRule(item.use) + "</li>";
+      });
+      html += "</ul></article>";
+    }
     root.innerHTML = html;
   }
 
@@ -564,22 +573,35 @@
   }
 
   function sourceLine(text) {
-    var line = document.createElement("p");
-    line.className = "source-line";
+    var wrap = document.createElement("div");
+    wrap.className = "source-line";
     var hit = sentenceSource(text);
     if (hit && hit.pron) {
-      line.appendChild(document.createTextNode(hit.pron + " "));
+      var spoken = document.createElement("p");
+      spoken.appendChild(document.createTextNode(hit.pron + " "));
       var link = document.createElement("a");
       link.className = "source-link";
       link.href = hit.url;
       link.target = "_blank";
       link.rel = "noopener";
       link.textContent = "Wikivoyage";
-      line.appendChild(link);
-      return line;
+      spoken.appendChild(link);
+      wrap.appendChild(spoken);
     }
-    line.textContent = "No published pronunciation for this sentence.";
-    return line;
+    var checks = window.ShqipChecks && window.ShqipChecks.sentences;
+    var row = checks ? checks[sourceKey(text)] : null;
+    var note = document.createElement("p");
+    note.className = "source-check";
+    if (row && row.peace) note.textContent = "Peace Corps 2005 book: this sentence is printed there.";
+    else note.textContent = "Peace Corps 2005 book: this sentence is not in it.";
+    wrap.appendChild(note);
+    if (!hit || !hit.pron) {
+      var missing = document.createElement("p");
+      missing.className = "source-check";
+      missing.textContent = "No published pronunciation for this sentence.";
+      wrap.appendChild(missing);
+    }
+    return wrap;
   }
 
   // Color chips for the pieces of the line, when the line is actually split.

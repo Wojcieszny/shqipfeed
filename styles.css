@@ -1322,8 +1322,12 @@ body {
   max-width: 22rem;
   margin-top: 0.45rem;
   color: var(--sq-ink-soft);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   line-height: 1.35;
+}
+
+.source-line p {
+  margin: 0.2rem 0 0;
 }
 
 .source-link {
