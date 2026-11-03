@@ -96,7 +96,7 @@ window.ShqipRules = {
     "taksi": "a taxi",
     "tualeti": "the toilet",
     "ujë": "water",
-    "ulni": "sit, not checked",
+    "uleni": "sit down, polite",
     "unë": "I",
     "uritur": "hungry",
     "vetëm": "only",

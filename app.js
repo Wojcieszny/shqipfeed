@@ -256,9 +256,9 @@
     if (where) where.textContent = today.where;
     if (start) {
       if (!today.started) start.textContent = "Start";
-      else if (today.caughtUp) start.textContent = "You're caught up";
+      else if (today.caughtUp) start.textContent = "Practice more";
       else start.textContent = "Continue";
-      start.disabled = !!today.caughtUp;
+      start.disabled = false;
     }
 
     var counts = ShqipData.boxCounts();
@@ -319,18 +319,38 @@
       });
     }
     updateStorageBanner();
+    renderIslands();
   }
 
-  // Opens today's queue: due lines, then up to five new ones.
-  function openSession() {
-    var today = ShqipData.buildToday();
-    if (!today.queue.length) {
+  // Topics sit on the home screen. Each one starts a short session.
+  function renderIslands() {
+    var box = document.getElementById("island-picker");
+    if (!box) return;
+    box.innerHTML = "";
+    ShqipData.islandProgress().forEach(function (row) {
+      var btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "island-btn";
+      btn.setAttribute("data-island", row.name);
+      var name = document.createElement("span");
+      name.textContent = row.name;
+      var count = document.createElement("span");
+      count.className = "island-count";
+      count.textContent = row.inBoxes + " of " + row.total + " started";
+      btn.appendChild(name);
+      btn.appendChild(count);
+      box.appendChild(btn);
+    });
+  }
+
+  function beginQueue(queue, newIds) {
+    if (!queue.length) {
       renderHome();
       return;
     }
     session = {
-      queue: today.queue,
-      newIds: today.newIds,
+      queue: queue,
+      newIds: newIds || [],
       index: 0,
       newGraded: 0,
       quizzed: false,
@@ -340,6 +360,20 @@
     };
     showScreen("feed");
     renderStep();
+  }
+
+  // Opens today's queue. If nothing is due, practice eight lines anyway.
+  function openSession() {
+    var today = ShqipData.buildToday();
+    if (today.queue.length) {
+      beginQueue(today.queue, today.newIds);
+      return;
+    }
+    beginQueue(ShqipData.practiceQueue(null, 8), []);
+  }
+
+  function openIsland(name) {
+    beginQueue(ShqipData.practiceQueue(name, 8), []);
   }
 
   // The card on screen right now.
@@ -446,6 +480,9 @@
       words.appendChild(btn);
     });
     stage.appendChild(words);
+    if (card.phonetic) addText(stage, "p", "card-phonetic", card.phonetic);
+    var blocks = renderBlocks(card);
+    if (blocks) stage.appendChild(blocks);
 
     var note = document.createElement("p");
     note.className = "audio-note";
@@ -491,7 +528,6 @@
     var more = document.createElement("div");
     more.className = "card-more";
     more.hidden = true;
-    if (card.phonetic) addText(more, "p", "card-phonetic", card.phonetic);
     if (card.tip) addText(more, "p", "card-tip", card.tip);
     lessonExtras(card).forEach(function (fact) {
       addText(more, "p", "card-tip", fact);
@@ -501,6 +537,23 @@
     more.appendChild(makeButton(card.verified === true ? "Verified" : "Mark verified", "verified", card.verified === true));
     article.appendChild(more);
     return article;
+  }
+
+  // Color chips for the pieces of the line, when the line is actually split.
+  function renderBlocks(card) {
+    var blocks = card.blocks || [];
+    var useful = blocks.filter(function (block) { return block && block.text; });
+    if (useful.length < 2) return null;
+    var row = document.createElement("div");
+    row.className = "blocks";
+    useful.forEach(function (block) {
+      var pill = document.createElement("span");
+      var kind = block.type === "power" || block.type === "verb" || block.type === "object" ? block.type : "other";
+      pill.className = "block block-" + kind;
+      pill.textContent = block.text;
+      row.appendChild(pill);
+    });
+    return row;
   }
 
   // Facts already written as "Word is meaning", matched to the line. Nothing is guessed.
@@ -818,7 +871,7 @@
   }
 
   // Plays a saved recording. If the file is missing, falls back to the phone voice.
-  function playFile(url, rate, fallbackText, onTime, onEnded) {
+  function playFile(url, rate, fallbackText, onTime, onEnded, altUrl) {
     stopAudio();
     var note = document.querySelector(".audio-note");
     var audio = new Audio(url);
@@ -828,6 +881,12 @@
     function handOffToVoice() {
       if (handedOff) return;
       handedOff = true;
+      if (altUrl) {
+        var next = altUrl;
+        if (activeAudio === audio) activeAudio = null;
+        playFile(next, rate, fallbackText, onTime, onEnded, "");
+        return;
+      }
       if (activeAudio === audio) activeAudio = null;
       speak(fallbackText, rate, note);
     }
@@ -961,10 +1020,23 @@
     if (!source) source = quizSource(pool[0] || session.queue[0]);
     var choices = [source.correct];
     var all = ShqipData.getAllCards();
-    for (var n = 0; n < all.length && choices.length < 3; n++) {
-      if (all[n].english && all[n].english !== source.correct.english) {
-        choices.push(asLine(all[n], all[n].audio || all[n].id));
-      }
+    var sourceCard = null;
+    for (var c = 0; c < all.length; c++) {
+      if (all[c].id === source.cardId) sourceCard = all[c];
+    }
+    var bag = [];
+    all.forEach(function (card) {
+      if (!card.english || card.english === source.correct.english) return;
+      bag.push(card);
+    });
+    bag.sort(function () { return Math.random() - 0.5; });
+    if (sourceCard) {
+      var same = bag.filter(function (card) { return card.island === sourceCard.island; });
+      var rest = bag.filter(function (card) { return card.island !== sourceCard.island; });
+      bag = same.concat(rest);
+    }
+    for (var n = 0; n < bag.length && choices.length < 3; n++) {
+      choices.push(asLine(bag[n], bag[n].audio || bag[n].id));
     }
     for (var s = choices.length - 1; s > 0; s--) {
       var swap = Math.floor(Math.random() * (s + 1));
@@ -1055,13 +1127,25 @@
   }
 
   // Plays one Albanian word from its own recording.
+  function otherCase(word) {
+    if (!word) return "";
+    var first = word.charAt(0);
+    var lower = first.toLocaleLowerCase("sq");
+    var upper = first.toLocaleUpperCase("sq");
+    var flipped = first === lower ? upper : lower;
+    if (flipped === first) return "";
+    return flipped + word.slice(1);
+  }
+
   function playWord(word, button) {
     if (!word) return;
     var lit = document.querySelectorAll(".word.is-now");
     for (var i = 0; i < lit.length; i++) lit[i].classList.remove("is-now");
     if (button) button.classList.add("is-now");
     var base = ShqipData.scriptBase();
-    playFile(base + "audio/words/" + encodeURIComponent(word) + ".mp3", 1, word, null);
+    var other = otherCase(word);
+    var alt = other ? base + "audio/words/" + encodeURIComponent(other) + ".mp3" : "";
+    playFile(base + "audio/words/" + encodeURIComponent(word) + ".mp3", 1, word, null, null, alt);
     if (button) button.classList.add("is-now");
   }
 
@@ -1232,6 +1316,14 @@
       return;
     }
     if (action === "known" || action === "skip") {
+      if (action === "skip") {
+        setCardStatus(id, "skip");
+        if (session) {
+          session.index += 1;
+          finishStep();
+        }
+        return;
+      }
       toggleStatus(id, action);
       var status = getProgress()[id] || null;
       var marks = cardEl.querySelectorAll("[data-action='known'], [data-action='skip']");
@@ -1473,6 +1565,14 @@
     }
     var dayBtn = document.getElementById("day-btn");
     if (dayBtn) dayBtn.addEventListener("click", openDay);
+    var islands = document.getElementById("island-picker");
+    if (islands) {
+      islands.addEventListener("click", function (event) {
+        var btn = event.target.closest ? event.target.closest(".island-btn") : null;
+        if (!btn) return;
+        openIsland(btn.getAttribute("data-island") || "");
+      });
+    }
     var dayScreen = document.getElementById("day-screen");
     if (dayScreen) {
       dayScreen.addEventListener("click", function (event) {

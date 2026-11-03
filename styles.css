@@ -219,18 +219,29 @@ body {
   align-items: stretch;
 }
 
-.island-btn {
-  flex: 1;
-  min-height: 3.25rem;
-  padding: 0.85rem 0.15rem;
-  border: 0;
-  border-bottom: 1px solid var(--sq-line);
-  border-radius: 0;
-  background: transparent;
-  color: var(--sq-ink);
+.island-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 1.4rem;
+}
+
+.island-picker .island-btn {
+  width: 100%;
+  min-height: var(--sq-tap);
+  padding: 0.75rem 0.95rem;
+  border: 1px solid var(--sq-line);
+  border-radius: 1rem;
+  background: var(--sq-surface);
   text-align: left;
-  box-shadow: none;
-  font-size: 1.05rem;
+}
+
+.island-picker .island-count {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--sq-ink-soft);
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .island-btn:active,
@@ -465,6 +476,8 @@ body {
 .letter-cell:first-child {
   grid-column: 1 / -1;
 }
+
+.letter-cell {
   padding: 0.55rem 0.6rem 0.5rem;
   border-radius: 0.8rem;
   background: #f6f1ea;

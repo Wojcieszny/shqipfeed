@@ -356,7 +356,7 @@
       "background": "You are offering coffee, at home or when you are helping the host.",
       "facts": [
         "A doni is do you want, polite.",
-        "Kafe is coffee. The q sounds like the ch in cheap."
+        "Kafe is coffee."
       ],
       "answers": [
         {
@@ -1092,26 +1092,26 @@
     "id": "lego-002",
     "island": "Lego Verb Builder",
     "english": "Do you want to sit?",
-    "albanian": "A doni të ulni?",
-    "phonetic": "ah DOH-nee tuh OOL-nee",
-    "tip": "Same start, swap the verb: hani (eat), pini (drink). This chunk is not checked.",
+    "albanian": "A doni të uleni?",
+    "phonetic": "ah DOH-nee tuh oo-LEH-nee",
+    "tip": "Same start, swap the verb: hani (eat), pini (drink). Uleni is sit down, polite.",
     "blocks": [
       {
         "text": "A doni të",
         "type": "power"
       },
       {
-        "text": "ulni",
+        "text": "uleni",
         "type": "verb"
       }
     ],
     "verified": false,
     "level": "beginner",
     "lesson": {
-      "background": "Do you want to sit. The chunk ulni is the one from the original list. It is not checked.",
+      "background": "Do you want to sit.",
       "facts": [
-        "A safer sit-down line you already have is Ju lutem, uluni.",
-        "Do not treat ulni as the form a native speaker signed off."
+        "A doni të is do you want to, polite.",
+        "Uleni is sit down, for ju."
       ],
       "answers": [
         {
@@ -2222,8 +2222,16 @@
     "tip": "When the sound will not stick.",
     "blocks": [
       {
-        "text": "A mund ta shkruani",
-        "type": "other"
+        "text": "A mund",
+        "type": "power"
+      },
+      {
+        "text": "ta",
+        "type": "verb"
+      },
+      {
+        "text": "shkruani",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -2265,8 +2273,12 @@
     "tip": "The everyday order.",
     "blocks": [
       {
-        "text": "Një kafe, ju lutem",
-        "type": "other"
+        "text": "Një kafe",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2307,8 +2319,12 @@
     "tip": "Works at a table or in a kitchen.",
     "blocks": [
       {
-        "text": "Ujë, ju lutem",
-        "type": "other"
+        "text": "Ujë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2350,8 +2366,12 @@
     "tip": "Pa gaz means without bubbles.",
     "blocks": [
       {
-        "text": "Ujë pa gaz, ju lutem",
-        "type": "other"
+        "text": "Ujë pa gaz",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2392,8 +2412,12 @@
     "tip": "Me gaz means with bubbles.",
     "blocks": [
       {
-        "text": "Ujë me gaz, ju lutem",
-        "type": "other"
+        "text": "Ujë me gaz",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2434,8 +2458,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Një çaj, ju lutem",
-        "type": "other"
+        "text": "Një çaj",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2476,8 +2504,12 @@
     "tip": "The local herbal tea.",
     "blocks": [
       {
-        "text": "Çaj mali, ju lutem",
-        "type": "other"
+        "text": "Çaj mali",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2518,8 +2550,12 @@
     "tip": "The usual café coffee.",
     "blocks": [
       {
-        "text": "Një makiato, ju lutem",
-        "type": "other"
+        "text": "Një makiato",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2560,8 +2596,12 @@
     "tip": "At the end. Some places also say faturën.",
     "blocks": [
       {
-        "text": "Llogarinë, ju lutem",
-        "type": "other"
+        "text": "Llogarinë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2676,8 +2716,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Menunë, ju lutem",
-        "type": "other"
+        "text": "Menunë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2719,8 +2763,12 @@
     "tip": "Point as you say it.",
     "blocks": [
       {
-        "text": "Këtë, ju lutem",
-        "type": "other"
+        "text": "Këtë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2756,8 +2804,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Pa mish, ju lutem",
-        "type": "other"
+        "text": "Pa mish",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2799,8 +2851,12 @@
     "tip": "A woman says Jam e uritur.",
     "blocks": [
       {
-        "text": "Jam i uritur",
-        "type": "other"
+        "text": "Jam",
+        "type": "verb"
+      },
+      {
+        "text": "i uritur",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -2842,8 +2898,12 @@
     "tip": "A woman says Jam e etur.",
     "blocks": [
       {
-        "text": "Jam i etur",
-        "type": "other"
+        "text": "Jam",
+        "type": "verb"
+      },
+      {
+        "text": "i etur",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -2879,8 +2939,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Një birrë, ju lutem",
-        "type": "other"
+        "text": "Një birrë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2921,8 +2985,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Djathë, ju lutem",
-        "type": "other"
+        "text": "Djathë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -2964,8 +3032,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Sallatë, ju lutem",
-        "type": "other"
+        "text": "Sallatë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -3000,8 +3072,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Peshk, ju lutem",
-        "type": "other"
+        "text": "Peshk",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -3043,8 +3119,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Mish pule, ju lutem",
-        "type": "other"
+        "text": "Mish pule",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -3155,12 +3235,16 @@
     "island": "Family & Warmth",
     "english": "This is my son.",
     "albanian": "Ky është djali im.",
-    "phonetic": "kuh UHSH-tuh DYAH-lee eem",
+    "phonetic": "kew UHSH-tuh DYAH-lee eem",
     "tip": "Point as you say it.",
     "blocks": [
       {
-        "text": "Ky është djali im",
-        "type": "other"
+        "text": "Ky është",
+        "type": "power"
+      },
+      {
+        "text": "djali im",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3202,8 +3286,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Kjo është vajza ime",
-        "type": "other"
+        "text": "Kjo është",
+        "type": "power"
+      },
+      {
+        "text": "vajza ime",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3244,8 +3332,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Kjo është gruaja ime",
-        "type": "other"
+        "text": "Kjo është",
+        "type": "power"
+      },
+      {
+        "text": "gruaja ime",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3277,12 +3369,16 @@
     "island": "Family & Warmth",
     "english": "This is my husband.",
     "albanian": "Ky është burri im.",
-    "phonetic": "kuh UHSH-tuh BOOR-ree eem",
+    "phonetic": "kew UHSH-tuh BOOR-ree eem",
     "tip": "",
     "blocks": [
       {
-        "text": "Ky është burri im",
-        "type": "other"
+        "text": "Ky është",
+        "type": "power"
+      },
+      {
+        "text": "burri im",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3477,8 +3573,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Më dhemb koka",
-        "type": "other"
+        "text": "Më dhemb",
+        "type": "verb"
+      },
+      {
+        "text": "koka",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3520,8 +3620,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Më dhemb barku",
-        "type": "other"
+        "text": "Më dhemb",
+        "type": "verb"
+      },
+      {
+        "text": "barku",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3557,8 +3661,12 @@
     "tip": "A woman says Jam e sëmurë.",
     "blocks": [
       {
-        "text": "Jam i sëmurë",
-        "type": "other"
+        "text": "Jam",
+        "type": "verb"
+      },
+      {
+        "text": "i sëmurë",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -3643,8 +3751,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Ku është farmacia",
-        "type": "other"
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "farmacia",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -4004,8 +4116,12 @@
     "tip": "Same start as the sit-down line. Swap the verb.",
     "blocks": [
       {
-        "text": "A doni të hani",
-        "type": "other"
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "hani",
+        "type": "verb"
       }
     ],
     "verified": false,
@@ -4119,8 +4235,12 @@
     "tip": "Same start as Dua të ha. Swap the verb.",
     "blocks": [
       {
-        "text": "Dua të pi",
-        "type": "other"
+        "text": "Dua të",
+        "type": "power"
+      },
+      {
+        "text": "pi",
+        "type": "verb"
       }
     ],
     "verified": false,
@@ -4155,8 +4275,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Dua të pushoj",
-        "type": "other"
+        "text": "Dua të",
+        "type": "power"
+      },
+      {
+        "text": "pushoj",
+        "type": "verb"
       }
     ],
     "verified": false,
@@ -4191,8 +4315,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Dua të shkoj",
-        "type": "other"
+        "text": "Dua të",
+        "type": "power"
+      },
+      {
+        "text": "shkoj",
+        "type": "verb"
       }
     ],
     "verified": false,
@@ -4228,8 +4356,12 @@
     "tip": "Polite you.",
     "blocks": [
       {
-        "text": "A doni të pini",
-        "type": "other"
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "pini",
+        "type": "verb"
       }
     ],
     "verified": false,
@@ -4271,8 +4403,16 @@
     "tip": "Polite you. Mund të ndihmoj is the one you say about yourself.",
     "blocks": [
       {
-        "text": "A mund të më ndihmoni",
-        "type": "other"
+        "text": "A mund të",
+        "type": "power"
+      },
+      {
+        "text": "më",
+        "type": "verb"
+      },
+      {
+        "text": "ndihmoni",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -4942,8 +5082,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Ku është tualeti",
-        "type": "other"
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "tualeti",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -4991,8 +5135,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Ku është stacioni i autobusit",
-        "type": "other"
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "stacioni i autobusit",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5034,8 +5182,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "A është larg",
-        "type": "other"
+        "text": "A është",
+        "type": "power"
+      },
+      {
+        "text": "larg",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5082,8 +5234,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "A është afër",
-        "type": "other"
+        "text": "A është",
+        "type": "power"
+      },
+      {
+        "text": "afër",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5233,8 +5389,12 @@
     "tip": "Taxi or minibus.",
     "blocks": [
       {
-        "text": "Ndaloni këtu, ju lutem",
-        "type": "other"
+        "text": "Ndaloni këtu",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5270,8 +5430,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Një biletë, ju lutem",
-        "type": "other"
+        "text": "Një biletë",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5313,8 +5477,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Një taksi, ju lutem",
-        "type": "other"
+        "text": "Një taksi",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5429,8 +5597,12 @@
     "tip": "Point at the thing.",
     "blocks": [
       {
-        "text": "Sa kushton kjo",
-        "type": "other"
+        "text": "Sa kushton",
+        "type": "power"
+      },
+      {
+        "text": "kjo",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5642,8 +5814,12 @@
     "tip": "Point.",
     "blocks": [
       {
-        "text": "A keni këtë",
-        "type": "other"
+        "text": "A keni",
+        "type": "power"
+      },
+      {
+        "text": "këtë",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5685,8 +5861,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Një qese, ju lutem",
-        "type": "other"
+        "text": "Një qese",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5727,8 +5907,12 @@
     "tip": "Size. Not checked against every shop habit.",
     "blocks": [
       {
-        "text": "Më të vogël, ju lutem",
-        "type": "other"
+        "text": "Më të vogël",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5770,8 +5954,12 @@
     "tip": "At the door.",
     "blocks": [
       {
-        "text": "Hyni, ju lutem",
-        "type": "other"
+        "text": "Hyni",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5893,8 +6081,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Çelësat, ju lutem",
-        "type": "other"
+        "text": "Çelësat",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
       }
     ],
     "verified": false,
@@ -5929,8 +6121,12 @@
     "tip": "",
     "blocks": [
       {
-        "text": "Ku është kuzhina",
-        "type": "other"
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "kuzhina",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -5972,8 +6168,16 @@
     "tip": "",
     "blocks": [
       {
-        "text": "A mund të ndihmoj në kuzhinë",
-        "type": "other"
+        "text": "A mund të",
+        "type": "power"
+      },
+      {
+        "text": "ndihmoj",
+        "type": "verb"
+      },
+      {
+        "text": "në kuzhinë",
+        "type": "object"
       }
     ],
     "verified": false,
@@ -6111,7 +6315,16 @@
     }
   },
   {
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Jam",
+        "type": "verb"
+      },
+      {
+        "text": "mirë",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "tip": "A short answer to how are you.",
     "id": "greet-m-002",
@@ -6207,7 +6420,16 @@
     }
   },
   {
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Unë quhem",
+        "type": "power"
+      },
+      {
+        "text": "Ana",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "tip": "Ana is only an example.",
     "id": "greet-m-006",
@@ -6349,7 +6571,20 @@
     "albanian": "Po, flas ngadalë.",
     "phonetic": "poh flahs ngah-DAH-luh",
     "tip": "You hear this after you ask them to slow down.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Po",
+        "type": "power"
+      },
+      {
+        "text": "flas",
+        "type": "verb"
+      },
+      {
+        "text": "ngadalë",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "repair-m-001",
@@ -6422,7 +6657,16 @@
     "albanian": "Ju lutem, flisni ngadalë.",
     "phonetic": "yoo LOO-tem, FLEES-nee ngah-DAH-luh",
     "tip": "You stop them, they slow down, you thank them.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Ju lutem",
+        "type": "power"
+      },
+      {
+        "text": "flisni ngadalë",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "repair-001",
@@ -6551,7 +6795,16 @@
     "albanian": "Një kafe, ju lutem.",
     "phonetic": "nyuh KAH-feh, yoo LOO-tem",
     "tip": "You order, they ask about milk, you answer.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Një kafe",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "coffee-004",
@@ -6632,7 +6885,16 @@
     "albanian": "Hani, ju lutem.",
     "phonetic": "HAH-nee, yoo LOO-tem",
     "tip": "An invitation to start.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Hani",
+        "type": "object"
+      },
+      {
+        "text": "ju lutem",
+        "type": "power"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "food-m-003",
@@ -6790,9 +7052,22 @@
     "island": "Health & Feelings",
     "english": "Do you want us to go to a doctor?",
     "albanian": "A doni të shkojmë te mjeku?",
-    "phonetic": "ah DOH-nee tuh SHOH-yuhm teh MYEH-koo",
+    "phonetic": "ah DOH-nee tuh SHKOY-muh teh MYEH-koo",
     "tip": "They are offering to take you.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "shkojmë",
+        "type": "verb"
+      },
+      {
+        "text": "te mjeku",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "health-m-001",
@@ -6864,7 +7139,16 @@
     "albanian": "Më dhemb koka.",
     "phonetic": "muh dhemb KOH-kah",
     "tip": "You say it, they are sorry, you ask for a pharmacy.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Më dhemb",
+        "type": "verb"
+      },
+      {
+        "text": "koka",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "health-004",
@@ -6896,7 +7180,16 @@
     "albanian": "Në orën tetë.",
     "phonetic": "nuh OH-ruhn TEH-tuh",
     "tip": "An example hour. The number changes.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Në orën",
+        "type": "power"
+      },
+      {
+        "text": "tetë",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "plans-m-001",
@@ -6943,9 +7236,18 @@
     "island": "Plans & Weekend",
     "english": "Yes, let's go.",
     "albanian": "Po, shkojmë.",
-    "phonetic": "poh SHOH-yuhm",
+    "phonetic": "poh SHKOY-muh",
     "tip": "They accepted the walk or the outing.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Po",
+        "type": "power"
+      },
+      {
+        "text": "shkojmë",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "plans-m-003",
@@ -6969,7 +7271,16 @@
     "albanian": "A doni të shëtisim?",
     "phonetic": "ah DOH-nee tuh shuh-TEE-seem",
     "tip": "You invite them. They say yes. You set the morning.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "A doni të",
+        "type": "power"
+      },
+      {
+        "text": "shëtisim",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "plans-002",
@@ -7001,7 +7312,16 @@
     "albanian": "Çfarë doni të pini?",
     "phonetic": "CHAR-uh DOH-nee tuh PEE-nee",
     "tip": "They ask this after you say you want to drink.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Çfarë doni të",
+        "type": "power"
+      },
+      {
+        "text": "pini",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "lego-m-001",
@@ -7049,7 +7369,16 @@
     "albanian": "Po, pushoni.",
     "phonetic": "poh poo-SHOH-nee",
     "tip": "They are telling you to rest.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Po",
+        "type": "power"
+      },
+      {
+        "text": "pushoni",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "lego-m-003",
@@ -7073,7 +7402,16 @@
     "albanian": "Mund të ndihmoj?",
     "phonetic": "moond tuh ndee-MOY",
     "tip": "You offer. They accept. You close it.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Mund të",
+        "type": "power"
+      },
+      {
+        "text": "ndihmoj",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "lego-003",
@@ -7280,9 +7618,18 @@
     "island": "Getting Around",
     "english": "Where do you want to go?",
     "albanian": "Ku doni të shkoni?",
-    "phonetic": "koo DOH-nee tuh SHOH-nee",
+    "phonetic": "koo DOH-nee tuh SHKOH-nee",
     "tip": "A driver, or someone helping you when you are lost.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Ku doni të",
+        "type": "power"
+      },
+      {
+        "text": "shkoni",
+        "type": "verb"
+      }
+    ],
     "verified": false,
     "level": "medium",
     "audio": "go-m-004",
@@ -7306,7 +7653,16 @@
     "albanian": "Ku është tualeti?",
     "phonetic": "koo UH-shtuh too-ah-LEH-tee",
     "tip": "You ask. They point left. You thank them.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Ku është",
+        "type": "power"
+      },
+      {
+        "text": "tualeti",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "go-001",
@@ -7434,7 +7790,16 @@
     "albanian": "Sa kushton kjo?",
     "phonetic": "sah koosh-TOHN kyoh",
     "tip": "You ask the price. They say a number. You take it.",
-    "blocks": [],
+    "blocks": [
+      {
+        "text": "Sa kushton",
+        "type": "power"
+      },
+      {
+        "text": "kjo",
+        "type": "object"
+      }
+    ],
     "verified": false,
     "level": "advanced",
     "audio": "shop-001",

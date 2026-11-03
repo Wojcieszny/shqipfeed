@@ -101,7 +101,7 @@
 
   // Fetches cards.json and remembers it for this page load.
   function loadStarterCards() {
-    return fetch(scriptBase() + "cards.json").then(function (res) {
+    return fetch(scriptBase() + "cards.json?v=25").then(function (res) {
       if (!res.ok) throw new Error("bad status");
       return res.json();
     }).then(function (data) {
@@ -463,9 +463,9 @@
     var news = due.length > 12 ? [] : fresh.slice(0, 5);
     var queue = reviews.concat(news);
     var started = Object.keys(boxes).length > 0;
-    var where = "The app picks the next lines.";
+    var where = "Continue the mix, or pick a topic.";
     if (queue[0]) where = queue[0].island + " · " + queue[0].english;
-    else if (started) where = "Nothing is due today.";
+    else if (started) where = "Nothing is due. Pick a topic, or practice more.";
     return {
       queue: queue,
       newIds: news.filter(function (card) { return card.review !== false; }).map(function (card) { return card.id; }),
@@ -473,6 +473,22 @@
       started: started,
       caughtUp: started && queue.length === 0,
     };
+  }
+
+  // Extra practice when nothing is due, or when a topic is chosen. Unseen lines come first.
+  function practiceQueue(island, limit) {
+    var boxes = getBoxes();
+    var cap = getCap();
+    var pool = pathCards().filter(function (card) {
+      if (island && card.island !== island) return false;
+      return levelAllowed(card, boxes, cap);
+    });
+    pool.sort(function (a, b) {
+      var ba = boxes[a.id] ? boxes[a.id].box : 0;
+      var bb = boxes[b.id] ? boxes[b.id].box : 0;
+      return ba - bb;
+    });
+    return pool.slice(0, limit || 8);
   }
 
   // Got it moves up one box. Again drops back to box 1 and is due today.
@@ -680,6 +696,7 @@
     setProgress: setProgress,
     resetProgress: resetProgress,
     buildToday: buildToday,
+    practiceQueue: practiceQueue,
     gradeCard: gradeCard,
     passCard: passCard,
     boxCounts: boxCounts,
