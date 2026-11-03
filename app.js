@@ -482,7 +482,7 @@
       words.appendChild(btn);
     });
     stage.appendChild(words);
-    if (card.phonetic) addText(stage, "p", "card-phonetic", card.phonetic);
+    stage.appendChild(sourceLine(card.albanian));
     var blocks = renderBlocks(card);
     if (blocks) stage.appendChild(blocks);
 
@@ -543,6 +543,43 @@
     more.appendChild(makeButton(card.verified === true ? "Verified" : "Mark verified", "verified", card.verified === true));
     article.appendChild(more);
     return article;
+  }
+
+  // A pronunciation is shown only when a published page prints that exact sentence or word.
+  function sourceKey(text) {
+    return String(text || "").toLowerCase().replace(/[«»"'“”.,!?¿;:()]/g, "").replace(/\s+/g, " ").trim();
+  }
+
+  function sentenceSource(text) {
+    var book = window.ShqipSources && window.ShqipSources.phrases;
+    if (!book) return null;
+    return book[sourceKey(text)] || null;
+  }
+
+  function wordSource(text) {
+    var book = window.ShqipSources && window.ShqipSources.words;
+    if (!book) return null;
+    var key = String(text || "").replace(/^[«»"'“”.,!?¿;:()]+|[«»"'“”.,!?¿;:()]+$/g, "");
+    return book[key] || book[key.toLowerCase()] || null;
+  }
+
+  function sourceLine(text) {
+    var line = document.createElement("p");
+    line.className = "source-line";
+    var hit = sentenceSource(text);
+    if (hit && hit.pron) {
+      line.appendChild(document.createTextNode(hit.pron + " "));
+      var link = document.createElement("a");
+      link.className = "source-link";
+      link.href = hit.url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Wikivoyage";
+      line.appendChild(link);
+      return line;
+    }
+    line.textContent = "No published pronunciation for this sentence.";
+    return line;
   }
 
   // Color chips for the pieces of the line, when the line is actually split.
@@ -746,6 +783,16 @@
         sq.className = "sq";
         sq.lang = "sq";
         sq.textContent = row.sq;
+        var rec = wordSource(row.sq);
+        if (rec && rec.ipa && rec.ipa.length) {
+          var ipa = document.createElement("span");
+          ipa.className = "ipa";
+          ipa.textContent = rec.ipa.map(function (item) {
+            return (item.accent ? item.accent + " " : "") + item.ipa;
+          }).join(" · ");
+          sq.appendChild(document.createTextNode(" "));
+          sq.appendChild(ipa);
+        }
         var en = document.createElement("td");
         en.className = "en";
         en.textContent = row.en;

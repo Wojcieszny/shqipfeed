@@ -1318,6 +1318,28 @@ body {
   font-weight: 700;
 }
 
+.source-line {
+  max-width: 22rem;
+  margin-top: 0.45rem;
+  color: var(--sq-ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.source-link {
+  color: var(--sq-teal);
+  font-weight: 650;
+}
+
+.word-table .ipa {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--sq-teal);
+  font-family: var(--sq-font-ui);
+  font-size: 0.82rem;
+  font-style: normal;
+}
+
 @keyframes sq-rise {
   from {
     opacity: 0;
