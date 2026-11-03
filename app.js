@@ -977,7 +977,7 @@
       try { audio.playbackRate = rate; } catch (err) { /* some browsers ignore this */ }
     });
     audio.addEventListener("playing", function () {
-      if (note) note.hidden = true;
+      if (note && note.dataset.keep !== "1") note.hidden = true;
       revealWords();
     });
     audio.addEventListener("timeupdate", function () {
@@ -991,7 +991,7 @@
     var started = audio.play();
     if (started && started.then) {
       started.then(function () {
-        if (note) note.hidden = true;
+        if (note && note.dataset.keep !== "1") note.hidden = true;
         revealWords();
         try { audio.playbackRate = rate; } catch (err) { /* ignore */ }
       }).catch(function (err) {
@@ -1226,6 +1226,18 @@
     if (button) button.classList.add("is-now");
     var base = ShqipData.scriptBase();
     var lower = word.toLocaleLowerCase("sq");
+    var note = document.querySelector(".audio-note");
+    var credit = window.ShqipHuman && window.ShqipHuman[lower];
+    if (note) {
+      if (credit) {
+        note.hidden = false;
+        note.dataset.keep = "1";
+        note.textContent = credit.speaker + ", Lingua Libre, " + credit.license;
+      } else {
+        delete note.dataset.keep;
+      }
+    }
+    var human = base + "audio/human/" + encodeURIComponent(lower) + ".mp3";
     var urls = [];
     function addWordUrl(form) {
       if (!form) return;
@@ -1235,7 +1247,7 @@
     addWordUrl(lower);
     addWordUrl(word);
     addWordUrl(otherCase(word));
-    playFile(urls[0], 1, word, null, null, urls[1] || "", urls[2] || "");
+    playFile(human, 1, word, null, null, urls[0] || "", urls[1] || "");
     if (button) button.classList.add("is-now");
   }
 
