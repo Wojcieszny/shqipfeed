@@ -46,12 +46,14 @@
     var add = document.getElementById("add-screen");
     var rules = document.getElementById("rules-screen");
     var day = document.getElementById("day-screen");
+    var listen = document.getElementById("listen-screen");
     var back = document.getElementById("back-btn");
     if (home) home.hidden = name !== "home" && name !== "rules";
     if (feed) feed.hidden = name !== "feed";
     if (add) add.hidden = name !== "add";
     if (rules) rules.hidden = false;
     if (day) day.hidden = name !== "day";
+    if (listen) listen.hidden = name !== "listen";
     var rulesBox = document.getElementById("show-rules");
     if (rulesBox && rulesBox.checked !== (name === "rules")) {
       rulesBox.checked = name === "rules";
@@ -152,6 +154,30 @@
       row.appendChild(split);
       box.appendChild(row);
     });
+  }
+
+  function renderListen() {
+    var note = document.getElementById("listen-note");
+    var root = document.getElementById("listen-list");
+    var data = window.ShqipListen;
+    if (!root || !data) return;
+    if (note) note.textContent = data.note || "";
+    var html = "";
+    (data.groups || []).forEach(function (group) {
+      html += '<article class="rule-card"><p class="rule-kicker">' + escRule(group.level) + "</p>";
+      html += "<h3>" + escRule(group.title) + "</h3><ul class=\"sound-rules\">";
+      (group.items || []).forEach(function (item) {
+        html += '<li><a class="listen-item" href="' + escRule(item.url) + '" target="_blank" rel="noopener">';
+        html += "<b>" + escRule(item.name) + "</b><span>" + escRule(item.detail) + "</span></a></li>";
+      });
+      html += "</ul></article>";
+    });
+    root.innerHTML = html;
+  }
+
+  function openListen() {
+    renderListen();
+    showScreen("listen");
   }
 
   function openDay() {
@@ -1654,11 +1680,13 @@
     var add = document.getElementById("add-screen");
     var rules = document.getElementById("rules-screen");
     var day = document.getElementById("day-screen");
+    var listen = document.getElementById("listen-screen");
     if (home) home.hidden = true;
     if (feed) feed.hidden = true;
     if (add) add.hidden = true;
     if (rules) rules.hidden = true;
     if (day) day.hidden = true;
+    if (listen) listen.hidden = true;
   }
 
   // Loads cards.json, then shows the island list. On failure, offers Retry.
@@ -1744,6 +1772,8 @@
     }
     var dayBtn = document.getElementById("day-btn");
     if (dayBtn) dayBtn.addEventListener("click", openDay);
+    var listenBtn = document.getElementById("listen-btn");
+    if (listenBtn) listenBtn.addEventListener("click", openListen);
     var islands = document.getElementById("island-picker");
     if (islands) {
       islands.addEventListener("click", function (event) {

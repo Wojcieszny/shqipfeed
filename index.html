@@ -35,6 +35,7 @@
         <button type="button" id="start-btn" class="primary-btn start-btn">Start</button>
         <div id="island-picker" class="island-picker"></div>
         <button type="button" id="day-btn" class="quiet-btn">A day with Anila and Ilir</button>
+        <button type="button" id="listen-btn" class="quiet-btn">Listen to real Albanian</button>
         <p class="home-note">Again and Got it save on this phone. Save a copy if you want the file.</p>
         <p class="home-note" id="offline-note" hidden></p>
         <button type="button" id="save-copy-btn" class="quiet-btn">Save a copy</button>
@@ -86,6 +87,12 @@
         <h2 class="screen-title">Rules of Albanian</h2>
         <p class="rules-intro">Letter sounds follow the Wikipedia Albanian pronunciation key. A sentence is given a pronunciation only when Wikivoyage prints that exact sentence. A word is given a sound only when Wiktionary prints one. Nothing else is filled in.</p>
         <div id="rules-list" class="rules-stack"></div>
+      </section>
+
+      <section id="listen-screen" hidden>
+        <h2 class="screen-title">Listen</h2>
+        <p class="rules-intro" id="listen-note"></p>
+        <div id="listen-list" class="rules-stack"></div>
       </section>
 
       <section id="day-screen" hidden>
@@ -148,6 +155,7 @@ Write 6 short cards a beginner would actually say at home. Do not claim the Alba
   <script src="day.js"></script>
   <script src="sources.js"></script>
   <script src="human.js"></script>
+  <script src="listen.js"></script>
   <script src="checks.js"></script>
   <script src="app.js"></script>
 </body>

@@ -1354,3 +1354,20 @@ body {
     transform: none;
   }
 }
+
+.listen-item {
+  display: block;
+  margin: 0 0 0.85rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.listen-item b {
+  display: block;
+  color: var(--sq-ink);
+}
+
+.listen-item span {
+  display: block;
+  margin-top: 0.15rem;
+}
