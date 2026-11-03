@@ -42,10 +42,10 @@
     "word": "ka"
   },
   "mirupafshim": {
-    "speaker": "Klodina12",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_(sqi)-Klodina12-Mirupafshim.wav",
-    "word": "Mirupafshim"
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-mirupafshim.oga",
+    "word": "mirupafshim"
   },
   "mjek": {
     "speaker": "Arianit",
@@ -178,5 +178,137 @@
     "license": "CC0",
     "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Arianit-ver%C3%AB.wav",
     "word": "verë"
+  },
+  "amerika": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1316828-Amerika-Arianit-Arianit.ogg",
+    "word": "amerika"
+  },
+  "mars": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1343824-mars-Arianit-Arianit.ogg",
+    "word": "mars"
+  },
+  "qumësht": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1355532-qum%C3%ABsht-Arianit-Arianit.ogg",
+    "word": "qumësht"
+  },
+  "cigare": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1358428-cigare-Arianit-Arianit.ogg",
+    "word": "cigare"
+  },
+  "fik": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1358441-fik-Arianit-Arianit.ogg",
+    "word": "fik"
+  },
+  "barku": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1358454-barku-Arianit-Arianit.ogg",
+    "word": "barku"
+  },
+  "hotel": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1358458-hotel-Arianit-Arianit.ogg",
+    "word": "hotel"
+  },
+  "vetëm": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L1576593-vet%C3%ABm-Arianit-Arianit.ogg",
+    "word": "vetëm"
+  },
+  "kam": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L346529-kam-Arianit-Arianit.ogg",
+    "word": "kam"
+  },
+  "keni": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L346529-keni-Arianit-Arianit.ogg",
+    "word": "keni"
+  },
+  "jemi": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L584571-jemi-Arianit-Arianit.ogg",
+    "word": "jemi"
+  },
+  "jeni": {
+    "speaker": "Arianit",
+    "license": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-L584571-jeni-Arianit-Arianit.ogg",
+    "word": "jeni"
+  },
+  "anglisht": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-anglisht.ogg",
+    "word": "anglisht"
+  },
+  "faleminderit": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-faleminderit.oga",
+    "word": "faleminderit"
+  },
+  "gëzuar": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-g%C3%ABzuar.oga",
+    "word": "gëzuar"
+  },
+  "jo": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-jo.oga",
+    "word": "jo"
+  },
+  "ju lutem": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-ju_lutem.oga",
+    "word": "ju lutem"
+  },
+  "nuk kuptoj": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-nuk_kuptoj.oga",
+    "word": "nuk kuptoj"
+  },
+  "po": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
+    "word": "po"
+  },
+  "përshëndetje": {
+    "speaker": "Bluxk",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-p%C3%ABrsh%C3%ABndetje.oga",
+    "word": "përshëndetje"
+  },
+  "shqip": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-shqip.oga",
+    "word": "shqip"
+  },
+  "tungjatjeta": {
+    "speaker": "Dori",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File%3ASq-tungjatjeta.oga",
+    "word": "tungjatjeta"
   }
 }

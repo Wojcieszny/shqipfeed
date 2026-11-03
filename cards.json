@@ -236,7 +236,8 @@
         "albanian": "Ju lutem, përsërisni.",
         "audio": "repair-003"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "repair-003",
@@ -1353,7 +1354,8 @@
         "albanian": "Si jeni?",
         "audio": "greet-002"
       }
-    }
+    },
+    "voice": "Bluxk, Wikimedia Commons, CC BY-SA 4.0"
   },
   {
     "id": "greet-008",
@@ -1396,7 +1398,8 @@
         "albanian": "Jam mirë, faleminderit.",
         "audio": "greet-003"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "greet-009",
@@ -1698,7 +1701,8 @@
         "albanian": "Mirë.",
         "audio": "greet-003-a2"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "greet-016",
@@ -1827,7 +1831,8 @@
         "albanian": "Faleminderit.",
         "audio": "greet-015"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "greet-019",
@@ -1870,7 +1875,8 @@
         "albanian": "Faleminderit. Ju lutem.",
         "audio": "greet-019-r"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "greet-020",
@@ -1913,7 +1919,8 @@
         "albanian": "Faleminderit.",
         "audio": "greet-015"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "repair-005",
@@ -2670,7 +2677,8 @@
         "albanian": "Faleminderit.",
         "audio": "greet-015"
       }
-    }
+    },
+    "voice": "Dori, Wikimedia Commons, Public domain"
   },
   {
     "id": "coffee-013",
@@ -8773,7 +8781,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Wikimedia Commons, CC0"
   },
   {
     "id": "pc-043",
@@ -9074,7 +9083,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Wikimedia Commons, CC0"
   },
   {
     "id": "pc-058",
@@ -9475,7 +9485,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Wikimedia Commons, CC0"
   },
   {
     "id": "pc-078",
@@ -11077,7 +11088,8 @@
       "facts": [
         "The wording is the book's, including its spelling."
       ]
-    }
+    },
+    "voice": "Arianit, Wikimedia Commons, CC0"
   },
   {
     "id": "pc-158",

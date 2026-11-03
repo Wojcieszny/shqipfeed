@@ -101,7 +101,7 @@
 
   // Fetches cards.json and remembers it for this page load.
   function loadStarterCards() {
-    return fetch(scriptBase() + "cards.json?v=29").then(function (res) {
+    return fetch(scriptBase() + "cards.json?v=30").then(function (res) {
       if (!res.ok) throw new Error("bad status");
       return res.json();
     }).then(function (data) {
