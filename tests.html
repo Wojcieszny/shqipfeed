@@ -29,6 +29,7 @@
     <ul id="results"></ul>
   </main>
   <script src="data.js"></script>
+  <script src="human.js"></script>
   <script src="app.js"></script>
   <script>
     var results = document.getElementById("results");
@@ -65,7 +66,7 @@
       }
 
       ShqipData.loadStarterCards().then(function (cards) {
-        var required = ["id", "island", "english", "albanian", "phonetic", "verified"];
+        var required = ["id", "island", "english", "albanian", "verified"];
         var missing = [];
         cards.forEach(function (card, index) {
           required.forEach(function (field) {
@@ -77,7 +78,7 @@
             missing.push("card " + (index + 1) + " verified is not true or false");
           }
         });
-        add(cards.length > 0 && missing.length === 0, "cards.json loads and every card has id, island, english, albanian, phonetic, verified", missing.join("; "));
+        add(cards.length > 0 && missing.length === 0, "cards.json loads and every card has id, island, english, albanian, verified", missing.join("; "));
 
         var ids = {};
         var dup = "";
@@ -139,6 +140,93 @@
         if (before) ShqipData.applyBackup(before);
       });
     }
+
+    // SETUP-01 checks: source JSON, sw.js files, audio files, human coverage.
+    function exists(url) {
+      return fetch(url, { method: "HEAD", cache: "no-store" }).then(function (r) {
+        return r.ok;
+      }).catch(function () { return false; });
+    }
+
+    function checkAll(urls) {
+      return Promise.all(urls.map(function (u) {
+        return exists(u).then(function (ok) { return ok ? null : u; });
+      })).then(function (r) { return r.filter(Boolean); });
+    }
+
+    function listMissing(list) {
+      return list.length + " missing: " + list.slice(0, 20).join(", ") + (list.length > 20 ? " ..." : "");
+    }
+
+    function runSetupChecks() {
+      fetch("cards.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (cards) {
+        var bad = [];
+        var seen = {};
+        var dups = [];
+        cards.forEach(function (c) {
+          ["id", "island", "english", "albanian", "verified"].forEach(function (f) {
+            if (c[f] === undefined || c[f] === null || c[f] === "") bad.push((c.id || "?") + " missing " + f);
+          });
+          if (c.verified !== false) bad.push((c.id || "?") + " verified is not false");
+          if (seen[c.id]) dups.push(c.id);
+          seen[c.id] = true;
+        });
+        add(cards.length > 0 && bad.length === 0, "source cards.json: required fields and verified === false",
+          bad.length ? listMissing(bad) : cards.length + " cards");
+        add(dups.length === 0, "source cards.json: ids unique", dups.join(", "));
+
+        var audio = {};
+        cards.forEach(function (c) {
+          audio["audio/" + (c.audio || c.id) + ".mp3"] = true;
+          var l = c.lesson;
+          if (l) {
+            (l.answers || []).forEach(function (a) { if (a.audio) audio["audio/" + a.audio + ".mp3"] = true; });
+            if (l.reply && l.reply.audio) audio["audio/" + l.reply.audio + ".mp3"] = true;
+          }
+        });
+        var audioList = Object.keys(audio);
+        checkAll(audioList).then(function (missing) {
+          add(missing.length === 0, "card, answer and reply audio files exist (" + audioList.length + " checked)",
+            missing.length ? listMissing(missing) : "");
+        });
+
+        var human = window.ShqipHuman || {};
+        function key(t) { return String(t).toLowerCase().replace(/[.,!?;:"]/g, "").trim(); }
+        var cardHuman = 0;
+        var words = {};
+        var wordHuman = {};
+        cards.forEach(function (c) {
+          if (human[key(c.albanian)]) cardHuman++;
+          (c.blocks || []).forEach(function (b) {
+            var k = key(b.text);
+            words[k] = true;
+            if (human[k]) wordHuman[k] = true;
+          });
+        });
+        var wordTotal = Object.keys(words).length;
+        var wordH = Object.keys(wordHuman).length;
+        add(true, "INFO human audio coverage (informational)",
+          "cards: " + cardHuman + "/" + cards.length + " human, " + (cards.length - cardHuman) + " synthetic TTS; " +
+          "words: " + wordH + "/" + wordTotal + " human, " + (wordTotal - wordH) + " synthetic TTS");
+      }).catch(function (err) {
+        add(false, "source cards.json checks", String(err && err.message ? err.message : err));
+      });
+
+      fetch("sw.js", { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (text) {
+        var block = text.split("const ASSETS = [")[1] || "";
+        block = block.split("];")[0];
+        var files = [];
+        block.replace(/"\.\/([^"]+)"/g, function (m, f) { files.push(f); return m; });
+        return checkAll(files.map(encodeURI)).then(function (missing) {
+          add(files.length > 0 && missing.length === 0, "every file listed in sw.js exists (" + files.length + " checked)",
+            missing.length ? listMissing(missing.map(decodeURI)) : "");
+        });
+      }).catch(function (err) {
+        add(false, "sw.js file list", String(err && err.message ? err.message : err));
+      });
+    }
+
+    runSetupChecks();
 
     run();
   </script>

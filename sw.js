@@ -1,7 +1,8 @@
 /* ShqipFeed offline cache. Generated from the files in this folder. */
-const CACHE_VERSION = "shqipfeed-v28";
+const CACHE_VERSION = "shqipfeed-v29";
 
 const ASSETS = [
+  "./AGENTS.md",
   "./README.md",
   "./app.js",
   "./audio/coffee-001-a1.mp3",
@@ -990,6 +991,7 @@ const ASSETS = [
   "./checks.js",
   "./data.js",
   "./day.js",
+  "./docs/ROADMAP.md",
   "./human.js",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

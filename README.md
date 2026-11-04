@@ -25,6 +25,18 @@ This folder is the whole app. There is no build step.
 
 Edits pushed to `main` show up on the phone address after a minute. Open the site once while online so the phone picks up the new files.
 
+## Run it locally and check it
+
+1. In this folder run `python -m http.server 8000`.
+2. Open `http://localhost:8000/` for the app.
+3. Open `http://localhost:8000/tests.html` for the checks. Every line says PASS or FAIL.
+
+## How deploy works
+
+The owner merges (or pushes) to `main`. GitHub Pages then publishes the root folder. Nobody else deploys.
+
+See [docs/ROADMAP.md](docs/ROADMAP.md) for tickets, [ShqipFeed-Master-Document.md](ShqipFeed-Master-Document.md) for the full design, and [AGENTS.md](AGENTS.md) for the working rules.
+
 ## What the screens do
 
 **Start** picks the next lines. Due lines come first, then a few new ones. **Got it** moves a line up a box. **Again** puts it back in box 1. After the new lines, one check asks what you say back.
