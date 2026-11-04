@@ -142,16 +142,29 @@
     }
 
     // SETUP-01 checks: source JSON, sw.js files, audio files, human coverage.
-    function exists(url) {
+    function exists(url, retry) {
       return fetch(url, { method: "HEAD", cache: "no-store" }).then(function (r) {
         return r.ok;
-      }).catch(function () { return false; });
+      }).catch(function () {
+        // a dropped connection is not a missing file: try once more
+        return retry === false ? false : exists(url, false);
+      });
     }
 
     function checkAll(urls) {
-      return Promise.all(urls.map(function (u) {
-        return exists(u).then(function (ok) { return ok ? null : u; });
-      })).then(function (r) { return r.filter(Boolean); });
+      var missing = [];
+      var pos = 0;
+      function worker() {
+        if (pos >= urls.length) return Promise.resolve();
+        var u = urls[pos++];
+        return exists(u).then(function (ok) {
+          if (!ok) missing.push(u);
+          return worker();
+        });
+      }
+      var pool = [];
+      for (var i = 0; i < 3; i++) pool.push(worker());
+      return Promise.all(pool).then(function () { return missing; });
     }
 
     function listMissing(list) {
@@ -227,6 +240,29 @@
     }
 
     runSetupChecks();
+
+    // HUMAN-AUDIO-01: human.js loads and every file it references exists.
+    function runHumanChecks() {
+      var human = window.ShqipHuman;
+      if (!human || typeof human !== "object") {
+        add(false, "human.js loads", "window.ShqipHuman is missing");
+        return;
+      }
+      var keys = Object.keys(human);
+      var files = {};
+      keys.forEach(function (k) {
+        var f = human[k].file || ("audio/human/" + k + ".mp3");
+        files[f] = true;
+      });
+      var list = Object.keys(files);
+      add(keys.length > 0, "human.js loads", keys.length + " entries");
+      checkAll(list.map(encodeURI)).then(function (missing) {
+        add(missing.length === 0, "every file referenced in human.js exists (" + list.length + " checked)",
+          missing.length ? listMissing(missing.map(decodeURI)) : "");
+      });
+    }
+
+    runHumanChecks();
 
     run();
   </script>
