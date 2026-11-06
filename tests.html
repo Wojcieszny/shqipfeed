@@ -416,7 +416,91 @@
       });
     }
 
-    runCommuteChecks();
+        runCommuteChecks();
+
+    // CORPUS-SCENES-01: 10 Real-Life Family Scenes in day.js & everyday cards expansion
+    function runCorpusScenesChecks() {
+      var day = window.ShqipDay || {};
+      var scenes = Array.isArray(day.scenes) ? day.scenes : [];
+      var turns = Array.isArray(day.turns) ? day.turns : [];
+
+      var distinctScenes = {};
+      if (scenes.length > 0) {
+        scenes.forEach(function (s) { if (s && (s.id || s.title)) distinctScenes[s.id || s.title] = true; });
+      } else {
+        turns.forEach(function (t) { if (t && (t.sceneId || t.part)) distinctScenes[t.sceneId || t.part] = true; });
+      }
+      var sceneCount = Object.keys(distinctScenes).length;
+      var badTurns = [];
+      var dayAudioUrls = [];
+      var reg = (window.ShqipSources && window.ShqipSources.cardAudio) || {};
+
+      turns.forEach(function (t, idx) {
+        var missingFields = [];
+        if (!t.who) missingFields.push('who');
+        if (!t.sq) missingFields.push('sq');
+        if (!t.en) missingFields.push('en');
+        if (!t.audio) missingFields.push('audio');
+        if (!t.part) missingFields.push('part');
+        if (missingFields.length > 0) {
+          badTurns.push('turn ' + (idx + 1) + ' missing ' + missingFields.join(', '));
+        }
+        if (t.audio) {
+          var audioPath = 'audio/' + t.audio + '.mp3';
+          dayAudioUrls.push(audioPath);
+          if (!reg[audioPath]) {
+            badTurns.push('turn ' + (idx + 1) + ' audio not in sources.js: ' + audioPath);
+          }
+        }
+      });
+
+      add(
+        sceneCount >= 8 && badTurns.length === 0 && turns.length > 0,
+        'ShqipDay contains >= 8 distinct real-life scenes, all turns have who/sq/en/audio/part, and audio registered in sources.js (' + sceneCount + ' scenes, ' + turns.length + ' turns)',
+        badTurns.length ? listMissing(badTurns) : sceneCount + ' scenes, ' + turns.length + ' turns'
+      );
+
+      checkAll(dayAudioUrls.map(encodeURI)).then(function (missingAudio) {
+        add(
+          dayAudioUrls.length > 0 && missingAudio.length === 0,
+          '100% of ShqipDay turn audio files exist on disk (' + dayAudioUrls.length + ' checked)',
+          missingAudio.length ? listMissing(missingAudio.map(decodeURI)) : ''
+        );
+      });
+
+      fetch('cards.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (cards) {
+        var badCards = [];
+        cards.forEach(function (c) {
+          if (c.verified !== false) {
+            badCards.push(c.id + ' verified is not false');
+          }
+          if (typeof c.phonetic !== 'string' || !c.phonetic.trim()) {
+            badCards.push(c.id + ' missing phonetic');
+          }
+          if (!Array.isArray(c.blocks) || c.blocks.length === 0) {
+            badCards.push(c.id + ' invalid or empty blocks');
+          } else {
+            c.blocks.forEach(function (b, bIdx) {
+              if (!b.text || !b.type) badCards.push(c.id + ' block ' + (bIdx + 1) + ' missing text/type');
+            });
+          }
+          var audioFile = 'audio/' + (c.audio || c.id) + '.mp3';
+          if (!reg[audioFile]) {
+            badCards.push(c.id + ' audio not registered in sources.js: ' + audioFile);
+          }
+        });
+
+        add(
+          cards.length >= 320 && badCards.length === 0,
+          'all cards in cards.json have verified === false, non-empty phonetic, valid blocks, and registered audio (' + cards.length + ' cards)',
+          badCards.length ? listMissing(badCards) : cards.length + ' cards verified'
+        );
+      }).catch(function (err) {
+        add(false, 'CORPUS-SCENES-01 cards check', String(err && err.message ? err.message : err));
+      });
+    }
+
+    runCorpusScenesChecks();
 
     run();
   </script>

@@ -4996,485 +4996,975 @@ window.ShqipSources = {
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/loecsen/faleminderit--albanais-13-12.mp3.mp3"
+      "from": "audio/human/flet-shqip.mp3"
     },
     "audio/day/12.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/jo-unë-nuk-flas-shqip.mp3"
+    },
+    "audio/day/13.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/236/sq",
-      "from": "audio/human/unë-jam-i-lodhur.mp3"
-    },
-    "audio/day/13.mp3": {
-      "source": "commons",
-      "speaker": "Dori",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File%3ASq-ju_lutem.oga",
-      "from": "audio/human/ju-lutem.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/184/sq",
+      "from": "audio/human/mund-t-i-kuptoj-mirë.mp3"
     },
     "audio/day/14.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/loecsen/faleminderit--albanais-13-12.mp3.mp3"
+      "from": "audio/human/mund-të-flasësh-pak-më-me-ngadalë-të-lutem.mp3"
     },
     "audio/day/15.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
-      "from": "audio/human/a-mund-të-ulemi.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/184/sq",
+      "from": "audio/human/ju-keni-një-nuancë-në-shqiptim.mp3"
     },
     "audio/day/16.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/në-rregull.mp3"
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/225/sq",
+      "from": "audio/human/nuk-e-kuptoj-fjalën.mp3"
     },
     "audio/day/17.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
-      "from": "audio/human/a-dëshironi-një-kafe.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/184/sq",
+      "from": "audio/human/shqiptimi-juaj-është-mjaft-i-mirë.mp3"
     },
     "audio/day/18.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/190/sq",
-      "from": "audio/human/do-të-doja-një-kafe-me-qumësht.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/225/sq",
+      "from": "audio/human/po-e-kuptoj-mirë.mp3"
     },
     "audio/day/19.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/173/sq",
-      "from": "audio/human/a-e-pi-kafenë-me-sheqer.mp3"
-    },
-    "audio/day/20.mp3": {
-      "source": "commons",
-      "speaker": "File Upload Bot (Dori)",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
-      "from": "audio/human/po.mp3"
-    },
-    "audio/day/21.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
-      "from": "audio/human/apo-ju-pëlqen-më-shumë-një-çaj.mp3"
-    },
-    "audio/day/22.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/një-çaj-të-lutem.mp3"
-    },
-    "audio/day/23.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/173/sq",
-      "from": "audio/human/a-e-pi-çajin-me-limon.mp3"
-    },
-    "audio/day/24.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/190/sq",
-      "from": "audio/human/dua-një-çaj-me-limon.mp3"
-    },
-    "audio/day/25.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/192/sq",
-      "from": "audio/human/ju-lutem-edhe-një-gotë-ujë.mp3"
-    },
-    "audio/day/26.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
       "from": "audio/human/faleminderit-shumë.mp3"
     },
-    "audio/day/27.mp3": {
+    "audio/day/20.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/asgjë.mp3"
     },
-    "audio/day/28.mp3": {
+    "audio/day/21.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
-      "from": "audio/human/unë-shtroj-tavolinën.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
+      "from": "audio/human/a-mund-të-ulemi.mp3"
+    },
+    "audio/day/22.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/në-rregull.mp3"
+    },
+    "audio/day/23.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
+      "from": "audio/human/a-dëshironi-një-kafe.mp3"
+    },
+    "audio/day/24.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/190/sq",
+      "from": "audio/human/do-të-doja-një-kafe-me-qumësht.mp3"
+    },
+    "audio/day/25.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/173/sq",
+      "from": "audio/human/a-e-pi-kafenë-me-sheqer.mp3"
+    },
+    "audio/day/26.mp3": {
+      "source": "commons",
+      "speaker": "File Upload Bot (Dori)",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
+      "from": "audio/human/po.mp3"
+    },
+    "audio/day/27.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
+      "from": "audio/human/apo-ju-pëlqen-më-shumë-një-çaj.mp3"
+    },
+    "audio/day/28.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/një-çaj-të-lutem.mp3"
     },
     "audio/day/29.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/201/sq",
-      "from": "audio/human/a-mund-të-më-ndihmoni.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/192/sq",
+      "from": "audio/human/ju-lutem-edhe-një-gotë-ujë.mp3"
     },
     "audio/day/30.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/loecsen/faleminderit--albanais-13-12.mp3.mp3"
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
+      "from": "audio/human/faleminderit-shumë.mp3"
     },
     "audio/day/31.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/ku-ka-ndonjë-vend-të-mirë-për-të-ngrënë.mp3"
-    },
-    "audio/day/32.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/201/sq",
-      "from": "audio/human/ku-ndodhet-ndonjë-restorant-i-mirë-këtu.mp3"
-    },
-    "audio/day/33.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/urdhëroni-menunë.mp3"
-    },
-    "audio/day/34.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/menunë-ju-lutem.mp3"
-    },
-    "audio/day/35.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/keni-një-thikë-ju-lutem.mp3"
-    },
-    "audio/day/36.mp3": {
-      "source": "commons",
-      "speaker": "File Upload Bot (Dori)",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
-      "from": "audio/human/po.mp3"
-    },
-    "audio/day/37.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/çfarë-dëshiron-të-hash-mish-apo-peshk.mp3"
     },
-    "audio/day/38.mp3": {
+    "audio/day/32.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/unë-do-marr-peshk.mp3"
     },
-    "audio/day/39.mp3": {
+    "audio/day/33.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/192/sq",
       "from": "audio/human/bukë-të-thekur-me-sallam-dhe-djathë.mp3"
     },
-    "audio/day/40.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/është-vakt-i-ngrohtë.mp3"
-    },
-    "audio/day/41.mp3": {
+    "audio/day/34.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/215/sq",
       "from": "audio/human/kjo-është-një-cilësi-goxha-e-mirë.mp3"
     },
-    "audio/day/42.mp3": {
+    "audio/day/35.mp3": {
       "source": "commons",
       "speaker": "Dori at English Wikipedia",
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File%3ASq-g%C3%ABzuar.oga",
       "from": "audio/human/gëzuar.mp3"
     },
-    "audio/day/43.mp3": {
+    "audio/day/36.mp3": {
       "source": "commons",
       "speaker": "Dori at English Wikipedia",
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File%3ASq-g%C3%ABzuar.oga",
       "from": "audio/human/gëzuar.mp3"
     },
-    "audio/day/44.mp3": {
+    "audio/day/37.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/226/sq",
+      "from": "audio/human/a-do-përsëri-supë.mp3"
+    },
+    "audio/day/38.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/244/sq",
       "from": "audio/human/unë-e-kam-ngrënë-të-gjithë-ushqimin.mp3"
     },
-    "audio/day/45.mp3": {
+    "audio/day/39.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/paguaj-unë.mp3"
     },
-    "audio/day/46.mp3": {
+    "audio/day/40.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
       "from": "audio/human/faleminderit-shumë.mp3"
     },
-    "audio/day/47.mp3": {
+    "audio/day/41.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
-      "from": "audio/human/sot-kemi-kohë.mp3"
+      "from": "audio/human/sot-pastrojmë-shtëpinë.mp3"
+    },
+    "audio/day/42.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/201/sq",
+      "from": "audio/human/a-mund-të-më-ndihmoni.mp3"
+    },
+    "audio/day/43.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/mund-të-më-ndihmoni-ju-lutem.mp3"
+    },
+    "audio/day/44.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/unë-shtroj-tavolinën.mp3"
+    },
+    "audio/day/45.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/ku-jane-gotat.mp3"
+    },
+    "audio/day/46.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/këtu-janë-gotat-pjatat-dhe-picetat.mp3"
+    },
+    "audio/day/47.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/këtu-janë-thikat-pirunjtë-dhe-lugët.mp3"
     },
     "audio/day/48.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
-      "from": "audio/human/a-dëshironi-të-dilni-shëtitje.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/kush-i-lan-enët.mp3"
     },
     "audio/day/49.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/është-një-ide-e-mirë.mp3"
+      "from": "audio/human/faleminderit-për-ndihmën-tuaj.mp3"
     },
     "audio/day/50.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/185/sq",
-      "from": "audio/human/a-shkojmë-në-plazh.mp3"
-    },
-    "audio/day/51.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/ku-doni-të-shkoni.mp3"
+      "from": "audio/human/asgjë.mp3"
+    },
+    "audio/day/51.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/255/sq",
+      "from": "audio/human/kur-kthehesh-në-shtëpi.mp3"
     },
     "audio/day/52.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/186/sq",
-      "from": "audio/human/dua-të-shkoj-në-qendër.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/171/sq",
+      "from": "audio/human/unë-punoj-në-zyrë.mp3"
     },
     "audio/day/53.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
-      "from": "audio/human/cili-autobus-shkon-në-qendër.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/244/sq",
+      "from": "audio/human/kam-punuar-gjithë-ditën.mp3"
     },
     "audio/day/54.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
-      "from": "audio/human/autobusi-tjetër-vjen-për-15-minuta.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/236/sq",
+      "from": "audio/human/unë-jam-i-lodhur.mp3"
     },
     "audio/day/55.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
-      "from": "audio/human/ku-është-stacioni-i-autobusit.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/171/sq",
+      "from": "audio/human/po-rri-në-shtëpi.mp3"
     },
     "audio/day/56.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/më-falni-po-kërkoj-stacionin-e-autobusit.mp3"
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/181/sq",
+      "from": "audio/human/rrini-si-në-shtëpinë-tuaj.mp3"
     },
     "audio/day/57.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/është-drejt.mp3"
-    },
-    "audio/day/58.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/është-larg-nga-këtu.mp3"
-    },
-    "audio/day/59.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/është-këtu.mp3"
-    },
-    "audio/day/60.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
-      "from": "audio/human/sa-kushton-një-biletë.mp3"
-    },
-    "audio/day/61.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/njëqind.mp3"
-    },
-    "audio/day/62.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
-      "from": "audio/human/a-mund-të-paguaj-me-kartë-krediti.mp3"
-    },
-    "audio/day/63.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
-      "from": "audio/human/a-mund-të-paguaj-edhe-me-lekë-në-dorë.mp3"
-    },
-    "audio/day/64.mp3": {
-      "source": "commons",
-      "speaker": "File Upload Bot (Dori)",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
-      "from": "audio/human/po.mp3"
-    },
-    "audio/day/65.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
-      "from": "audio/human/është-ora-tetë.mp3"
-    },
-    "audio/day/66.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/236/sq",
-      "from": "audio/human/është-vonë-tashmë.mp3"
-    },
-    "audio/day/67.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/230/sq",
-      "from": "audio/human/unë-dua-të-fle.mp3"
-    },
-    "audio/day/68.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/232/sq",
-      "from": "audio/human/dua-të-shkoj-në-shtëpi.mp3"
-    },
-    "audio/day/69.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/faleminderit-për-ndihmën-tuaj.mp3"
-    },
-    "audio/day/70.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/163/sq",
       "from": "audio/human/ne-jemi-një-familje.mp3"
     },
-    "audio/day/71.mp3": {
+    "audio/day/58.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/faleminderit-për-ndihmën-tuaj.mp3"
+    },
+    "audio/day/59.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/kalova-mirë-me-ty.mp3"
     },
-    "audio/day/72.mp3": {
+    "audio/day/60.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/edhe-unë.mp3"
     },
-    "audio/day/73.mp3": {
+    "audio/day/61.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/251/sq",
-      "from": "audio/human/shkofshi-shëndoshë-e-mirë-në-shtëpi.mp3"
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/a-keni-dhimbje.mp3"
     },
-    "audio/day/74.mp3": {
+    "audio/day/62.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/kam-shpesh-dhimbje-koke.mp3"
+    },
+    "audio/day/63.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/259/sq",
+      "from": "audio/human/ai-nuk-është-vetëm-i-lodhur-por-edhe-i-sëmurë.mp3"
+    },
+    "audio/day/64.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/ndonjë-herë-kam-dhimbje-barku.mp3"
+    },
+    "audio/day/65.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/243/sq",
+      "from": "audio/human/a-të-duhej-të-thërrisje-mjekun.mp3"
+    },
+    "audio/day/66.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/253/sq",
+      "from": "audio/human/besoj-se-ai-ka-nevojë-për-mjek.mp3"
+    },
+    "audio/day/67.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ku-gjendet-farmacia-më-e-afërt.mp3"
+    },
+    "audio/day/68.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/214/sq",
+      "from": "audio/human/ne-kërkojmë-një-farmaci-për-të-blerë-ilaçe.mp3"
+    },
+    "audio/day/69.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/po-ju-jap-një-recetë-për-në-farmaci.mp3"
+    },
+    "audio/day/70.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
       "from": "audio/human/faleminderit-shumë.mp3"
     },
+    "audio/day/71.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/sot-kemi-kohë.mp3"
+    },
+    "audio/day/72.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
+      "from": "audio/human/a-dëshironi-të-dilni-shëtitje.mp3"
+    },
+    "audio/day/73.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/është-një-ide-e-mirë.mp3"
+    },
+    "audio/day/74.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/185/sq",
+      "from": "audio/human/a-shkojmë-në-plazh.mp3"
+    },
     "audio/day/75.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ku-doni-të-shkoni.mp3"
+    },
+    "audio/day/76.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/186/sq",
+      "from": "audio/human/dua-të-shkoj-në-qendër.mp3"
+    },
+    "audio/day/77.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
+      "from": "audio/human/cili-autobus-shkon-në-qendër.mp3"
+    },
+    "audio/day/78.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
+      "from": "audio/human/autobusi-tjetër-vjen-për-15-minuta.mp3"
+    },
+    "audio/day/79.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/197/sq",
+      "from": "audio/human/ku-është-stacioni-i-autobusit.mp3"
+    },
+    "audio/day/80.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/është-drejt.mp3"
+    },
+    "audio/family-013.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/244/sq",
+      "from": "audio/human/kam-punuar-gjithë-ditën.mp3"
+    },
+    "audio/family-014.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/171/sq",
+      "from": "audio/human/unë-punoj-në-zyrë.mp3"
+    },
+    "audio/family-015.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/223/sq",
+      "from": "audio/human/a-po-punon-ai-tani.mp3"
+    },
+    "audio/family-016.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/255/sq",
+      "from": "audio/human/kur-kthehesh-në-shtëpi.mp3"
+    },
+    "audio/family-017.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ai-është-në-punë.mp3"
+    },
+    "audio/family-018.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ai-është-në-shtëpi.mp3"
+    },
+    "audio/family-019.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/181/sq",
+      "from": "audio/human/rrini-si-në-shtëpinë-tuaj.mp3"
+    },
+    "audio/family-020.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/256/sq",
+      "from": "audio/human/ajo-dëgjon-muzikë-kur-bën-detyrat-e-shtëpisë.mp3"
+    },
+    "audio/family-021.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/237/sq",
+      "from": "audio/human/ai-nuk-erdhi-sepse-nuk-kishte-dëshirë.mp3"
+    },
+    "audio/family-022.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/227/sq",
+      "from": "audio/human/gjyshi-ynë-është-sëmurë.mp3"
+    },
+    "audio/plans-012.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/177/sq",
+      "from": "audio/human/si-është-moti-sot.mp3"
+    },
+    "audio/plans-013.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/177/sq",
+      "from": "audio/human/sot-është-ngrohtë.mp3"
+    },
+    "audio/plans-014.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/177/sq",
+      "from": "audio/human/sot-është-ftohtë.mp3"
+    },
+    "audio/plans-015.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/177/sq",
+      "from": "audio/human/bie-shi.mp3"
+    },
+    "audio/plans-016.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/177/sq",
+      "from": "audio/human/është-ditë-me-diell.mp3"
+    },
+    "audio/plans-017.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/171/sq",
+      "from": "audio/human/dje-isha-në-kinema.mp3"
+    },
+    "audio/plans-018.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/171/sq",
+      "from": "audio/human/dje-ishte-e-shtunë.mp3"
+    },
+    "audio/plans-019.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/246/sq",
+      "from": "audio/human/ku-keni-qenë.mp3"
+    },
+    "audio/plans-020.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/247/sq",
+      "from": "audio/human/ku-keni-shkuar.mp3"
+    },
+    "audio/plans-021.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/246/sq",
+      "from": "audio/human/si-keni-fjetur.mp3"
+    },
+    "audio/house-009.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/sot-pastrojmë-shtëpinë.mp3"
+    },
+    "audio/house-010.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/fëmijët-pastrojnë-dhomën.mp3"
+    },
+    "audio/house-011.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/burri-im-lan-makinën.mp3"
+    },
+    "audio/house-012.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/kush-i-lan-enët.mp3"
+    },
+    "audio/house-013.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/kush-i-lan-dritaret.mp3"
+    },
+    "audio/house-014.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/179/sq",
+      "from": "audio/human/dritaret-janë-të-pista.mp3"
+    },
+    "audio/house-015.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/këtu-janë-gotat-pjatat-dhe-picetat.mp3"
+    },
+    "audio/house-016.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/këtu-janë-thikat-pirunjtë-dhe-lugët.mp3"
+    },
+    "audio/house-017.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/a-ke-hapëse-shishesh.mp3"
+    },
+    "audio/house-018.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/a-ti-pres-qepët.mp3"
+    },
+    "audio/food-015.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/226/sq",
+      "from": "audio/human/a-do-përsëri-supë.mp3"
+    },
+    "audio/food-016.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/217/sq",
+      "from": "audio/human/a-keni-uri.mp3"
+    },
+    "audio/food-017.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/180/sq",
+      "from": "audio/human/a-ti-qëroj-patatet.mp3"
+    },
+    "audio/food-018.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/212/sq",
+      "from": "audio/human/dua-të-blej-fruta-dhe-perime.mp3"
+    },
+    "audio/food-019.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/191/sq",
+      "from": "audio/human/dua-një-pjatancë-me-perime.mp3"
+    },
+    "audio/food-020.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/192/sq",
+      "from": "audio/human/dua-fruta-ose-djathë.mp3"
+    },
+    "audio/food-021.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/çfarë-ka-për-të-pirë.mp3"
+    },
+    "audio/food-022.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/190/sq",
+      "from": "audio/human/do-të-doja-një-ujë-mineral.mp3"
+    },
+    "audio/food-023.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ka-ujë-ose-lëngje-frutash.mp3"
+    },
+    "audio/food-024.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/244/sq",
+      "from": "audio/human/unë-kam-ngrënë.mp3"
+    },
+    "audio/health-012.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/a-keni-dhimbje.mp3"
+    },
+    "audio/health-013.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/kam-shpesh-dhimbje-koke.mp3"
+    },
+    "audio/health-014.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/kam-gjithmonë-dhimbje-kurrizi.mp3"
+    },
+    "audio/health-015.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/ndonjë-herë-kam-dhimbje-barku.mp3"
+    },
+    "audio/health-016.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/214/sq",
+      "from": "audio/human/duam-të-blejmë-ilaçe.mp3"
+    },
+    "audio/health-017.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/214/sq",
+      "from": "audio/human/ne-kërkojmë-një-farmaci-për-të-blerë-ilaçe.mp3"
+    },
+    "audio/health-018.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/ku-gjendet-farmacia-më-e-afërt.mp3"
+    },
+    "audio/health-019.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/243/sq",
+      "from": "audio/human/a-të-duhej-të-thërrisje-mjekun.mp3"
+    },
+    "audio/health-020.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/253/sq",
+      "from": "audio/human/besoj-se-ai-ka-nevojë-për-mjek.mp3"
+    },
+    "audio/health-021.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/218/sq",
+      "from": "audio/human/kam-takim-te-mjeku.mp3"
+    },
+    "audio/day/81.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/213/sq",
+      "from": "audio/human/a-shkojmë-në-një-qendër-tregtare.mp3"
+    },
+    "audio/day/82.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/212/sq",
+      "from": "audio/human/dua-të-blej-fruta-dhe-perime.mp3"
+    },
+    "audio/day/83.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/202/sq",
+      "from": "audio/human/ku-është-pazari.mp3"
+    },
+    "audio/day/84.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/203/sq",
+      "from": "audio/human/a-është-i-hapur-pazari-të-dielave.mp3"
+    },
+    "audio/day/85.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/193/sq",
+      "from": "audio/human/çfarë-perimesh-keni.mp3"
+    },
+    "audio/day/86.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/sa-kushton-ju-lutem.mp3"
+    },
+    "audio/day/87.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/njëqind.mp3"
+    },
+    "audio/day/88.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
+      "from": "audio/human/a-mund-të-paguaj-me-kartë-krediti.mp3"
+    },
+    "audio/day/89.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/234/sq",
+      "from": "audio/human/a-mund-të-paguaj-edhe-me-lekë-në-dorë.mp3"
+    },
+    "audio/day/90.mp3": {
+      "source": "commons",
+      "speaker": "File Upload Bot (Dori)",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File%3ASq-po.oga",
+      "from": "audio/human/po.mp3"
+    },
+    "audio/day/91.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
+      "from": "audio/human/është-ora-tetë.mp3"
+    },
+    "audio/day/92.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/236/sq",
+      "from": "audio/human/është-vonë-tashmë.mp3"
+    },
+    "audio/day/93.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/230/sq",
+      "from": "audio/human/unë-dua-të-fle.mp3"
+    },
+    "audio/day/94.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/232/sq",
+      "from": "audio/human/dua-të-shkoj-në-shtëpi.mp3"
+    },
+    "audio/day/95.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/251/sq",
+      "from": "audio/human/shkofshi-shëndoshë-e-mirë-në-shtëpi.mp3"
+    },
+    "audio/day/96.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/169/sq",
+      "from": "audio/human/faleminderit-shumë.mp3"
+    },
+    "audio/day/97.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/164/sq",
       "from": "audio/human/a-do-të-shihemi-nesër.mp3"
     },
-    "audio/day/76.mp3": {
+    "audio/day/98.mp3": {
       "source": "loecsen",
       "speaker": "Loecsen native speaker",
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/shihemi-nesër.mp3"
     },
-    "audio/day/77.mp3": {
+    "audio/day/99.mp3": {
       "source": "commons",
       "speaker": "Klodina12",
       "license": "CC0",
       "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Klodina12-Nat%C3%ABn_e_mir%C3%AB.wav",
       "from": "audio/human/natën-e-mirë.mp3"
     },
-    "audio/day/78.mp3": {
-      "source": "commons",
-      "speaker": "Klodina12",
-      "license": "CC0",
-      "page": "https://commons.wikimedia.org/wiki/File%3ALL-Q8748_%28sqi%29-Klodina12-Nat%C3%ABn_e_mir%C3%AB.wav",
-      "from": "audio/human/natën-e-mirë.mp3"
-    },
-    "audio/day/79.mp3": {
-      "source": "commons",
-      "speaker": "Dori",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File%3ASq-mirupafshim.oga",
-      "from": "audio/human/mirupafshim--dori.mp3"
-    },
-    "audio/day/80.mp3": {
+    "audio/day/100.mp3": {
       "source": "commons",
       "speaker": "Dori",
       "license": "Public domain",
