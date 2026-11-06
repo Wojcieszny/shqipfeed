@@ -933,6 +933,15 @@ self.addEventListener("activate", (e) => {
 
 self.addEventListener("fetch", (e) => {
   e.respondWith(
-    caches.match(e.request).then((cached) => cached || fetch(e.request))
+    caches.match(e.request).then((cached) => {
+      if (cached) return cached;
+      return fetch(e.request).then((res) => {
+        if (res && res.status === 200 && e.request.url.includes("/audio/")) {
+          var copy = res.clone();
+          caches.open(CACHE_VERSION).then((c) => c.put(e.request, copy));
+        }
+        return res;
+      });
+    })
   );
 });
