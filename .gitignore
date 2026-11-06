@@ -13,3 +13,8 @@ temp_*/
 
 # Temporary audio downloads
 *.zip
+
+# Build & scraper artifacts
+human_corpus_index.json
+scripts/
+

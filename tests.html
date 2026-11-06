@@ -233,8 +233,8 @@
         var files = [];
         block.replace(/"\.\/([^"]+)"/g, function (m, f) { files.push(f); return m; });
         return checkAll(files.map(encodeURI)).then(function (missing) {
-          add(files.length > 0 && missing.length === 0, "every file listed in sw.js exists (" + files.length + " checked)",
-            missing.length ? listMissing(missing.map(decodeURI)) : "");
+          add(files.length > 0 && files.length < 1500 && missing.length === 0, "sw.js caches fewer than 1500 files and 100% exist (" + files.length + " checked)",
+            missing.length ? listMissing(missing.map(decodeURI)) : files.length + " files cached");
         });
       }).catch(function (err) {
         add(false, "sw.js file list", String(err && err.message ? err.message : err));
@@ -296,9 +296,9 @@
         add(Object.keys(used).length > 0 && bad.length === 0,
           "every clip used by cards.json and day.js is a registered human recording (" + Object.keys(used).length + " clips, 0 synthetic allowed)",
           bad.length ? listMissing(bad) : "");
-        var dayFiles = (day.turns || []).filter(function (t) { return t.audio; }).map(function (t) { return "audio/" + t.audio + ".mp3"; });
-        checkAll(dayFiles.map(encodeURI)).then(function (missing) {
-          add(dayFiles.length > 0 && missing.length === 0, "every day.js turn audio file exists (" + dayFiles.length + " checked)",
+        var regFiles = Object.keys(reg);
+        checkAll(regFiles.map(encodeURI)).then(function (missing) {
+          add(regFiles.length > 0 && missing.length === 0, "every file listed in sources.js exists (" + regFiles.length + " checked)",
             missing.length ? listMissing(missing.map(decodeURI)) : "");
         });
       }).catch(function (err) {

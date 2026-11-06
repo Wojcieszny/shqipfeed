@@ -167,116 +167,116 @@ window.ShqipDay = {
       "audio": "day/27"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Unë shtroj tavolinën.",
       "en": "I am setting the table.",
       "audio": "day/28",
       "part": "Part 3: At the Table"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "A mund të më ndihmoni?",
       "en": "Can you help me?",
       "audio": "day/29"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Faleminderit!",
       "en": "Thank you.",
       "audio": "day/30"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Ku ka ndonjë vend të mirë për të ngrënë?",
       "en": "What are the good places to eat?",
       "audio": "day/31"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Ku ndodhet ndonjë restorant i mirë këtu?",
       "en": "Is there a good restaurant around here?",
       "audio": "day/32"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Urdhëroni menunë!",
       "en": "Here is the menu!",
       "audio": "day/33"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Menunë, ju lutem!",
       "en": "The menu, please!",
       "audio": "day/34"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Keni një thikë ju lutem?",
       "en": "Can I have a knife, please?",
       "audio": "day/35"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "po",
       "en": "Yes.",
       "audio": "day/36"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Çfarë dëshiron të hash? Mish apo peshk?",
       "en": "What do you prefer to eat? Meat or fish?",
       "audio": "day/37"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Unë do marr peshk",
       "en": "I'll have fish.",
       "audio": "day/38"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Bukë të thekur me sallam dhe djathë?",
       "en": "Toast with sausage and cheese?",
       "audio": "day/39"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Është vakt i ngrohtë?",
       "en": "Is it a warm dish?",
       "audio": "day/40"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Kjo është një cilësi goxha e mirë.",
       "en": "This is very good quality.",
       "audio": "day/41"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "gëzuar",
       "en": "Cheers!",
       "audio": "day/42"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "gëzuar",
       "en": "Cheers!",
       "audio": "day/43"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Unë e kam ngrënë të gjithë ushqimin.",
       "en": "I ate all the food.",
       "audio": "day/44"
     },
     {
-      "who": "ilir",
+      "who": "anila",
       "sq": "Paguaj unë",
       "en": "It's on me.",
       "audio": "day/45"
     },
     {
-      "who": "anila",
+      "who": "ilir",
       "sq": "Faleminderit shumë.",
       "en": "Thank you very much.",
       "audio": "day/46"
