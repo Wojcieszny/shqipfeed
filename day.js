@@ -1,550 +1,491 @@
 window.ShqipDay = {
   "title": "A day with Anila and Ilir",
-  "note": "Anila is the woman at home. Ilir is the man who arrives. These are generated voices, not a person from Albania.",
+  "note": "Native human Albanian recordings from Loecsen, 50LANGUAGES, and Wikimedia Commons. Voiced across 5 everyday scenes.",
   "turns": [
     {
       "who": "anila",
-      "sq": "Mirëmëngjes.",
-      "en": "Good morning.",
+      "sq": "Mirëdita!",
+      "en": "Hello!",
       "audio": "day/01",
-      "part": "Morning"
+      "part": "Part 1: Arrival & Greetings"
     },
     {
       "who": "ilir",
-      "sq": "Mirëmëngjes. Si jeni?",
-      "en": "Good morning. How are you?",
+      "sq": "Mirëdita. Si je?",
+      "en": "Hello. How are you?",
       "audio": "day/02"
     },
     {
       "who": "anila",
-      "sq": "Jam mirë, faleminderit. Po ju?",
-      "en": "I'm well, thank you. And you?",
+      "sq": "Jam në rregull, faleminderit",
+      "en": "I'm ok, thanks.",
       "audio": "day/03"
     },
     {
       "who": "ilir",
-      "sq": "Jam pak i lodhur.",
-      "en": "I'm a little tired.",
+      "sq": "Edhe unë",
+      "en": "Me too.",
       "audio": "day/04"
     },
     {
       "who": "anila",
-      "sq": "Më vjen keq.",
-      "en": "I'm sorry.",
+      "sq": "Mirë se vini!",
+      "en": "Welcome!",
       "audio": "day/05"
-    },
-    {
-      "who": "ilir",
-      "sq": "S'ka problem.",
-      "en": "No problem.",
-      "audio": "day/06"
-    },
-    {
-      "who": "anila",
-      "sq": "Hyni, ju lutem.",
-      "en": "Come in, please.",
-      "audio": "day/07"
-    },
-    {
-      "who": "ilir",
-      "sq": "Faleminderit.",
-      "en": "Thank you.",
-      "audio": "day/08"
-    },
-    {
-      "who": "anila",
-      "sq": "Ju lutem, uluni.",
-      "en": "Please sit down.",
-      "audio": "day/09"
     },
     {
       "who": "ilir",
       "sq": "Faleminderit shumë.",
       "en": "Thank you very much.",
+      "audio": "day/06"
+    },
+    {
+      "who": "anila",
+      "sq": "Po ti, a jeton këtu?",
+      "en": "And you, do you live here?",
+      "audio": "day/07"
+    },
+    {
+      "who": "ilir",
+      "sq": "Ne kemi ardhur për pushime.",
+      "en": "We are on holiday.",
+      "audio": "day/08"
+    },
+    {
+      "who": "anila",
+      "sq": "Ndihem shumë mirë këtu",
+      "en": "I feel great here.",
+      "audio": "day/09"
+    },
+    {
+      "who": "ilir",
+      "sq": "Edhe unë. U gëzova që të takova.",
+      "en": "Me too, it was a pleasure to meet you.",
       "audio": "day/10"
     },
     {
       "who": "anila",
-      "sq": "S'ka përse.",
-      "en": "You're welcome.",
+      "sq": "Faleminderit!",
+      "en": "Thank you.",
       "audio": "day/11"
     },
     {
-      "who": "anila",
-      "sq": "A doni kafe?",
-      "en": "Do you want coffee?",
+      "who": "ilir",
+      "sq": "Unë jam i lodhur.",
+      "en": "I am tired.",
       "audio": "day/12"
     },
     {
-      "who": "ilir",
-      "sq": "Po, me qumësht.",
-      "en": "Yes, with milk.",
+      "who": "anila",
+      "sq": "ju lutem",
+      "en": "Please.",
       "audio": "day/13"
     },
     {
-      "who": "anila",
-      "sq": "Një moment.",
-      "en": "One moment.",
+      "who": "ilir",
+      "sq": "Faleminderit!",
+      "en": "Thank you.",
       "audio": "day/14"
     },
     {
       "who": "anila",
-      "sq": "Urdhëroni.",
-      "en": "Go ahead.",
-      "audio": "day/15"
+      "sq": "A mund të ulemi?",
+      "en": "May we take a seat?",
+      "audio": "day/15",
+      "part": "Part 2: Coffee & Hospitality"
     },
     {
       "who": "ilir",
-      "sq": "Faleminderit.",
-      "en": "Thank you.",
+      "sq": "Në rregull",
+      "en": "All right.",
       "audio": "day/16"
     },
     {
       "who": "anila",
-      "sq": "Ju bëftë mirë.",
-      "en": "Enjoy your meal.",
+      "sq": "A dëshironi një kafe?",
+      "en": "Would you like a coffee?",
       "audio": "day/17"
     },
     {
-      "who": "anila",
-      "sq": "A doni bukë?",
-      "en": "Do you want bread?",
+      "who": "ilir",
+      "sq": "Do të doja një kafe me qumësht.",
+      "en": "I'd like a coffee with milk.",
       "audio": "day/18"
     },
     {
-      "who": "ilir",
-      "sq": "Jam i uritur.",
-      "en": "I'm hungry.",
+      "who": "anila",
+      "sq": "A e pi kafenë me sheqer?",
+      "en": "Do you drink coffee with sugar?",
       "audio": "day/19"
     },
     {
       "who": "ilir",
-      "sq": "Po, faleminderit.",
-      "en": "Yes, thank you.",
+      "sq": "po",
+      "en": "Yes.",
       "audio": "day/20"
     },
     {
       "who": "anila",
-      "sq": "Hani, ju lutem.",
-      "en": "Please eat.",
+      "sq": "Apo ju pëlqen më shumë një çaj?",
+      "en": "Or do you prefer a tea?",
       "audio": "day/21"
     },
     {
       "who": "ilir",
-      "sq": "Kjo është shumë e mirë.",
-      "en": "This is really good.",
+      "sq": "Një çaj, të lutem!",
+      "en": "A tea please!",
       "audio": "day/22"
     },
     {
       "who": "anila",
-      "sq": "Hani edhe pak.",
-      "en": "Eat a little more.",
+      "sq": "A e pi çajin me limon?",
+      "en": "Do you drink tea with lemon?",
       "audio": "day/23"
     },
     {
       "who": "ilir",
-      "sq": "Faleminderit, jam ngopur.",
-      "en": "I'm full, thank you.",
+      "sq": "Dua një çaj me limon.",
+      "en": "I'd like a tea with lemon.",
       "audio": "day/24"
     },
     {
       "who": "anila",
-      "sq": "Në rregull.",
-      "en": "All right.",
+      "sq": "Ju lutem edhe një gotë ujë.",
+      "en": "Another glass of water, please.",
       "audio": "day/25"
     },
     {
       "who": "ilir",
-      "sq": "Më falni.",
-      "en": "Excuse me.",
-      "audio": "day/26",
-      "part": "He asks her to slow down"
+      "sq": "Faleminderit shumë.",
+      "en": "Thank you very much.",
+      "audio": "day/26"
     },
     {
-      "who": "ilir",
-      "sq": "Ju lutem, flisni ngadalë.",
-      "en": "Please speak slowly.",
+      "who": "anila",
+      "sq": "Asgjë!",
+      "en": "You're welcome!",
       "audio": "day/27"
     },
     {
       "who": "anila",
-      "sq": "Po, flas ngadalë.",
-      "en": "Yes, I'll speak slowly.",
-      "audio": "day/28"
+      "sq": "Unë shtroj tavolinën.",
+      "en": "I am setting the table.",
+      "audio": "day/28",
+      "part": "Part 3: At the Table"
     },
     {
       "who": "ilir",
-      "sq": "Nuk kuptoj.",
-      "en": "I don't understand.",
+      "sq": "A mund të më ndihmoni?",
+      "en": "Can you help me?",
       "audio": "day/29"
     },
     {
-      "who": "ilir",
-      "sq": "Ju lutem, përsërisni.",
-      "en": "Please repeat that.",
+      "who": "anila",
+      "sq": "Faleminderit!",
+      "en": "Thank you.",
       "audio": "day/30"
     },
     {
-      "who": "anila",
-      "sq": "A doni ujë?",
-      "en": "Do you want water?",
+      "who": "ilir",
+      "sq": "Ku ka ndonjë vend të mirë për të ngrënë?",
+      "en": "What are the good places to eat?",
       "audio": "day/31"
     },
     {
-      "who": "ilir",
-      "sq": "Jam i etur.",
-      "en": "I'm thirsty.",
+      "who": "anila",
+      "sq": "Ku ndodhet ndonjë restorant i mirë këtu?",
+      "en": "Is there a good restaurant around here?",
       "audio": "day/32"
     },
     {
-      "who": "anila",
-      "sq": "Pa gaz?",
-      "en": "Without bubbles?",
+      "who": "ilir",
+      "sq": "Urdhëroni menunë!",
+      "en": "Here is the menu!",
       "audio": "day/33"
     },
     {
-      "who": "ilir",
-      "sq": "Ujë pa gaz, ju lutem.",
-      "en": "Still water, please.",
+      "who": "anila",
+      "sq": "Menunë, ju lutem!",
+      "en": "The menu, please!",
       "audio": "day/34"
     },
     {
-      "who": "anila",
-      "sq": "Ja.",
-      "en": "Here you go.",
+      "who": "ilir",
+      "sq": "Keni një thikë ju lutem?",
+      "en": "Can I have a knife, please?",
       "audio": "day/35"
     },
     {
-      "who": "ilir",
-      "sq": "Flas pak shqip.",
-      "en": "I speak a little Albanian.",
+      "who": "anila",
+      "sq": "po",
+      "en": "Yes.",
       "audio": "day/36"
     },
     {
-      "who": "anila",
-      "sq": "Shumë mirë.",
-      "en": "Very good.",
+      "who": "ilir",
+      "sq": "Çfarë dëshiron të hash? Mish apo peshk?",
+      "en": "What do you prefer to eat? Meat or fish?",
       "audio": "day/37"
     },
     {
-      "who": "ilir",
-      "sq": "A më kuptoni?",
-      "en": "Do you understand me?",
+      "who": "anila",
+      "sq": "Unë do marr peshk",
+      "en": "I'll have fish.",
       "audio": "day/38"
     },
     {
-      "who": "anila",
-      "sq": "Po. Kuptoj.",
-      "en": "Yes. I understand.",
+      "who": "ilir",
+      "sq": "Bukë të thekur me sallam dhe djathë?",
+      "en": "Toast with sausage and cheese?",
       "audio": "day/39"
     },
     {
       "who": "anila",
-      "sq": "Çfarë po bëni sot?",
-      "en": "What are you doing today?",
-      "audio": "day/40",
-      "part": "The day"
+      "sq": "Është vakt i ngrohtë?",
+      "en": "Is it a warm dish?",
+      "audio": "day/40"
     },
     {
       "who": "ilir",
-      "sq": "Asgjë e veçantë.",
-      "en": "Nothing special.",
+      "sq": "Kjo është një cilësi goxha e mirë.",
+      "en": "This is very good quality.",
       "audio": "day/41"
     },
     {
       "who": "anila",
-      "sq": "A doni të shëtisim?",
-      "en": "Do you want to take a walk?",
+      "sq": "gëzuar",
+      "en": "Cheers!",
       "audio": "day/42"
     },
     {
       "who": "ilir",
-      "sq": "Më vonë.",
-      "en": "Later.",
+      "sq": "gëzuar",
+      "en": "Cheers!",
       "audio": "day/43"
     },
     {
       "who": "anila",
-      "sq": "Në çfarë ore?",
-      "en": "What time?",
+      "sq": "Unë e kam ngrënë të gjithë ushqimin.",
+      "en": "I ate all the food.",
       "audio": "day/44"
     },
     {
       "who": "ilir",
-      "sq": "Nuk e di.",
-      "en": "I don't know.",
+      "sq": "Paguaj unë",
+      "en": "It's on me.",
       "audio": "day/45"
     },
     {
       "who": "anila",
-      "sq": "Në orën tetë.",
-      "en": "At eight.",
+      "sq": "Faleminderit shumë.",
+      "en": "Thank you very much.",
       "audio": "day/46"
     },
     {
-      "who": "ilir",
-      "sq": "Po.",
-      "en": "Yes.",
-      "audio": "day/47"
+      "who": "anila",
+      "sq": "Sot kemi kohë.",
+      "en": "We have time today.",
+      "audio": "day/47",
+      "part": "Part 4: Plans & Getting Around"
     },
     {
-      "who": "anila",
-      "sq": "Në rregull.",
-      "en": "All right.",
+      "who": "ilir",
+      "sq": "A dëshironi të dilni shëtitje?",
+      "en": "Would you like to go for a walk?",
       "audio": "day/48"
     },
     {
-      "who": "ilir",
-      "sq": "Më dhemb koka.",
-      "en": "My head hurts.",
+      "who": "anila",
+      "sq": "Është një ide e mirë",
+      "en": "It is a good idea.",
       "audio": "day/49"
     },
     {
-      "who": "anila",
-      "sq": "A ju dhemb diçka?",
-      "en": "Does something hurt?",
+      "who": "ilir",
+      "sq": "A shkojmë në plazh?",
+      "en": "Shall we go to the beach?",
       "audio": "day/50"
     },
     {
-      "who": "ilir",
-      "sq": "Po.",
-      "en": "Yes.",
+      "who": "anila",
+      "sq": "Ku doni të shkoni?",
+      "en": "Where would you like to go?",
       "audio": "day/51"
     },
     {
-      "who": "anila",
-      "sq": "A doni të shkojmë te mjeku?",
-      "en": "Do you want us to go to a doctor?",
+      "who": "ilir",
+      "sq": "Dua të shkoj në qendër.",
+      "en": "I would like to go to the city centre.",
       "audio": "day/52"
     },
     {
-      "who": "ilir",
-      "sq": "Jo, faleminderit.",
-      "en": "No, thank you.",
+      "who": "anila",
+      "sq": "Cili autobus shkon në qendër?",
+      "en": "Which bus goes to the city centre?",
       "audio": "day/53"
     },
     {
       "who": "ilir",
-      "sq": "Ku është farmacia?",
-      "en": "Where is the pharmacy?",
+      "sq": "Autobusi tjetër vjen për 15 minuta.",
+      "en": "The next bus is in 15 minutes.",
       "audio": "day/54"
     },
     {
       "who": "anila",
-      "sq": "Është afër.",
-      "en": "It's close.",
+      "sq": "Ku është stacioni i autobusit?",
+      "en": "Where is the bus stop?",
       "audio": "day/55"
     },
     {
       "who": "ilir",
-      "sq": "A është larg?",
-      "en": "Is it far?",
+      "sq": "Më falni Po kërkoj stacionin e autobusit.",
+      "en": "Excuse me! I'm looking for the bus stop.",
       "audio": "day/56"
     },
     {
       "who": "anila",
-      "sq": "Jo, është afër.",
-      "en": "No, it's close.",
+      "sq": "Është drejt",
+      "en": "It's straight on.",
       "audio": "day/57"
     },
     {
-      "who": "anila",
-      "sq": "Atje, majtas.",
-      "en": "Over there, on the left.",
+      "who": "ilir",
+      "sq": "Është larg nga këtu?",
+      "en": "Is it far from here?",
       "audio": "day/58"
     },
     {
-      "who": "ilir",
-      "sq": "Faleminderit.",
-      "en": "Thank you.",
+      "who": "anila",
+      "sq": "Është këtu!",
+      "en": "It's right here!",
       "audio": "day/59"
     },
     {
       "who": "ilir",
-      "sq": "Dua të pushoj.",
-      "en": "I want to rest.",
+      "sq": "Sa kushton një biletë?",
+      "en": "How much does a ticket cost?",
       "audio": "day/60"
     },
     {
       "who": "anila",
-      "sq": "Po, pushoni.",
-      "en": "Yes, rest.",
+      "sq": "Njëqind",
+      "en": "One hundred.",
       "audio": "day/61"
     },
     {
       "who": "ilir",
-      "sq": "Është shumë bukur.",
-      "en": "It is very beautiful.",
+      "sq": "A mund të paguaj me kartë krediti?",
+      "en": "May one pay by credit card?",
       "audio": "day/62"
     },
     {
       "who": "anila",
-      "sq": "Faleminderit.",
-      "en": "Thank you.",
+      "sq": "A mund të paguaj edhe me lekë në dorë?",
+      "en": "May one also pay in cash?",
       "audio": "day/63"
     },
     {
       "who": "ilir",
-      "sq": "Mund të ndihmoj?",
-      "en": "Can I help?",
+      "sq": "po",
+      "en": "Yes.",
       "audio": "day/64"
     },
     {
       "who": "anila",
-      "sq": "Sigurisht.",
-      "en": "Of course.",
-      "audio": "day/65"
+      "sq": "Është ora tetë.",
+      "en": "It is eight o'clock.",
+      "audio": "day/65",
+      "part": "Part 5: Warm Goodbyes"
     },
     {
       "who": "ilir",
-      "sq": "Ku është kuzhina?",
-      "en": "Where is the kitchen?",
+      "sq": "Është vonë tashmë.",
+      "en": "It is already late.",
       "audio": "day/66"
     },
     {
       "who": "anila",
-      "sq": "Këtu.",
-      "en": "Here.",
+      "sq": "Unë dua të fle.",
+      "en": "I want to sleep.",
       "audio": "day/67"
     },
     {
-      "who": "anila",
-      "sq": "Djathtas.",
-      "en": "Right.",
+      "who": "ilir",
+      "sq": "Dua të shkoj në shtëpi.",
+      "en": "I want to go home.",
       "audio": "day/68"
     },
     {
-      "who": "ilir",
-      "sq": "Kuptoj.",
-      "en": "I understand.",
+      "who": "anila",
+      "sq": "Faleminderit për ndihmën tuaj!",
+      "en": "Thank you for your help!",
       "audio": "day/69"
     },
     {
-      "who": "anila",
-      "sq": "A doni të hani?",
-      "en": "Would you like to eat?",
-      "audio": "day/70",
-      "part": "Supper"
+      "who": "ilir",
+      "sq": "Ne jemi një familje.",
+      "en": "We are a family.",
+      "audio": "day/70"
     },
     {
-      "who": "ilir",
-      "sq": "Po, ju lutem.",
-      "en": "Yes, please.",
+      "who": "anila",
+      "sq": "Kalova mirë me ty.",
+      "en": "I had a lovely time.",
       "audio": "day/71"
     },
     {
-      "who": "anila",
-      "sq": "Çfarë doni të pini?",
-      "en": "What do you want to drink?",
+      "who": "ilir",
+      "sq": "Edhe unë",
+      "en": "Me too.",
       "audio": "day/72"
     },
     {
-      "who": "ilir",
-      "sq": "Ujë, ju lutem.",
-      "en": "Water, please.",
+      "who": "anila",
+      "sq": "Shkofshi shëndoshë e mirë në shtëpi!",
+      "en": "Hope you arrive home safely!",
       "audio": "day/73"
     },
     {
-      "who": "anila",
-      "sq": "Ju bëftë mirë.",
-      "en": "Enjoy your meal.",
+      "who": "ilir",
+      "sq": "Faleminderit shumë.",
+      "en": "Thank you very much.",
       "audio": "day/74"
     },
     {
-      "who": "ilir",
-      "sq": "Ishte shumë e mirë.",
-      "en": "It was delicious.",
+      "who": "anila",
+      "sq": "A do të shihemi nesër?",
+      "en": "Shall we see each other tomorrow?",
       "audio": "day/75"
     },
     {
-      "who": "anila",
-      "sq": "S'ka përse.",
-      "en": "You're welcome.",
+      "who": "ilir",
+      "sq": "Shihemi nesër!",
+      "en": "See you tomorrow!",
       "audio": "day/76"
     },
     {
-      "who": "ilir",
-      "sq": "Më ka marrë malli për ju.",
-      "en": "I missed you.",
+      "who": "anila",
+      "sq": "Natën e mirë",
+      "en": "Good night.",
       "audio": "day/77"
     },
     {
-      "who": "anila",
-      "sq": "Edhe ne.",
-      "en": "Us too.",
+      "who": "ilir",
+      "sq": "Natën e mirë",
+      "en": "Good night.",
       "audio": "day/78"
     },
     {
-      "who": "ilir",
-      "sq": "Është mirë të jem me ju.",
-      "en": "It is good that I am with you.",
+      "who": "anila",
+      "sq": "mirupafshim",
+      "en": "Goodbye.",
       "audio": "day/79"
     },
     {
-      "who": "anila",
-      "sq": "Ju duam shumë.",
-      "en": "We love you very much.",
+      "who": "ilir",
+      "sq": "mirupafshim",
+      "en": "Goodbye.",
       "audio": "day/80"
-    },
-    {
-      "who": "ilir",
-      "sq": "Edhe ne ju duam.",
-      "en": "We love you too.",
-      "audio": "day/81"
-    },
-    {
-      "who": "ilir",
-      "sq": "Faleminderit për mikpritjen.",
-      "en": "Thank you for the hospitality.",
-      "audio": "day/82"
-    },
-    {
-      "who": "anila",
-      "sq": "S'ka përse.",
-      "en": "You're welcome.",
-      "audio": "day/83"
-    },
-    {
-      "who": "ilir",
-      "sq": "Shihemi nesër.",
-      "en": "See you tomorrow.",
-      "audio": "day/84"
-    },
-    {
-      "who": "anila",
-      "sq": "Po, shihemi.",
-      "en": "Yes, see you.",
-      "audio": "day/85"
-    },
-    {
-      "who": "anila",
-      "sq": "Në mëngjes.",
-      "en": "In the morning.",
-      "audio": "day/86"
-    },
-    {
-      "who": "ilir",
-      "sq": "Natën e mirë.",
-      "en": "Good night.",
-      "audio": "day/87"
-    },
-    {
-      "who": "anila",
-      "sq": "Pushoni mirë.",
-      "en": "Rest well.",
-      "audio": "day/88"
-    },
-    {
-      "who": "ilir",
-      "sq": "Mirupafshim.",
-      "en": "Goodbye.",
-      "audio": "day/89"
-    },
-    {
-      "who": "anila",
-      "sq": "Mirupafshim.",
-      "en": "Goodbye.",
-      "audio": "day/90"
     }
   ]
 };

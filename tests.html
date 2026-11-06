@@ -30,6 +30,8 @@
   </main>
   <script src="data.js"></script>
   <script src="human.js"></script>
+  <script src="sources.js"></script>
+  <script src="day.js"></script>
   <script src="app.js"></script>
   <script>
     var results = document.getElementById("results");
@@ -263,6 +265,48 @@
     }
 
     runHumanChecks();
+
+    // ALIGN-CARDS-01: phonetics everywhere, and every clip in use is a registered human recording.
+    function runAlignChecks() {
+      fetch("cards.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (cards) {
+        var noPhon = cards.filter(function (c) {
+          return typeof c.phonetic !== "string" || !c.phonetic.trim();
+        }).map(function (c) { return c.id; });
+        add(noPhon.length === 0, "every card has a non-empty phonetic", noPhon.length ? listMissing(noPhon) : cards.length + " cards");
+
+        var used = {};
+        cards.forEach(function (c) {
+          used["audio/" + (c.audio || c.id) + ".mp3"] = c.id;
+          var l = c.lesson;
+          if (l) {
+            (l.answers || []).forEach(function (a) { if (a.audio) used["audio/" + a.audio + ".mp3"] = a.id; });
+            if (l.reply && l.reply.audio) used["audio/" + l.reply.audio + ".mp3"] = l.reply.id;
+          }
+        });
+        var day = window.ShqipDay || { turns: [] };
+        (day.turns || []).forEach(function (t, i) {
+          if (t.audio) used["audio/" + t.audio + ".mp3"] = "day turn " + (i + 1);
+        });
+        var reg = (window.ShqipSources && window.ShqipSources.cardAudio) || {};
+        var human = { commons: 1, loecsen: 1, "50languages": 1 };
+        var bad = Object.keys(used).filter(function (p) {
+          var e = reg[p];
+          return !e || !human[e.source] || !e.speaker || !e.license || !e.from;
+        });
+        add(Object.keys(used).length > 0 && bad.length === 0,
+          "every clip used by cards.json and day.js is a registered human recording (" + Object.keys(used).length + " clips, 0 synthetic allowed)",
+          bad.length ? listMissing(bad) : "");
+        var dayFiles = (day.turns || []).filter(function (t) { return t.audio; }).map(function (t) { return "audio/" + t.audio + ".mp3"; });
+        checkAll(dayFiles.map(encodeURI)).then(function (missing) {
+          add(dayFiles.length > 0 && missing.length === 0, "every day.js turn audio file exists (" + dayFiles.length + " checked)",
+            missing.length ? listMissing(missing.map(decodeURI)) : "");
+        });
+      }).catch(function (err) {
+        add(false, "ALIGN-CARDS-01 checks", String(err && err.message ? err.message : err));
+      });
+    }
+
+    runAlignChecks();
 
     run();
   </script>
