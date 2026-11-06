@@ -9,27 +9,34 @@
   var KEY_PROGRESS = "shqipfeed-progress";
   var KEY_BOXES = "shqipfeed-boxes";
   var KEY_CAP = "shqipfeed-level-cap";
+  var KEY_CUSTOM_AUDIO = "shqipfeed-custom-audio";
   var REQUIRED = ["id", "island", "english", "albanian", "phonetic"];
   var BLOCK_TYPES = { power: true, verb: true, object: true, other: true };
   var BOX_WAIT = [0, 0, 2, 4, 9, 14];
-  var PATH = [
+  var CURRICULUM_ORDER = [
     "Greetings & Check-ins",
     "Conversation Repair",
     "Coffee & Table",
+    "Lego Verb Builder",
     "Food & Eating",
     "Family & Warmth",
-    "Health & Feelings",
-    "Plans & Weekend",
     "Numbers & Money",
-    "Getting Around",
-    "Shopping",
+    "Plans & Weekend",
     "House & Hosts",
-    "Lego Verb Builder",
+    "Health & Feelings",
+    "Shopping",
+    "Getting Around",
+    "Peace Corps 2005",
   ];
+  var PATH = CURRICULUM_ORDER.slice();
 
   var starterCards = [];
-  var memory = { owner: [], verified: {}, progress: {}, boxes: {}, cap: "auto" };
+  var memory = { owner: [], verified: {}, progress: {}, boxes: {}, cap: "auto", customAudio: {} };
   var canStore = probeStorage();
+
+  function getCurriculumOrder() {
+    return CURRICULUM_ORDER.slice();
+  }
 
   // True when localStorage can be written. False in private mode or when storage is full.
   function probeStorage() {
@@ -62,6 +69,7 @@
       if (key === KEY_VERIFIED) return memory.verified;
       if (key === KEY_BOXES) return memory.boxes;
       if (key === KEY_CAP) return memory.cap;
+      if (key === KEY_CUSTOM_AUDIO) return memory.customAudio;
       return memory.progress;
     }
     try {
@@ -79,6 +87,7 @@
     else if (key === KEY_VERIFIED) memory.verified = value;
     else if (key === KEY_BOXES) memory.boxes = value;
     else if (key === KEY_CAP) memory.cap = value;
+    else if (key === KEY_CUSTOM_AUDIO) memory.customAudio = value;
     else memory.progress = value;
     if (!canStore) return false;
     try {
@@ -88,6 +97,36 @@
       canStore = false;
       return false;
     }
+  }
+
+  // Custom audio helpers
+  function getCustomAudioMap() {
+    var raw = readKey(KEY_CUSTOM_AUDIO, {});
+    var copy = {};
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return copy;
+    Object.keys(raw).forEach(function (id) {
+      if (typeof raw[id] === "string" && raw[id]) copy[id] = raw[id];
+    });
+    return copy;
+  }
+
+  function getCustomAudio(id) {
+    var map = getCustomAudioMap();
+    return map[id] || null;
+  }
+
+  function setCustomAudio(id, dataUrl) {
+    var map = getCustomAudioMap();
+    if (dataUrl) {
+      map[id] = String(dataUrl);
+    } else {
+      delete map[id];
+    }
+    writeKey(KEY_CUSTOM_AUDIO, map);
+  }
+
+  function clearCustomAudio(id) {
+    setCustomAudio(id, null);
   }
 
   // Names a pasted card in errors, including its id when it has one.
@@ -101,7 +140,7 @@
 
   // Fetches cards.json and remembers it for this page load.
   function loadStarterCards() {
-    return fetch(scriptBase() + "cards.json?v=31").then(function (res) {
+    return fetch(scriptBase() + "cards.json?v=35").then(function (res) {
       if (!res.ok) throw new Error("bad status");
       return res.json();
     }).then(function (data) {
@@ -113,7 +152,11 @@
 
   // Returns the cards that shipped with the app. Does not include owner cards.
   function getStarterCards() {
-    return starterCards.map(function (card) {
+    var source = starterCards;
+    if ((!source || source.length === 0) && typeof window !== "undefined" && Array.isArray(window.ShqipCards)) {
+      source = window.ShqipCards;
+    }
+    return (source || []).map(function (card) {
       return Object.assign({}, card);
     });
   }
@@ -374,7 +417,7 @@
   // The course order. Inside an island, beginner comes before medium, then advanced.
   function pathCards() {
     var groups = {};
-    var order = PATH.slice();
+    var order = CURRICULUM_ORDER.slice();
     getAllCards().forEach(function (card) {
       if (order.indexOf(card.island) === -1) order.push(card.island);
       if (!groups[card.island]) groups[card.island] = [];
@@ -446,32 +489,71 @@
     return allAtLeast(card.island, "medium", boxes, 2);
   }
 
-  // Due lines first, then up to five new ones. A long review day adds no new lines.
+  // Autopilot Mastery Gate: First island in CURRICULUM_ORDER where <80% of beginner cards are in Box 2+
+  function getActiveIsland(boxes) {
+    var bxs = boxes || getBoxes();
+    var all = getAllCards();
+    for (var i = 0; i < CURRICULUM_ORDER.length; i++) {
+      var islandName = CURRICULUM_ORDER[i];
+      var beginnerCards = all.filter(function (card) {
+        return card.island === islandName && levelOf(card) === "beginner";
+      });
+      if (beginnerCards.length === 0) continue;
+      var inBox2Plus = beginnerCards.filter(function (card) {
+        var state = bxs[card.id];
+        return state && state.box >= 2;
+      }).length;
+      if (inBox2Plus / beginnerCards.length < 0.8) {
+        return islandName;
+      }
+    }
+    return CURRICULUM_ORDER[0];
+  }
+
+  // Due lines first (up to 8), then up to 4 new/Box-1 cards from the Current Active Island.
   function buildToday() {
     var boxes = getBoxes();
     var cap = getCap();
     var today = dayStamp(0);
+    var activeIsland = getActiveIsland(boxes);
+
     var due = [];
-    var fresh = [];
     pathCards().forEach(function (card) {
       if (!levelAllowed(card, boxes, cap)) return;
       var state = boxes[card.id];
-      if (!state) fresh.push(card);
-      else if (state.due <= today) due.push(card);
+      if (state && state.due <= today) due.push(card);
     });
-    var reviews = due.slice(0, 12);
-    var news = due.length > 12 ? [] : fresh.slice(0, 5);
+
+    var reviews = due.slice(0, 8);
+
+    var freshOrBox1 = [];
+    var islandCards = pathCards().filter(function (card) {
+      return card.island === activeIsland && levelAllowed(card, boxes, cap);
+    });
+    islandCards.forEach(function (card) {
+      var state = boxes[card.id];
+      if (!state || state.box === 1) {
+        if (!reviews.some(function (r) { return r.id === card.id; })) {
+          freshOrBox1.push(card);
+        }
+      }
+    });
+
+    var news = freshOrBox1.slice(0, 4);
     var queue = reviews.concat(news);
     var started = Object.keys(boxes).length > 0;
-    var where = "Continue the mix, or pick a topic.";
-    if (queue[0]) where = queue[0].island + " · " + queue[0].english;
-    else if (started) where = "Nothing is due. Pick a topic, or practice more.";
+    var where = activeIsland + " · " + (due.length ? due.length + " due" : "4 fresh lines");
+    if (queue[0]) {
+      where = activeIsland + " · " + queue[0].english;
+    }
     return {
       queue: queue,
       newIds: news.filter(function (card) { return card.review !== false; }).map(function (card) { return card.id; }),
       where: where,
+      activeIsland: activeIsland,
+      dueCount: due.length,
       started: started,
-      caughtUp: started && queue.length === 0,
+      caughtUp: started && due.length === 0,
     };
   }
 
@@ -558,6 +640,161 @@
     return rows;
   }
 
+  // Visible 12/13-Step Curriculum Map with step number, Mastered (Box 2+), Learning (Box 1), and Total
+  function getCurriculumMap() {
+    var boxes = getBoxes();
+    var all = getAllCards();
+    var activeIsland = getActiveIsland(boxes);
+    return CURRICULUM_ORDER.map(function (name, index) {
+      var islandCards = all.filter(function (c) { return c.island === name; });
+      var total = islandCards.length;
+      var mastered = 0;
+      var learning = 0;
+      islandCards.forEach(function (c) {
+        var s = boxes[c.id];
+        if (s && s.box >= 2) mastered += 1;
+        else if (s && s.box === 1) learning += 1;
+      });
+      return {
+        step: index + 1,
+        name: name,
+        total: total,
+        mastered: mastered,
+        learning: learning,
+        isActive: name === activeIsland,
+      };
+    });
+  }
+
+  function asLine(line, fallbackId) {
+    if (!line) return { english: "", albanian: "", audio: "" };
+    return {
+      english: line.english || "",
+      albanian: line.albanian || "",
+      audio: line.audio || fallbackId || line.id || "",
+    };
+  }
+
+  // Builds a quiz for one card with distractors from the same island
+  function makeQuizForCard(card, mode) {
+    var lesson = card.lesson || {};
+    var quizMode = mode || "meaning";
+    var said = asLine(card, card.audio || card.id);
+    var correct = asLine(card, card.audio || card.id);
+
+    if (quizMode === "reply") {
+      var they = null;
+      var you = null;
+      if (lesson.turns && lesson.turns.length) {
+        lesson.turns.forEach(function (turn) {
+          if (turn.who === "they" && !they) they = turn;
+          if (turn.who === "you" && !you) you = turn;
+        });
+      }
+      if (!they && lesson.answers && lesson.answers.length) {
+        they = lesson.answers[0];
+      }
+      if (!you && lesson.reply) {
+        you = lesson.reply;
+      }
+      if (they && you) {
+        said = asLine(they, card.audio || card.id);
+        correct = asLine(you, you.audio || you.id || card.id);
+      } else {
+        quizMode = "meaning";
+      }
+    }
+
+    var choices = [correct];
+    var all = getAllCards();
+    var sameIsland = [];
+    var otherIsland = [];
+
+    all.forEach(function (c) {
+      if (c.id === card.id) return;
+      if (c.english === correct.english) return;
+      if (c.island === card.island) sameIsland.push(c);
+      else otherIsland.push(c);
+    });
+
+    sameIsland.sort(function () { return Math.random() - 0.5; });
+    otherIsland.sort(function () { return Math.random() - 0.5; });
+
+    var pool = sameIsland.concat(otherIsland);
+    for (var i = 0; i < pool.length && choices.length < 3; i++) {
+      var distractor = pool[i];
+      var distractorLine = asLine(distractor, distractor.audio || distractor.id);
+      choices.push(distractorLine);
+    }
+
+    for (var s = choices.length - 1; s > 0; s--) {
+      var swap = Math.floor(Math.random() * (s + 1));
+      var hold = choices[s];
+      choices[s] = choices[swap];
+      choices[swap] = hold;
+    }
+
+    return {
+      mode: quizMode,
+      said: said,
+      correct: correct,
+      choices: choices,
+      cardId: card.id,
+      picked: false,
+    };
+  }
+
+  // Returns an interleaved queue of teach and check steps (every 2-3 cards)
+  function buildInterleavedSession(islandOrCards) {
+    var cards = [];
+    var activeIsland = "";
+    if (Array.isArray(islandOrCards)) {
+      cards = islandOrCards.slice();
+      activeIsland = cards[0] ? cards[0].island : "";
+    } else if (typeof islandOrCards === "string" && islandOrCards) {
+      cards = practiceQueue(islandOrCards, 8);
+      activeIsland = islandOrCards;
+    } else {
+      var today = buildToday();
+      cards = today.queue;
+      activeIsland = today.activeIsland;
+      if (!cards.length) {
+        cards = practiceQueue(activeIsland, 8);
+      }
+    }
+
+    var steps = [];
+    var modeToggle = false;
+    for (var i = 0; i < cards.length; i += 2) {
+      var batch = cards.slice(i, i + 2);
+      batch.forEach(function (c) {
+        steps.push({
+          type: "teach",
+          card: c,
+          cardId: c.id,
+        });
+      });
+      batch.forEach(function (c) {
+        if (c.review === false || (c.lesson && c.lesson.kind === "count")) return;
+        var checkMode = modeToggle ? "reply" : "meaning";
+        modeToggle = !modeToggle;
+        var quiz = makeQuizForCard(c, checkMode);
+        steps.push({
+          type: "check",
+          card: c,
+          cardId: c.id,
+          mode: quiz.mode,
+          quiz: quiz,
+        });
+      });
+    }
+
+    return {
+      activeIsland: activeIsland,
+      steps: steps,
+    };
+  }
+
   // One JSON object with owner islands, verified flags, and progress.
   function buildBackup() {
     return {
@@ -566,6 +803,7 @@
       verified: getVerifiedMap(),
       progress: getProgress(),
       boxes: getBoxes(),
+      customAudio: getCustomAudioMap(),
     };
   }
 
@@ -666,12 +904,22 @@
       });
     }
 
+    var customAudio = {};
+    if (data.customAudio && typeof data.customAudio === "object" && !Array.isArray(data.customAudio)) {
+      Object.keys(data.customAudio).forEach(function (id) {
+        if (typeof data.customAudio[id] === "string" && data.customAudio[id]) {
+          customAudio[id] = data.customAudio[id];
+        }
+      });
+    }
+
     if (errors.length) return { ok: false, errors: errors };
 
     writeKey(KEY_OWNER, cleanedCards);
     writeKey(KEY_VERIFIED, verified);
     writeKey(KEY_PROGRESS, progress);
     writeKey(KEY_BOXES, boxes);
+    writeKey(KEY_CUSTOM_AUDIO, customAudio);
     return { ok: true, errors: [] };
   }
 
@@ -707,5 +955,13 @@
     levelOf: levelOf,
     buildBackup: buildBackup,
     applyBackup: applyBackup,
+    getCurriculumOrder: getCurriculumOrder,
+    getActiveIsland: getActiveIsland,
+    getCurriculumMap: getCurriculumMap,
+    makeQuizForCard: makeQuizForCard,
+    buildInterleavedSession: buildInterleavedSession,
+    getCustomAudio: getCustomAudio,
+    setCustomAudio: setCustomAudio,
+    clearCustomAudio: clearCustomAudio,
   };
 })();
