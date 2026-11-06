@@ -31,10 +31,15 @@
     <main>
       <input type="checkbox" id="show-rules" class="show-rules">
       <section id="home-screen">
-        <p id="home-where" class="home-where">The app picks the next lines.</p>
-        <button type="button" id="start-btn" class="primary-btn start-btn">Start</button>
-        <div id="island-picker" class="island-picker"></div>
-        <button type="button" id="day-btn" class="quiet-btn">A day with Anila and Ilir</button>
+        <div class="commute-hero">
+          <p id="home-where" class="home-where">The app picks the next lines.</p>
+          <button type="button" id="start-btn" class="primary-btn start-btn">Start Step-by-Step</button>
+          <button type="button" id="day-btn" class="secondary-btn day-btn">🎧 Listen: Real Conversation (Anila & Ilir)</button>
+        </div>
+        <div class="curriculum-container">
+          <h2 class="curriculum-heading">Curriculum Map</h2>
+          <div id="island-picker" class="curriculum-map"></div>
+        </div>
         <button type="button" id="listen-btn" class="quiet-btn">Listen to real Albanian</button>
         <p class="home-note">Again and Got it save on this phone. Save a copy if you want the file.</p>
         <p class="home-note" id="offline-note" hidden></p>
@@ -98,6 +103,7 @@
       <section id="day-screen" hidden>
         <h2 class="screen-title" id="day-title">A day with Anila and Ilir</h2>
         <p class="day-note" id="day-note"></p>
+        <div id="day-player-bar" class="day-player-bar"></div>
         <div id="day-list" class="day-list"></div>
       </section>
 

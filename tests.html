@@ -308,6 +308,116 @@
 
     runAlignChecks();
 
+    function runCommuteChecks() {
+      fetch("app.js", { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (code) {
+        var hasSynth = code.indexOf("speechSynthesis") !== -1 || code.indexOf("SpeechSynthesisUtterance") !== -1;
+        add(!hasSynth, "app.js contains zero references to window.speechSynthesis or SpeechSynthesisUtterance (100% human audio only)", hasSynth ? "found speechSynthesis reference" : "");
+      }).catch(function (err) {
+        add(false, "app.js human audio check", String(err));
+      });
+
+      try {
+        var order = typeof ShqipData.getCurriculumOrder === "function" ? ShqipData.getCurriculumOrder() : [];
+        var expectedFirst6 = [
+          "Greetings & Check-ins",
+          "Conversation Repair",
+          "Coffee & Table",
+          "Lego Verb Builder",
+          "Food & Eating",
+          "Family & Warmth"
+        ];
+        var orderOk = Array.isArray(order) && expectedFirst6.every(function (name, idx) {
+          return order[idx] === name;
+        });
+        add(orderOk, "ShqipData.getCurriculumOrder() returns the ordered beginner Island path", order.slice(0, 6).join(" -> "));
+      } catch (err) {
+        add(false, "ShqipData.getCurriculumOrder() returns the ordered beginner Island path", String(err));
+      }
+
+      ShqipData.loadStarterCards().then(function () {
+        var backupBefore = null;
+        try {
+          backupBefore = ShqipData.buildBackup();
+        } catch (err) {
+          backupBefore = null;
+        }
+        try {
+          var session = typeof ShqipData.buildInterleavedSession === "function"
+            ? ShqipData.buildInterleavedSession("Food & Eating")
+            : null;
+          var steps = Array.isArray(session) ? session : (session && Array.isArray(session.steps) ? session.steps : []);
+          var teachSteps = steps.filter(function (s) { return s && s.type === "teach"; });
+          var checkSteps = steps.filter(function (s) { return s && s.type === "check"; });
+          var maxConsecutiveTeach = 0;
+          var curTeach = 0;
+          steps.forEach(function (s) {
+            if (s && s.type === "teach") {
+              curTeach += 1;
+              if (curTeach > maxConsecutiveTeach) maxConsecutiveTeach = curTeach;
+            } else if (s && s.type === "check") {
+              curTeach = 0;
+            }
+          });
+          var checkedIds = {};
+          var hardcodedGreetDistractor = false;
+          checkSteps.forEach(function (s) {
+            var cid = s.cardId || (s.card && s.card.id) || (s.quiz && s.quiz.cardId);
+            if (cid) checkedIds[cid] = true;
+            var choices = (s.quiz && s.quiz.choices) || [];
+            choices.forEach(function (ch) {
+              if (ch && (ch.audio === "greet-001" || ch.audio === "greet-002")) {
+                hardcodedGreetDistractor = true;
+              }
+            });
+          });
+          var allTaughtTested = teachSteps.length > 0 && teachSteps.every(function (t) {
+            var c = t.card;
+            if (!c || (c.lesson && c.lesson.kind === "count") || c.review === false) return true;
+            return checkedIds[c.id] === true;
+          });
+          var interleaveOk = teachSteps.length > 0 &&
+            checkSteps.length > 0 &&
+            maxConsecutiveTeach <= 3 &&
+            allTaughtTested &&
+            !hardcodedGreetDistractor;
+          add(
+            interleaveOk,
+            "ShqipData.buildInterleavedSession() returns interleaved teach and check steps every 2–3 cards and tests every new card",
+            "teach=" + teachSteps.length + ", check=" + checkSteps.length + ", maxTeachRun=" + maxConsecutiveTeach
+          );
+        } catch (err) {
+          add(false, "ShqipData.buildInterleavedSession() returns interleaved teach and check steps every 2–3 cards and tests every new card", String(err));
+        }
+
+        try {
+          var sampleDataUrl = "data:audio/webm;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEA";
+          ShqipData.setCustomAudio("greet-001", sampleDataUrl);
+          var loadedAudio = ShqipData.getCustomAudio("greet-001");
+          var backupWithAudio = JSON.parse(JSON.stringify(ShqipData.buildBackup()));
+          ShqipData.clearCustomAudio("greet-001");
+          var clearedAudio = ShqipData.getCustomAudio("greet-001");
+          var importRes = ShqipData.applyBackup(backupWithAudio);
+          var restoredAudio = ShqipData.getCustomAudio("greet-001");
+          ShqipData.clearCustomAudio("greet-001");
+          var audioHelpersOk = loadedAudio === sampleDataUrl &&
+            !clearedAudio &&
+            importRes && importRes.ok &&
+            restoredAudio === sampleDataUrl;
+          add(
+            audioHelpersOk,
+            "ShqipData custom family audio helpers (setCustomAudio, getCustomAudio, clearCustomAudio) save, load, and export/import in backup JSON",
+            audioHelpersOk ? "" : "failed custom audio roundtrip"
+          );
+        } catch (err) {
+          add(false, "ShqipData custom family audio helpers (setCustomAudio, getCustomAudio, clearCustomAudio) save, load, and export/import in backup JSON", String(err));
+        } finally {
+          if (backupBefore) ShqipData.applyBackup(backupBefore);
+        }
+      });
+    }
+
+    runCommuteChecks();
+
     run();
   </script>
 </body>
