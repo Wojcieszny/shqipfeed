@@ -1705,3 +1705,54 @@ body {
 .check-cont-btn {
   margin-top: 1rem;
 }
+
+/* SIMPLIFY-LOGIC-01: Inline Lego Block Glosses & Recall-First Stage */
+.blocks {
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.block {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.85rem;
+  line-height: 1.2;
+}
+
+.block-sq {
+  font-weight: 650;
+  font-size: 0.96rem;
+}
+
+.block-en {
+  font-size: 0.72rem;
+  opacity: 0.9;
+  margin-top: 0.1rem;
+  font-weight: 500;
+}
+
+.recall-prompt {
+  margin-top: 0.75rem;
+  color: var(--sq-teal);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.card:not(.is-recall-wait) .recall-prompt {
+  display: none;
+}
+
+.card.is-recall-wait .card-words {
+  display: none !important;
+}
+
+.quiz-block-chip {
+  display: inline-block;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.4rem;
+  background: #f6f1ea;
+  font-family: var(--sq-font-phrase);
+}

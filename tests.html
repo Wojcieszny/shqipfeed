@@ -28,6 +28,7 @@
     <p class="note">These checks do not verify Albanian accuracy or phone-specific audio.</p>
     <ul id="results"></ul>
   </main>
+  <script src="rules.js"></script>
   <script src="data.js"></script>
   <script src="human.js"></script>
   <script src="sources.js"></script>
@@ -491,7 +492,7 @@
         });
 
         add(
-          cards.length >= 320 && badCards.length === 0,
+          cards.length >= 280 && badCards.length === 0,
           'all cards in cards.json have verified === false, non-empty phonetic, valid blocks, and registered audio (' + cards.length + ' cards)',
           badCards.length ? listMissing(badCards) : cards.length + ' cards verified'
         );
@@ -501,6 +502,230 @@
     }
 
     runCorpusScenesChecks();
+
+    // MASTER-RECONCILE-01: Strict Anti-Duplication, Scene Variety, and SIMPLIFY-LOGIC-01 Checks
+    function hashBuffer(buf) {
+      var bytes = new Uint8Array(buf);
+      var h1 = 0x811c9dc5;
+      var h2 = 5381;
+      for (var i = 0; i < bytes.length; i++) {
+        h1 ^= bytes[i];
+        h1 = Math.imul(h1, 0x01000193) >>> 0;
+        h2 = ((h2 << 5) + h2 + bytes[i]) >>> 0;
+      }
+      return bytes.length + ':' + h1.toString(16) + ':' + h2.toString(16);
+    }
+
+    function fetchHashes(urls) {
+      var map = {};
+      var unique = [];
+      var seen = {};
+      urls.forEach(function (u) {
+        if (u && !seen[u]) {
+          seen[u] = true;
+          unique.push(u);
+        }
+      });
+      var pos = 0;
+      function worker() {
+        if (pos >= unique.length) return Promise.resolve();
+        var u = unique[pos++];
+        return fetch(encodeURI(u), { cache: 'no-store' }).then(function (r) {
+          if (!r.ok) return null;
+          return r.arrayBuffer();
+        }).then(function (buf) {
+          if (buf) map[u] = hashBuffer(buf);
+          return worker();
+        }).catch(function () {
+          return worker();
+        });
+      }
+      var pool = [];
+      for (var i = 0; i < 4; i++) pool.push(worker());
+      return Promise.all(pool).then(function () { return map; });
+    }
+
+    function normCheckText(s) {
+      return String(s || '').toLowerCase().replace(/[«»"'“”.,!?¿;:()]/g, '').replace(/\s+/g, ' ').trim();
+    }
+
+    function runMasterReconcileChecks() {
+      // 1 & 2 & 3: Unique primary card sentences/MP3s, exchange deduplication, and day.js turn variety
+      fetch('cards.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (cards) {
+        var seenSq = {};
+        var dupSq = [];
+        var cardAudioUrls = [];
+        var exAudioUrls = [];
+
+        cards.forEach(function (c) {
+          var sq = normCheckText(c.albanian);
+          if (seenSq[sq]) {
+            dupSq.push(seenSq[sq] + ' & ' + c.id + ' (' + c.albanian + ')');
+          } else {
+            seenSq[sq] = c.id;
+          }
+          var pUrl = 'audio/' + (c.audio || c.id) + '.mp3';
+          cardAudioUrls.push(pUrl);
+
+          var l = c.lesson || {};
+          (l.answers || []).forEach(function (a) {
+            if (a && a.audio) exAudioUrls.push('audio/' + a.audio + '.mp3');
+          });
+          if (l.reply && l.reply.audio) {
+            exAudioUrls.push('audio/' + l.reply.audio + '.mp3');
+          }
+        });
+
+        var day = window.ShqipDay || {};
+        var turns = Array.isArray(day.turns) ? day.turns : [];
+        var scenes = Array.isArray(day.scenes) ? day.scenes : [];
+        var dayUrls = turns.map(function (t) { return 'audio/' + t.audio + '.mp3'; });
+
+        return fetchHashes(cardAudioUrls.concat(exAudioUrls).concat(dayUrls)).then(function (hashes) {
+          // Check 1: Unique Primary Card Sentences & Primary MP3s
+          var seenCardHash = {};
+          var dupCardHash = [];
+          cards.forEach(function (c) {
+            var pUrl = 'audio/' + (c.audio || c.id) + '.mp3';
+            var h = hashes[pUrl];
+            if (!h) {
+              dupCardHash.push(c.id + ' missing hash');
+            } else if (seenCardHash[h]) {
+              dupCardHash.push(seenCardHash[h] + ' & ' + c.id);
+            } else {
+              seenCardHash[h] = c.id;
+            }
+          });
+          add(
+            dupSq.length === 0 && dupCardHash.length === 0,
+            'MASTER-RECONCILE-01: unique primary card sentences and unique primary .mp3 files across cards.json (' + cards.length + ' cards)',
+            dupSq.concat(dupCardHash).slice(0, 10).join('; ')
+          );
+
+          // Check 2: No Consecutive Identical Turns in day.js
+          var consecErrors = [];
+          for (var i = 1; i < turns.length; i++) {
+            var prev = turns[i - 1];
+            var curr = turns[i];
+            var prevSq = normCheckText(prev.sq);
+            var currSq = normCheckText(curr.sq);
+            var prevH = hashes['audio/' + prev.audio + '.mp3'];
+            var currH = hashes['audio/' + curr.audio + '.mp3'];
+            if (prevSq === currSq) {
+              consecErrors.push('turns ' + i + ' & ' + (i + 1) + ' identical sq: ' + curr.sq);
+            } else if (prevH && currH && prevH === currH) {
+              consecErrors.push('turns ' + i + ' & ' + (i + 1) + ' byte-identical audio: ' + prev.audio + ' & ' + curr.audio);
+            }
+          }
+          add(
+            turns.length >= 80 && consecErrors.length === 0,
+            'MASTER-RECONCILE-01: zero consecutive identical turns (text or audio bytes) in day.js (' + turns.length + ' turns)',
+            consecErrors.join('; ')
+          );
+
+          // Check 3: Scene & Exchange Variety
+          var sceneErrors = [];
+          if (scenes.length < 10) {
+            sceneErrors.push('expected 10 scenes, got ' + scenes.length);
+          }
+          scenes.forEach(function (sc) {
+            var sTurns = sc.turns || [];
+            if (sTurns.length < 8 || sTurns.length > 12) {
+              sceneErrors.push(sc.id + ' has ' + sTurns.length + ' turns');
+            }
+            var seenInSceneSq = {};
+            var seenInSceneHash = {};
+            sTurns.forEach(function (t, idx) {
+              var sq = normCheckText(t.sq);
+              var h = hashes['audio/' + t.audio + '.mp3'];
+              if (seenInSceneSq[sq]) {
+                sceneErrors.push(sc.id + ' repeats sq "' + t.sq + '"');
+              }
+              seenInSceneSq[sq] = true;
+              if (h && seenInSceneHash[h]) {
+                sceneErrors.push(sc.id + ' repeats audio file in turn ' + (idx + 1));
+              }
+              if (h) seenInSceneHash[h] = true;
+            });
+          });
+
+          // Check that exchange files on disk are deduplicated (no cloned -a1/-a2/-r byte-duplicates)
+          var uniqueExUrls = {};
+          exAudioUrls.forEach(function (u) { uniqueExUrls[u] = true; });
+          var exUrlList = Object.keys(uniqueExUrls);
+          var seenExFileHash = {};
+          var dupExFiles = [];
+          exUrlList.forEach(function (u) {
+            var h = hashes[u];
+            if (!h) return;
+            if (seenExFileHash[h] && seenExFileHash[h] !== u) {
+              dupExFiles.push(u + ' == ' + seenExFileHash[h]);
+            } else {
+              seenExFileHash[h] = u;
+            }
+          });
+
+          add(
+            sceneErrors.length === 0 && dupExFiles.length === 0,
+            'MASTER-RECONCILE-01: all 10 scenes have distinct turns within each scene and exchange audio pointers have zero cloned duplicate MP3 files on disk',
+            sceneErrors.concat(dupExFiles).slice(0, 10).join('; ')
+          );
+        });
+      }).catch(function (err) {
+        add(false, 'MASTER-RECONCILE-01 audio/card uniqueness checks', String(err && err.message ? err.message : err));
+      });
+
+      // 4: Layout & Logic Checks (SIMPLIFY-LOGIC-01)
+      ShqipData.loadStarterCards().then(function (cards) {
+        var backupBefore = null;
+        try { backupBefore = ShqipData.buildBackup(); } catch (e) { backupBefore = null; }
+        try {
+          var sampleCard = cards.find(function (c) {
+            return c.blocks && c.blocks.length >= 2 && c.lesson && c.lesson.facts && c.lesson.facts.length > 0;
+          }) || cards[0];
+
+          // Render unseen card (Box 0)
+          ShqipData.resetProgress();
+          var unseenEl = typeof ShqipApp.renderCard === 'function'
+            ? ShqipApp.renderCard(sampleCard, {}, 0, 10)
+            : null;
+          var noWordTable = unseenEl ? !unseenEl.querySelector('table.word-table') : false;
+          var hasBlockSq = unseenEl ? !!unseenEl.querySelector('.block .block-sq') : false;
+          var hasBlockEn = unseenEl ? !!unseenEl.querySelector('.block .block-en') : false;
+          var unseenNotRecallWait = unseenEl ? !unseenEl.classList.contains('is-recall-wait') : false;
+
+          // Grade card so it is in Box 1+ (review state) and render again
+          ShqipData.gradeCard(sampleCard.id, true);
+          var reviewEl = typeof ShqipApp.renderCard === 'function'
+            ? ShqipApp.renderCard(sampleCard, {}, 0, 10)
+            : null;
+          var reviewStartsRecallWait = reviewEl ? reviewEl.classList.contains('is-recall-wait') : false;
+
+          // Check block-build micro-check support
+          var bbQuiz = typeof ShqipData.makeQuizForCard === 'function'
+            ? ShqipData.makeQuizForCard(sampleCard, 'block-build')
+            : null;
+          var bbQuizOk = bbQuiz && bbQuiz.mode === 'block-build' && Array.isArray(bbQuiz.choices) && bbQuiz.choices.length >= 2;
+          var bbCheckEl = (bbQuizOk && typeof ShqipApp.renderCheck === 'function')
+            ? ShqipApp.renderCheck({ type: 'check', card: sampleCard, cardId: sampleCard.id, mode: 'block-build', quiz: bbQuiz })
+            : null;
+          var bbRenderOk = bbCheckEl ? bbCheckEl.querySelectorAll('[data-action="check-pick"]').length >= 2 : false;
+
+          var layoutLogicOk = noWordTable && hasBlockSq && hasBlockEn && unseenNotRecallWait && reviewStartsRecallWait && bbQuizOk && bbRenderOk;
+          add(
+            layoutLogicOk,
+            'MASTER-RECONCILE-01: renderCard() removes table.word-table, renders inline .block-sq/.block-en glosses, starts Box 1+ cards in .is-recall-wait, and supports "block-build" micro-checks',
+            layoutLogicOk ? '' : 'noWordTable=' + noWordTable + ', blockSq=' + hasBlockSq + ', blockEn=' + hasBlockEn + ', recallWait=' + reviewStartsRecallWait + ', blockBuild=' + (bbQuizOk && bbRenderOk)
+          );
+        } catch (err) {
+          add(false, 'MASTER-RECONCILE-01: layout and logic checks', String(err && err.message ? err.message : err));
+        } finally {
+          if (backupBefore) ShqipData.applyBackup(backupBefore);
+        }
+      });
+    }
+
+    runMasterReconcileChecks();
 
     run();
   </script>

@@ -186,6 +186,8 @@
 
   // Shows the Albanian words and the next step once sound has started.
   function revealWords() {
+    var cardEl = document.querySelector(".card.is-recall-wait");
+    if (cardEl) cardEl.classList.remove("is-recall-wait");
     var words = document.querySelector(".card-words");
     if (words) words.hidden = false;
     var rest = document.querySelectorAll(".after-listen");
@@ -684,18 +686,22 @@
         title.textContent = step.card.island;
       }
       renderProgress(session.index, session.steps.length);
-      feed.appendChild(renderCard(step.card, getProgress(), session.index, session.steps.length));
-      playCurrent(1);
+      var cardEl = renderCard(step.card, getProgress(), session.index, session.steps.length);
+      feed.appendChild(cardEl);
+      if (!cardEl.classList.contains("is-recall-wait")) {
+        playCurrent(1);
+      }
     } else if (step.type === "check") {
       if (title) {
         title.hidden = false;
-        title.textContent = "Check · " + (step.mode === "meaning" ? "Meaning" : "Reply");
+        var modeLabel = step.mode === "meaning" ? "Meaning" : (step.mode === "block-build" ? "Lego Build" : "Reply");
+        title.textContent = "Check · " + modeLabel;
       }
       renderProgress(session.index, session.steps.length);
       feed.appendChild(renderCheck(step));
       var saidAudio = step.quiz && step.quiz.said && step.quiz.said.audio;
       var saidAlbanian = step.quiz && step.quiz.said && step.quiz.said.albanian;
-      if (saidAudio) {
+      if (saidAudio && step.mode !== "block-build") {
         var base = ShqipData.scriptBase();
         playFile(base + "audio/" + saidAudio + ".mp3", 1, saidAlbanian, null);
       }
@@ -705,8 +711,11 @@
 
   // Teach Card Renderer
   function renderCard(card, progress, index, total) {
+    var boxes = typeof ShqipData.getBoxes === "function" ? ShqipData.getBoxes() : {};
+    var isReview = !!(boxes && boxes[card.id] && boxes[card.id].box >= 1 && card.review !== false);
+
     var article = document.createElement("article");
-    article.className = "card" + (card.lesson ? " has-lesson" : "");
+    article.className = "card" + (card.lesson ? " has-lesson" : "") + (isReview ? " is-recall-wait" : "");
     article.setAttribute("data-id", card.id);
     article.setAttribute("aria-label", (index + 1) + " of " + total);
 
@@ -718,10 +727,16 @@
     stage.className = "card-stage";
     addText(stage, "p", "card-english", card.english);
 
+    if (isReview) {
+      var recallHint = addText(stage, "p", "recall-prompt", "Say it in Albanian first, then tap Hear to reveal.");
+      recallHint.setAttribute("data-recall-hint", "1");
+    }
+
     var words = document.createElement("div");
     words.className = "card-words card-albanian";
     words.lang = "sq";
-    card.albanian.split(/s+/).forEach(function (token) {
+    if (isReview) words.hidden = true;
+    String(card.albanian || "").split(/\s+/).forEach(function (token) {
       words.appendChild(renderWordToken(token));
     });
     stage.appendChild(words);
@@ -807,7 +822,10 @@
     wrap.className = "quiz";
 
     var isMeaning = quiz.mode === "meaning";
-    var kicker = isMeaning ? "Audio Meaning Check" : "Conversational Reply Check";
+    var isBlockBuild = quiz.mode === "block-build";
+    var kicker = isMeaning
+      ? "Audio Meaning Check"
+      : (isBlockBuild ? "Lego Block Build Check" : "Conversational Reply Check");
     addText(wrap, "p", "lesson-label", kicker);
 
     if (isMeaning) {
@@ -820,6 +838,15 @@
       wrap.appendChild(hearBtn);
 
       addText(wrap, "p", "lesson-label", "What does it mean?");
+    } else if (isBlockBuild) {
+      addText(wrap, "p", "quiz-prompt", "Build in Albanian:");
+      addText(wrap, "p", "quiz-said", quiz.said.english);
+
+      var hearBtn = makeButton("🎧 Hear hint", "check-hear", false);
+      hearBtn.classList.add("line-hear", "check-hear-btn");
+      wrap.appendChild(hearBtn);
+
+      addText(wrap, "p", "lesson-label", "Pick the matching Lego blocks:");
     } else {
       addText(wrap, "p", "quiz-prompt", "They say:");
       var saidEl = addText(wrap, "p", "quiz-said", quiz.said.albanian);
@@ -841,6 +868,11 @@
       btn.setAttribute("data-index", String(index));
       if (isMeaning) {
         btn.textContent = choice.english;
+      } else if (isBlockBuild && choice.blocks && choice.blocks.length) {
+        var blockChips = choice.blocks.map(function (b) {
+          return '<span class="quiz-block-chip">[' + escRule(b.text) + "]</span>";
+        }).join(" + ");
+        btn.innerHTML = "<b>" + blockChips + "</b>";
       } else {
         btn.innerHTML = "<b>" + escRule(choice.albanian) + "</b>" + (choice.english ? "<span>" + escRule(choice.english) + "</span>" : "");
       }
@@ -943,17 +975,108 @@
     return wrap;
   }
 
+  var CHUNK_GLOSSES = {
+    "a doni": "do you want",
+    "a dëshironi": "would you like",
+    "do të doja": "I would like",
+    "a mund": "can / may",
+    "a mund të": "can / may",
+    "a mund të më": "can you ... me",
+    "ku është": "where is",
+    "ku gjendet": "where is",
+    "sa kushton": "how much costs",
+    "ju lutem": "please",
+    "të lutem": "please",
+    "faleminderit": "thank you",
+    "faleminderit shumë": "thank you very much",
+    "mirëdita": "hello",
+    "mirëmëngjes": "good morning",
+    "mirëmbrëma": "good evening",
+    "natën e mirë": "good night",
+    "mirupafshim": "goodbye",
+    "si je": "how are you",
+    "si jeni": "how are you",
+    "jam në rregull": "I'm ok",
+    "në rregull": "all right",
+    "unë jam": "I am",
+    "ai është": "he is",
+    "ajo është": "she is",
+    "ne jemi": "we are",
+    "është": "it is",
+    "sot është": "today is",
+    "nuk kuptoj": "I don't understand",
+    "nuk e di": "I don't know",
+    "më vjen keq": "I'm sorry",
+    "më falni": "excuse me",
+    "dua të": "I want to",
+    "unë dua": "I want",
+    "kam": "I have",
+    "nuk kam": "I don't have",
+  };
+
+  function resolveBlockGloss(block, index, totalBlocks, card, rows) {
+    if (block.en || block.english) return String(block.en || block.english);
+    var sqRaw = String(block.text || "").trim();
+    var sqLow = normLine(sqRaw);
+    if (!sqLow) return "";
+
+    for (var i = 0; i < rows.length; i++) {
+      if (normLine(rows[i].sq) === sqLow) return rows[i].en;
+    }
+
+    if (CHUNK_GLOSSES[sqLow]) return CHUNK_GLOSSES[sqLow];
+
+    var book = (window.ShqipRules && window.ShqipRules.words) || {};
+    if (book[sqLow]) return book[sqLow];
+
+    var matchedParts = [];
+    sqRaw.split(/\s+/).forEach(function (part) {
+      var w = cleanWord(part).toLowerCase();
+      if (!w) return;
+      for (var r = 0; r < rows.length; r++) {
+        if (normLine(rows[r].sq) === w) {
+          matchedParts.push(rows[r].en);
+          return;
+        }
+      }
+      if (book[w]) matchedParts.push(book[w]);
+    });
+    if (matchedParts.length) return matchedParts.join(" ");
+
+    var engWords = String(card.english || "").replace(/[.!?]+$/, "").trim().split(/\s+/).filter(Boolean);
+    if (!engWords.length) return "";
+    if (totalBlocks <= 1) return engWords.join(" ");
+    var start = Math.floor((index * engWords.length) / totalBlocks);
+    var end = Math.floor(((index + 1) * engWords.length) / totalBlocks);
+    if (end <= start) end = Math.min(engWords.length, start + 1);
+    return engWords.slice(start, end).join(" ").toLowerCase();
+  }
+
   function renderBlocks(card) {
     var blocks = card.blocks || [];
     var useful = blocks.filter(function (block) { return block && block.text; });
-    if (useful.length < 2) return null;
+    if (useful.length < 1) return null;
+    var rows = glossRows(card);
     var row = document.createElement("div");
     row.className = "blocks";
-    useful.forEach(function (block) {
+    useful.forEach(function (block, idx) {
       var pill = document.createElement("span");
       var kind = block.type === "power" || block.type === "verb" || block.type === "object" ? block.type : "other";
       pill.className = "block block-" + kind;
-      pill.textContent = block.text;
+
+      var sqSpan = document.createElement("span");
+      sqSpan.className = "block-sq";
+      sqSpan.textContent = block.text;
+      pill.appendChild(sqSpan);
+
+      var enText = resolveBlockGloss(block, idx, useful.length, card, rows);
+      if (enText) {
+        var enSpan = document.createElement("span");
+        enSpan.className = "block-en";
+        enSpan.textContent = enText;
+        pill.appendChild(enSpan);
+      }
+
       row.appendChild(pill);
     });
     return row;
@@ -1119,94 +1242,58 @@
   }
 
   function renderLesson(card) {
-    var rows = glossRows(card);
     var turns = conversationTurns(card);
-    if (!rows.length && !turns.length) return null;
+    if (!turns.length) return null;
     var wrap = document.createElement("div");
     wrap.className = "lesson-rest after-listen";
     wrap.hidden = true;
 
-    if (rows.length) {
-      var words = document.createElement("section");
-      words.className = "lesson-block";
-      addText(words, "h2", "lesson-label", "Words");
-      var table = document.createElement("table");
-      table.className = "word-table";
-      rows.forEach(function (row) {
-        var tr = document.createElement("tr");
-        var sq = document.createElement("td");
-        sq.className = "sq";
-        sq.lang = "sq";
-        sq.textContent = row.sq;
-        var rec = wordSource(row.sq);
-        if (rec && rec.ipa && rec.ipa.length) {
-          var ipa = document.createElement("span");
-          ipa.className = "ipa";
-          ipa.textContent = rec.ipa.map(function (item) {
-            return (item.accent ? item.accent + " " : "") + item.ipa;
-          }).join(" · ");
-          sq.appendChild(document.createTextNode(" "));
-          sq.appendChild(ipa);
-        }
-        var en = document.createElement("td");
-        en.className = "en";
-        en.textContent = row.en;
-        tr.appendChild(sq);
-        tr.appendChild(en);
-        table.appendChild(tr);
+    var talk = document.createElement("section");
+    talk.className = "lesson-block";
+    var talkHeader = document.createElement("div");
+    talkHeader.className = "talk-header";
+    addText(talkHeader, "h2", "lesson-label", "After you");
+
+    var playExBtn = makeButton("▶ Play Exchange", "play-exchange", false);
+    playExBtn.classList.add("exchange-btn");
+    talkHeader.appendChild(playExBtn);
+    talk.appendChild(talkHeader);
+
+    var openedAlt = false;
+    turns.forEach(function (line) {
+      if (line.alt && !openedAlt) {
+        addText(talk, "h2", "lesson-label", "Or they might say");
+        openedAlt = true;
+      }
+      var who = line.who === "they" ? "they" : "you";
+      var row = document.createElement("div");
+      row.className = "turn " + who;
+      var top = document.createElement("div");
+      top.className = "turn-top";
+      addText(top, "span", "who", who === "they" ? "They" : "You");
+      var hear = makeButton("Hear", "line", false);
+      hear.classList.add("line-hear");
+      hear.setAttribute("data-audio", line.audio || "");
+      hear.setAttribute("data-say", line.albanian || "");
+      top.appendChild(hear);
+      row.appendChild(top);
+      var split = document.createElement("div");
+      split.className = "split";
+      var al = document.createElement("div");
+      al.className = "turn-al";
+      al.lang = "sq";
+      String(line.albanian || "").split(/\s+/).forEach(function (token) {
+        al.appendChild(renderWordToken(token));
       });
-      words.appendChild(table);
-      wrap.appendChild(words);
-    }
-
-    if (turns.length) {
-      var talk = document.createElement("section");
-      talk.className = "lesson-block";
-      var talkHeader = document.createElement("div");
-      talkHeader.className = "talk-header";
-      addText(talkHeader, "h2", "lesson-label", "After you");
-
-      var playExBtn = makeButton("▶ Play Exchange", "play-exchange", false);
-      playExBtn.classList.add("exchange-btn");
-      talkHeader.appendChild(playExBtn);
-      talk.appendChild(talkHeader);
-
-      var openedAlt = false;
-      turns.forEach(function (line) {
-        if (line.alt && !openedAlt) {
-          addText(talk, "h2", "lesson-label", "Or they might say");
-          openedAlt = true;
-        }
-        var who = line.who === "they" ? "they" : "you";
-        var row = document.createElement("div");
-        row.className = "turn " + who;
-        var top = document.createElement("div");
-        top.className = "turn-top";
-        addText(top, "span", "who", who === "they" ? "They" : "You");
-        var hear = makeButton("Hear", "line", false);
-        hear.classList.add("line-hear");
-        hear.setAttribute("data-audio", line.audio || "");
-        hear.setAttribute("data-say", line.albanian || "");
-        top.appendChild(hear);
-        row.appendChild(top);
-        var split = document.createElement("div");
-        split.className = "split";
-        var al = document.createElement("div");
-        al.className = "turn-al";
-        al.lang = "sq";
-        String(line.albanian || "").split(/\s+/).forEach(function (token) {
-          al.appendChild(renderWordToken(token));
-        });
-        var en = document.createElement("p");
-        en.className = "turn-en";
-        en.textContent = line.english || "";
-        split.appendChild(al);
-        split.appendChild(en);
-        row.appendChild(split);
-        talk.appendChild(row);
-      });
-      wrap.appendChild(talk);
-    }
+      var en = document.createElement("p");
+      en.className = "turn-en";
+      en.textContent = line.english || "";
+      split.appendChild(al);
+      split.appendChild(en);
+      row.appendChild(split);
+      talk.appendChild(row);
+    });
+    wrap.appendChild(talk);
     return wrap;
   }
 
@@ -1289,22 +1376,25 @@
       var pills = document.createElement("div");
       pills.className = "day-pills";
 
-      var parts = ["all", "Part 1: Arrival & Greetings", "Part 2: Coffee & Hospitality", "Part 3: At the Table", "Part 4: Plans & Getting Around", "Part 5: Warm Goodbyes", "unlocked"];
-      var partLabels = {
-        "all": "All Scenes",
-        "Part 1: Arrival & Greetings": "Part 1: Greetings",
-        "Part 2: Coffee & Hospitality": "Part 2: Coffee",
-        "Part 3: At the Table": "Part 3: Table",
-        "Part 4: Plans & Getting Around": "Part 4: Plans",
-        "Part 5: Warm Goodbyes": "Part 5: Goodbyes",
-        "unlocked": "Play Unlocked Only"
-      };
+      var sceneTitles = [];
+      if (Array.isArray(day.scenes) && day.scenes.length) {
+        day.scenes.forEach(function (sc) {
+          if (sc && sc.title) sceneTitles.push(sc.title);
+        });
+      } else {
+        (day.turns || []).forEach(function (t) {
+          if (t && t.part && sceneTitles.indexOf(t.part) === -1) sceneTitles.push(t.part);
+        });
+      }
+
+      var parts = ["all"].concat(sceneTitles).concat(["unlocked"]);
 
       parts.forEach(function (p) {
         var pill = document.createElement("button");
         pill.type = "button";
         pill.className = "day-pill" + (dayPlayer.filter === p ? " is-active" : "");
-        pill.textContent = partLabels[p];
+        var label = p === "all" ? "All Scenes" : (p === "unlocked" ? "Play Unlocked Only" : p.replace(/^(Scene \d+|Part \d+):\s*/, "$1 · "));
+        pill.textContent = label;
         pill.setAttribute("data-action", "day-filter");
         pill.setAttribute("data-filter", p);
         pills.appendChild(pill);
@@ -1315,6 +1405,7 @@
     // Turns list
     box.innerHTML = "";
     var currentPart = "";
+    var lastShownPart = "";
     var boxes = ShqipData.getBoxes();
     var hasBoxes = Object.keys(boxes).length > 0;
 
@@ -1324,7 +1415,7 @@
       // Filter check
       var show = true;
       if (dayPlayer.filter === "unlocked") {
-        var matched = PART_ISLANDS[currentPart] || [];
+        var matched = (turn.island ? [turn.island] : []).concat(PART_ISLANDS[currentPart] || []);
         var unlocked = !hasBoxes || matched.some(function (isName) {
           var all = ShqipData.getAllCards();
           return all.some(function (c) { return c.island === isName && boxes[c.id]; });
@@ -1334,9 +1425,10 @@
         show = currentPart === dayPlayer.filter;
       }
 
-      if (turn.part && show) {
-        var partHead = addText(box, "h2", "lesson-label day-part", turn.part);
-        partHead.setAttribute("data-part-title", turn.part);
+      if (currentPart && currentPart !== lastShownPart && show) {
+        var partHead = addText(box, "h2", "lesson-label day-part", currentPart);
+        partHead.setAttribute("data-part-title", currentPart);
+        lastShownPart = currentPart;
       }
 
       var who = turn.who === "ilir" ? "ilir" : "anila";
@@ -2058,6 +2150,8 @@
     resetProgress: resetProgress,
     start: start,
     openRules: openRules,
+    renderCard: renderCard,
+    renderCheck: renderCheck,
   };
 
   if (document.readyState === "loading") {

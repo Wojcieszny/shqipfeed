@@ -22,20 +22,20 @@
           "id": "greet-001-a1",
           "albanian": "Mirëdita. Mirë, faleminderit!",
           "english": "Hello. I'm fine, thank you",
-          "audio": "greet-001-a1"
+          "audio": "greet-m-001"
         },
         {
           "id": "greet-001-a2",
           "albanian": "Jam në rregull, faleminderit",
           "english": "I'm ok, thanks",
-          "audio": "greet-001-a2"
+          "audio": "greet-003"
         }
       ],
       "reply": {
         "id": "greet-001-r",
         "albanian": "Mirëdita. Mirë, faleminderit!",
         "english": "Hello. I'm fine, thank you",
-        "audio": "greet-001-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -59,26 +59,26 @@
           "id": "greet-002-a1",
           "albanian": "Mirëdita. Mirë, faleminderit!",
           "english": "Hello. I'm fine, thank you",
-          "audio": "greet-002-a1"
+          "audio": "greet-m-001"
         },
         {
           "id": "greet-002-a2",
           "albanian": "Jam në rregull, faleminderit",
           "english": "I'm ok, thanks",
-          "audio": "greet-002-a2"
+          "audio": "greet-003"
         },
         {
           "id": "greet-002-a3",
           "albanian": "Unë jam i lodhur.",
           "english": "I am tired.",
-          "audio": "greet-002-a3"
+          "audio": "greet-m-003"
         }
       ],
       "reply": {
         "id": "greet-002-r",
         "albanian": "Mirëdita. Mirë, faleminderit!",
         "english": "Hello. I'm fine, thank you",
-        "audio": "greet-002-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -106,7 +106,7 @@
           "id": "greet-003-a1",
           "albanian": "Mirëdita. Si je?",
           "english": "Hello. How are you?",
-          "audio": "greet-003-a1"
+          "audio": "greet-001"
         },
         {
           "id": "greet-003-a2",
@@ -119,7 +119,7 @@
         "id": "greet-003-r",
         "albanian": "Mirëdita. Si je?",
         "english": "Hello. How are you?",
-        "audio": "greet-003-r"
+        "audio": "greet-001"
       }
     },
     "verified": false
@@ -143,20 +143,20 @@
           "id": "greet-004-a1",
           "albanian": "Mirëdita",
           "english": "Good day",
-          "audio": "greet-004-a1"
+          "audio": "greet-004"
         },
         {
           "id": "greet-004-a2",
           "albanian": "Mirëdita. Si je?",
           "english": "Hello. How are you?",
-          "audio": "greet-004-a2"
+          "audio": "greet-001"
         }
       ],
       "reply": {
         "id": "greet-004-r",
         "albanian": "Mirëdita. Mirë, faleminderit!",
         "english": "Hello. I'm fine, thank you",
-        "audio": "greet-004-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -180,20 +180,20 @@
           "id": "greet-005-a1",
           "albanian": "Mirëmbrëma",
           "english": "Good evening",
-          "audio": "greet-005-a1"
+          "audio": "greet-005"
         },
         {
           "id": "greet-005-a2",
           "albanian": "Si jeni?",
           "english": "How are you?",
-          "audio": "greet-005-a2"
+          "audio": "greet-002"
         }
       ],
       "reply": {
         "id": "greet-005-r",
         "albanian": "Mirëdita. Mirë, faleminderit!",
         "english": "Hello. I'm fine, thank you",
-        "audio": "greet-005-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -217,20 +217,20 @@
           "id": "greet-006-a1",
           "albanian": "Natën e mirë",
           "english": "Good night",
-          "audio": "greet-006-a1"
+          "audio": "greet-006"
         },
         {
           "id": "greet-006-a2",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "greet-006-a2"
+          "audio": "greet-009"
         }
       ],
       "reply": {
         "id": "greet-006-r",
         "albanian": "Natën e mirë",
         "english": "Good night",
-        "audio": "greet-006-r"
+        "audio": "greet-006"
       }
     },
     "verified": false
@@ -254,20 +254,20 @@
           "id": "greet-007-a1",
           "albanian": "Përshëndetje",
           "english": "Hello",
-          "audio": "greet-007-a1"
+          "audio": "greet-007"
         },
         {
           "id": "greet-007-a2",
           "albanian": "Si jeni?",
           "english": "How are you?",
-          "audio": "greet-007-a2"
+          "audio": "greet-002"
         }
       ],
       "reply": {
         "id": "greet-007-r",
         "albanian": "Si jeni?",
         "english": "How are you?",
-        "audio": "greet-007-r"
+        "audio": "greet-002"
       }
     },
     "verified": false
@@ -291,20 +291,20 @@
           "id": "greet-008-a1",
           "albanian": "Tungjatjeta",
           "english": "Hello",
-          "audio": "greet-008-a1"
+          "audio": "greet-008"
         },
         {
           "id": "greet-008-a2",
           "albanian": "Si jeni?",
           "english": "How are you?",
-          "audio": "greet-008-a2"
+          "audio": "greet-002"
         }
       ],
       "reply": {
         "id": "greet-008-r",
         "albanian": "Mirëdita. Mirë, faleminderit!",
         "english": "Hello. I'm fine, thank you",
-        "audio": "greet-008-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -328,20 +328,20 @@
           "id": "greet-009-a1",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "greet-009-a1"
+          "audio": "greet-009"
         },
         {
           "id": "greet-009-a2",
           "albanian": "Shihemi më vonë",
           "english": "See you later",
-          "audio": "greet-009-a2"
+          "audio": "greet-010"
         }
       ],
       "reply": {
         "id": "greet-009-r",
         "albanian": "Mirupafshim",
         "english": "Goodbye",
-        "audio": "greet-009-r"
+        "audio": "greet-009"
       }
     },
     "verified": false
@@ -369,20 +369,20 @@
           "id": "greet-010-a1",
           "albanian": "Shihemi më vonë",
           "english": "See you later",
-          "audio": "greet-010-a1"
+          "audio": "greet-010"
         },
         {
           "id": "greet-010-a2",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "greet-010-a2"
+          "audio": "greet-009"
         }
       ],
       "reply": {
         "id": "greet-010-r",
         "albanian": "Mirupafshim",
         "english": "Goodbye",
-        "audio": "greet-010-r"
+        "audio": "greet-009"
       }
     },
     "verified": false
@@ -420,14 +420,14 @@
           "id": "greet-011-a2",
           "albanian": "Ne kemi ardhur për pushime.",
           "english": "We are on holiday",
-          "audio": "greet-011-a2"
+          "audio": "day/08"
         }
       ],
       "reply": {
         "id": "greet-011-r",
         "albanian": "Ndihem shumë mirë këtu",
         "english": "I feel great here",
-        "audio": "greet-011-r"
+        "audio": "greet-014"
       }
     },
     "verified": false
@@ -455,20 +455,20 @@
           "id": "greet-012-a1",
           "albanian": "Unë quhem Sara, po ti?",
           "english": "My name is Sarah, what's your name?",
-          "audio": "greet-012-a1"
+          "audio": "greet-013"
         },
         {
           "id": "greet-012-a2",
           "albanian": "Emri im është Myler.",
           "english": "My name is Miller.",
-          "audio": "greet-012-a2"
+          "audio": "greet-m-006"
         }
       ],
       "reply": {
         "id": "greet-012-r",
         "albanian": "Ndihem shumë mirë këtu",
         "english": "I feel great here",
-        "audio": "greet-012-r"
+        "audio": "greet-014"
       }
     },
     "verified": false
@@ -500,20 +500,20 @@
           "id": "greet-013-a1",
           "albanian": "Emri im është Myler.",
           "english": "My name is Miller.",
-          "audio": "greet-013-a1"
+          "audio": "greet-m-006"
         },
         {
           "id": "greet-013-a2",
           "albanian": "Kalova mirë me ty.",
           "english": "I had a lovely time",
-          "audio": "greet-013-a2"
+          "audio": "family-010"
         }
       ],
       "reply": {
         "id": "greet-013-r",
         "albanian": "Kalova mirë me ty.",
         "english": "I had a lovely time",
-        "audio": "greet-013-r"
+        "audio": "family-010"
       }
     },
     "verified": false
@@ -545,20 +545,20 @@
           "id": "greet-014-a1",
           "albanian": "Edhe unë",
           "english": "Me too",
-          "audio": "greet-014-a1"
+          "audio": "greet-m-005"
         },
         {
           "id": "greet-014-a2",
           "albanian": "Mirë se vini!",
           "english": "Welcome!",
-          "audio": "greet-014-a2"
+          "audio": "family-004"
         }
       ],
       "reply": {
         "id": "greet-014-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "greet-014-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -582,20 +582,20 @@
           "id": "greet-015-a1",
           "albanian": "Asgjë!",
           "english": "You're welcome",
-          "audio": "greet-015-a1"
+          "audio": "greet-017"
         },
         {
           "id": "greet-015-a2",
           "albanian": "Ju lutem",
           "english": "Please / You're welcome",
-          "audio": "greet-015-a2"
+          "audio": "greet-020"
         }
       ],
       "reply": {
         "id": "greet-015-r",
         "albanian": "Në rregull",
         "english": "Okay",
-        "audio": "greet-015-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -623,20 +623,20 @@
           "id": "greet-016-a1",
           "albanian": "Asgjë!",
           "english": "You're welcome",
-          "audio": "greet-016-a1"
+          "audio": "greet-017"
         },
         {
           "id": "greet-016-a2",
           "albanian": "Ju lutem",
           "english": "Please / You're welcome",
-          "audio": "greet-016-a2"
+          "audio": "greet-020"
         }
       ],
       "reply": {
         "id": "greet-016-r",
         "albanian": "Në rregull",
         "english": "Okay",
-        "audio": "greet-016-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -660,20 +660,20 @@
           "id": "greet-017-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "greet-017-a1"
+          "audio": "greet-015"
         },
         {
           "id": "greet-017-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much.",
-          "audio": "greet-017-a2"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "greet-017-r",
         "albanian": "Ju lutem",
         "english": "Please",
-        "audio": "greet-017-r"
+        "audio": "greet-020"
       }
     },
     "verified": false
@@ -697,20 +697,20 @@
           "id": "greet-018-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "greet-018-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "greet-018-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "greet-018-a2"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "greet-018-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "greet-018-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -734,7 +734,7 @@
           "id": "greet-019-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "greet-019-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "greet-019-a2",
@@ -747,7 +747,7 @@
         "id": "greet-019-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "greet-019-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -771,20 +771,20 @@
           "id": "greet-020-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "greet-020-a1"
+          "audio": "greet-018"
         },
         {
           "id": "greet-020-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "greet-020-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "greet-020-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "greet-020-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -816,7 +816,7 @@
         "id": "greet-m-001-r",
         "albanian": "Jam në rregull, faleminderit",
         "english": "I'm ok, thanks",
-        "audio": "greet-m-001-r"
+        "audio": "greet-003"
       }
     },
     "verified": false
@@ -824,18 +824,18 @@
   {
     "id": "greet-m-002",
     "island": "Greetings & Check-ins",
-    "albanian": "Jam në rregull, faleminderit",
-    "english": "I'm ok, thanks.",
-    "phonetic": "yahm nuh RREH-gooll, fah-leh-meen-DEH-reet",
+    "albanian": "Faleminderit. Dhoma është në rregull",
+    "english": "Thank you, the room is very nice",
+    "phonetic": "faleminderit dhoma uhsht n rregull",
     "tip": "Casual check-in answer.",
     "blocks": [
       {
-        "text": "Jam në rregull",
+        "text": "Faleminderit. Dhoma",
         "type": "power"
       },
       {
-        "text": "faleminderit",
-        "type": "other"
+        "text": "është në rregull",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -844,7 +844,7 @@
         "id": "greet-m-002-r",
         "albanian": "Mirëdita. Si je?",
         "english": "Hello. How are you?",
-        "audio": "greet-m-002-r"
+        "audio": "greet-001"
       }
     },
     "verified": false
@@ -900,7 +900,7 @@
         "id": "greet-m-004-r",
         "albanian": "Shihemi më vonë",
         "english": "See you later",
-        "audio": "greet-m-004-r"
+        "audio": "greet-010"
       }
     },
     "verified": false
@@ -924,7 +924,7 @@
         "id": "greet-m-005-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "greet-m-005-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -956,7 +956,7 @@
         "id": "greet-m-006-r",
         "albanian": "Kalova mirë me ty.",
         "english": "I had a lovely time",
-        "audio": "greet-m-006-r"
+        "audio": "family-010"
       }
     },
     "verified": false
@@ -988,7 +988,7 @@
         "id": "greet-m-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "greet-m-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1012,7 +1012,7 @@
         "id": "greet-m-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "greet-m-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1020,18 +1020,18 @@
   {
     "id": "greet-a-001",
     "island": "Greetings & Check-ins",
-    "albanian": "Mirëdita. Si je?",
+    "albanian": "Çkemi. Si po shkon?",
     "english": "Hello. How are you?",
-    "phonetic": "meer-DEE-tah. see YEH?",
+    "phonetic": "chkemi si po shkon",
     "tip": "Common spoken pair in informal company.",
     "blocks": [
       {
-        "text": "Mirëdita",
+        "text": "Çkemi. Si",
         "type": "power"
       },
       {
-        "text": "Si je",
-        "type": "other"
+        "text": "po shkon?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -1040,14 +1040,14 @@
           "id": "greet-a-001-a1",
           "albanian": "Mirëdita. Mirë, faleminderit!",
           "english": "Hello. I'm fine, thank you",
-          "audio": "greet-a-001-a1"
+          "audio": "greet-m-001"
         }
       ],
       "reply": {
         "id": "greet-a-001-r",
         "albanian": "Jam në rregull, faleminderit",
         "english": "I'm ok, thanks",
-        "audio": "greet-a-001-r"
+        "audio": "greet-003"
       }
     },
     "verified": false
@@ -1055,14 +1055,18 @@
   {
     "id": "greet-a-002",
     "island": "Greetings & Check-ins",
-    "albanian": "Mirupafshim",
-    "english": "Goodbye.",
-    "phonetic": "mee-roo-PAHF-sheem",
+    "albanian": "A do të takohemi nesër?",
+    "english": "Shall we meet tomorrow?",
+    "phonetic": "a do t takohemi nesuhr",
     "tip": "Standard polite departure.",
     "blocks": [
       {
-        "text": "Mirupafshim",
+        "text": "A do",
         "type": "power"
+      },
+      {
+        "text": "të takohemi nesër?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -1071,14 +1075,14 @@
           "id": "greet-a-002-a1",
           "albanian": "Shihemi më vonë",
           "english": "See you later",
-          "audio": "greet-a-002-a1"
+          "audio": "greet-010"
         }
       ],
       "reply": {
         "id": "greet-a-002-r",
         "albanian": "Natën e mirë",
         "english": "Good night",
-        "audio": "greet-a-002-r"
+        "audio": "greet-006"
       }
     },
     "verified": false
@@ -1110,20 +1114,20 @@
           "id": "repair-001-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-001-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "repair-001-a2",
           "albanian": "Ju lutem më korrigjoni.",
           "english": "Please correct me.",
-          "audio": "repair-001-a2"
+          "audio": "repair-m-001"
         }
       ],
       "reply": {
         "id": "repair-001-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "repair-001-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -1147,20 +1151,20 @@
           "id": "repair-002-a1",
           "albanian": "Më falni!",
           "english": "Excuse me!",
-          "audio": "repair-002-a1"
+          "audio": "repair-005"
         },
         {
           "id": "repair-002-a2",
           "albanian": "Mund të flasësh pak më me ngadalë, të lutem?",
           "english": "Could you speak a bit more slowly, please?",
-          "audio": "repair-002-a2"
+          "audio": "repair-001"
         }
       ],
       "reply": {
         "id": "repair-002-r",
         "albanian": "Mund ta përsërisësh, të lutem?",
         "english": "Can you repeat please?",
-        "audio": "repair-002-r"
+        "audio": "repair-003"
       }
     },
     "verified": false
@@ -1188,20 +1192,20 @@
           "id": "repair-003-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-003-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "repair-003-a2",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "repair-003-a2"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "repair-003-r",
         "albanian": "kuptoj",
         "english": "I understand",
-        "audio": "repair-003-r"
+        "audio": "repair-009"
       }
     },
     "verified": false
@@ -1229,20 +1233,20 @@
           "id": "repair-004-a1",
           "albanian": "kafe",
           "english": "Coffee",
-          "audio": "repair-004-a1"
+          "audio": "coffee-m-001"
         },
         {
           "id": "repair-004-a2",
           "albanian": "çaj",
           "english": "Tea",
-          "audio": "repair-004-a2"
+          "audio": "coffee-m-002"
         }
       ],
       "reply": {
         "id": "repair-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1266,20 +1270,20 @@
           "id": "repair-005-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "repair-005-a1"
+          "audio": "greet-018"
         },
         {
           "id": "repair-005-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-005-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "repair-005-r",
         "albanian": "Mund të flasësh pak më me ngadalë, të lutem?",
         "english": "Could you speak a bit more slowly, please?",
-        "audio": "repair-005-r"
+        "audio": "repair-001"
       }
     },
     "verified": false
@@ -1307,20 +1311,20 @@
           "id": "repair-006-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-006-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "repair-006-a2",
           "albanian": "Nuk bezdisem.",
           "english": "It doesn't disturb me.",
-          "audio": "repair-006-a2"
+          "audio": "greet-019-a2"
         }
       ],
       "reply": {
         "id": "repair-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1348,20 +1352,20 @@
           "id": "repair-007-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "repair-007-a1"
+          "audio": "greet-018"
         },
         {
           "id": "repair-007-a2",
           "albanian": "Jo, unë nuk flas shqip.",
           "english": "No, I don't speak Albanian",
-          "audio": "repair-007-a2"
+          "audio": "repair-m-003"
         }
       ],
       "reply": {
         "id": "repair-007-r",
         "albanian": "Flet shqip?",
         "english": "Do you speak Albanian?",
-        "audio": "repair-007-r"
+        "audio": "repair-008"
       }
     },
     "verified": false
@@ -1389,20 +1393,20 @@
           "id": "repair-008-a1",
           "albanian": "Jo, unë nuk flas shqip.",
           "english": "No, I don't speak Albanian",
-          "audio": "repair-008-a1"
+          "audio": "repair-m-003"
         },
         {
           "id": "repair-008-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-008-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "repair-008-r",
         "albanian": "Mund të flasësh pak më me ngadalë, të lutem?",
         "english": "Could you speak a bit more slowly, please?",
-        "audio": "repair-008-r"
+        "audio": "repair-001"
       }
     },
     "verified": false
@@ -1426,14 +1430,14 @@
           "id": "repair-009-a1",
           "albanian": "Mirëdita",
           "english": "Good day",
-          "audio": "repair-009-a1"
+          "audio": "greet-004"
         }
       ],
       "reply": {
         "id": "repair-009-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-009-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1461,20 +1465,20 @@
           "id": "repair-010-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "repair-010-a1"
+          "audio": "greet-018"
         },
         {
           "id": "repair-010-a2",
           "albanian": "nuk kuptoj",
           "english": "I don't understand",
-          "audio": "repair-010-a2"
+          "audio": "repair-002"
         }
       ],
       "reply": {
         "id": "repair-010-r",
         "albanian": "Mund të flasësh pak më me ngadalë, të lutem?",
         "english": "Could you speak a bit more slowly, please?",
-        "audio": "repair-010-r"
+        "audio": "repair-001"
       }
     },
     "verified": false
@@ -1498,20 +1502,20 @@
           "id": "repair-011-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-011-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "repair-011-a2",
           "albanian": "Nuk bezdisem.",
           "english": "It doesn't disturb me.",
-          "audio": "repair-011-a2"
+          "audio": "greet-019-a2"
         }
       ],
       "reply": {
         "id": "repair-011-r",
         "albanian": "Më falni!",
         "english": "Excuse me!",
-        "audio": "repair-011-r"
+        "audio": "repair-005"
       }
     },
     "verified": false
@@ -1539,20 +1543,20 @@
           "id": "repair-012-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "repair-012-a1"
+          "audio": "greet-018"
         },
         {
           "id": "repair-012-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-012-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "repair-012-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-012-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1580,7 +1584,7 @@
         "id": "repair-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1604,7 +1608,7 @@
         "id": "repair-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1636,7 +1640,7 @@
         "id": "repair-m-003-r",
         "albanian": "flisni anglisht",
         "english": "Speak English",
-        "audio": "repair-m-003-r"
+        "audio": "repair-007"
       }
     },
     "verified": false
@@ -1644,22 +1648,18 @@
   {
     "id": "repair-a-001",
     "island": "Conversation Repair",
-    "albanian": "Mund të flasësh pak më me ngadalë, të lutem?",
-    "english": "Could you speak a bit more slowly, please?",
-    "phonetic": "moond tuh FLAH-sehsh pahk muh meh ngah-DAH-luh, tuh LOO-tem?",
+    "albanian": "Unë shkruaj një fjalë.",
+    "english": "I write a word.",
+    "phonetic": "un shkruay nee fyal",
     "tip": "Interactive practice for asking someone to slow down.",
     "blocks": [
       {
-        "text": "Mund të flasësh",
+        "text": "Unë shkruaj",
         "type": "power"
       },
       {
-        "text": "pak më me ngadalë",
-        "type": "other"
-      },
-      {
-        "text": "të lutem",
-        "type": "other"
+        "text": "një fjalë.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -1668,14 +1668,14 @@
           "id": "repair-a-001-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "repair-a-001-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "repair-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "repair-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1683,18 +1683,18 @@
   {
     "id": "rec-001",
     "island": "Conversation Repair",
-    "albanian": "flisni anglisht",
-    "english": "Speak English.",
-    "phonetic": "FLEES-nee ahn-GLEESHT",
+    "albanian": "A dini portugalisht?",
+    "english": "Can you also speak Portuguese?",
+    "phonetic": "A DINI PORTUGALISHT",
     "tip": "Prompting someone to switch to English.",
     "blocks": [
       {
-        "text": "flisni",
-        "type": "verb"
+        "text": "A",
+        "type": "power"
       },
       {
-        "text": "anglisht",
-        "type": "object"
+        "text": "dini portugalisht?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -1703,13 +1703,13 @@
           "id": "rec-001-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "rec-001-a1"
+          "audio": "greet-018"
         },
         {
           "id": "rec-001-a2",
           "albanian": "Jo",
           "english": "No",
-          "audio": "rec-001-a2"
+          "audio": "greet-019"
         }
       ]
     },
@@ -1734,7 +1734,7 @@
           "id": "rec-003-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "rec-003-a1"
+          "audio": "greet-018"
         }
       ]
     },
@@ -1763,20 +1763,20 @@
           "id": "coffee-001-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "coffee-001-a1"
+          "audio": "greet-015"
         },
         {
           "id": "coffee-001-a2",
           "albanian": "Do të doja një kafe me qumësht.",
           "english": "I'd like a coffee with milk",
-          "audio": "coffee-001-a2"
+          "audio": "coffee-002"
         }
       ],
       "reply": {
         "id": "coffee-001-r",
         "albanian": "Kafe",
         "english": "Coffee",
-        "audio": "coffee-001-r"
+        "audio": "coffee-m-001"
       }
     },
     "verified": false
@@ -1808,20 +1808,20 @@
           "id": "coffee-002-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-002-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-002-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-002-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1849,20 +1849,20 @@
           "id": "coffee-003-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-003-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-003-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-003-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1890,20 +1890,20 @@
           "id": "coffee-004-a1",
           "albanian": "A e pi kafenë me sheqer?",
           "english": "Do you drink coffee with sugar?",
-          "audio": "coffee-004-a1"
+          "audio": "coffee-m-003"
         },
         {
           "id": "coffee-004-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-004-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1931,20 +1931,20 @@
           "id": "coffee-005-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-005-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-005-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-005-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -1972,20 +1972,20 @@
           "id": "coffee-006-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-006-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-006-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-006-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2009,20 +2009,20 @@
           "id": "coffee-007-a1",
           "albanian": "Do të doja një ujë mineral.",
           "english": "I'd like a mineral water.",
-          "audio": "coffee-007-a1"
+          "audio": "coffee-006"
         },
         {
           "id": "coffee-007-a2",
           "albanian": "Ju lutem edhe një gotë ujë.",
           "english": "Another glass of water, please",
-          "audio": "coffee-007-a2"
+          "audio": "coffee-005"
         }
       ],
       "reply": {
         "id": "coffee-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2050,20 +2050,20 @@
           "id": "coffee-008-a1",
           "albanian": "A e pi çajin me limon?",
           "english": "Do you drink tea with lemon?",
-          "audio": "coffee-008-a1"
+          "audio": "coffee-m-004"
         },
         {
           "id": "coffee-008-a2",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-008-a2"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "coffee-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2095,20 +2095,20 @@
           "id": "coffee-009-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-009-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-009-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-009-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-009-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-009-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2140,20 +2140,20 @@
           "id": "coffee-010-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-010-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-010-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "coffee-010-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "coffee-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2181,20 +2181,20 @@
           "id": "coffee-011-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "coffee-011-a1"
+          "audio": "greet-018"
         },
         {
           "id": "coffee-011-a2",
           "albanian": "A mund të paguaj edhe me lekë në dorë?",
           "english": "May one also pay in cash?",
-          "audio": "coffee-011-a2"
+          "audio": "shop-003"
         }
       ],
       "reply": {
         "id": "coffee-011-r",
         "albanian": "Paguaj unë",
         "english": "It's on me",
-        "audio": "coffee-011-r"
+        "audio": "shop-007"
       }
     },
     "verified": false
@@ -2218,14 +2218,14 @@
           "id": "coffee-012-a1",
           "albanian": "Gëzuar!",
           "english": "Cheers!",
-          "audio": "coffee-012-a1"
+          "audio": "coffee-012"
         }
       ],
       "reply": {
         "id": "coffee-012-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "coffee-012-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2253,14 +2253,14 @@
           "id": "coffee-013-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "coffee-013-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "coffee-013-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "coffee-013-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -2284,7 +2284,7 @@
         "id": "coffee-m-001-r",
         "albanian": "Do të doja një kafe.",
         "english": "I'd like a coffee.",
-        "audio": "coffee-m-001-r"
+        "audio": "coffee-004"
       }
     },
     "verified": false
@@ -2308,7 +2308,7 @@
         "id": "coffee-m-002-r",
         "albanian": "Një çaj, të lutem!",
         "english": "A tea please",
-        "audio": "coffee-m-002-r"
+        "audio": "coffee-008"
       }
     },
     "verified": false
@@ -2340,7 +2340,7 @@
         "id": "coffee-m-003-r",
         "albanian": "Po",
         "english": "Yes",
-        "audio": "coffee-m-003-r"
+        "audio": "greet-018"
       }
     },
     "verified": false
@@ -2372,7 +2372,7 @@
         "id": "coffee-m-004-r",
         "albanian": "Po",
         "english": "Yes",
-        "audio": "coffee-m-004-r"
+        "audio": "greet-018"
       }
     },
     "verified": false
@@ -2380,18 +2380,18 @@
   {
     "id": "coffee-a-001",
     "island": "Coffee & Table",
-    "albanian": "Do të doja një kafe.",
-    "english": "I'd like a coffee.",
-    "phonetic": "doh tuh DOH-yah nyuh KAH-feh",
+    "albanian": "A e pi ujin me akull?",
+    "english": "Do you drink water with ice?",
+    "phonetic": "a e pi uyin me akull",
     "tip": "Practicing coffee orders.",
     "blocks": [
       {
-        "text": "Do të doja",
+        "text": "A e pi",
         "type": "power"
       },
       {
-        "text": "një kafe",
-        "type": "object"
+        "text": "ujin me akull?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -2400,14 +2400,14 @@
           "id": "coffee-a-001-a1",
           "albanian": "A e pi kafenë me sheqer?",
           "english": "Do you drink coffee with sugar?",
-          "audio": "coffee-a-001-a1"
+          "audio": "coffee-m-003"
         }
       ],
       "reply": {
         "id": "coffee-a-001-r",
         "albanian": "Do të doja një kafe me qumësht.",
         "english": "I'd like a coffee with milk",
-        "audio": "coffee-a-001-r"
+        "audio": "coffee-002"
       }
     },
     "verified": false
@@ -2435,7 +2435,7 @@
           "id": "rec-005-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "rec-005-a1"
+          "audio": "greet-015"
         }
       ]
     },
@@ -2460,20 +2460,20 @@
           "id": "food-001-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         },
         {
           "id": "food-001-a2",
           "albanian": "Urdhëroni menunë!",
           "english": "Here is the menu",
-          "audio": "food-001-a2"
+          "audio": "food-013"
         }
       ],
       "reply": {
         "id": "food-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2501,14 +2501,14 @@
           "id": "food-002-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-002-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-002-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "food-002-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -2536,14 +2536,14 @@
           "id": "food-003-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-003-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-003-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "food-003-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -2571,14 +2571,14 @@
           "id": "food-004-a1",
           "albanian": "Urdhëroni menunë!",
           "english": "Here is the menu",
-          "audio": "food-004-a1"
+          "audio": "food-013"
         }
       ],
       "reply": {
         "id": "food-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2610,14 +2610,14 @@
           "id": "food-005-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "food-005-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "food-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2649,14 +2649,14 @@
           "id": "food-006-a1",
           "albanian": "Më falni!",
           "english": "Excuse me!",
-          "audio": "food-006-a1"
+          "audio": "repair-005"
         }
       ],
       "reply": {
         "id": "food-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2688,14 +2688,14 @@
           "id": "food-007-a1",
           "albanian": "Ku ndodhet ndonjë restorant i mirë këtu?",
           "english": "Is there a good restaurant around here?",
-          "audio": "food-007-a1"
+          "audio": "food-m-001"
         }
       ],
       "reply": {
         "id": "food-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2723,14 +2723,14 @@
           "id": "food-008-a1",
           "albanian": "Ju lutem edhe një gotë ujë.",
           "english": "Another glass of water, please",
-          "audio": "food-008-a1"
+          "audio": "coffee-005"
         }
       ],
       "reply": {
         "id": "food-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2758,20 +2758,20 @@
           "id": "food-009-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "food-009-a1"
+          "audio": "greet-018"
         },
         {
           "id": "food-009-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "food-009-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "food-009-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-009-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2799,20 +2799,20 @@
           "id": "food-010-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "food-010-a1"
+          "audio": "greet-018"
         },
         {
           "id": "food-010-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-010-a2"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2836,14 +2836,14 @@
           "id": "food-011-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "food-011-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "food-011-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-011-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2871,14 +2871,14 @@
           "id": "food-012-a1",
           "albanian": "A të pëlqen peshku?",
           "english": "Do you like fish?",
-          "audio": "food-012-a1"
+          "audio": "day/36"
         }
       ],
       "reply": {
         "id": "food-012-r",
         "albanian": "Po",
         "english": "Yes",
-        "audio": "food-012-r"
+        "audio": "greet-018"
       }
     },
     "verified": false
@@ -2906,14 +2906,14 @@
           "id": "food-013-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-013-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-013-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-013-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2941,14 +2941,14 @@
           "id": "food-014-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "food-014-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "food-014-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-014-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -2980,7 +2980,7 @@
         "id": "food-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3008,7 +3008,7 @@
         "id": "food-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3036,7 +3036,7 @@
         "id": "food-m-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-m-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3044,18 +3044,18 @@
   {
     "id": "food-a-001",
     "island": "Food & Eating",
-    "albanian": "Menunë, ju lutem!",
-    "english": "The menu, please!",
-    "phonetic": "meh-NOO-nuh, yoo LOO-tem!",
+    "albanian": "Unë kam një thikë, një pirun dhe një lugë.",
+    "english": "I have a knife, a fork and a spoon.",
+    "phonetic": "un kam nee thik nee pirun dhe nee lug",
     "tip": "Interactive menu practice.",
     "blocks": [
       {
-        "text": "Menunë",
-        "type": "object"
+        "text": "Unë kam një thikë,",
+        "type": "power"
       },
       {
-        "text": "ju lutem",
-        "type": "power"
+        "text": "një pirun dhe një lugë.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -3064,14 +3064,14 @@
           "id": "food-a-001-a1",
           "albanian": "Urdhëroni menunë!",
           "english": "Here is the menu",
-          "audio": "food-a-001-a1"
+          "audio": "food-013"
         }
       ],
       "reply": {
         "id": "food-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "food-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3099,20 +3099,20 @@
           "id": "family-001-a1",
           "albanian": "Asgjë!",
           "english": "You're welcome",
-          "audio": "family-001-a1"
+          "audio": "greet-017"
         },
         {
           "id": "family-001-a2",
           "albanian": "Ne jemi një familje.",
           "english": "We are a family",
-          "audio": "family-001-a2"
+          "audio": "family-002"
         }
       ],
       "reply": {
         "id": "family-001-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "family-001-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -3140,20 +3140,20 @@
           "id": "family-002-a1",
           "albanian": "Edhe unë",
           "english": "Me too",
-          "audio": "family-002-a1"
+          "audio": "greet-m-005"
         },
         {
           "id": "family-002-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "family-002-a2"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "family-002-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "family-002-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -3181,14 +3181,14 @@
           "id": "family-003-a1",
           "albanian": "Mirë se vini!",
           "english": "Welcome!",
-          "audio": "family-003-a1"
+          "audio": "family-004"
         }
       ],
       "reply": {
         "id": "family-003-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "family-003-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -3212,20 +3212,20 @@
           "id": "family-004-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "family-004-a1"
+          "audio": "greet-015"
         },
         {
           "id": "family-004-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much.",
-          "audio": "family-004-a2"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "family-004-r",
         "albanian": "Ndihem shumë mirë këtu",
         "english": "I feel great here",
-        "audio": "family-004-r"
+        "audio": "greet-014"
       }
     },
     "verified": false
@@ -3249,14 +3249,14 @@
           "id": "family-005-a1",
           "albanian": "Edhe unë. U gëzova që të takova.",
           "english": "Me too, it was a pleasure to meet you.",
-          "audio": "family-005-a1"
+          "audio": "greet-m-007"
         }
       ],
       "reply": {
         "id": "family-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3280,14 +3280,14 @@
           "id": "family-006-a1",
           "albanian": "Edhe unë. U gëzova që të takova.",
           "english": "Me too, it was a pleasure to meet you.",
-          "audio": "family-006-a1"
+          "audio": "greet-m-007"
         }
       ],
       "reply": {
         "id": "family-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3311,14 +3311,14 @@
           "id": "family-007-a1",
           "albanian": "Mirëdita",
           "english": "Good day",
-          "audio": "family-007-a1"
+          "audio": "greet-004"
         }
       ],
       "reply": {
         "id": "family-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3342,14 +3342,14 @@
           "id": "family-008-a1",
           "albanian": "Mirëdita",
           "english": "Good day",
-          "audio": "family-008-a1"
+          "audio": "greet-004"
         }
       ],
       "reply": {
         "id": "family-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3377,20 +3377,20 @@
           "id": "family-009-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "family-009-a1"
+          "audio": "greet-015"
         },
         {
           "id": "family-009-a2",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "family-009-a2"
+          "audio": "greet-009"
         }
       ],
       "reply": {
         "id": "family-009-r",
         "albanian": "Mirupafshim",
         "english": "Goodbye",
-        "audio": "family-009-r"
+        "audio": "greet-009"
       }
     },
     "verified": false
@@ -3418,14 +3418,14 @@
           "id": "family-010-a1",
           "albanian": "Edhe unë",
           "english": "Me too",
-          "audio": "family-010-a1"
+          "audio": "greet-m-005"
         }
       ],
       "reply": {
         "id": "family-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3453,20 +3453,20 @@
           "id": "family-011-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "family-011-a1"
+          "audio": "greet-018"
         },
         {
           "id": "family-011-a2",
           "albanian": "Familja ime është këtu.",
           "english": "My family is here",
-          "audio": "family-011-a2"
+          "audio": "family-003"
         }
       ],
       "reply": {
         "id": "family-011-r",
         "albanian": "Mirë se vini!",
         "english": "Welcome!",
-        "audio": "family-011-r"
+        "audio": "family-004"
       }
     },
     "verified": false
@@ -3494,14 +3494,14 @@
           "id": "family-012-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "family-012-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "family-012-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-012-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3529,7 +3529,7 @@
         "id": "family-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3557,7 +3557,7 @@
         "id": "family-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3565,14 +3565,18 @@
   {
     "id": "family-m-003",
     "island": "Family & Warmth",
-    "albanian": "Mirë se vini!",
-    "english": "Welcome!",
-    "phonetic": "MEER seh VEE-nee!",
+    "albanian": "Dua të rri në shtëpi.",
+    "english": "I want to stay at home.",
+    "phonetic": "dua t rri n shtuhpi",
     "tip": "Welcoming gesture upon entry.",
     "blocks": [
       {
-        "text": "Mirë se vini",
+        "text": "Dua të",
         "type": "power"
+      },
+      {
+        "text": "rri në shtëpi.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -3581,7 +3585,7 @@
         "id": "family-m-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-m-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3589,18 +3593,18 @@
   {
     "id": "family-a-001",
     "island": "Family & Warmth",
-    "albanian": "Faleminderit për ndihmën tuaj!",
-    "english": "Thank you for your help!",
-    "phonetic": "fah-leh-meen-DEH-reet puhr NDEEH-muhn TOO-ai!",
+    "albanian": "Fëmijë, ku është babi juaj?",
+    "english": "Children, where is your father?",
+    "phonetic": "fuhmiy ku uhsht babi yuay",
     "tip": "Interactive practice expressing deep gratitude.",
     "blocks": [
       {
-        "text": "Faleminderit",
+        "text": "Fëmijë, ku",
         "type": "power"
       },
       {
-        "text": "për ndihmën tuaj",
-        "type": "other"
+        "text": "është babi juaj?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -3609,14 +3613,14 @@
           "id": "family-a-001-a1",
           "albanian": "Asgjë!",
           "english": "You're welcome",
-          "audio": "family-a-001-a1"
+          "audio": "greet-017"
         }
       ],
       "reply": {
         "id": "family-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "family-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3644,20 +3648,20 @@
           "id": "health-001-a1",
           "albanian": "Më dhemb krahu.",
           "english": "My arm hurts.",
-          "audio": "health-001-a1"
+          "audio": "health-003"
         },
         {
           "id": "health-001-a2",
           "albanian": "Më dhemb këmba dhe dora.",
           "english": "My foot and hand also hurt.",
-          "audio": "health-001-a2"
+          "audio": "health-004"
         }
       ],
       "reply": {
         "id": "health-001-r",
         "albanian": "Thërrisni një mjek!",
         "english": "Call a doctor!",
-        "audio": "health-001-r"
+        "audio": "health-010"
       }
     },
     "verified": false
@@ -3665,18 +3669,18 @@
   {
     "id": "health-002",
     "island": "Health & Feelings",
-    "albanian": "Unë jam i lodhur.",
-    "english": "I am tired.",
-    "phonetic": "OO-nuh yahm ee LOH-dhoor",
+    "albanian": "Ajo ka dhimbje. Megjithatë ajo nuk shkon te mjeku.",
+    "english": "She is in pain. Nevertheless, she doesn’t go to the doctor.",
+    "phonetic": "ayo ka dhimbye megeeithat ayo nuk shkon te myeku",
     "tip": "Saying you are exhausted after a long day or travel.",
     "blocks": [
       {
-        "text": "Unë jam",
+        "text": "Ajo ka dhimbje. Megjithatë",
         "type": "power"
       },
       {
-        "text": "i lodhur",
-        "type": "other"
+        "text": "ajo nuk shkon te mjeku.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -3685,20 +3689,20 @@
           "id": "health-002-a1",
           "albanian": "Dua të pushoj",
           "english": "I want to rest",
-          "audio": "health-002-a1"
+          "audio": "lego-001"
         },
         {
           "id": "health-002-a2",
           "albanian": "Unë dua të fle.",
           "english": "I want to sleep",
-          "audio": "health-002-a2"
+          "audio": "lego-004"
         }
       ],
       "reply": {
         "id": "health-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3726,14 +3730,14 @@
           "id": "health-003-a1",
           "albanian": "Thërrisni një mjek!",
           "english": "Call a doctor!",
-          "audio": "health-003-a1"
+          "audio": "health-010"
         }
       ],
       "reply": {
         "id": "health-003-r",
         "albanian": "Mjeku vjen tani.",
         "english": "The doctor is on his way.",
-        "audio": "health-003-r"
+        "audio": "health-011"
       }
     },
     "verified": false
@@ -3761,14 +3765,14 @@
           "id": "health-004-a1",
           "albanian": "Besoj se ai ka nevojë për mjek.",
           "english": "I think he needs a doctor.",
-          "audio": "health-004-a1"
+          "audio": "health-006"
         }
       ],
       "reply": {
         "id": "health-004-r",
         "albanian": "Ne duhet të shkojmë menjëherë te mjeku.",
         "english": "We must go to the doctor at once.",
-        "audio": "health-004-r"
+        "audio": "health-007"
       }
     },
     "verified": false
@@ -3796,14 +3800,14 @@
           "id": "health-005-a1",
           "albanian": "Besoj se ai ka nevojë për mjek.",
           "english": "I think he needs a doctor.",
-          "audio": "health-005-a1"
+          "audio": "health-006"
         }
       ],
       "reply": {
         "id": "health-005-r",
         "albanian": "Ne duhet të shkojmë menjëherë te mjeku.",
         "english": "We must go to the doctor at once.",
-        "audio": "health-005-r"
+        "audio": "health-007"
       }
     },
     "verified": false
@@ -3835,14 +3839,14 @@
           "id": "health-006-a1",
           "albanian": "Thërrisni një mjek!",
           "english": "Call a doctor!",
-          "audio": "health-006-a1"
+          "audio": "health-010"
         }
       ],
       "reply": {
         "id": "health-006-r",
         "albanian": "Mjeku vjen tani.",
         "english": "The doctor is on his way.",
-        "audio": "health-006-r"
+        "audio": "health-011"
       }
     },
     "verified": false
@@ -3874,14 +3878,14 @@
           "id": "health-007-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "health-007-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "health-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3909,20 +3913,20 @@
           "id": "health-008-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "health-008-a1"
+          "audio": "go-m-002"
         },
         {
           "id": "health-008-a2",
           "albanian": "Është larg nga këtu?",
           "english": "Is it far from here?",
-          "audio": "health-008-a2"
+          "audio": "go-003"
         }
       ],
       "reply": {
         "id": "health-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3950,14 +3954,14 @@
           "id": "health-009-a1",
           "albanian": "Thërrisni një mjek!",
           "english": "Call a doctor!",
-          "audio": "health-009-a1"
+          "audio": "health-010"
         }
       ],
       "reply": {
         "id": "health-009-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-009-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -3985,14 +3989,14 @@
           "id": "health-010-a1",
           "albanian": "Mjeku vjen tani.",
           "english": "The doctor is on his way.",
-          "audio": "health-010-a1"
+          "audio": "health-011"
         }
       ],
       "reply": {
         "id": "health-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4024,14 +4028,14 @@
           "id": "health-011-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "health-011-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "health-011-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "health-011-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -4059,7 +4063,7 @@
         "id": "health-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4083,7 +4087,7 @@
         "id": "health-m-002-r",
         "albanian": "Thërrisni një mjek!",
         "english": "Call a doctor!",
-        "audio": "health-m-002-r"
+        "audio": "health-010"
       }
     },
     "verified": false
@@ -4107,7 +4111,7 @@
         "id": "health-m-003-r",
         "albanian": "Ku gjendet farmacia më e afërt?",
         "english": "Where is the nearest pharmacy?",
-        "audio": "health-m-003-r"
+        "audio": "health-008"
       }
     },
     "verified": false
@@ -4115,18 +4119,18 @@
   {
     "id": "health-a-001",
     "island": "Health & Feelings",
-    "albanian": "Ku gjendet farmacia më e afërt?",
-    "english": "Where is the nearest pharmacy?",
-    "phonetic": "koo DZHEN-det fahr-mah-TSYEE-ah muh eh AH-fuhrt?",
+    "albanian": "Ajo nuk shkon te mjeku, megjithëse ajo ka dhimbje.",
+    "english": "Although she is in pain, she doesn’t go to the doctor.",
+    "phonetic": "ayo nuk shkon te myeku megeeithuhse ayo ka dhimbye",
     "tip": "Practicing pharmacy location enquiry.",
     "blocks": [
       {
-        "text": "Ku gjendet",
+        "text": "Ajo nuk shkon te",
         "type": "power"
       },
       {
-        "text": "farmacia më e afërt",
-        "type": "object"
+        "text": "mjeku, megjithëse ajo ka dhimbje.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -4135,14 +4139,14 @@
           "id": "health-a-001-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "health-a-001-a1"
+          "audio": "go-m-002"
         }
       ],
       "reply": {
         "id": "health-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "health-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4170,20 +4174,20 @@
           "id": "plans-001-a1",
           "albanian": "A dëshironi të dilni shëtitje?",
           "english": "Would you like to go for a walk?",
-          "audio": "plans-001-a1"
+          "audio": "plans-002"
         },
         {
           "id": "plans-001-a2",
           "albanian": "Çfarë do të gatuash sot?",
           "english": "What do you want to cook today?",
-          "audio": "plans-001-a2"
+          "audio": "plans-009"
         }
       ],
       "reply": {
         "id": "plans-001-r",
         "albanian": "Është një ide e mirë",
         "english": "It is a good idea",
-        "audio": "plans-001-r"
+        "audio": "plans-011"
       }
     },
     "verified": false
@@ -4211,20 +4215,20 @@
           "id": "plans-002-a1",
           "albanian": "Është një ide e mirë",
           "english": "It is a good idea",
-          "audio": "plans-002-a1"
+          "audio": "plans-011"
         },
         {
           "id": "plans-002-a2",
           "albanian": "Më vjen keq, nesër s’mundem.",
           "english": "I’m sorry, I can’t make it tomorrow.",
-          "audio": "plans-002-a2"
+          "audio": "repair-006"
         }
       ],
       "reply": {
         "id": "plans-002-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "plans-002-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -4252,20 +4256,20 @@
           "id": "plans-003-a1",
           "albanian": "A do të shihemi nesër?",
           "english": "Shall we see each other tomorrow?",
-          "audio": "plans-003-a1"
+          "audio": "plans-005"
         },
         {
           "id": "plans-003-a2",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "plans-003-a2"
+          "audio": "greet-009"
         }
       ],
       "reply": {
         "id": "plans-003-r",
         "albanian": "Natën e mirë",
         "english": "Good night",
-        "audio": "plans-003-r"
+        "audio": "greet-006"
       }
     },
     "verified": false
@@ -4289,14 +4293,14 @@
           "id": "plans-004-a1",
           "albanian": "Sot kemi kohë.",
           "english": "We have time today.",
-          "audio": "plans-004-a1"
+          "audio": "plans-001"
         }
       ],
       "reply": {
         "id": "plans-004-r",
         "albanian": "A dëshironi të dilni shëtitje?",
         "english": "Would you like to go for a walk?",
-        "audio": "plans-004-r"
+        "audio": "plans-002"
       }
     },
     "verified": false
@@ -4328,20 +4332,20 @@
           "id": "plans-005-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "plans-005-a1"
+          "audio": "greet-018"
         },
         {
           "id": "plans-005-a2",
           "albanian": "Më vjen keq, nesër s’mundem.",
           "english": "I’m sorry, I can’t make it tomorrow.",
-          "audio": "plans-005-a2"
+          "audio": "repair-006"
         }
       ],
       "reply": {
         "id": "plans-005-r",
         "albanian": "Shihemi nesër!",
         "english": "See you tomorrow!",
-        "audio": "plans-005-r"
+        "audio": "plans-003"
       }
     },
     "verified": false
@@ -4369,14 +4373,14 @@
           "id": "plans-006-a1",
           "albanian": "A dëshironi të dilni shëtitje?",
           "english": "Would you like to go for a walk?",
-          "audio": "plans-006-a1"
+          "audio": "plans-002"
         }
       ],
       "reply": {
         "id": "plans-006-r",
         "albanian": "Është një ide e mirë",
         "english": "It is a good idea",
-        "audio": "plans-006-r"
+        "audio": "plans-011"
       }
     },
     "verified": false
@@ -4404,14 +4408,14 @@
           "id": "plans-007-a1",
           "albanian": "Shkofshi shëndoshë e mirë në shtëpi!",
           "english": "Hope you arrive home safely!",
-          "audio": "plans-007-a1"
+          "audio": "family-009"
         }
       ],
       "reply": {
         "id": "plans-007-r",
         "albanian": "Kalova mirë me ty.",
         "english": "I had a lovely time",
-        "audio": "plans-007-r"
+        "audio": "family-010"
       }
     },
     "verified": false
@@ -4439,14 +4443,14 @@
           "id": "plans-008-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "plans-008-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "plans-008-r",
         "albanian": "Shihemi pastaj!",
         "english": "See you soon!",
-        "audio": "plans-008-r"
+        "audio": "greet-m-004"
       }
     },
     "verified": false
@@ -4478,14 +4482,14 @@
           "id": "plans-009-a1",
           "albanian": "Unë do marr peshk",
           "english": "I'll have fish",
-          "audio": "plans-009-a1"
+          "audio": "food-012"
         }
       ],
       "reply": {
         "id": "plans-009-r",
         "albanian": "Është një ide e mirë",
         "english": "It is a good idea",
-        "audio": "plans-009-r"
+        "audio": "plans-011"
       }
     },
     "verified": false
@@ -4517,14 +4521,14 @@
           "id": "plans-010-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "plans-010-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "plans-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "plans-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4552,14 +4556,14 @@
           "id": "plans-011-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "plans-011-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "plans-011-r",
         "albanian": "Shihemi më vonë",
         "english": "See you later",
-        "audio": "plans-011-r"
+        "audio": "greet-010"
       }
     },
     "verified": false
@@ -4567,18 +4571,18 @@
   {
     "id": "plans-m-001",
     "island": "Plans & Weekend",
-    "albanian": "Është ora tetë.",
-    "english": "It is eight o’clock.",
-    "phonetic": "UHSH-tuh OH-rah TET",
+    "albanian": "Në mëngjes, në orën tetë",
+    "english": "Morning, at eight o'clock",
+    "phonetic": "n muhngeees n oruhn tet",
     "tip": "Stating current time.",
     "blocks": [
       {
-        "text": "Është ora",
+        "text": "Në mëngjes,",
         "type": "power"
       },
       {
-        "text": "tetë",
-        "type": "other"
+        "text": "në orën tetë",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -4587,7 +4591,7 @@
         "id": "plans-m-001-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "plans-m-001-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -4615,7 +4619,7 @@
         "id": "plans-m-002-r",
         "albanian": "A dëshironi të dilni shëtitje?",
         "english": "Would you like to go for a walk?",
-        "audio": "plans-m-002-r"
+        "audio": "plans-002"
       }
     },
     "verified": false
@@ -4643,7 +4647,7 @@
         "id": "plans-m-003-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "plans-m-003-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -4651,17 +4655,17 @@
   {
     "id": "plans-a-001",
     "island": "Plans & Weekend",
-    "albanian": "A dëshironi të dilni shëtitje?",
-    "english": "Would you like to go for a walk?",
-    "phonetic": "ah duh-shee-ROH-nee tuh DEEL-nee shuh-TEET-yeh?",
+    "albanian": "Në verë dalim shëtitje me qejf.",
+    "english": "We like to go for a walk in summer.",
+    "phonetic": "n ver dalim shuhtitye me qeyf",
     "tip": "Interactive walk proposal.",
     "blocks": [
       {
-        "text": "A dëshironi të",
+        "text": "Në verë dalim",
         "type": "power"
       },
       {
-        "text": "dilni shëtitje",
+        "text": "shëtitje me qejf.",
         "type": "verb"
       }
     ],
@@ -4671,14 +4675,14 @@
           "id": "plans-a-001-a1",
           "albanian": "Është një ide e mirë",
           "english": "It is a good idea",
-          "audio": "plans-a-001-a1"
+          "audio": "plans-011"
         }
       ],
       "reply": {
         "id": "plans-a-001-r",
         "albanian": "Shihemi më vonë",
         "english": "See you later",
-        "audio": "plans-a-001-r"
+        "audio": "greet-010"
       }
     },
     "verified": false
@@ -4706,20 +4710,20 @@
           "id": "lego-001-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "lego-001-a1"
+          "audio": "greet-m-008"
         },
         {
           "id": "lego-001-a2",
           "albanian": "Unë dua të fle.",
           "english": "I want to sleep",
-          "audio": "lego-001-a2"
+          "audio": "lego-004"
         }
       ],
       "reply": {
         "id": "lego-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "lego-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4727,17 +4731,17 @@
   {
     "id": "lego-002",
     "island": "Lego Verb Builder",
-    "albanian": "A mund të ulemi?",
-    "english": "May we take a seat?",
-    "phonetic": "ah moond tuh OO-leh-mee?",
+    "albanian": "A do shkoni në kafe?",
+    "english": "Do you want to go to a café?",
+    "phonetic": "a do shkoni n kafe",
     "tip": "Polite reflexive request to sit down together.",
     "blocks": [
       {
-        "text": "A mund të",
+        "text": "A do",
         "type": "power"
       },
       {
-        "text": "ulemi",
+        "text": "shkoni në kafe?",
         "type": "verb"
       }
     ],
@@ -4747,20 +4751,20 @@
           "id": "lego-002-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "lego-002-a1"
+          "audio": "greet-018"
         },
         {
           "id": "lego-002-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "lego-002-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "lego-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "lego-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4788,20 +4792,20 @@
           "id": "lego-003-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "lego-003-a1"
+          "audio": "greet-018"
         },
         {
           "id": "lego-003-a2",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "lego-003-a2"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "lego-003-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "lego-003-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -4829,14 +4833,14 @@
           "id": "lego-004-a1",
           "albanian": "Natën e mirë",
           "english": "Good night",
-          "audio": "lego-004-a1"
+          "audio": "greet-006"
         }
       ],
       "reply": {
         "id": "lego-004-r",
         "albanian": "Natën e mirë",
         "english": "Good night",
-        "audio": "lego-004-r"
+        "audio": "greet-006"
       }
     },
     "verified": false
@@ -4864,14 +4868,14 @@
           "id": "lego-005-a1",
           "albanian": "Mirupafshim",
           "english": "Goodbye",
-          "audio": "lego-005-a1"
+          "audio": "greet-009"
         }
       ],
       "reply": {
         "id": "lego-005-r",
         "albanian": "Shkofshi shëndoshë e mirë në shtëpi!",
         "english": "Hope you arrive home safely!",
-        "audio": "lego-005-r"
+        "audio": "family-009"
       }
     },
     "verified": false
@@ -4899,14 +4903,14 @@
           "id": "lego-006-a1",
           "albanian": "Cili autobus shkon në qendër?",
           "english": "Which bus goes to the city centre?",
-          "audio": "lego-006-a1"
+          "audio": "go-m-003"
         }
       ],
       "reply": {
         "id": "lego-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "lego-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4934,14 +4938,14 @@
           "id": "lego-007-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "lego-007-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "lego-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "lego-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -4969,14 +4973,14 @@
           "id": "lego-008-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "lego-008-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "lego-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "lego-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5008,7 +5012,7 @@
         "id": "lego-m-001-r",
         "albanian": "Po",
         "english": "Yes",
-        "audio": "lego-m-001-r"
+        "audio": "greet-018"
       }
     },
     "verified": false
@@ -5036,7 +5040,7 @@
         "id": "lego-m-002-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "lego-m-002-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -5064,7 +5068,7 @@
         "id": "lego-m-003-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "lego-m-003-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -5072,17 +5076,17 @@
   {
     "id": "lego-a-001",
     "island": "Lego Verb Builder",
-    "albanian": "A mund të më ndihmoni?",
-    "english": "Can you help me?",
-    "phonetic": "ah moond tuh muh ndee-HMOH-nee?",
+    "albanian": "A do të shkoni në kinema?",
+    "english": "Do you want to go to the cinema?",
+    "phonetic": "a do t shkoni n kinema",
     "tip": "Interactive request for assistance.",
     "blocks": [
       {
-        "text": "A mund të",
+        "text": "A do të",
         "type": "power"
       },
       {
-        "text": "më ndihmoni",
+        "text": "shkoni në kinema?",
         "type": "verb"
       }
     ],
@@ -5092,14 +5096,14 @@
           "id": "lego-a-001-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "lego-a-001-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "lego-a-001-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "lego-a-001-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -5123,14 +5127,14 @@
           "id": "num-001-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-001-a1"
+          "audio": "num-015"
         }
       ],
       "reply": {
         "id": "num-001-r",
         "albanian": "Do të doja një kafe.",
         "english": "I'd like a coffee",
-        "audio": "num-001-r"
+        "audio": "coffee-004"
       }
     },
     "verified": false
@@ -5154,7 +5158,7 @@
           "id": "num-002-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-002-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5179,7 +5183,7 @@
           "id": "num-003-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-003-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5204,7 +5208,7 @@
           "id": "num-004-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-004-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5229,7 +5233,7 @@
           "id": "num-005-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-005-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5238,14 +5242,18 @@
   {
     "id": "num-count-15",
     "island": "Numbers & Money",
-    "albanian": "Një",
-    "english": "Counting base: one.",
-    "phonetic": "nyuh",
+    "albanian": "katër, pesë, gjashtë,",
+    "english": "four, five, six,",
+    "phonetic": "KATUHR PES GEEASHT",
     "tip": "Foundation counting unit.",
     "blocks": [
       {
-        "text": "Një",
-        "type": "other"
+        "text": "katër,",
+        "type": "power"
+      },
+      {
+        "text": "pesë, gjashtë,",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -5256,14 +5264,18 @@
   {
     "id": "num-talk-15",
     "island": "Numbers & Money",
-    "albanian": "Dy",
-    "english": "Two (in conversation).",
-    "phonetic": "dew",
+    "albanian": "një, dy, tre",
+    "english": "one, two, three",
+    "phonetic": "NEE DEE TRE",
     "tip": "Everyday pair count.",
     "blocks": [
       {
-        "text": "Dy",
-        "type": "other"
+        "text": "një,",
+        "type": "power"
+      },
+      {
+        "text": "dy, tre",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -5290,7 +5302,7 @@
           "id": "num-006-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-006-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5315,7 +5327,7 @@
           "id": "num-007-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-007-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5340,7 +5352,7 @@
           "id": "num-008-a1",
           "albanian": "Është ora tetë.",
           "english": "It is eight o'clock.",
-          "audio": "num-008-a1"
+          "audio": "plans-008"
         }
       ]
     },
@@ -5365,7 +5377,7 @@
           "id": "num-009-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-009-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5390,7 +5402,7 @@
           "id": "num-010-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-010-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5415,7 +5427,7 @@
           "id": "num-011-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-011-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5440,7 +5452,7 @@
           "id": "num-012-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-012-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5465,7 +5477,7 @@
           "id": "num-013-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-013-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5490,7 +5502,7 @@
           "id": "num-014-a1",
           "albanian": "Sa kushton, ju lutem?",
           "english": "How much is it?",
-          "audio": "num-014-a1"
+          "audio": "num-015"
         }
       ]
     },
@@ -5519,20 +5531,20 @@
           "id": "num-015-a1",
           "albanian": "Njëqind",
           "english": "One hundred",
-          "audio": "num-015-a1"
+          "audio": "num-013"
         },
         {
           "id": "num-015-a2",
           "albanian": "Pesëdhjetë",
           "english": "Fifty",
-          "audio": "num-015-a2"
+          "audio": "num-012"
         }
       ],
       "reply": {
         "id": "num-015-r",
         "albanian": "Është shumë i shtrenjtë.",
         "english": "That's too expensive.",
-        "audio": "num-015-r"
+        "audio": "num-016"
       }
     },
     "verified": false
@@ -5560,14 +5572,14 @@
           "id": "num-016-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "num-016-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "num-016-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "num-016-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5591,7 +5603,7 @@
         "id": "num-m-001-r",
         "albanian": "Sa kushton, ju lutem?",
         "english": "How much is it?",
-        "audio": "num-m-001-r"
+        "audio": "num-015"
       }
     },
     "verified": false
@@ -5615,7 +5627,7 @@
         "id": "num-m-002-r",
         "albanian": "Sa kushton, ju lutem?",
         "english": "How much is it?",
-        "audio": "num-m-002-r"
+        "audio": "num-015"
       }
     },
     "verified": false
@@ -5639,7 +5651,7 @@
         "id": "num-m-003-r",
         "albanian": "Sa kushton, ju lutem?",
         "english": "How much is it?",
-        "audio": "num-m-003-r"
+        "audio": "num-015"
       }
     },
     "verified": false
@@ -5647,18 +5659,18 @@
   {
     "id": "num-a-001",
     "island": "Numbers & Money",
-    "albanian": "Sa kushton, ju lutem?",
-    "english": "How much is it, please?",
-    "phonetic": "sah KOOSH-tohn, yoo LOO-tem?",
+    "albanian": "Sa lekë mund të tërheqësh?",
+    "english": "How much money can one withdraw?",
+    "phonetic": "sa lek mund t tuhrhequhsh",
     "tip": "Interactive price inquiry practice.",
     "blocks": [
       {
-        "text": "Sa kushton",
+        "text": "Sa lekë",
         "type": "power"
       },
       {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "mund të tërheqësh?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -5667,14 +5679,14 @@
           "id": "num-a-001-a1",
           "albanian": "Njëqind",
           "english": "One hundred",
-          "audio": "num-a-001-a1"
+          "audio": "num-013"
         }
       ],
       "reply": {
         "id": "num-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "num-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5706,20 +5718,20 @@
           "id": "go-001-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "go-001-a1"
+          "audio": "go-m-002"
         },
         {
           "id": "go-001-a2",
           "albanian": "Djathtas ju lutem.",
           "english": "Please turn right here.",
-          "audio": "go-001-a2"
+          "audio": "go-006"
         }
       ],
       "reply": {
         "id": "go-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5747,20 +5759,20 @@
           "id": "go-002-a1",
           "albanian": "Drejt ju lutem.",
           "english": "Please go straight ahead.",
-          "audio": "go-002-a1"
+          "audio": "go-007"
         },
         {
           "id": "go-002-a2",
           "albanian": "Është larg nga këtu?",
           "english": "Is it far from here?",
-          "audio": "go-002-a2"
+          "audio": "go-003"
         }
       ],
       "reply": {
         "id": "go-002-r",
         "albanian": "Është drejt",
         "english": "It's straight on",
-        "audio": "go-002-r"
+        "audio": "go-008"
       }
     },
     "verified": false
@@ -5788,20 +5800,20 @@
           "id": "go-003-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "go-003-a1"
+          "audio": "go-m-002"
         },
         {
           "id": "go-003-a2",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "go-003-a2"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "go-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5833,14 +5845,14 @@
           "id": "go-004-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "go-004-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "go-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5872,14 +5884,14 @@
           "id": "go-005-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "go-005-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "go-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5907,14 +5919,14 @@
           "id": "go-006-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "go-006-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "go-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5942,14 +5954,14 @@
           "id": "go-007-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "go-007-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "go-007-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-007-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -5977,14 +5989,14 @@
           "id": "go-008-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "go-008-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "go-008-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "go-008-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -6012,14 +6024,14 @@
           "id": "go-009-a1",
           "albanian": "Njëqind",
           "english": "One hundred",
-          "audio": "go-009-a1"
+          "audio": "num-013"
         }
       ],
       "reply": {
         "id": "go-009-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-009-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6047,14 +6059,14 @@
           "id": "go-010-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "go-010-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "go-010-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-010-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6086,20 +6098,20 @@
           "id": "go-011-a1",
           "albanian": "Është drejt",
           "english": "It's straight on",
-          "audio": "go-011-a1"
+          "audio": "go-008"
         },
         {
           "id": "go-011-a2",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "go-011-a2"
+          "audio": "go-m-002"
         }
       ],
       "reply": {
         "id": "go-011-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-011-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6123,14 +6135,14 @@
           "id": "go-012-a1",
           "albanian": "Ku doni të shkoni?",
           "english": "Where would you like to go?",
-          "audio": "go-012-a1"
+          "audio": "go-m-004"
         }
       ],
       "reply": {
         "id": "go-012-r",
         "albanian": "Dua të shkoj në qendër.",
         "english": "I would like to go to the city centre.",
-        "audio": "go-012-r"
+        "audio": "lego-006"
       }
     },
     "verified": false
@@ -6158,7 +6170,7 @@
         "id": "go-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6182,7 +6194,7 @@
         "id": "go-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6214,7 +6226,7 @@
         "id": "go-m-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-m-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6242,7 +6254,7 @@
         "id": "go-m-004-r",
         "albanian": "Dua të shkoj në qendër.",
         "english": "I would like to go to the city centre.",
-        "audio": "go-m-004-r"
+        "audio": "lego-006"
       }
     },
     "verified": false
@@ -6250,22 +6262,18 @@
   {
     "id": "go-a-001",
     "island": "Getting Around",
-    "albanian": "Ku është banja, ju lutem?",
-    "english": "Excuse me, where are the toilets?",
-    "phonetic": "koo UHSH-tuh BAHN-yah, yoo LOO-tem?",
+    "albanian": "Kur niset autobusi në qendër?",
+    "english": "When does a bus go to the city centre / center (am.)?",
+    "phonetic": "kur niset autobusi n qenduhr",
     "tip": "Interactive restroom inquiry.",
     "blocks": [
       {
-        "text": "Ku është",
+        "text": "Kur niset",
         "type": "power"
       },
       {
-        "text": "banja",
-        "type": "object"
-      },
-      {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "autobusi në qendër?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6274,14 +6282,14 @@
           "id": "go-a-001-a1",
           "albanian": "Është drejt",
           "english": "It's straight on",
-          "audio": "go-a-001-a1"
+          "audio": "go-008"
         }
       ],
       "reply": {
         "id": "go-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "go-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6305,7 +6313,7 @@
           "id": "rec-002-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "rec-002-a1"
+          "audio": "greet-015"
         }
       ]
     },
@@ -6314,18 +6322,18 @@
   {
     "id": "shop-001",
     "island": "Shopping",
-    "albanian": "Sa kushton, ju lutem?",
-    "english": "How much is it, please?",
-    "phonetic": "sah KOOSH-tohn, yoo LOO-tem?",
+    "albanian": "Dua diçka që nuk zgjat shumë.",
+    "english": "I’d like something that won’t take much time.",
+    "phonetic": "dua dichka q nuk zgeeat shum",
     "tip": "Standard price check in shops and markets.",
     "blocks": [
       {
-        "text": "Sa kushton",
+        "text": "Dua diçka që",
         "type": "power"
       },
       {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "nuk zgjat shumë.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6334,20 +6342,20 @@
           "id": "shop-001-a1",
           "albanian": "Njëqind",
           "english": "One hundred",
-          "audio": "shop-001-a1"
+          "audio": "num-013"
         },
         {
           "id": "shop-001-a2",
           "albanian": "Pesëdhjetë",
           "english": "Fifty",
-          "audio": "shop-001-a2"
+          "audio": "num-012"
         }
       ],
       "reply": {
         "id": "shop-001-r",
         "albanian": "Është shumë i shtrenjtë.",
         "english": "That's too expensive.",
-        "audio": "shop-001-r"
+        "audio": "num-016"
       }
     },
     "verified": false
@@ -6355,18 +6363,18 @@
   {
     "id": "shop-002",
     "island": "Shopping",
-    "albanian": "A mund të paguaj me kartë krediti?",
-    "english": "May one pay by credit card?",
-    "phonetic": "ah moond tuh pah-GOO-ai meh KAHR-tuh kreh-DEE-tee?",
+    "albanian": "i shtrenjtë dhe i lirë",
+    "english": "expensive and cheap",
+    "phonetic": "i shtreneet dhe i lir",
     "tip": "Checking card terminal availability at the counter.",
     "blocks": [
       {
-        "text": "A mund të paguaj",
+        "text": "i shtrenjtë",
         "type": "power"
       },
       {
-        "text": "me kartë krediti",
-        "type": "object"
+        "text": "dhe i lirë",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6375,20 +6383,20 @@
           "id": "shop-002-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "shop-002-a1"
+          "audio": "greet-018"
         },
         {
           "id": "shop-002-a2",
           "albanian": "A mund të paguaj edhe me lekë në dorë?",
           "english": "May one also pay in cash?",
-          "audio": "shop-002-a2"
+          "audio": "shop-003"
         }
       ],
       "reply": {
         "id": "shop-002-r",
         "albanian": "Në rregull",
         "english": "All right",
-        "audio": "shop-002-r"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -6416,14 +6424,14 @@
           "id": "shop-003-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "shop-003-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "shop-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6455,14 +6463,14 @@
           "id": "shop-004-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "shop-004-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "shop-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6470,18 +6478,18 @@
   {
     "id": "shop-005",
     "island": "Shopping",
-    "albanian": "Është shumë i shtrenjtë.",
-    "english": "That’s too expensive.",
-    "phonetic": "UHSH-tuh SHOOM ee SHTREN-yuh-tuh",
+    "albanian": "Sa bagazh mund të marr?",
+    "english": "How much luggage can I take?",
+    "phonetic": "sa bagazh mund t marr",
     "tip": "Expressing that an item is over budget.",
     "blocks": [
       {
-        "text": "Është",
+        "text": "Sa bagazh",
         "type": "power"
       },
       {
-        "text": "shumë i shtrenjtë",
-        "type": "other"
+        "text": "mund të marr?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6490,14 +6498,14 @@
           "id": "shop-005-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "shop-005-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "shop-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6525,14 +6533,14 @@
           "id": "shop-006-a1",
           "albanian": "Në rregull",
           "english": "All right",
-          "audio": "shop-006-a1"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "shop-006-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-006-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6560,14 +6568,14 @@
           "id": "shop-007-a1",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much.",
-          "audio": "shop-007-a1"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "shop-007-r",
         "albanian": "Asgjë!",
         "english": "You're welcome",
-        "audio": "shop-007-r"
+        "audio": "greet-017"
       }
     },
     "verified": false
@@ -6595,14 +6603,14 @@
           "id": "shop-008-a1",
           "albanian": "Është shumë i madh",
           "english": "It's too big",
-          "audio": "shop-008-a1"
+          "audio": "shop-m-001"
         }
       ],
       "reply": {
         "id": "shop-008-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-008-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6630,7 +6638,7 @@
         "id": "shop-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6662,7 +6670,7 @@
         "id": "shop-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6670,18 +6678,18 @@
   {
     "id": "shop-m-003",
     "island": "Shopping",
-    "albanian": "Sa kushton një biletë?",
-    "english": "How much does a ticket cost?",
-    "phonetic": "sah KOOSH-tohn nyuh bee-LEH-tuh?",
+    "albanian": "Ne kërkojmë një dyqan mishi për të blerë sallam.",
+    "english": "We’re looking for a butcher shop to buy salami.",
+    "phonetic": "ne kuhrkoym nee deeqan mishi puhr t bler sallam",
     "tip": "Purchasing travel ticket.",
     "blocks": [
       {
-        "text": "Sa kushton",
+        "text": "Ne kërkojmë një dyqan",
         "type": "power"
       },
       {
-        "text": "një biletë",
-        "type": "object"
+        "text": "mishi për të blerë sallam.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6690,7 +6698,7 @@
         "id": "shop-m-003-r",
         "albanian": "Njëqind",
         "english": "One hundred",
-        "audio": "shop-m-003-r"
+        "audio": "num-013"
       }
     },
     "verified": false
@@ -6722,7 +6730,7 @@
         "id": "shop-m-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-m-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6730,18 +6738,18 @@
   {
     "id": "shop-a-001",
     "island": "Shopping",
-    "albanian": "Sa kushton, ju lutem?",
-    "english": "How much is it, please?",
-    "phonetic": "sah KOOSH-tohn, yoo LOO-tem?",
+    "albanian": "A duhet të paguaj hyrje?",
+    "english": "Does one have to pay an entrance fee?",
+    "phonetic": "a duhet t paguay heerye",
     "tip": "Interactive shopping price question.",
     "blocks": [
       {
-        "text": "Sa kushton",
+        "text": "A duhet",
         "type": "power"
       },
       {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "të paguaj hyrje?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6750,14 +6758,14 @@
           "id": "shop-a-001-a1",
           "albanian": "Njëqind",
           "english": "One hundred",
-          "audio": "shop-a-001-a1"
+          "audio": "num-013"
         }
       ],
       "reply": {
         "id": "shop-a-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "shop-a-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6765,18 +6773,18 @@
   {
     "id": "rec-004",
     "island": "Shopping",
-    "albanian": "Sa kushton, ju lutem?",
-    "english": "How much is it, please?",
-    "phonetic": "sah KOOSH-tohn, yoo LOO-tem?",
+    "albanian": "A duhet të paguanit gjobë?",
+    "english": "Did you have to pay a fine?",
+    "phonetic": "a duhet t paguanit geeob",
     "tip": "Price verification drill.",
     "blocks": [
       {
-        "text": "Sa kushton",
+        "text": "A duhet",
         "type": "power"
       },
       {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "të paguanit gjobë?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6785,7 +6793,7 @@
           "id": "rec-004-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "rec-004-a1"
+          "audio": "greet-015"
         }
       ]
     },
@@ -6794,14 +6802,18 @@
   {
     "id": "house-001",
     "island": "House & Hosts",
-    "albanian": "Mirë se vini!",
-    "english": "Welcome!",
-    "phonetic": "MEER seh VEE-nee!",
+    "albanian": "A ka këtu afër ndonjë hotel?",
+    "english": "Is there a boarding house / a bed and breakfast nearby?",
+    "phonetic": "a ka kuhtu afuhr ndonee hotel",
     "tip": "Greeting guests upon arrival at home.",
     "blocks": [
       {
-        "text": "Mirë se vini",
+        "text": "A ka këtu",
         "type": "power"
+      },
+      {
+        "text": "afër ndonjë hotel?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -6810,20 +6822,20 @@
           "id": "house-001-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "house-001-a1"
+          "audio": "greet-015"
         },
         {
           "id": "house-001-a2",
           "albanian": "Ndihem shumë mirë këtu",
           "english": "I feel great here",
-          "audio": "house-001-a2"
+          "audio": "greet-014"
         }
       ],
       "reply": {
         "id": "house-001-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "house-001-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -6855,20 +6867,20 @@
           "id": "house-002-a1",
           "albanian": "Është në katin e parë",
           "english": "It is on the first floor",
-          "audio": "house-002-a1"
+          "audio": "house-m-001"
         },
         {
           "id": "house-002-a2",
           "albanian": "Është në katin përdhes",
           "english": "It is on the ground floor",
-          "audio": "house-002-a2"
+          "audio": "house-m-002"
         }
       ],
       "reply": {
         "id": "house-002-r",
         "albanian": "Faleminderit. Dhoma është shumë e mirë",
         "english": "Thank you, the room is very nice",
-        "audio": "house-002-r"
+        "audio": "house-007"
       }
     },
     "verified": false
@@ -6896,14 +6908,14 @@
           "id": "house-003-a1",
           "albanian": "Mirë se vini!",
           "english": "Welcome!",
-          "audio": "house-003-a1"
+          "audio": "family-004"
         }
       ],
       "reply": {
         "id": "house-003-r",
         "albanian": "Çelësin, ju lutem",
         "english": "The key, please",
-        "audio": "house-003-r"
+        "audio": "house-004"
       }
     },
     "verified": false
@@ -6931,14 +6943,14 @@
           "id": "house-004-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "house-004-a1"
+          "audio": "go-m-002"
         }
       ],
       "reply": {
         "id": "house-004-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "house-004-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -6966,14 +6978,14 @@
           "id": "house-005-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "house-005-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "house-005-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "house-005-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -7005,14 +7017,14 @@
           "id": "house-006-a1",
           "albanian": "Po",
           "english": "Yes",
-          "audio": "house-006-a1"
+          "audio": "greet-018"
         }
       ],
       "reply": {
         "id": "house-006-r",
         "albanian": "Faleminderit. Dhoma është shumë e mirë",
         "english": "Thank you, the room is very nice",
-        "audio": "house-006-r"
+        "audio": "house-007"
       }
     },
     "verified": false
@@ -7040,14 +7052,14 @@
           "id": "house-007-a1",
           "albanian": "Mirë se vini!",
           "english": "Welcome!",
-          "audio": "house-007-a1"
+          "audio": "family-004"
         }
       ],
       "reply": {
         "id": "house-007-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much.",
-        "audio": "house-007-r"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -7079,14 +7091,14 @@
           "id": "house-008-a1",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "house-008-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "house-008-r",
         "albanian": "Çelësin, ju lutem",
         "english": "The key, please",
-        "audio": "house-008-r"
+        "audio": "house-004"
       }
     },
     "verified": false
@@ -7110,7 +7122,7 @@
         "id": "house-m-001-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "house-m-001-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -7134,7 +7146,7 @@
         "id": "house-m-002-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "house-m-002-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -7142,14 +7154,18 @@
   {
     "id": "house-m-003",
     "island": "House & Hosts",
-    "albanian": "Është këtu!",
-    "english": "It's right here!",
-    "phonetic": "UHSH-tuh kuh-TOO!",
+    "albanian": "Ajo duhet të pastrojë shtëpinë.",
+    "english": "She must clean the apartment.",
+    "phonetic": "ayo duhet t pastroy shtuhpin",
     "tip": "Pointing out the room.",
     "blocks": [
       {
-        "text": "Është këtu",
+        "text": "Ajo duhet",
         "type": "power"
+      },
+      {
+        "text": "të pastrojë shtëpinë.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -7158,7 +7174,7 @@
         "id": "house-m-003-r",
         "albanian": "Faleminderit",
         "english": "Thank you",
-        "audio": "house-m-003-r"
+        "audio": "greet-015"
       }
     },
     "verified": false
@@ -7166,22 +7182,18 @@
   {
     "id": "house-a-001",
     "island": "House & Hosts",
-    "albanian": "Ku është dhoma ime, ju lutem?",
-    "english": "Where is my room, please?",
-    "phonetic": "koo UHSH-tuh DHOH-mah EE-meh, yoo LOO-tem?",
+    "albanian": "Dua një dhomë me dush.",
+    "english": "I would like a room with a shower.",
+    "phonetic": "dua nee dhom me dush",
     "tip": "Interactive room location practice.",
     "blocks": [
       {
-        "text": "Ku është",
+        "text": "Dua një",
         "type": "power"
       },
       {
-        "text": "dhoma ime",
-        "type": "object"
-      },
-      {
-        "text": "ju lutem",
-        "type": "other"
+        "text": "dhomë me dush.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -7190,14 +7202,14 @@
           "id": "house-a-001-a1",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "house-a-001-a1"
+          "audio": "go-m-002"
         }
       ],
       "reply": {
         "id": "house-a-001-r",
         "albanian": "Faleminderit. Dhoma është shumë e mirë",
         "english": "Thank you, the room is very nice",
-        "audio": "house-a-001-r"
+        "audio": "house-007"
       }
     },
     "verified": false
@@ -7205,14 +7217,18 @@
   {
     "id": "pc-001",
     "island": "Peace Corps 2005",
-    "albanian": "Mirë se vini!",
-    "english": "Welcome!",
-    "phonetic": "MEER seh VEE-nee!",
+    "albanian": "Dhe ajo lexoi një libër.",
+    "english": "And she read a book.",
+    "phonetic": "dhe ayo lexoi nee libuhr",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Mirë se vini!",
-        "type": "other"
+        "text": "Dhe ajo",
+        "type": "power"
+      },
+      {
+        "text": "lexoi një libër.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7250,14 +7266,18 @@
   {
     "id": "pc-039",
     "island": "Peace Corps 2005",
-    "albanian": "Ujë",
-    "english": "water",
-    "phonetic": "OO-yuh",
+    "albanian": "Une lexoj një libër.",
+    "english": "I read a book.",
+    "phonetic": "une lexoy nee libuhr",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Ujë",
-        "type": "other"
+        "text": "Une lexoj",
+        "type": "power"
+      },
+      {
+        "text": "një libër.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7265,14 +7285,18 @@
   {
     "id": "pc-040",
     "island": "Peace Corps 2005",
-    "albanian": "Kafe",
-    "english": "coffee",
-    "phonetic": "KAH-feh",
+    "albanian": "Unë shkruaj një libër.",
+    "english": "I write a book.",
+    "phonetic": "un shkruay nee libuhr",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Kafe",
-        "type": "other"
+        "text": "Unë shkruaj",
+        "type": "power"
+      },
+      {
+        "text": "një libër.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7280,14 +7304,18 @@
   {
     "id": "pc-041",
     "island": "Peace Corps 2005",
-    "albanian": "Çaj",
-    "english": "tea",
-    "phonetic": "CHAI",
+    "albanian": "A banoni në Berlin?",
+    "english": "Do you live in Berlin?",
+    "phonetic": "a banoni n berlin",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Çaj",
-        "type": "other"
+        "text": "A banoni",
+        "type": "power"
+      },
+      {
+        "text": "në Berlin?",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7340,14 +7368,18 @@
   {
     "id": "pc-050",
     "island": "Peace Corps 2005",
-    "albanian": "Bukë",
-    "english": "bread",
-    "phonetic": "BOOK",
+    "albanian": "A e shikon fshatin?",
+    "english": "Do you see the village there?",
+    "phonetic": "a e shikon fshatin",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Bukë",
-        "type": "other"
+        "text": "A e",
+        "type": "power"
+      },
+      {
+        "text": "shikon fshatin?",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7355,14 +7387,18 @@
   {
     "id": "pc-051",
     "island": "Peace Corps 2005",
-    "albanian": "Sallatë",
-    "english": "salad",
-    "phonetic": "sah-LAH-tuh",
+    "albanian": "A mësojnë shumë nxënësit?",
+    "english": "Do the students learn a lot?",
+    "phonetic": "a muhsoyn shum nxuhnuhsit",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Sallatë",
-        "type": "other"
+        "text": "A mësojnë",
+        "type": "power"
+      },
+      {
+        "text": "shumë nxënësit?",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7685,14 +7721,18 @@
   {
     "id": "pc-146",
     "island": "Peace Corps 2005",
-    "albanian": "Njëzetë",
-    "english": "twenty, as printed in the book",
-    "phonetic": "nyuh-ZET",
+    "albanian": "Ai lexoi një revistë.",
+    "english": "He read a magazine.",
+    "phonetic": "ai lexoi nee revist",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Njëzetë",
-        "type": "other"
+        "text": "Ai lexoi",
+        "type": "power"
+      },
+      {
+        "text": "një revistë.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7700,14 +7740,18 @@
   {
     "id": "pc-147",
     "island": "Peace Corps 2005",
-    "albanian": "Tridhjetë",
-    "english": "thirty",
-    "phonetic": "tree-DHYET",
+    "albanian": "Ajo është në punë",
+    "english": "She is at work",
+    "phonetic": "ayo uhsht n pun",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Tridhjetë",
-        "type": "other"
+        "text": "Ajo është",
+        "type": "power"
+      },
+      {
+        "text": "në punë",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -7715,14 +7759,18 @@
   {
     "id": "pc-148",
     "island": "Peace Corps 2005",
-    "albanian": "Dyzetë",
-    "english": "forty, as printed in the book",
-    "phonetic": "dew-ZET",
+    "albanian": "Ata mësojnë rusisht.",
+    "english": "They learn Russian.",
+    "phonetic": "ATA MUHSOYN RUSISHT",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Dyzetë",
-        "type": "other"
+        "text": "Ata",
+        "type": "power"
+      },
+      {
+        "text": "mësojnë rusisht.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8030,14 +8078,18 @@
   {
     "id": "pc-006",
     "island": "Peace Corps 2005",
-    "albanian": "Si jeni?",
-    "english": "How are you?",
-    "phonetic": "see YEH-nee?",
+    "albanian": "Dita e dytë është e marta.",
+    "english": "The second day is Tuesday.",
+    "phonetic": "dita e deet uhsht e marta",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Si jeni?",
-        "type": "other"
+        "text": "Dita e dytë",
+        "type": "power"
+      },
+      {
+        "text": "është e marta.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8180,14 +8232,18 @@
   {
     "id": "pc-149",
     "island": "Peace Corps 2005",
-    "albanian": "Gjashtëdhjetë",
-    "english": "sixty, as printed in the book",
-    "phonetic": "gyahsht-DHYET",
+    "albanian": "Dita e gjashtë është e shtuna.",
+    "english": "The sixth day is Saturday.",
+    "phonetic": "dita e geeasht uhsht e shtuna",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Gjashtëdhjetë",
-        "type": "other"
+        "text": "Dita e gjashtë",
+        "type": "power"
+      },
+      {
+        "text": "është e shtuna.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8210,14 +8266,18 @@
   {
     "id": "pc-153",
     "island": "Peace Corps 2005",
-    "albanian": "Njëqind",
-    "english": "one hundred, as printed in the book",
-    "phonetic": "nyuh-CHEEND",
+    "albanian": "Dita e katërt është e enjtja.",
+    "english": "The fourth day is Thursday.",
+    "phonetic": "dita e katuhrt uhsht e eneetya",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "Njëqind",
-        "type": "other"
+        "text": "Dita e katërt",
+        "type": "power"
+      },
+      {
+        "text": "është e enjtja.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8240,14 +8300,18 @@
   {
     "id": "pc-184",
     "island": "Peace Corps 2005",
-    "albanian": "kuptoj",
-    "english": "I understand.",
-    "phonetic": "koop-TOY",
+    "albanian": "Dita e parë është e hëna.",
+    "english": "The first day is Monday.",
+    "phonetic": "dita e par uhsht e huhna",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "kuptoj",
-        "type": "other"
+        "text": "Dita e parë",
+        "type": "power"
+      },
+      {
+        "text": "është e hëna.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8255,14 +8319,18 @@
   {
     "id": "pc-185",
     "island": "Peace Corps 2005",
-    "albanian": "nuk kuptoj",
-    "english": "I don't understand.",
-    "phonetic": "nook koop-TOY",
+    "albanian": "Dita e pestë është e premtja.",
+    "english": "The fifth day is Friday.",
+    "phonetic": "dita e pest uhsht e premtya",
     "tip": "From Peace Corps Albanian (2005), voiced by a native human speaker.",
     "blocks": [
       {
-        "text": "nuk kuptoj",
-        "type": "other"
+        "text": "Dita e pestë",
+        "type": "power"
+      },
+      {
+        "text": "është e premtja.",
+        "type": "verb"
       }
     ],
     "verified": false
@@ -8291,20 +8359,20 @@
           "id": "family-013-a1",
           "albanian": "Unë jam i lodhur.",
           "english": "I am tired",
-          "audio": "day/12"
+          "audio": "repair-m-003"
         },
         {
           "id": "family-013-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "family-001-r"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "family-013-r",
         "albanian": "Unë jam i lodhur.",
         "english": "I am tired",
-        "audio": "day/12"
+        "audio": "repair-m-003"
       }
     },
     "verified": false
@@ -8333,7 +8401,7 @@
           "id": "family-014-a1",
           "albanian": "Shumë mirë!",
           "english": "Very good!",
-          "audio": "greet-001-r"
+          "audio": "greet-m-001"
         },
         {
           "id": "family-014-a2",
@@ -8346,7 +8414,7 @@
         "id": "family-014-r",
         "albanian": "Shumë mirë!",
         "english": "Very good!",
-        "audio": "greet-001-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -8375,7 +8443,7 @@
           "id": "family-015-a1",
           "albanian": "Ai është në punë",
           "english": "He is at work",
-          "audio": "day/52"
+          "audio": "family-014"
         },
         {
           "id": "family-015-a2",
@@ -8388,7 +8456,7 @@
         "id": "family-015-r",
         "albanian": "Ai është në punë",
         "english": "He is at work",
-        "audio": "day/52"
+        "audio": "family-014"
       }
     },
     "verified": false
@@ -8417,20 +8485,20 @@
           "id": "family-016-a1",
           "albanian": "Është ora tetë.",
           "english": "It is eight o'clock",
-          "audio": "day/65"
+          "audio": "health-019"
         },
         {
           "id": "family-016-a2",
           "albanian": "Sot nuk kam kohë",
           "english": "I don't have time today",
-          "audio": "plans-001-a2"
+          "audio": "plans-009"
         }
       ],
       "reply": {
         "id": "family-016-r",
         "albanian": "Është ora tetë.",
         "english": "It is eight o'clock",
-        "audio": "day/65"
+        "audio": "health-019"
       }
     },
     "verified": false
@@ -8465,7 +8533,7 @@
           "id": "family-017-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
@@ -8501,20 +8569,20 @@
           "id": "family-018-a1",
           "albanian": "Mirë se vini!",
           "english": "Welcome!",
-          "audio": "day/05"
+          "audio": "family-004"
         },
         {
           "id": "family-018-a2",
           "albanian": "Mirëdita",
           "english": "Hello",
-          "audio": "day/01"
+          "audio": "greet-004"
         }
       ],
       "reply": {
         "id": "family-018-r",
         "albanian": "Mirë se vini!",
         "english": "Welcome!",
-        "audio": "day/05"
+        "audio": "family-004"
       }
     },
     "verified": false
@@ -8543,20 +8611,20 @@
           "id": "family-019-a1",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         },
         {
           "id": "family-019-a2",
           "albanian": "Ndihem shumë mirë këtu",
           "english": "I feel great here",
-          "audio": "day/09"
+          "audio": "greet-014"
         }
       ],
       "reply": {
         "id": "family-019-r",
         "albanian": "Ndihem shumë mirë këtu",
         "english": "I feel great here",
-        "audio": "day/09"
+        "audio": "greet-014"
       }
     },
     "verified": false
@@ -8585,20 +8653,20 @@
           "id": "family-020-a1",
           "albanian": "Është një ide e mirë",
           "english": "It is a good idea",
-          "audio": "day/49"
+          "audio": "family-001"
         },
         {
           "id": "family-020-a2",
           "albanian": "Shumë mirë!",
           "english": "Very good!",
-          "audio": "greet-001-r"
+          "audio": "greet-m-001"
         }
       ],
       "reply": {
         "id": "family-020-r",
         "albanian": "Është një ide e mirë",
         "english": "It is a good idea",
-        "audio": "day/49"
+        "audio": "family-001"
       }
     },
     "verified": false
@@ -8648,18 +8716,18 @@
   {
     "id": "family-022",
     "island": "Family & Warmth",
-    "albanian": "Gjyshi ynë është sëmurë.",
-    "english": "Our grandfather is ill.",
-    "phonetic": "GYEE-shee EE-nuh UHSHT suh-MOOR",
+    "albanian": "Fëmijë, ku është mami juaj?",
+    "english": "Children, where is your mother?",
+    "phonetic": "fuhmiy ku uhsht mami yuay",
     "tip": "Expressing concern about an elderly family member.",
     "blocks": [
       {
-        "text": "Gjyshi ynë",
+        "text": "Fëmijë, ku",
         "type": "power"
       },
       {
-        "text": "është sëmurë",
-        "type": "other"
+        "text": "është mami juaj?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -8669,20 +8737,20 @@
           "id": "family-022-a1",
           "albanian": "Besoj se ai ka nevojë për mjek.",
           "english": "I think he needs a doctor",
-          "audio": "day/66"
+          "audio": "health-006"
         },
         {
           "id": "family-022-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "family-022-r",
         "albanian": "Besoj se ai ka nevojë për mjek.",
         "english": "I think he needs a doctor",
-        "audio": "day/66"
+        "audio": "health-006"
       }
     },
     "verified": false
@@ -8711,20 +8779,20 @@
           "id": "plans-012-a1",
           "albanian": "Sot është ngrohtë.",
           "english": "It is warm today",
-          "audio": "day/73"
+          "audio": "plans-011"
         },
         {
           "id": "plans-012-a2",
           "albanian": "Sot është ftohtë.",
           "english": "It is cold today",
-          "audio": "day/72"
+          "audio": "plans-002"
         }
       ],
       "reply": {
         "id": "plans-012-r",
         "albanian": "Sot është ngrohtë.",
         "english": "It is warm today",
-        "audio": "day/73"
+        "audio": "plans-011"
       }
     },
     "verified": false
@@ -8753,20 +8821,20 @@
           "id": "plans-013-a1",
           "albanian": "A dëshironi të dilni shëtitje?",
           "english": "Would you like to go for a walk?",
-          "audio": "day/48"
+          "audio": "house-012"
         },
         {
           "id": "plans-013-a2",
           "albanian": "Është një ide e mirë",
           "english": "It is a good idea",
-          "audio": "day/49"
+          "audio": "family-001"
         }
       ],
       "reply": {
         "id": "plans-013-r",
         "albanian": "A dëshironi të dilni shëtitje?",
         "english": "Would you like to go for a walk?",
-        "audio": "day/48"
+        "audio": "house-012"
       }
     },
     "verified": false
@@ -8801,14 +8869,14 @@
           "id": "plans-014-a2",
           "albanian": "Një çaj, të lutem!",
           "english": "A tea please!",
-          "audio": "day/22"
+          "audio": "greet-m-008"
         }
       ],
       "reply": {
         "id": "plans-014-r",
         "albanian": "Një çaj, të lutem!",
         "english": "A tea please!",
-        "audio": "day/22"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -8837,7 +8905,7 @@
           "id": "plans-015-a1",
           "albanian": "Dua të rri në shtëpi.",
           "english": "I want to stay home",
-          "audio": "day/68"
+          "audio": "health-017"
         },
         {
           "id": "plans-015-a2",
@@ -8885,7 +8953,7 @@
           "id": "plans-016-a2",
           "albanian": "Është një ide e mirë",
           "english": "It is a good idea",
-          "audio": "day/49"
+          "audio": "family-001"
         }
       ],
       "reply": {
@@ -8921,20 +8989,20 @@
           "id": "plans-017-a1",
           "albanian": "Kalova mirë me ty.",
           "english": "I had a lovely time",
-          "audio": "day/71"
+          "audio": "plans-001"
         },
         {
           "id": "plans-017-a2",
           "albanian": "Shumë mirë!",
           "english": "Very good!",
-          "audio": "greet-001-r"
+          "audio": "greet-m-001"
         }
       ],
       "reply": {
         "id": "plans-017-r",
         "albanian": "Shumë mirë!",
         "english": "Very good!",
-        "audio": "greet-001-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -8963,7 +9031,7 @@
           "id": "plans-018-a1",
           "albanian": "Sot kemi kohë.",
           "english": "We have time today",
-          "audio": "day/47"
+          "audio": "house-016"
         },
         {
           "id": "plans-018-a2",
@@ -8976,7 +9044,7 @@
         "id": "plans-018-r",
         "albanian": "Sot kemi kohë.",
         "english": "We have time today",
-        "audio": "day/47"
+        "audio": "house-016"
       }
     },
     "verified": false
@@ -9011,7 +9079,7 @@
           "id": "plans-019-a2",
           "albanian": "Dua të shkoj në qendër.",
           "english": "I want to go to the city centre",
-          "audio": "day/52"
+          "audio": "family-014"
         }
       ],
       "reply": {
@@ -9053,14 +9121,14 @@
           "id": "plans-020-a2",
           "albanian": "Dua të shkoj në qendër.",
           "english": "I want to go to the city centre",
-          "audio": "day/52"
+          "audio": "family-014"
         }
       ],
       "reply": {
         "id": "plans-020-r",
         "albanian": "Dua të shkoj në qendër.",
         "english": "I want to go to the city centre",
-        "audio": "day/52"
+        "audio": "family-014"
       }
     },
     "verified": false
@@ -9089,20 +9157,20 @@
           "id": "plans-021-a1",
           "albanian": "Jam në rregull, faleminderit",
           "english": "I'm ok, thanks",
-          "audio": "day/03"
+          "audio": "greet-003"
         },
         {
           "id": "plans-021-a2",
           "albanian": "Unë jam i lodhur.",
           "english": "I am tired",
-          "audio": "day/12"
+          "audio": "repair-m-003"
         }
       ],
       "reply": {
         "id": "plans-021-r",
         "albanian": "Jam në rregull, faleminderit",
         "english": "I'm ok, thanks",
-        "audio": "day/03"
+        "audio": "greet-003"
       }
     },
     "verified": false
@@ -9131,7 +9199,7 @@
           "id": "house-009-a1",
           "albanian": "A mund të më ndihmoni?",
           "english": "Can you help me?",
-          "audio": "day/29"
+          "audio": "coffee-005"
         },
         {
           "id": "house-009-a2",
@@ -9144,7 +9212,7 @@
         "id": "house-009-r",
         "albanian": "A mund të më ndihmoni?",
         "english": "Can you help me?",
-        "audio": "day/29"
+        "audio": "coffee-005"
       }
     },
     "verified": false
@@ -9173,20 +9241,20 @@
           "id": "house-010-a1",
           "albanian": "Shumë mirë!",
           "english": "Very good!",
-          "audio": "greet-001-r"
+          "audio": "greet-m-001"
         },
         {
           "id": "house-010-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "house-010-r",
         "albanian": "Shumë mirë!",
         "english": "Very good!",
-        "audio": "greet-001-r"
+        "audio": "greet-m-001"
       }
     },
     "verified": false
@@ -9221,7 +9289,7 @@
           "id": "house-011-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
@@ -9257,7 +9325,7 @@
           "id": "house-012-a1",
           "albanian": "A mund të më ndihmoni?",
           "english": "Can you help me?",
-          "audio": "day/29"
+          "audio": "coffee-005"
         },
         {
           "id": "house-012-a2",
@@ -9299,7 +9367,7 @@
           "id": "house-013-a1",
           "albanian": "Dritaret janë të pista.",
           "english": "The windows are dirty",
-          "audio": "day/46"
+          "audio": "house-015"
         },
         {
           "id": "house-013-a2",
@@ -9312,7 +9380,7 @@
         "id": "house-013-r",
         "albanian": "Dritaret janë të pista.",
         "english": "The windows are dirty",
-        "audio": "day/46"
+        "audio": "house-015"
       }
     },
     "verified": false
@@ -9341,7 +9409,7 @@
           "id": "house-014-a1",
           "albanian": "Sot pastrojmë shtëpinë.",
           "english": "We are cleaning the house today",
-          "audio": "day/41"
+          "audio": "house-009"
         },
         {
           "id": "house-014-a2",
@@ -9354,7 +9422,7 @@
         "id": "house-014-r",
         "albanian": "Sot pastrojmë shtëpinë.",
         "english": "We are cleaning the house today",
-        "audio": "day/41"
+        "audio": "house-009"
       }
     },
     "verified": false
@@ -9383,20 +9451,20 @@
           "id": "house-015-a1",
           "albanian": "Unë shtroj tavolinën.",
           "english": "I am setting the table",
-          "audio": "day/28"
+          "audio": "coffee-008"
         },
         {
           "id": "house-015-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "house-015-r",
         "albanian": "Unë shtroj tavolinën.",
         "english": "I am setting the table",
-        "audio": "day/28"
+        "audio": "coffee-008"
       }
     },
     "verified": false
@@ -9425,7 +9493,7 @@
           "id": "house-016-a1",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         },
         {
           "id": "house-016-a2",
@@ -9438,7 +9506,7 @@
         "id": "house-016-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much",
-        "audio": "day/06"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -9467,20 +9535,20 @@
           "id": "house-017-a1",
           "albanian": "po",
           "english": "Yes",
-          "audio": "day/20"
+          "audio": "greet-017"
         },
         {
           "id": "house-017-a2",
           "albanian": "Këtu është!",
           "english": "It's right here!",
-          "audio": "day/59"
+          "audio": "family-010"
         }
       ],
       "reply": {
         "id": "house-017-r",
         "albanian": "Këtu është!",
         "english": "It's right here!",
-        "audio": "day/59"
+        "audio": "family-010"
       }
     },
     "verified": false
@@ -9551,20 +9619,20 @@
           "id": "food-015-a1",
           "albanian": "Unë e kam ngrënë të gjithë ushqimin.",
           "english": "I ate all the food",
-          "audio": "day/44"
+          "audio": "coffee-013"
         },
         {
           "id": "food-015-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "food-015-r",
         "albanian": "Unë e kam ngrënë të gjithë ushqimin.",
         "english": "I ate all the food",
-        "audio": "day/44"
+        "audio": "coffee-013"
       }
     },
     "verified": false
@@ -9593,20 +9661,20 @@
           "id": "food-016-a1",
           "albanian": "po",
           "english": "Yes",
-          "audio": "day/20"
+          "audio": "greet-017"
         },
         {
           "id": "food-016-a2",
           "albanian": "Unë kam ngrënë.",
           "english": "I ate",
-          "audio": "day/44"
+          "audio": "coffee-013"
         }
       ],
       "reply": {
         "id": "food-016-r",
         "albanian": "po",
         "english": "Yes",
-        "audio": "day/20"
+        "audio": "greet-017"
       }
     },
     "verified": false
@@ -9683,7 +9751,7 @@
           "id": "food-018-a2",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "day/59"
+          "audio": "family-010"
         }
       ],
       "reply": {
@@ -9719,20 +9787,20 @@
           "id": "food-019-a1",
           "albanian": "Kjo është një cilësi goxha e mirë.",
           "english": "This is very good quality",
-          "audio": "day/41"
+          "audio": "house-009"
         },
         {
           "id": "food-019-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-019-r",
         "albanian": "Kjo është një cilësi goxha e mirë.",
         "english": "This is very good quality",
-        "audio": "day/41"
+        "audio": "house-009"
       }
     },
     "verified": false
@@ -9761,20 +9829,20 @@
           "id": "food-020-a1",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         },
         {
           "id": "food-020-a2",
           "albanian": "Urdhëroni menunë!",
           "english": "Here is the menu!",
-          "audio": "day/33"
+          "audio": "food-010"
         }
       ],
       "reply": {
         "id": "food-020-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much",
-        "audio": "day/06"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -9803,20 +9871,20 @@
           "id": "food-021-a1",
           "albanian": "Ka ujë ose lëngje frutash.",
           "english": "There is water or fruit juices",
-          "audio": "day/24"
+          "audio": "coffee-002"
         },
         {
           "id": "food-021-a2",
           "albanian": "Do të doja një ujë mineral.",
           "english": "I'd like a mineral water",
-          "audio": "day/25"
+          "audio": "coffee-m-003"
         }
       ],
       "reply": {
         "id": "food-021-r",
         "albanian": "Ka ujë ose lëngje frutash.",
         "english": "There is water or fruit juices",
-        "audio": "day/24"
+        "audio": "coffee-002"
       }
     },
     "verified": false
@@ -9824,18 +9892,18 @@
   {
     "id": "food-022",
     "island": "Food & Eating",
-    "albanian": "Do të doja një ujë mineral.",
-    "english": "I'd like a mineral water.",
-    "phonetic": "doh tuh DOH-yah nyuh OO-yuh mee-neh-RAHL",
+    "albanian": "Po bëj një sallatë me fruta.",
+    "english": "I am making a fruit salad.",
+    "phonetic": "po buhy nee sallat me fruta",
     "tip": "Polite ordering phrase with conditional 'do të doja'.",
     "blocks": [
       {
-        "text": "Do të doja",
+        "text": "Po bëj një",
         "type": "power"
       },
       {
-        "text": "një ujë mineral",
-        "type": "object"
+        "text": "sallatë me fruta.",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -9845,20 +9913,20 @@
           "id": "food-022-a1",
           "albanian": "Urdhëroni!",
           "english": "Here you go!",
-          "audio": "day/33"
+          "audio": "food-010"
         },
         {
           "id": "food-022-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "food-022-r",
         "albanian": "Urdhëroni!",
         "english": "Here you go!",
-        "audio": "day/33"
+        "audio": "food-010"
       }
     },
     "verified": false
@@ -9866,18 +9934,18 @@
   {
     "id": "food-023",
     "island": "Food & Eating",
-    "albanian": "Ka ujë ose lëngje frutash.",
-    "english": "There is water or fruit juices.",
-    "phonetic": "kah OO-yuh OH-seh LUHN-gyeh FROO-tahsh",
+    "albanian": "Pse nuk e hani mishin?",
+    "english": "Why don’t you eat the meat?",
+    "phonetic": "pse nuk e hani mishin",
     "tip": "Informing guests of available non-alcoholic drinks.",
     "blocks": [
       {
-        "text": "Ka",
+        "text": "Pse nuk",
         "type": "power"
       },
       {
-        "text": "ujë ose lëngje frutash",
-        "type": "object"
+        "text": "e hani mishin?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -9887,20 +9955,20 @@
           "id": "food-023-a1",
           "albanian": "Ju lutem edhe një gotë ujë.",
           "english": "Another glass of water please",
-          "audio": "day/25"
+          "audio": "coffee-m-003"
         },
         {
           "id": "food-023-a2",
           "albanian": "Faleminderit",
           "english": "Thank you",
-          "audio": "food-001-a1"
+          "audio": "greet-015"
         }
       ],
       "reply": {
         "id": "food-023-r",
         "albanian": "Ju lutem edhe një gotë ujë.",
         "english": "Another glass of water please",
-        "audio": "day/25"
+        "audio": "coffee-m-003"
       }
     },
     "verified": false
@@ -9925,20 +9993,20 @@
           "id": "food-024-a1",
           "albanian": "Ju bëftë mirë!",
           "english": "Enjoy your meal!",
-          "audio": "day/41"
+          "audio": "house-009"
         },
         {
           "id": "food-024-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "food-024-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much",
-        "audio": "day/06"
+        "audio": "greet-016"
       }
     },
     "verified": false
@@ -9967,20 +10035,20 @@
           "id": "health-012-a1",
           "albanian": "Kam shpesh dhimbje koke.",
           "english": "I often have headaches",
-          "audio": "day/62"
+          "audio": "health-013"
         },
         {
           "id": "health-012-a2",
           "albanian": "Jam në rregull, faleminderit",
           "english": "I'm ok, thanks",
-          "audio": "day/03"
+          "audio": "greet-003"
         }
       ],
       "reply": {
         "id": "health-012-r",
         "albanian": "Kam shpesh dhimbje koke.",
         "english": "I often have headaches",
-        "audio": "day/62"
+        "audio": "health-013"
       }
     },
     "verified": false
@@ -10009,20 +10077,20 @@
           "id": "health-013-a1",
           "albanian": "Duam të blejmë ilaçe.",
           "english": "We want to buy medicine",
-          "audio": "day/68"
+          "audio": "health-017"
         },
         {
           "id": "health-013-a2",
           "albanian": "Unë dua të fle.",
           "english": "I want to sleep",
-          "audio": "day/67"
+          "audio": "health-008"
         }
       ],
       "reply": {
         "id": "health-013-r",
         "albanian": "Duam të blejmë ilaçe.",
         "english": "We want to buy medicine",
-        "audio": "day/68"
+        "audio": "health-017"
       }
     },
     "verified": false
@@ -10051,7 +10119,7 @@
           "id": "health-014-a1",
           "albanian": "Besoj se ai ka nevojë për mjek.",
           "english": "I think he needs a doctor",
-          "audio": "day/66"
+          "audio": "health-006"
         },
         {
           "id": "health-014-a2",
@@ -10093,20 +10161,20 @@
           "id": "health-015-a1",
           "albanian": "Një çaj, të lutem!",
           "english": "A tea please!",
-          "audio": "day/22"
+          "audio": "greet-m-008"
         },
         {
           "id": "health-015-a2",
           "albanian": "Duam të blejmë ilaçe.",
           "english": "We want to buy medicine",
-          "audio": "day/68"
+          "audio": "health-017"
         }
       ],
       "reply": {
         "id": "health-015-r",
         "albanian": "Një çaj, të lutem!",
         "english": "A tea please!",
-        "audio": "day/22"
+        "audio": "greet-m-008"
       }
     },
     "verified": false
@@ -10135,20 +10203,20 @@
           "id": "health-016-a1",
           "albanian": "Ku gjendet farmacia më e afërt?",
           "english": "Where is the nearest pharmacy?",
-          "audio": "day/67"
+          "audio": "health-008"
         },
         {
           "id": "health-016-a2",
           "albanian": "Është drejt",
           "english": "It's straight on",
-          "audio": "day/57"
+          "audio": "family-002"
         }
       ],
       "reply": {
         "id": "health-016-r",
         "albanian": "Ku gjendet farmacia më e afërt?",
         "english": "Where is the nearest pharmacy?",
-        "audio": "day/67"
+        "audio": "health-008"
       }
     },
     "verified": false
@@ -10181,20 +10249,20 @@
           "id": "health-017-a1",
           "albanian": "Është drejt",
           "english": "It's straight on",
-          "audio": "day/57"
+          "audio": "family-002"
         },
         {
           "id": "health-017-a2",
           "albanian": "Është këtu!",
           "english": "It's right here!",
-          "audio": "day/59"
+          "audio": "family-010"
         }
       ],
       "reply": {
         "id": "health-017-r",
         "albanian": "Është drejt",
         "english": "It's straight on",
-        "audio": "day/57"
+        "audio": "family-002"
       }
     },
     "verified": false
@@ -10202,18 +10270,18 @@
   {
     "id": "health-018",
     "island": "Health & Feelings",
-    "albanian": "Ku gjendet farmacia më e afërt?",
-    "english": "Where is the nearest pharmacy?",
-    "phonetic": "koo DYEHN-det fahr-mah-TSEE-ah muh eh AH-fuhrt?",
+    "albanian": "A do të flesh këtu?",
+    "english": "Do you want to sleep here?",
+    "phonetic": "a do t flesh kuhtu",
     "tip": "Superlative pattern: më e afërt (nearest).",
     "blocks": [
       {
-        "text": "Ku gjendet",
+        "text": "A do",
         "type": "power"
       },
       {
-        "text": "farmacia më e afërt",
-        "type": "object"
+        "text": "të flesh këtu?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -10223,20 +10291,20 @@
           "id": "health-018-a1",
           "albanian": "Është drejt",
           "english": "It's straight on",
-          "audio": "day/57"
+          "audio": "family-002"
         },
         {
           "id": "health-018-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "health-018-r",
         "albanian": "Është drejt",
         "english": "It's straight on",
-        "audio": "day/57"
+        "audio": "family-002"
       }
     },
     "verified": false
@@ -10265,20 +10333,20 @@
           "id": "health-019-a1",
           "albanian": "Besoj se ai ka nevojë për mjek.",
           "english": "I think he needs a doctor",
-          "audio": "day/66"
+          "audio": "health-006"
         },
         {
           "id": "health-019-a2",
           "albanian": "Jam në rregull, faleminderit",
           "english": "I'm ok, thanks",
-          "audio": "day/03"
+          "audio": "greet-003"
         }
       ],
       "reply": {
         "id": "health-019-r",
         "albanian": "Besoj se ai ka nevojë për mjek.",
         "english": "I think he needs a doctor",
-        "audio": "day/66"
+        "audio": "health-006"
       }
     },
     "verified": false
@@ -10286,22 +10354,18 @@
   {
     "id": "health-020",
     "island": "Health & Feelings",
-    "albanian": "Besoj se ai ka nevojë për mjek.",
-    "english": "I think he needs a doctor.",
-    "phonetic": "beh-ZOI seh ai kah neh-VOI puhr MYEK",
+    "albanian": "A mund të fle lart?",
+    "english": "Can I sleep at the top?",
+    "phonetic": "a mund t fle lart",
     "tip": "'Ka nevojë për' means 'needs'. 'Mjek' drops final sounds to MYEK.",
     "blocks": [
       {
-        "text": "Besoj se",
+        "text": "A mund",
         "type": "power"
       },
       {
-        "text": "ai ka nevojë",
+        "text": "të fle lart?",
         "type": "verb"
-      },
-      {
-        "text": "për mjek",
-        "type": "object"
       }
     ],
     "lesson": {
@@ -10311,7 +10375,7 @@
           "id": "health-020-a1",
           "albanian": "Kam takim te mjeku.",
           "english": "I have a doctor's appointment",
-          "audio": "day/70"
+          "audio": "health-016"
         },
         {
           "id": "health-020-a2",
@@ -10324,7 +10388,7 @@
         "id": "health-020-r",
         "albanian": "Kam takim te mjeku.",
         "english": "I have a doctor's appointment",
-        "audio": "day/70"
+        "audio": "health-016"
       }
     },
     "verified": false
@@ -10332,18 +10396,18 @@
   {
     "id": "health-021",
     "island": "Health & Feelings",
-    "albanian": "Kam takim te mjeku.",
-    "english": "I have a doctor's appointment.",
-    "phonetic": "kahm tah-KEEM teh MYEH-koo",
+    "albanian": "A mund të fle në mes?",
+    "english": "Can I sleep in the middle?",
+    "phonetic": "a mund t fle n mes",
     "tip": "'Takim' means meeting or appointment.",
     "blocks": [
       {
-        "text": "Kam takim",
+        "text": "A mund të",
         "type": "power"
       },
       {
-        "text": "te mjeku",
-        "type": "other"
+        "text": "fle në mes?",
+        "type": "verb"
       }
     ],
     "lesson": {
@@ -10353,20 +10417,20 @@
           "id": "health-021-a1",
           "albanian": "Shumë mirë!",
           "english": "Very good!",
-          "audio": "greet-001-r"
+          "audio": "greet-m-001"
         },
         {
           "id": "health-021-a2",
           "albanian": "Faleminderit shumë.",
           "english": "Thank you very much",
-          "audio": "day/06"
+          "audio": "greet-016"
         }
       ],
       "reply": {
         "id": "health-021-r",
         "albanian": "Faleminderit shumë.",
         "english": "Thank you very much",
-        "audio": "day/06"
+        "audio": "greet-016"
       }
     },
     "verified": false
