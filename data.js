@@ -682,6 +682,18 @@
     var said = asLine(card, card.audio || card.id);
     var correct = asLine(card, card.audio || card.id);
 
+    var fellBack = null;
+    if (quizMode === "block-build") {
+      // Lego block building requires at least 2 combinable blocks. If a card only has 1 block,
+      // silently fall back to meaning check mode so the user still gets a valid check without error.
+      if (!card.blocks || card.blocks.length < 2) {
+        quizMode = "meaning";
+        fellBack = "meaning";
+      } else {
+        correct.blocks = card.blocks.map(function (b) { return { text: b.text, type: b.type }; });
+      }
+    }
+
     if (quizMode === "reply") {
       var they = null;
       var you = null;
@@ -712,7 +724,8 @@
 
     all.forEach(function (c) {
       if (c.id === card.id) return;
-      if (c.english === correct.english) return;
+      if (c.english === correct.english || c.albanian === correct.albanian) return;
+      if (quizMode === "block-build" && (!c.blocks || c.blocks.length < 2)) return;
       if (c.island === card.island) sameIsland.push(c);
       else otherIsland.push(c);
     });
@@ -724,6 +737,9 @@
     for (var i = 0; i < pool.length && choices.length < 3; i++) {
       var distractor = pool[i];
       var distractorLine = asLine(distractor, distractor.audio || distractor.id);
+      if (quizMode === "block-build" && distractor.blocks) {
+        distractorLine.blocks = distractor.blocks.map(function (b) { return { text: b.text, type: b.type }; });
+      }
       choices.push(distractorLine);
     }
 
@@ -734,7 +750,7 @@
       choices[swap] = hold;
     }
 
-    return {
+    var res = {
       mode: quizMode,
       said: said,
       correct: correct,
@@ -742,6 +758,8 @@
       cardId: card.id,
       picked: false,
     };
+    if (fellBack) res.fellBack = fellBack;
+    return res;
   }
 
   // Returns an interleaved queue of teach and check steps (every 2-3 cards)
@@ -764,7 +782,8 @@
     }
 
     var steps = [];
-    var modeToggle = false;
+    var modes = ["meaning", "reply", "block-build"];
+    var modeIdx = 0;
     for (var i = 0; i < cards.length; i += 2) {
       var batch = cards.slice(i, i + 2);
       batch.forEach(function (c) {
@@ -776,8 +795,8 @@
       });
       batch.forEach(function (c) {
         if (c.review === false || (c.lesson && c.lesson.kind === "count")) return;
-        var checkMode = modeToggle ? "reply" : "meaning";
-        modeToggle = !modeToggle;
+        var checkMode = modes[modeIdx % modes.length];
+        modeIdx += 1;
         var quiz = makeQuizForCard(c, checkMode);
         steps.push({
           type: "check",
@@ -943,6 +962,7 @@
     getProgress: getProgress,
     setProgress: setProgress,
     resetProgress: resetProgress,
+    getBoxes: getBoxes,
     buildToday: buildToday,
     practiceQueue: practiceQueue,
     gradeCard: gradeCard,
