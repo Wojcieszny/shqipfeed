@@ -694,14 +694,21 @@
           var hasBlockEn = unseenEl ? !!unseenEl.querySelector('.block .block-en') : false;
           var unseenNotRecallWait = unseenEl ? !unseenEl.classList.contains('is-recall-wait') : false;
 
-          // Grade card so it is in Box 1+ (review state) and render again
-          ShqipData.gradeCard(sampleCard.id, true);
+          // Box 1 card (failed/fresh review): must show Albanian immediately and NOT wait in recall-wait
+          ShqipData.gradeCard(sampleCard.id, false);
+          var box1El = typeof ShqipApp.renderCard === 'function'
+            ? ShqipApp.renderCard(sampleCard, {}, 0, 10)
+            : null;
+          var box1NotRecallWait = box1El ? !box1El.classList.contains('is-recall-wait') : false;
+
+          // Box 2+ card (mastered review): must start in recall-first wait (.is-recall-wait)
+          ShqipData.gradeCard(sampleCard.id, true); // advances Box 1 -> Box 2
           var reviewEl = typeof ShqipApp.renderCard === 'function'
             ? ShqipApp.renderCard(sampleCard, {}, 0, 10)
             : null;
           var reviewStartsRecallWait = reviewEl ? reviewEl.classList.contains('is-recall-wait') : false;
 
-          // Check block-build micro-check support
+          // Check block-build micro-check support and fallback handling
           var bbQuiz = typeof ShqipData.makeQuizForCard === 'function'
             ? ShqipData.makeQuizForCard(sampleCard, 'block-build')
             : null;
@@ -711,11 +718,18 @@
             : null;
           var bbRenderOk = bbCheckEl ? bbCheckEl.querySelectorAll('[data-action="check-pick"]').length >= 2 : false;
 
-          var layoutLogicOk = noWordTable && hasBlockSq && hasBlockEn && unseenNotRecallWait && reviewStartsRecallWait && bbQuizOk && bbRenderOk;
+          // Check 1-block card fallback in makeQuizForCard
+          var singleBlockCard = { id: 'single-test', albanian: 'Po', english: 'Yes', blocks: [{ text: 'Po', type: 'power' }] };
+          var singleQuiz = typeof ShqipData.makeQuizForCard === 'function'
+            ? ShqipData.makeQuizForCard(singleBlockCard, 'block-build')
+            : null;
+          var singleFallbackOk = singleQuiz && singleQuiz.mode === 'meaning' && singleQuiz.fellBack === 'meaning';
+
+          var layoutLogicOk = noWordTable && hasBlockSq && hasBlockEn && unseenNotRecallWait && box1NotRecallWait && reviewStartsRecallWait && bbQuizOk && bbRenderOk && singleFallbackOk;
           add(
             layoutLogicOk,
-            'MASTER-RECONCILE-01: renderCard() removes table.word-table, renders inline .block-sq/.block-en glosses, starts Box 1+ cards in .is-recall-wait, and supports "block-build" micro-checks',
-            layoutLogicOk ? '' : 'noWordTable=' + noWordTable + ', blockSq=' + hasBlockSq + ', blockEn=' + hasBlockEn + ', recallWait=' + reviewStartsRecallWait + ', blockBuild=' + (bbQuizOk && bbRenderOk)
+            'MASTER-RECONCILE-01: renderCard() removes table.word-table, renders inline .block-sq/.block-en glosses, starts Box 2+ cards in .is-recall-wait, and supports "block-build" micro-checks with fallback',
+            layoutLogicOk ? '' : 'noWordTable=' + noWordTable + ', blockSq=' + hasBlockSq + ', blockEn=' + hasBlockEn + ', box1=' + box1NotRecallWait + ', box2=' + reviewStartsRecallWait + ', blockBuild=' + (bbQuizOk && bbRenderOk) + ', fallback=' + singleFallbackOk
           );
         } catch (err) {
           add(false, 'MASTER-RECONCILE-01: layout and logic checks', String(err && err.message ? err.message : err));

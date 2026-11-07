@@ -682,9 +682,13 @@
     var said = asLine(card, card.audio || card.id);
     var correct = asLine(card, card.audio || card.id);
 
+    var fellBack = null;
     if (quizMode === "block-build") {
+      // Lego block building requires at least 2 combinable blocks. If a card only has 1 block,
+      // silently fall back to meaning check mode so the user still gets a valid check without error.
       if (!card.blocks || card.blocks.length < 2) {
         quizMode = "meaning";
+        fellBack = "meaning";
       } else {
         correct.blocks = card.blocks.map(function (b) { return { text: b.text, type: b.type }; });
       }
@@ -746,7 +750,7 @@
       choices[swap] = hold;
     }
 
-    return {
+    var res = {
       mode: quizMode,
       said: said,
       correct: correct,
@@ -754,6 +758,8 @@
       cardId: card.id,
       picked: false,
     };
+    if (fellBack) res.fellBack = fellBack;
+    return res;
   }
 
   // Returns an interleaved queue of teach and check steps (every 2-3 cards)

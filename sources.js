@@ -21,13 +21,6 @@ window.ShqipSources = {
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/jam-në-rregull-faleminderit.mp3"
     },
-    "audio/greet-003-a2.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/182/sq",
-      "from": "audio/human/shumë-mirë-njerëzit-janë-të-sjellshëm.mp3"
-    },
     "audio/greet-004.mp3": {
       "source": "50languages",
       "speaker": "50LANGUAGES native speaker",
@@ -83,13 +76,6 @@ window.ShqipSources = {
       "license": "Loecsen, all rights reserved (private study only)",
       "page": "https://www.loecsen.com/en/vocabulary-albanian",
       "from": "audio/human/po-ti-a-jeton-këtu.mp3"
-    },
-    "audio/greet-011-a1.mp3": {
-      "source": "loecsen",
-      "speaker": "Loecsen native speaker",
-      "license": "Loecsen, all rights reserved (private study only)",
-      "page": "https://www.loecsen.com/en/vocabulary-albanian",
-      "from": "audio/human/po-jetoj-këtu.mp3"
     },
     "audio/greet-012.mp3": {
       "source": "50languages",
@@ -147,13 +133,6 @@ window.ShqipSources = {
       "page": "https://commons.wikimedia.org/wiki/File%3ASq-jo.oga",
       "from": "audio/human/jo.mp3"
     },
-    "audio/greet-019-a2.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/183/sq",
-      "from": "audio/human/nuk-bezdisem.mp3"
-    },
     "audio/greet-020.mp3": {
       "source": "commons",
       "speaker": "Dori",
@@ -181,13 +160,6 @@ window.ShqipSources = {
       "license": "CC BY-NC-ND 4.0 (private study only)",
       "page": "https://50languages.com/en/learn/phrasebook-lessons/236/sq",
       "from": "audio/human/unë-jam-i-lodhur.mp3"
-    },
-    "audio/greet-m-003-r.mp3": {
-      "source": "50languages",
-      "speaker": "50LANGUAGES native speaker",
-      "license": "CC BY-NC-ND 4.0 (private study only)",
-      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
-      "from": "audio/human/dëshiroj-të-pushoj-pak.mp3"
     },
     "audio/greet-m-004.mp3": {
       "source": "50languages",
@@ -3037,6 +3009,34 @@ window.ShqipSources = {
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File%3ASq-mirupafshim.oga",
       "from": "audio/human/mirupafshim--dori.mp3"
+    },
+    "audio/ex-shume-mire.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/182/sq",
+      "from": "audio/human/shumë-mirë-njerëzit-janë-të-sjellshëm.mp3"
+    },
+    "audio/ex-po-jetoj-ketu.mp3": {
+      "source": "loecsen",
+      "speaker": "Loecsen native speaker",
+      "license": "Loecsen, all rights reserved (private study only)",
+      "page": "https://www.loecsen.com/en/vocabulary-albanian",
+      "from": "audio/human/po-jetoj-këtu.mp3"
+    },
+    "audio/ex-nuk-bezdisem.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/183/sq",
+      "from": "audio/human/nuk-bezdisem.mp3"
+    },
+    "audio/ex-deshiroj-te-pushoj.mp3": {
+      "source": "50languages",
+      "speaker": "50LANGUAGES native speaker",
+      "license": "CC BY-NC-ND 4.0 (private study only)",
+      "page": "https://50languages.com/en/learn/phrasebook-lessons/231/sq",
+      "from": "audio/human/dëshiroj-të-pushoj-pak.mp3"
     }
   },
   "humanVoices": [

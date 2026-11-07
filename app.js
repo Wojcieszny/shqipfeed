@@ -712,7 +712,8 @@
   // Teach Card Renderer
   function renderCard(card, progress, index, total) {
     var boxes = typeof ShqipData.getBoxes === "function" ? ShqipData.getBoxes() : {};
-    var isReview = !!(boxes && boxes[card.id] && boxes[card.id].box >= 1 && card.review !== false);
+    // Recall-first wait applies only to learned review cards (Box 2+). Box 1 and new cards show immediately and auto-play.
+    var isReview = !!(boxes && boxes[card.id] && boxes[card.id].box >= 2 && card.review !== false);
 
     var article = document.createElement("article");
     article.className = "card" + (card.lesson ? " has-lesson" : "") + (isReview ? " is-recall-wait" : "");
@@ -869,10 +870,17 @@
       if (isMeaning) {
         btn.textContent = choice.english;
       } else if (isBlockBuild && choice.blocks && choice.blocks.length) {
-        var blockChips = choice.blocks.map(function (b) {
-          return '<span class="quiz-block-chip">[' + escRule(b.text) + "]</span>";
-        }).join(" + ");
-        btn.innerHTML = "<b>" + blockChips + "</b>";
+        var bold = document.createElement("b");
+        choice.blocks.forEach(function (b, bIdx) {
+          if (bIdx > 0) {
+            bold.appendChild(document.createTextNode(" + "));
+          }
+          var chip = document.createElement("span");
+          chip.className = "quiz-block-chip";
+          chip.textContent = "[" + (b.text || "") + "]";
+          bold.appendChild(chip);
+        });
+        btn.appendChild(bold);
       } else {
         btn.innerHTML = "<b>" + escRule(choice.albanian) + "</b>" + (choice.english ? "<span>" + escRule(choice.english) + "</span>" : "");
       }
@@ -1043,13 +1051,7 @@
     });
     if (matchedParts.length) return matchedParts.join(" ");
 
-    var engWords = String(card.english || "").replace(/[.!?]+$/, "").trim().split(/\s+/).filter(Boolean);
-    if (!engWords.length) return "";
-    if (totalBlocks <= 1) return engWords.join(" ");
-    var start = Math.floor((index * engWords.length) / totalBlocks);
-    var end = Math.floor(((index + 1) * engWords.length) / totalBlocks);
-    if (end <= start) end = Math.min(engWords.length, start + 1);
-    return engWords.slice(start, end).join(" ").toLowerCase();
+    return "";
   }
 
   function renderBlocks(card) {
