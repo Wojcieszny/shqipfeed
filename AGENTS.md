@@ -1,7 +1,7 @@
 # AGENTS.md — ShqipFeed rules
 
 - Plain HTML/CSS/JS only for the app. No frameworks, no build step, no npm packages, no backend, no API keys in client code. (One-off local Python scripts in `scripts/` are allowed only when a ticket explicitly asks for audio harvesting or verification.)
-- Read only the files a ticket names.
+- Trace callers/consumers read-only across `tests.html`, `app.js`, and `sw.js` before editing (`StartLine`/`EndLine` for callers; full function/module when refactoring), keeping edits strictly within ticket scope. Never open or grep `human_corpus_index.json`, `human.js`, `cards.json`, `sources.js`, or `.venv/` unless a ticket explicitly targets corpus or cards.
 - Tests first: add or update a check in `tests.html` before changing code.
 - Smallest change that meets the ticket. No refactors unless asked.
 - Never mark any card `"verified": true` in `cards.json`. Only the owner's native-speaker reviewer does that on device.
